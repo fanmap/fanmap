@@ -158,6 +158,103 @@ section{padding:88px 0}
 .p-toast{position:absolute;left:50%;bottom:84px;transform:translateX(-50%) translateY(8px);background:#fff;color:#111;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.06em;padding:9px 18px;border-radius:999px;opacity:0;pointer-events:none;transition:all .25s;white-space:nowrap;box-shadow:0 8px 24px rgba(0,0,0,.4)}
 .p-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
+/* ---------- feature grid (product section) ---------- */
+.feat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.feat{background:var(--ink2);border:1px solid var(--line);border-radius:var(--radius);padding:20px 18px}
+.feat .glyph{font-size:24px;margin-bottom:10px}
+.feat h4{font-family:'Bebas Neue',sans-serif;font-size:21px;letter-spacing:.03em;margin-bottom:5px}
+.feat p{font-size:14px;color:var(--chalk-dim)}
+.feat .try{display:inline-block;margin-top:10px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);text-decoration:none}
+@media(max-width:960px){.feat-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.feat-grid{grid-template-columns:1fr}}
+.spec-note{margin-top:26px;background:var(--ink2);border:1px solid var(--line);border-radius:var(--radius);padding:20px 24px;font-size:14.5px;color:var(--chalk-dim)}
+.spec-note b{color:var(--chalk)}
+
+/* ---------- venue pricing ---------- */
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:38px}
+.tier{background:var(--ink2);border:1px solid var(--line);border-radius:var(--radius);padding:28px 24px;display:flex;flex-direction:column}
+.tier.hot{border-color:rgba(217,164,65,.55);background:linear-gradient(170deg,#221a0d,#14110a)}
+.tier h4{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.03em}
+.tier .price{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:44px;color:var(--brass);margin:6px 0 2px}
+.tier .per{font-size:13px;color:var(--chalk-dim);margin-bottom:16px}
+.tier ul{list-style:none;flex:1}
+.tier li{font-size:14.5px;color:var(--chalk-dim);padding:6px 0;border-bottom:1px solid var(--line)}
+.tier li:last-child{border-bottom:0}
+.tier li::before{content:'✓  ';color:#7ee2a8}
+.tier .tag-pop{align-self:flex-start;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);border:1px solid rgba(217,164,65,.5);border-radius:999px;padding:3px 10px;margin-bottom:10px}
+@media(max-width:860px){.tiers{grid-template-columns:1fr}}
+
+/* ---------- phone: shared bits ---------- */
+.p-header .p-right{display:flex;align-items:center;gap:10px}
+.p-bell{position:relative;background:none;border:0;cursor:pointer;font-size:17px;line-height:1;padding:2px}
+.p-bell .bdot{position:absolute;top:-1px;right:-2px;width:8px;height:8px;border-radius:50%;background:#ff5a52;border:2px solid rgba(0,0,0,.35)}
+.p-back{display:flex;align-items:center;gap:8px;margin:2px 0 12px}
+.p-back button{background:none;border:0;color:var(--t2,#FFC627);font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;padding:0}
+.p-back .p-title{font-family:'Bebas Neue',sans-serif;font-size:19px;letter-spacing:.03em}
+.p-chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:11px}
+.p-chip{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;background:#151a20;color:#9aa0a8;border:1px solid rgba(255,255,255,.1);border-radius:999px;padding:5px 12px;cursor:pointer}
+.p-chip.on{background:var(--t2,#FFC627);color:#111;border-color:transparent}
+.p-cta{display:block;width:100%;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;background:var(--t2,#FFC627);color:#111;border:0;border-radius:12px;padding:12px 0;cursor:pointer;text-align:center;margin-bottom:9px}
+.p-cta.ghost{background:#151a20;color:var(--chalk);border:1px solid rgba(255,255,255,.12)}
+.p-cta.green{background:#2e7d4f;color:#fff}
+.p-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0}
+.p-act{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;background:#151a20;color:var(--chalk);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:10px 6px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px}
+.p-act.gold{border-color:rgba(217,164,65,.5);color:var(--brass)}
+.avars{display:flex;margin:8px 0 2px}
+.avars span{width:26px;height:26px;border-radius:50%;background:var(--t1,#8C1D40);color:#fff;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;display:flex;align-items:center;justify-content:center;border:2px solid #0e1114;margin-left:-7px}
+.avars span:first-child{margin-left:0}
+.avars .more{background:#2a313a;color:#c8ccd2}
+.p-field{margin-bottom:9px}
+.p-field label{display:block;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8a8f96;margin-bottom:4px}
+.p-field input,.p-field select{width:100%;background:#151a20;border:1px solid rgba(255,255,255,.12);border-radius:10px;color:var(--chalk);font-family:'Barlow',sans-serif;font-size:14px;padding:10px 12px;outline:none}
+.p-field input:focus,.p-field select:focus{border-color:var(--t2,#FFC627)}
+.p-row2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.p-sec{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8a8f96;margin:14px 0 8px}
+.n-item{display:flex;gap:10px;background:#151a20;border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:11px 13px;margin-bottom:8px}
+.n-item .n-ic{font-size:18px}
+.n-item .n-t{font-size:13px;line-height:1.4}
+.n-item .n-t b{display:block;font-size:13.5px}
+.n-item .n-t .n-when{color:#8a8f96;font-size:11.5px}
+.f-row{display:flex;align-items:center;gap:10px;background:#151a20;border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:10px 13px;margin-bottom:8px}
+.f-row .f-av{width:34px;height:34px;border-radius:50%;background:var(--t1,#8C1D40);color:#fff;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.f-row .f-nm{flex:1;font-size:13.5px;font-weight:600}
+.f-row .f-nm small{display:block;font-weight:400;color:#8a8f96;font-size:11.5px}
+.f-btn{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:var(--t2,#FFC627);color:#111;border:0;border-radius:999px;padding:5px 12px;cursor:pointer}
+.f-btn.done{background:#2e7d4f;color:#fff}
+.tgl{display:flex;align-items:center;justify-content:space-between;background:#151a20;border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:11px 13px;margin-bottom:8px;font-size:13.5px}
+.tgl .sw{width:38px;height:22px;border-radius:999px;background:#2a313a;position:relative;cursor:pointer;flex:0 0 auto;transition:background .2s}
+.tgl .sw::after{content:'';position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;transition:left .2s}
+.tgl .sw.on{background:#2e7d4f}
+.tgl .sw.on::after{left:19px}
+.amt-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:10px 0}
+.amt{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:15px;background:#151a20;color:var(--chalk);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:12px 0;cursor:pointer;text-align:center}
+.amt.on{background:var(--t2,#FFC627);color:#111;border-color:transparent}
+.stripe-note{display:flex;align-items:center;gap:6px;justify-content:center;font-size:11px;color:#6d737b;margin-top:6px}
+.tier-card{background:#151a20;border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:13px 14px;margin-bottom:8px;cursor:pointer}
+.tier-card.on{border-color:var(--t2,#FFC627)}
+.tier-card .tc-top{display:flex;justify-content:space-between;font-weight:700;font-size:14px}
+.tier-card .tc-top .tc-p{font-family:'Barlow Condensed',sans-serif;color:var(--t2,#FFC627)}
+.tier-card p{font-size:12px;color:#9aa0a8;margin-top:3px}
+.dash-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+.dash{background:#151a20;border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px 8px;text-align:center}
+.dash .dn{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:22px;color:var(--t2,#FFC627)}
+.dash .dl{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#8a8f96}
+.tail-banner{display:flex;align-items:center;gap:8px;background:#1c2027;border:1px dashed rgba(255,255,255,.2);border-radius:10px;padding:8px 12px;font-size:12px;color:#c8ccd2;margin-bottom:10px}
+.ob{position:absolute;inset:0;background:#0e1114;z-index:5;display:flex;flex-direction:column;justify-content:center;padding:26px 22px;border-radius:34px;text-align:center}
+.ob .ob-logo{font-family:'Bebas Neue',sans-serif;font-size:40px;line-height:1;margin-bottom:4px}
+.ob .ob-tag{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.24em;text-transform:uppercase;color:var(--pin);margin-bottom:22px}
+.ob p{font-size:13.5px;color:#9aa0a8;margin-bottom:16px}
+.ob .p-cta{margin-bottom:8px}
+.ob .ob-skip{background:none;border:0;color:#6d737b;font-size:12px;cursor:pointer;margin-top:8px;text-decoration:underline}
+.ob .ob-steps{display:flex;gap:5px;justify-content:center;margin-top:18px}
+.ob .ob-steps i{width:6px;height:6px;border-radius:50%;background:#2a313a}
+.ob .ob-steps i.on{background:var(--t2,#FFC627)}
+.ob .team-list{display:flex;flex-direction:column;gap:7px;margin-bottom:6px;text-align:left}
+.ob .team-list button{background:#151a20;border:1px solid rgba(255,255,255,.12);border-radius:10px;color:var(--chalk);font-size:13.5px;font-weight:600;padding:10px 13px;cursor:pointer;text-align:left}
+.ob .team-list button small{display:block;font-weight:400;color:#8a8f96;font-size:11px}
+.replay{background:none;border:1px solid var(--line);border-radius:999px;color:var(--chalk-dim);font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase;padding:8px 16px;cursor:pointer;margin-top:14px}
+.replay:hover{color:var(--chalk)}
+
 /* ---------- fanatics section ---------- */
 .funnel{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:38px 0 30px;counter-reset:fn}
 .fn{position:relative;background:var(--ink2);border:1px solid var(--line);padding:26px 22px}
@@ -192,9 +289,9 @@ footer{border-top:1px solid var(--line);padding:38px 0 46px;color:var(--chalk-di
     </a>
     <nav class="nav" aria-label="Main">
       <a href="#concept">Concept</a>
+      <a href="#product">Product</a>
       <a href="#data">The Data</a>
-      <a href="#demo">Live Demo</a>
-      <a href="#partners" class="nav-cta">Partners</a>
+      <a href="#demo" class="nav-cta">Live Demo</a>
     </nav>
   </div>
 </header>
@@ -210,7 +307,7 @@ footer{border-top:1px solid var(--line);padding:38px 0 46px;color:var(--chalk-di
     <p class="sub">The map of where fans actually gather. Every team's watch parties, alumni bars, and supporter chapters — verified, in one app.</p>
     <div class="btn-row">
       <a class="btn btn-solid" href="#demo">Tap the live demo</a>
-      <a class="btn btn-ghost" href="#partners">Partner with Fan Map</a>
+      <a class="btn btn-ghost" href="#product">See what's inside</a>
     </div>
   </div>
 </section>
@@ -244,13 +341,36 @@ footer{border-top:1px solid var(--line);padding:38px 0 46px;color:var(--chalk-di
         <h3>Find your bar</h3>
         <p>Official alumni chapters and supporter clubs, mapped to the exact venue where they watch — with addresses, not just city names.</p>
       </div>
-      <div class="step step-merch">
+      <div class="step">
         <div class="glyph">👕</div>
         <h3>Show up in colors</h3>
-        <p>Walking into a room of 200 fans is when merch matters most. Fan Map puts gear one tap away at exactly that moment.</p>
-        <span class="tag">The Fanatics moment</span>
+        <p>Walking into a room of 200 fans hits different in team colors. Fan Map puts official gear one tap away, right before game day.</p>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCT / FEATURES ============ -->
+<section id="product">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">The product</div>
+      <h2 class="display">Everything in the build.</h2>
+      <p>The full beta feature set from the Fan Map technical spec — every one of these is live in the demo below. Tap through it yourself.</p>
+    </div>
+    <div class="feat-grid">
+      <div class="feat"><div class="glyph">📍</div><h4>Geolocated matching</h4><p>Watch parties and fans within 5, 10, 25, or 50 miles — filtered by your team, on a live map.</p><a class="try" href="#demo">Map tab →</a></div>
+      <div class="feat"><div class="glyph">🎓</div><h4>Alumni verification</h4><p>Official chapters claim their profiles. Verified badges separate the real thing from a random bar.</p><a class="try" href="#demo">Venues tab →</a></div>
+      <div class="feat"><div class="glyph">📅</div><h4>Events &amp; RSVPs</h4><p>Create watch parties, tailgates, and gatherings. RSVP, see who's going, get directions, add to calendar.</p><a class="try" href="#demo">Events tab →</a></div>
+      <div class="feat"><div class="glyph">🏈</div><h4>Tailgate mode</h4><p>Offline stadium maps with droppable pins, so friends can find your spot when the network can't keep up.</p><a class="try" href="#demo">Map tab → Tailgate →</a></div>
+      <div class="feat"><div class="glyph">💬</div><h4>SMS &amp; email invites</h4><p>Invite friends straight from contacts. Alumni admins bulk-email their whole member list.</p><a class="try" href="#demo">Profile tab →</a></div>
+      <div class="feat"><div class="glyph">🔔</div><h4>Push notifications</h4><p>New events for your team, game-day reminders, RSVP confirmations, friend requests.</p><a class="try" href="#demo">Bell icon →</a></div>
+      <div class="feat"><div class="glyph">🎁</div><h4>University donations</h4><p>One-tap giving to your alma mater, built into the fan experience. The hook that gets schools on board.</p><a class="try" href="#demo">Profile tab →</a></div>
+      <div class="feat"><div class="glyph">👕</div><h4>Team gear</h4><p>Official gear for your team, one tap away — so you never walk into the watch party out of uniform.</p><a class="try" href="#demo">Gear tab →</a></div>
+      <div class="feat"><div class="glyph">🎟️</div><h4>Game tickets</h4><p>Going in person instead? Compare ticket options for upcoming games right from the event page.</p><a class="try" href="#demo">Events tab →</a></div>
+      <div class="feat"><div class="glyph">⭐</div><h4>Support the players</h4><p>College fans can back their team's athletes directly through FanStake NIL — right from the team page.</p><a class="try" href="#demo">Gear tab →</a></div>
+    </div>
+    <div class="spec-note"><b>Demo note:</b> everything above is fully clickable in the prototype below. Sign-in, texts, and notifications are simulated so you can walk every flow end to end.</div>
   </div>
 </section>
 
@@ -287,9 +407,10 @@ footer{border-top:1px solid var(--line);padding:38px 0 46px;color:var(--chalk-di
     <div class="demo-copy">
       <div class="eyebrow">Live demo — go ahead, tap it</div>
       <h2 class="display" style="font-size:clamp(40px,6vw,64px);margin:10px 0 12px">One app.<br>Every fanbase.</h2>
-      <p>This is the working Fan Map prototype. Switch teams to see how the same experience serves a college alumni base, an NFL supporter network, and an English football club — each with its own colors, venues, and gear.</p>
+      <p>This is the working Fan Map prototype — the full beta feature set, tappable. Switch teams to see how the same experience serves a college alumni base, an NFL supporter network, and an English football club — each with its own colors, venues, and gear.</p>
       <div class="team-picker" id="teamPicker" role="tablist" aria-label="Choose a team"></div>
-      <p class="hint">Open the <b>Gear</b> tab in the demo to see where Fanatics lives in the fan journey.</p>
+      <p class="hint">Things to try: tap an <b>event</b> for the full RSVP screen · <b>Map → Tailgate Mode</b> · <b>Profile</b> for giving back, friends, and text invites · the <b>🔔 bell</b> for notifications.</p>
+      <button class="replay" id="replayOb">↺ Replay the onboarding flow</button>
     </div>
     <div class="phone-wrap">
       <div class="phone">
@@ -297,39 +418,22 @@ footer{border-top:1px solid var(--line);padding:38px 0 46px;color:var(--chalk-di
           <div class="p-notch"><span></span></div>
           <div class="p-header">
             <span class="p-brand">FAN MAP</span>
-            <span class="p-team" id="pTeamName"></span>
+            <span class="p-right">
+              <span class="p-team" id="pTeamName"></span>
+              <button class="p-bell" id="pBell" aria-label="Notifications">🔔<span class="bdot" id="bellDot"></span></button>
+            </span>
           </div>
           <div class="p-body" id="pBody"></div>
-          <div class="p-tabs" id="pTabs">
+          <div class="p-tabs" id="pTabs" style="grid-template-columns:repeat(5,1fr)">
             <button class="p-tab active" data-tab="map"><span class="ic">🗺️</span>Map</button>
             <button class="p-tab" data-tab="venues"><span class="ic">🍺</span>Venues</button>
             <button class="p-tab" data-tab="events"><span class="ic">📅</span>Events</button>
             <button class="p-tab" data-tab="gear"><span class="ic">👕</span>Gear</button>
+            <button class="p-tab" data-tab="profile"><span class="ic">👤</span>Profile</button>
           </div>
           <div class="p-toast" id="pToast"></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ PARTNERS / FANATICS ============ -->
-<section id="partners">
-  <div class="wrap">
-    <div class="sec-head">
-      <div class="eyebrow">For merch partners</div>
-      <h2 class="display">Where the merch lives.</h2>
-      <p>Most affiliate placements catch fans browsing. Fan Map catches them committing — the moment they RSVP to stand in a bar with 200 people wearing team colors.</p>
-    </div>
-    <div class="funnel">
-      <div class="fn"><h4>FIND</h4><p>Fan opens the map and finds their chapter's bar in a new city.</p><span class="arrow">›</span></div>
-      <div class="fn"><h4>RSVP</h4><p>They commit to a specific watch party, on a specific date.</p><span class="arrow">›</span></div>
-      <div class="fn"><h4>REP YOUR COLORS</h4><p>The app prompts: game day is Saturday — will you be in colors?</p><span class="arrow">›</span></div>
-      <div class="fn"><h4>SHOP FANATICS</h4><p>Team-matched gear, one tap away, through affiliate links across all 630 teams in the catalog.</p></div>
-    </div>
-    <div class="partner-cta">
-      <p><b style="color:var(--chalk)">Ready to connect the catalog.</b> The Gear tab you just tapped is built to plug directly into Fanatics affiliate links and team stores — across every league Fanatics licenses.</p>
-      <a class="btn btn-solid" href="mailto:partners@fanmap.com">partners@fanmap.com</a>
     </div>
   </div>
 </section>
@@ -491,80 +595,330 @@ const TEAMS={
   gear:[{e:'👕',n:'Sunderland Home Shirt 26/27',p:'$99.99'},{e:'🧣',n:'Red & White Bar Scarf',p:'$27.99'},{e:'🧢',n:'Crest Cap',p:'$29.99'},{e:'🧥',n:'Training Jacket',p:'$89.99'}]}
 };
 
-/* ============ DEMO ENGINE ============ */
-let curTeam='asu', curTab='map';
+/* ============ DEMO ENGINE v2 — full beta feature set ============ */
+const META={
+ asu:{sport:'College Football',college:true,school:'Arizona State University',stadium:'Mountain America Stadium',scity:'Tempe, AZ'},
+ bama:{sport:'College Football',college:true,school:'The University of Alabama',stadium:'Bryant–Denny Stadium',scity:'Tuscaloosa, AL'},
+ psu:{sport:'College Football',college:true,school:'Penn State University',stadium:'Beaver Stadium',scity:'State College, PA'},
+ panthers:{sport:'NFL',college:false,stadium:'Bank of America Stadium',scity:'Charlotte, NC'},
+ hawks:{sport:'NFL',college:false,stadium:'Lumen Field',scity:'Seattle, WA'},
+ safc:{sport:'Soccer',college:false,stadium:'Stadium of Light',scity:'Sunderland, UK'}
+};
+const SPORTS=['College Football','NFL','NBA','MLB','Soccer','Rugby','Cricket'];
+const CONTACTS=[{n:'Sarah Mitchell',p:'(480) 555-0134'},{n:'Mike Torres',p:'(602) 555-0177'},{n:'Dana Kim',p:'(415) 555-0122'},{n:'Chris Boone',p:'(206) 555-0190'}];
+
+let curTeam='asu', curTab='map', view=null, obStep=null;
+let radius=25, rsvpState={}, follows={}, friendAccepted=false, checkedIn={}, invitesSel={0:true,1:true,2:true};
+let donatedTotal=0, tailPins=0, unread=true;
+let customEvents={}, notifs=[
+ {ic:'🏈',b:'Game day is close',t:'Your watch party starts in 2 days — will you be in colors?',w:'2h ago'},
+ {ic:'📍',b:'New watch party near you',t:'A new event was posted within 25 miles of you.',w:'Yesterday'},
+ {ic:'🤝',b:'Friend request',t:'Sarah Mitchell wants to connect on Fan Map.',w:'2d ago'}
+];
+
 const pBody=document.getElementById('pBody'),
       pTeamName=document.getElementById('pTeamName'),
       screen=document.getElementById('phoneScreen'),
       picker=document.getElementById('teamPicker'),
-      toast=document.getElementById('pToast');
+      toast=document.getElementById('pToast'),
+      bellDot=document.getElementById('bellDot');
 
 Object.entries(TEAMS).forEach(([id,t],i)=>{
   const b=document.createElement('button');
   b.className='team-btn'+(i===0?' active':''); b.textContent=t.name; b.dataset.id=id;
   b.setAttribute('role','tab');
   b.style.setProperty('--t1',t.c1);
-  b.onclick=()=>{curTeam=id;document.querySelectorAll('.team-btn').forEach(x=>x.classList.toggle('active',x===b));render();};
+  b.onclick=()=>{setTeam(id);};
   picker.appendChild(b);
 });
+function setTeam(id){
+  curTeam=id; view=null;
+  document.querySelectorAll('.team-btn').forEach(x=>x.classList.toggle('active',x.dataset.id===id));
+  render();
+}
 
 document.getElementById('pTabs').addEventListener('click',e=>{
   const b=e.target.closest('.p-tab'); if(!b)return;
-  curTab=b.dataset.tab;
+  curTab=b.dataset.tab; view=null;
   document.querySelectorAll('.p-tab').forEach(x=>x.classList.toggle('active',x===b));
   render();
 });
+document.getElementById('pBell').onclick=()=>{view={type:'notifs'};render();};
+document.getElementById('replayOb').onclick=()=>{obStep=1;render();document.getElementById('phoneScreen').scrollIntoView&&document.getElementById('phoneScreen').scrollIntoView({behavior:'smooth',block:'center'});};
 
 function showToast(msg){
   toast.textContent=msg; toast.classList.add('show');
-  clearTimeout(showToast._t); showToast._t=setTimeout(()=>toast.classList.remove('show'),1800);
+  clearTimeout(showToast._t); showToast._t=setTimeout(()=>toast.classList.remove('show'),2100);
 }
-function rsvp(btn){
-  if(btn.classList.contains('going')){btn.classList.remove('going');btn.textContent='RSVP';showToast('RSVP removed');}
-  else{btn.classList.add('going');btn.textContent='GOING ✓';showToast("You're in! See you at the bar 🍻");}
-}
-function shop(name){showToast('→ Fanatics affiliate link: '+name);}
+function pushNotif(ic,b,t){notifs.unshift({ic,b,t,w:'Just now'});unread=true;render();}
+function esc(s){return String(s).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));}
+function evKey(i,custom){return curTeam+(custom?'c':'e')+i;}
+function allEvents(t){return t.events.concat(customEvents[curTeam]||[]);}
 
+function rsvp(key,status,btnMsg){
+  if(rsvpState[key]===status){delete rsvpState[key];showToast('RSVP removed');}
+  else{rsvpState[key]=status;showToast(btnMsg||"You're in! See you at the bar 🍻");
+    if(status==='going')pushNotif('✅','RSVP confirmed',"You're going. We'll remind you 2 hours before kickoff.");}
+  render();
+}
+function shop(name){showToast('Opening '+name+' on Fanatics →');}
+function act(msg){showToast(msg);}
+
+/* ---------- back header ---------- */
+function backBar(title,to){
+  return `<div class="p-back"><button onclick='goBack(${JSON.stringify(to||null)})'>‹ Back</button><span class="p-title">${title}</span></div>`;
+}
+function goBack(to){view=to?JSON.parse(JSON.stringify(to)):null;render();}
+
+/* ============ RENDER ============ */
 function render(){
-  const t=TEAMS[curTeam];
+  const t=TEAMS[curTeam], m=META[curTeam];
   screen.style.setProperty('--t1',t.c1);
   screen.style.setProperty('--t2',t.c2);
   pTeamName.textContent=t.short;
+  bellDot.style.display=unread?'block':'none';
+
+  /* onboarding overlay */
+  let old=document.getElementById('obOverlay'); if(old)old.remove();
+  if(obStep){screen.insertAdjacentHTML('beforeend',renderOnboard(t));return;}
+
   let html='';
-  if(curTab==='map'){
-    html+=`<div class="p-count"><b>${t.total}</b> verified venues · ${t.league}</div>`;
-    html+=`<div class="p-map"><svg id="miniMap" viewBox="0 0 500 300"></svg></div>`;
-    html+=`<div class="v-card"><div class="v-city">Nearest to you</div><div class="v-name">${t.venues[0].n}</div><div class="v-addr">${t.venues[0].a}</div><span class="v-badge">✓ Verified chapter venue</span></div>`;
-  }
-  if(curTab==='venues'){
-    html+=`<div class="p-count"><b>${t.total}</b> ${t.name} venues in the database — sample below</div>`;
-    t.venues.forEach(v=>{
-      html+=`<div class="v-card"><div class="v-city">${v.city}</div><div class="v-name">${v.n}</div><div class="v-addr">${v.a}</div><span class="v-badge">✓ Verified</span></div>`;
-    });
-  }
-  if(curTab==='events'){
-    html+=`<div class="p-count">Upcoming ${t.name} watch parties</div>`;
-    t.events.forEach(e=>{
-      html+=`<div class="e-card"><div class="e-head"><span class="e-game">${e.g}</span><span class="e-date">${e.d}</span></div>
-      <div class="e-body"><div class="e-venue">${e.v}</div><div class="e-loc">${e.l}</div>
-      <div class="e-foot"><span class="e-count"><b>${e.c}</b> ${t.fan} going</span><button class="rsvp" onclick="rsvp(this)">RSVP</button></div></div></div>`;
-    });
-  }
-  if(curTab==='gear'){
-    html+=`<div class="g-banner"><div class="gb-top">Game day is coming</div><div class="gb-msg">You RSVP'd to a ${t.name} watch party. Show up in colors — official gear below.</div></div>`;
-    html+=`<div class="g-grid">`;
-    t.gear.forEach(g=>{
-      html+=`<div class="g-card"><div class="g-thumb">${g.e}</div><div class="g-name">${g.n}</div><div class="g-price">${g.p}</div><button class="g-shop" onclick="shop('${g.n.replace(/'/g,"\\'")}')">Shop on Fanatics →</button></div>`;
-    });
-    html+=`</div><div class="p-foot-note">Affiliate placement demo · product imagery illustrative</div>`;
-  }
+  if(view)html=renderView(t,m);
+  else if(curTab==='map')html=renderMap(t,m);
+  else if(curTab==='venues')html=renderVenues(t,m);
+  else if(curTab==='events')html=renderEvents(t,m);
+  else if(curTab==='gear')html=renderGear(t,m);
+  else if(curTab==='profile')html=renderProfile(t,m);
   pBody.innerHTML=html;
-  if(curTab==='map'){
-    const m=document.getElementById('miniMap');
-    buildDots(m);
-    addPins(m,t.pins,t.c2==='#ffffff'||t.c2==='#f2f2f2'?t.c1:t.c2);
-  }
+  const mm=document.getElementById('miniMap');
+  if(mm){buildDots(mm);
+    let pins=t.pins;
+    if(view&&view.type==='tailgate'){pins=[{x:t.pins[0].x,y:t.pins[0].y},{x:t.pins[0].x+0.7,y:t.pins[0].y+0.6},{x:t.pins[0].x-0.6,y:t.pins[0].y+0.4}];
+      for(let i=0;i<tailPins;i++)pins.push({x:t.pins[0].x+0.3+i*0.5,y:t.pins[0].y-0.5});}
+    addPins(mm,pins,(t.c2==='#ffffff'||t.c2==='#f2f2f2')?t.c1:t.c2);}
   pBody.scrollTop=0;
+}
+
+/* ---------- tabs ---------- */
+function renderMap(t,m){
+  let h=`<div class="p-count"><b>${t.total}</b> verified venues · ${t.league}</div>`;
+  h+=`<div class="p-chips">`+[5,10,25,50].map(r=>`<button class="p-chip${radius===r?' on':''}" onclick="radius=${r};showToast('Showing venues within ${r} miles');render()">${r} mi</button>`).join('')+`</div>`;
+  h+=`<div class="p-map"><svg id="miniMap" viewBox="0 0 500 300"></svg></div>`;
+  h+=`<div class="v-card" onclick='view={type:"venue",i:0};render()' style="cursor:pointer"><div class="v-city">Nearest to you · within ${radius} mi</div><div class="v-name">${t.venues[0].n}</div><div class="v-addr">${t.venues[0].a}</div><span class="v-badge">✓ Verified chapter venue</span></div>`;
+  h+=`<button class="p-cta ghost" onclick='view={type:"tailgate"};render()'>🏈 Tailgate Mode · ${m.stadium}</button>`;
+  return h;
+}
+
+function renderVenues(t,m){
+  let h=`<div class="p-count"><b>${t.total}</b> ${t.name} venues in the database — sample below</div>`;
+  t.venues.forEach((v,i)=>{
+    h+=`<div class="v-card" onclick='view={type:"venue",i:${i}};render()' style="cursor:pointer"><div class="v-city">${v.city}</div><div class="v-name">${v.n}</div><div class="v-addr">${v.a}</div><span class="v-badge">✓ Verified</span></div>`;
+  });
+  return h;
+}
+
+function renderEvents(t,m){
+  let h=`<div class="p-count">Upcoming ${t.name} watch parties</div>`;
+  h+=`<button class="p-cta" onclick='view={type:"create"};render()'>＋ Create an event</button>`;
+  allEvents(t).forEach((e,i)=>{
+    const custom=i>=t.events.length, key=evKey(custom?i-t.events.length:i,custom);
+    const st=rsvpState[key];
+    h+=`<div class="e-card" onclick='view={type:"event",i:${i}};render()' style="cursor:pointer"><div class="e-head"><span class="e-game">${e.g}</span><span class="e-date">${e.d}</span></div>
+    <div class="e-body"><div class="e-venue">${e.v}</div><div class="e-loc">${e.l}</div>
+    <div class="e-foot"><span class="e-count"><b>${e.c+(st==='going'?1:0)}</b> ${t.fan} going</span><button class="rsvp${st==='going'?' going':''}" onclick='event.stopPropagation();rsvp("${key}","going")'>${st==='going'?'GOING ✓':'RSVP'}</button></div></div></div>`;
+  });
+  return h;
+}
+
+function renderGear(t,m){
+  let h=`<div class="g-banner"><div class="gb-top">Game day is coming</div><div class="gb-msg">You RSVP'd to a ${t.name} watch party. Show up in colors — official gear below.</div></div>`;
+  h+=`<div class="g-grid">`;
+  t.gear.forEach(g=>{
+    h+=`<div class="g-card"><div class="g-thumb">${g.e}</div><div class="g-name">${g.n}</div><div class="g-price">${g.p}</div><button class="g-shop" onclick="shop('${g.n.replace(/'/g,"\\'")}')">Shop on Fanatics →</button></div>`;
+  });
+  h+=`</div>`;
+  h+=`<button class="p-cta ghost" style="margin-top:10px" onclick="act('Finding tickets · ${t.events[0].g.replace(/'/g,'')} 🎟')">🎟 Tickets · ${t.events[0].g} — compare prices →</button>`;
+  if(m.college)h+=`<button class="p-cta gold p-act" style="width:100%;border-radius:12px;padding:12px 0" onclick="act('Opening FanStake — back your ${t.name} players ⭐')">⭐ Support your players · FanStake NIL</button>`;
+  h+=`<div class="p-foot-note">Demo data · product imagery illustrative</div>`;
+  return h;
+}
+
+function renderProfile(t,m){
+  let h=`<div class="f-row" style="padding:14px 13px"><div class="f-av" style="width:44px;height:44px;font-size:16px">AR</div><div class="f-nm" style="font-size:16px">Alex Rivera<small>${m.college?'✓ Verified '+t.name+' alum':'Fan Map member since 2026'} · Phoenix, AZ</small></div></div>`;
+
+  h+=`<div class="p-sec">My teams · one per sport</div>`;
+  SPORTS.slice(0,5).forEach(s=>{
+    const mine=(META[curTeam].sport===s);
+    h+=`<div class="f-row"><div class="f-nm">${s}<small>${mine?TEAMS[curTeam].name+' · '+TEAMS[curTeam].league:'No team selected'}</small></div>${mine?'<button class="f-btn done">✓ Set</button>':'<button class="f-btn" onclick="act(\'Team search — one team per sport category\')">+ Choose</button>'}</div>`;
+  });
+
+  if(m.college){
+    h+=`<div class="p-sec">Give back</div>`;
+    h+=`<div class="v-card"><div class="v-city">${m.school}</div><div class="v-name">Support your school while you connect</div><div class="v-addr">${donatedTotal?('You\'ve given $'+donatedTotal+' this season. 🎉'):'One-tap giving, straight to your alma mater.'}</div><button class="p-cta" style="margin:10px 0 2px" onclick='view={type:"donate"};render()'>🎁 Donate to ${t.name}</button></div>`;
+  }
+
+  const going=Object.keys(rsvpState).filter(k=>k.startsWith(curTeam)&&rsvpState[k]==='going');
+  h+=`<div class="p-sec">My RSVPs</div>`;
+  if(going.length===0)h+=`<div class="v-card"><div class="v-addr">No RSVPs yet — find a watch party in the Events tab.</div></div>`;
+  else going.forEach(k=>{
+    const idx=+k.replace(curTeam,'').replace(/[ce]/,'');
+    const list=k.includes('c')?(customEvents[curTeam]||[]):t.events; const e=list[idx]; if(!e)return;
+    h+=`<div class="v-card"><div class="v-city">${e.d}</div><div class="v-name">${e.g}</div><div class="v-addr">${e.v}</div>${checkedIn[k]?'<span class="v-badge">✓ Checked in</span>':'<button class="f-btn" style="margin-top:7px" onclick=\'checkedIn["'+k+'"]=1;act("Checked in at '+e.v.replace(/["\x27]/g,'')+' 📍");render()\'>📍 Check in</button>'}</div>`;
+  });
+
+  h+=`<div class="p-sec">Friends</div>`;
+  h+=`<div class="f-row"><div class="f-av">SM</div><div class="f-nm">Sarah Mitchell<small>Wants to connect</small></div>${friendAccepted?'<button class="f-btn done">✓ Friends</button>':'<button class="f-btn" onclick="friendAccepted=true;pushNotif(\'🤝\',\'New friend\',\'You and Sarah Mitchell are now connected.\');act(\'Friend request accepted\')">Accept</button>'}</div>`;
+  h+=`<div class="f-row"><div class="f-av">MT</div><div class="f-nm">Mike Torres<small>Going to 2 of your events</small></div><button class="f-btn done">✓ Friends</button></div>`;
+  h+=`<button class="p-cta ghost" onclick='view={type:"invite"};render()'>💬 Invite friends by text</button>`;
+
+  h+=`<div class="p-sec">Privacy</div>`;
+  h+=`<div class="tgl">City-level location only<span class="sw on" onclick="this.classList.toggle('on');act('Privacy setting updated')"></span></div>`;
+  h+=`<div class="tgl">Profile visible to friends only<span class="sw" onclick="this.classList.toggle('on');act('Privacy setting updated')"></span></div>`;
+  h+=`<button class="p-cta ghost" style="margin-top:6px" onclick="obStep=1;render()">Sign out</button>`;
+  return h;
+}
+
+/* ---------- overlay views ---------- */
+function renderView(t,m){
+  const v=view;
+  if(v.type==='notifs'){
+    unread=false; bellDot.style.display='none';
+    let h=backBar('Notifications');
+    notifs.forEach(n=>{h+=`<div class="n-item"><span class="n-ic">${n.ic}</span><span class="n-t"><b>${n.b}</b>${n.t}<span class="n-when"> · ${n.w}</span></span></div>`;});
+    h+=`<div class="p-foot-note">Push notifications via Firebase in production</div>`;
+    return h;
+  }
+  if(v.type==='event'){
+    const list=allEvents(t), e=list[v.i];
+    const custom=v.i>=t.events.length, key=evKey(custom?v.i-t.events.length:v.i,custom), st=rsvpState[key];
+    let h=backBar('Watch party');
+    h+=`<div class="e-card"><div class="e-head"><span class="e-game">${e.g}</span><span class="e-date">${e.d}</span></div>
+      <div class="e-body"><div class="e-venue">${e.v}</div><div class="e-loc">${e.l}</div>
+      <div class="avars"><span>SM</span><span>MT</span><span>DK</span><span>CB</span><span class="more">+${Math.max(e.c-4,0)}</span></div>
+      <div class="e-loc" style="margin:4px 0 0"><b>${e.c+(st==='going'?1:0)}</b> ${t.fan} going · hosted by ${e.v}</div></div></div>`;
+    h+=`<div class="p-actions" style="grid-template-columns:1fr 1fr">
+      <button class="p-act${st==='going'?'':''}" style="${st==='going'?'background:#2e7d4f;color:#fff;border-color:transparent':''}" onclick='rsvp("${key}","going")'>${st==='going'?'✓ Going':'Going'}</button>
+      <button class="p-act" style="${st==='interested'?'background:#3a3f2a;border-color:transparent':''}" onclick='rsvp("${key}","interested","Marked as interested")'>${st==='interested'?'✓ Interested':'Interested'}</button></div>`;
+    h+=`<div class="p-actions">
+      <button class="p-act" onclick="act('Opening Google Maps directions…')">🧭 Directions</button>
+      <button class="p-act" onclick="act('Added to your calendar 📆')">📆 Calendar</button>
+      <button class="p-act" onclick="act('SMS invite sent via Twilio (demo)')">💬 Text a friend</button>
+      <button class="p-act" onclick="act('Instagram Story card generated 📸')">📸 IG Story</button>
+      <button class="p-act" onclick="act('Posted to X with #${t.name.replace(/[^A-Za-z]/g,'')} 🎉')">𝕏 Share</button>
+      <button class="p-act" onclick="act('Finding tickets for this game 🎟')">🎟 Buy tickets</button>`;
+    if(m.college)h+=`<button class="p-act gold" onclick="act('Opening FanStake — back the players ⭐')">⭐ Support players</button>`;
+    h+=`<button class="p-act" onclick="act('Message sent to the organizer')">✉️ Organizer</button></div>`;
+    h+=`<button class="p-cta ghost" onclick="act('Reported — our moderation queue has it 🚩')">🚩 Report this event</button>`;
+    return h;
+  }
+  if(v.type==='venue'){
+    const ven=t.venues[v.i];
+    let h=backBar('Venue');
+    h+=`<div class="v-card"><div class="v-city">${ven.city}</div><div class="v-name" style="font-size:18px">${ven.n}</div><div class="v-addr">${ven.a}</div>
+      <span class="v-badge">✓ Verified chapter venue</span>
+      <div class="e-loc" style="margin-top:9px">🕐 Open game days from 9am · 📺 Shows every ${t.name} game<br>👥 214 chapter members · 📞 Contact on file</div></div>`;
+    h+=`<div class="p-actions">
+      <button class="p-act" style="${follows[curTeam+v.i]?'background:#2e7d4f;color:#fff;border-color:transparent':''}" onclick='follows["${curTeam+v.i}"]=!follows["${curTeam+v.i}"];act(follows["${curTeam+v.i}"]?"Following — event alerts on 🔔":"Unfollowed");render()'>${follows[curTeam+v.i]?'✓ Following':'＋ Follow'}</button>
+      <button class="p-act" onclick="act('Opening Google Maps directions…')">🧭 Directions</button>
+      <button class="p-act" onclick="act('Bulk email drafted to 214 members ✉️')">✉️ Email members</button>
+      <button class="p-act" onclick="act('CSV import — bring your alumni list')">📇 Import list</button></div>`;
+    h+=`<div class="p-foot-note">Chapter admin tools · bulk email &amp; CSV import for alumni orgs</div>`;
+    return h;
+  }
+  if(v.type==='tailgate'){
+    let h=backBar('Tailgate mode');
+    h+=`<div class="tail-banner">✈️ Offline map · ${m.stadium} area · downloaded — works with zero bars</div>`;
+    h+=`<div class="p-map"><svg id="miniMap" viewBox="0 0 500 300"></svg></div>`;
+    h+=`<div class="p-count">${3+tailPins} tailgates pinned near ${m.stadium}${tailPins?` · <b>yours is live</b>`:''}</div>`;
+    h+=`<button class="p-cta" onclick="tailPins++;pushNotif('📌','Pin shared','Your tailgate pin went to 4 friends by SMS.');act('Pin dropped — shared with 4 friends via SMS 📌')">📌 Drop my tailgate pin</button>`;
+    h+=`<button class="p-cta ghost" onclick="act('Walking directions to Lot 59 — offline 🧭')">🧭 Navigate to a friend's tailgate</button>`;
+    return h;
+  }
+  if(v.type==='create'){
+    let h=backBar('Create an event');
+    h+=`<div class="p-field"><label>Event type</label><select id="cType"><option>Watch party</option><option>Tailgate</option><option>Alumni gathering</option></select></div>`;
+    h+=`<div class="p-field"><label>Game / title</label><input id="cGame" placeholder="${t.name.toUpperCase()} vs RIVAL"></div>`;
+    h+=`<div class="p-field"><label>Venue</label><input id="cVenue" placeholder="${t.venues[0].n}"></div>`;
+    h+=`<div class="p-row2"><div class="p-field"><label>Date</label><input id="cDate" placeholder="OCT 17"></div><div class="p-field"><label>Capacity</label><input id="cCap" placeholder="75"></div></div>`;
+    h+=`<button class="p-cta" onclick="postEvent()">Post event — notify nearby fans</button>`;
+    h+=`<div class="p-foot-note">Anti-spam: max 3 events/day · new accounts wait 24h</div>`;
+    return h;
+  }
+  if(v.type==='invite'){
+    let h=backBar('Invite by text');
+    CONTACTS.forEach((c,i)=>{
+      h+=`<div class="f-row" onclick="invitesSel[${i}]=!invitesSel[${i}];render()" style="cursor:pointer"><div class="f-av">${c.n.split(' ').map(x=>x[0]).join('')}</div><div class="f-nm">${c.n}<small>${c.p}</small></div><button class="f-btn${invitesSel[i]?' done':''}">${invitesSel[i]?'✓':'＋'}</button></div>`;
+    });
+    const n=Object.values(invitesSel).filter(Boolean).length;
+    h+=`<button class="p-cta" onclick="act('${'${n}'} invites sent by SMS via Twilio (demo) 💬'.replace('\${n}',${n}));view=null;render()">Send ${n} invite${n===1?'':'s'} by SMS</button>`;
+    h+=`<div class="p-foot-note">Reads your contacts only with permission · opt-out honored</div>`;
+    return h;
+  }
+  if(v.type==='donate'){
+    let h=backBar('Give back');
+    h+=`<div class="v-card"><div class="v-city">${m.school}</div><div class="v-name">Choose an amount</div>`;
+    h+=`<div class="amt-grid">`+[10,25,50,100].map(a=>`<button class="amt${(v.amt||25)===a?' on':''}" onclick='view.amt=${a};render()'>$${a}</button>`).join('')+`</div>`;
+    h+=`<button class="p-cta" onclick="donate(${'${a}'.replace('${a}','(view.amt||25)')})">Give $${v.amt||25} to ${t.name}</button>`;
+    h+=`<div class="stripe-note">🔒 Powered by Stripe · receipt emailed · demo — no card charged</div></div>`;
+    return h;
+  }
+  return backBar('Fan Map');
+}
+
+function postEvent(){
+  const g=esc(document.getElementById('cGame').value||'').trim().toUpperCase();
+  const vn=esc(document.getElementById('cVenue').value||'').trim();
+  const d=esc(document.getElementById('cDate').value||'TBD').trim().toUpperCase();
+  const ty=document.getElementById('cType').value;
+  if(!g||!vn){act('Add a game and a venue first');return;}
+  (customEvents[curTeam]=customEvents[curTeam]||[]).push({g:g,d:d,v:vn,l:'Posted by you · '+ty,c:1});
+  pushNotif('📍','Your event is live',g+' at '+vn+' — nearby fans were notified.');
+  view=null;curTab='events';
+  document.querySelectorAll('.p-tab').forEach(x=>x.classList.toggle('active',x.dataset.tab==='events'));
+  act('Event live — nearby fans notified 🔔');render();
+}
+function donate(a){
+  donatedTotal+=a;
+  pushNotif('🎁','Thank you!','Your $'+a+' gift to '+META[curTeam].school+' went through. Receipt emailed.');
+  view=null;curTab='profile';
+  document.querySelectorAll('.p-tab').forEach(x=>x.classList.toggle('active',x.dataset.tab==='profile'));
+  act('$'+a+' donated — receipt emailed 🎁');render();
+}
+
+/* ---------- onboarding ---------- */
+function renderOnboard(t){
+  let inner='';
+  const dots=`<div class="ob-steps">${[1,2,3,4].map(s=>`<i class="${obStep===s?'on':''}"></i>`).join('')}</div>`;
+  if(obStep===1){
+    inner=`<div class="ob-logo">FAN MAP</div><div class="ob-tag">Find Your Fanhood</div>
+    <p>Welcome! Let's find your fanhood. Sign in to see where your people watch the game.</p>
+    <button class="p-cta" onclick="obStep=2;render()">Continue with Google</button>
+    <button class="p-cta ghost" onclick="obStep=2;render()">Continue with Facebook</button>`;
+  }
+  if(obStep===2){
+    inner=`<div class="ob-tag" style="margin-bottom:8px">Step 2 · Pick your team</div>
+    <p>One team per sport — choose your ride-or-die.</p><div class="team-list">`+
+    Object.entries(TEAMS).map(([id,tm])=>`<button onclick="setTeam('${id}');obStep=3;render()">${tm.name}<small>${tm.league} · ${META[id].sport}</small></button>`).join('')+`</div>`;
+  }
+  if(obStep===3){
+    inner=`<div class="ob-logo" style="font-size:34px">📍</div><div class="ob-tag">Step 3 · Location</div>
+    <p>Fan Map uses your location to find watch parties nearby. City-level only, if you prefer.</p>
+    <button class="p-cta" onclick="obStep=4;render()">Allow within 25 miles</button>
+    <button class="ob-skip" onclick="obStep=4;render()">Use city-level location only</button>`;
+  }
+  if(obStep===4){
+    const mm=META[curTeam];
+    inner=`<div class="ob-logo" style="font-size:34px">🎁</div><div class="ob-tag">Step 4 · Give back</div>
+    <p>${mm.college?('Support '+mm.school+' while you connect — one tap, straight to your school.'):'College fans can give to their alma mater right from the app.'}</p>
+    ${mm.college?`<button class="p-cta" onclick="donatedTotal+=25;finishOb('$25 gift to your school — welcome to the fanhood 🎉')">Give $25 now</button>`:''}
+    <button class="p-cta ghost" onclick="finishOb('Welcome to the fanhood 🎉')">${mm.college?'Skip for now':'Finish setup'}</button>`;
+  }
+  return `<div class="ob" id="obOverlay">${inner}${dots}</div>`;
+}
+function finishOb(msg){
+  obStep=null;
+  pushNotif('👋','Welcome to Fan Map','Your '+TEAMS[curTeam].name+' map is ready — '+TEAMS[curTeam].total+' verified venues.');
+  act(msg);render();
 }
 render();
 </script>
