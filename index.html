@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name='impact-site-verification' value='03ec6ad9-908f-4d66-99d5-d7849c6980c5' />
+<script type="text/javascript">(function(i,m,p,a,c,t){c.ire_o=p;c[p]=c[p]||function(){(c[p].a=c[p].a||[]).push(arguments)};t=a.createElement(m);var z=a.getElementsByTagName(m)[0];t.async=1;t.src=i;z.parentNode.insertBefore(t,z)})('https://utt.impactcdn.com/P-A6979660-ce26-445a-8fad-9a625e827ead1.js','script','impactStat',document,window);impactStat('trackImpression');</script>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%3E%3Crect%20width%3D%22512%22%20height%3D%22512%22%20rx%3D%22112%22%20fill%3D%22%230b2a4a%22%3E%3C/rect%3E%3Cg%20transform%3D%22translate%28146%20130%29%20scale%281.83%29%22%3E%3Cpath%20d%3D%22M60%206%20C35%206%2016%2025%2016%2049%20C16%2080%2060%20114%2060%20114%20C60%20114%20104%2080%20104%2049%20C104%2025%2085%206%2060%206%20Z%22%20fill%3D%22%23ffffff%22%3E%3C/path%3E%3Cpath%20d%3D%22M60%2028%20L64.1%2039.3%20L76.2%2039.7%20L66.7%2047.2%20L70%2058.8%20L60%2052%20L50%2058.8%20L53.3%2047.2%20L43.8%2039.7%20L55.9%2039.3%20Z%22%20fill%3D%22%230b2a4a%22%3E%3C/path%3E%3C/g%3E%3C/svg%3E">
 <title>Fan Map — Find Your Fanhood | fanmap.com</title>
 <meta name="description" content="Fan Map connects sports fans to verified watch parties and alumni chapter bars in every city. 630 teams. 29 leagues. One map.">
@@ -410,7 +411,7 @@ footer{border-top:1px solid var(--line);padding:38px 0 46px;color:var(--chalk-di
     <div class="demo-copy">
       <div class="eyebrow">Live demo — go ahead, tap it</div>
       <h2 class="display" style="font-size:clamp(40px,6vw,64px);margin:10px 0 12px">One app.<br>Every fanbase.</h2>
-      <p>This is the working Fan Map prototype — the full beta feature set, tappable. Switch teams to see how the same experience serves a college alumni base, an NFL supporter network, and an English football club — each with its own colors, venues, and gear.</p>
+      <p>This is the working Fan Map prototype — the full beta feature set, tappable. Arkansas is the flagship build: real alumni chapters, real venues, and the real 2026 schedule. Switch teams to see how the same experience serves a college alumni base, an NFL supporter network, and an English football club — each with its own colors, venues, and gear.</p>
       <div class="team-picker" id="teamPicker" role="tablist" aria-label="Choose a team"></div>
       <p class="hint">Things to try: tap an <b>event</b> for the full RSVP screen · <b>Map → Tailgate Mode</b> · <b>Profile</b> for giving back, friends, and text invites · the <b>🔔 bell</b> for notifications.</p>
       <button class="replay" id="replayOb">↺ Replay the onboarding flow</button>
@@ -516,6 +517,22 @@ nums.forEach(n=>io.observe(n));
 
 /* ============ DEMO DATA ============ */
 const TEAMS={
+ uark:{name:'Arkansas',short:'ARKANSAS RAZORBACKS',c1:'#9D2235',c2:'#ffffff',league:'NCAA · SEC',fan:'Hogs',total:33,
+  pins:[{x:12,y:7.5},{x:12.6,y:8.2},{x:10.5,y:9.5},{x:11,y:7},{x:18,y:4.5},{x:19.5,y:5.5},{x:20.5,y:4.5},{x:3.5,y:6}],
+  venues:[
+   {n:'Grubs Bar & Grill',city:'Rogers, AR',a:'3001 S Market St, Rogers, AR · NWA chapter',v:1},
+   {n:"Bugsy's",city:'Fayetteville, AR',a:'Dickson Street · NWA chapter socials',v:1},
+   {n:'Barcadia',city:'Dallas, TX',a:'1917 N Henderson Ave, Dallas, TX 75206 · Dallas chapter',v:1},
+   {n:'Bricktown Brewery',city:'Tulsa, OK',a:'3301 S Peoria Ave, Tulsa, OK 74105 · Tulsa chapter',v:1},
+   {n:"Walter's",city:'Washington, DC',a:'10 N St SE, Washington, DC · DC chapter',v:1},
+   {n:"Shorty's GoodTimes Bar",city:'Pittsburgh, PA',a:'353 N Shore Dr, Pittsburgh, PA 15212 · Pittsburgh community',v:1},
+   {n:'New York City Chapter',city:'New York, NY',a:'Chapter watch party venue on file',v:1},
+   {n:'Las Vegas Chapter',city:'Las Vegas, NV',a:'Chapter watch party venue on file',v:1}],
+  events:[
+   {g:'ARKANSAS vs NORTH ALABAMA',d:'SEP 5',v:'Grubs Bar & Grill',l:'Rogers, AR · Season opener · Silverfield era begins',c:58},
+   {g:'ARKANSAS vs GEORGIA',d:'SEP 19',v:'Barcadia',l:'Dallas, TX · Dallas chapter watch party',c:112},
+   {g:'ARKANSAS vs LSU · GOLDEN BOOT',d:'NOV 28',v:'All chapters nationwide',l:'Battle for the Golden Boot · coordinated watch party',c:203}],
+  gear:[{e:'👕',n:'Arkansas Replica Jersey',p:'$129.99'},{e:'🐗',n:'Woo Pig Game Day Hoodie',p:'$74.99'},{e:'🧢',n:'Cardinal Adjustable Cap',p:'$32.99'},{e:'🧣',n:'Cardinal & White Scarf',p:'$29.99'}]},
  asu:{name:'Arizona State',short:'ARIZONA STATE',c1:'#8C1D40',c2:'#FFC627',league:'NCAA · Big 12',fan:'Devils',total:31,
   pins:[{x:4.5,y:8},{x:4.8,y:9.2},{x:14,y:4},{x:21.5,y:3.8},{x:20.5,y:4.5},{x:8,y:5.5},{x:19.5,y:5.5},{x:2,y:7}],
   venues:[
@@ -600,6 +617,7 @@ const TEAMS={
 
 /* ============ DEMO ENGINE v2 — full beta feature set ============ */
 const META={
+ uark:{sport:'College Football',college:true,school:'University of Arkansas',stadium:'Razorback Stadium',scity:'Fayetteville, AR',tailnote:'🐗 Hog Wild Tailgate · Janelle Y. Hembree Alumni House — starts 2½ hours before every home kickoff'},
  asu:{sport:'College Football',college:true,school:'Arizona State University',stadium:'Mountain America Stadium',scity:'Tempe, AZ'},
  bama:{sport:'College Football',college:true,school:'The University of Alabama',stadium:'Bryant–Denny Stadium',scity:'Tuscaloosa, AL'},
  psu:{sport:'College Football',college:true,school:'Penn State University',stadium:'Beaver Stadium',scity:'State College, PA'},
@@ -610,7 +628,7 @@ const META={
 const SPORTS=['College Football','NFL','NBA','MLB','Soccer','Rugby','Cricket'];
 const CONTACTS=[{n:'Sarah Mitchell',p:'(480) 555-0134'},{n:'Mike Torres',p:'(602) 555-0177'},{n:'Dana Kim',p:'(415) 555-0122'},{n:'Chris Boone',p:'(206) 555-0190'}];
 
-let curTeam='asu', curTab='map', view=null, obStep=null;
+let curTeam='uark', curTab='map', view=null, obStep=null;
 let radius=25, rsvpState={}, follows={}, friendAccepted=false, checkedIn={}, invitesSel={0:true,1:true,2:true};
 let donatedTotal=0, tailPins=0, unread=true;
 let customEvents={}, notifs=[
@@ -833,6 +851,7 @@ function renderView(t,m){
     h+=`<div class="tail-banner">✈️ Offline map · ${m.stadium} area · downloaded — works with zero bars</div>`;
     h+=`<div class="p-map"><svg id="miniMap" viewBox="0 0 500 300"></svg></div>`;
     h+=`<div class="p-count">${3+tailPins} tailgates pinned near ${m.stadium}${tailPins?` · <b>yours is live</b>`:''}</div>`;
+    if(m.tailnote)h+=`<div class="v-card"><div class="v-city">Official alumni tailgate</div><div class="v-addr" style="color:#c8ccd2">${m.tailnote}</div></div>`;
     h+=`<button class="p-cta" onclick="tailPins++;pushNotif('📌','Pin shared','Your tailgate pin went to 4 friends by SMS.');act('Pin dropped — shared with 4 friends via SMS 📌')">📌 Drop my tailgate pin</button>`;
     h+=`<button class="p-cta ghost" onclick="act('Walking directions to Lot 59 — offline 🧭')">🧭 Navigate to a friend's tailgate</button>`;
     return h;
