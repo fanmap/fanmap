@@ -272,6 +272,27 @@ section{padding:88px 0}
 .partner-cta{display:flex;flex-wrap:wrap;align-items:center;gap:18px;background:var(--ink2);border:1px solid var(--line);border-radius:var(--radius);padding:28px}
 .partner-cta p{color:var(--chalk-dim);flex:1;min-width:240px}
 
+/* ---------- business (hidden until opened) ---------- */
+#business{display:none;background:#0a0d10;border-top:1px solid var(--line)}
+#business.open{display:block}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:38px}
+.tier{background:var(--ink2);border:1px solid var(--line);border-radius:var(--radius);padding:28px 24px;display:flex;flex-direction:column}
+.tier.hot{border-color:rgba(217,164,65,.55);background:linear-gradient(170deg,#221a0d,#14110a)}
+.tier h4{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:.03em}
+.tier .price{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:44px;color:var(--brass);margin:6px 0 2px}
+.tier .per{font-size:13px;color:var(--chalk-dim);margin-bottom:16px}
+.tier ul{list-style:none;flex:1}
+.tier li{font-size:14.5px;color:var(--chalk-dim);padding:6px 0;border-bottom:1px solid var(--line)}
+.tier li:last-child{border-bottom:0}
+.tier li::before{content:'\2713  ';color:#7ee2a8}
+.tier .tag-pop{align-self:flex-start;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);border:1px solid rgba(217,164,65,.5);border-radius:999px;padding:3px 10px;margin-bottom:10px}
+@media(max-width:860px){.tiers{grid-template-columns:1fr}}
+.biz-cta{display:flex;flex-wrap:wrap;align-items:center;gap:18px;background:var(--ink2);border:1px solid var(--line);border-radius:var(--radius);padding:26px;margin-top:26px}
+.biz-cta p{color:var(--chalk-dim);flex:1;min-width:240px}
+.biz-close{background:none;border:1px solid var(--line);border-radius:999px;color:var(--chalk-dim);font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase;padding:8px 18px;cursor:pointer;margin-top:26px}
+.foot-biz{background:none;border:0;color:#7d8288;font-size:13px;cursor:pointer;text-decoration:underline;padding:0;font-family:'Barlow',sans-serif}
+.foot-biz:hover{color:var(--chalk-dim)}
+
 /* ---------- footer ---------- */
 footer{border-top:1px solid var(--line);padding:38px 0 46px;color:var(--chalk-dim);font-size:14px}
 .foot-in{display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:center}
@@ -442,6 +463,46 @@ footer{border-top:1px solid var(--line);padding:38px 0 46px;color:var(--chalk-di
   </div>
 </section>
 
+<!-- ============ FOR BUSINESSES (hidden; opens via footer link or #business) ============ -->
+<section id="business">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">For bars, restaurants &amp; partners</div>
+      <h2 class="display">Put your business on the map.</h2>
+      <p>Fan groups already know where they're watching — make sure it's your place. Venues subscribe to reach every fan of the teams they show, within 50 miles.</p>
+    </div>
+    <div class="tiers" style="grid-template-columns:repeat(2,1fr);max-width:760px">
+      <div class="tier">
+        <h4>Basic</h4>
+        <div class="price">$50</div><div class="per">per month</div>
+        <ul>
+          <li>List your watch parties</li>
+          <li>Venue profile with hours &amp; contact</li>
+          <li>Team affiliations on the map</li>
+        </ul>
+      </div>
+      <div class="tier hot">
+        <span class="tag-pop">Best value</span>
+        <h4>Premium</h4>
+        <div class="price">$100</div><div class="per">per month</div>
+        <ul>
+          <li>Everything in Basic</li>
+          <li>Priority placement in search</li>
+          <li>Photo gallery &amp; promotions</li>
+          <li>Watch party calendar</li>
+          <li>Analytics dashboard</li>
+          <li>Direct messaging to followers</li>
+        </ul>
+      </div>
+    </div>
+    <div class="biz-cta">
+      <p><b style="color:var(--chalk)">Beta venues get their first month free.</b> Want your bar listed, or interested in a merch or ticketing partnership? Get in touch and we'll set you up.</p>
+      <a class="btn btn-solid" href="mailto:partners@fanmap.com">partners@fanmap.com</a>
+    </div>
+    <button class="biz-close" onclick="toggleBusiness(false)">✕ Close business info</button>
+  </div>
+</section>
+
 <!-- ============ FOOTER ============ -->
 <footer>
   <div class="wrap">
@@ -450,7 +511,7 @@ footer{border-top:1px solid var(--line);padding:38px 0 46px;color:var(--chalk-di
         <svg class="mk-pin" viewBox="0 0 120 120" aria-hidden="true" width="18" height="18"><path d="M60 6 C35 6 16 25 16 49 C16 80 60 114 60 114 C60 114 104 80 104 49 C104 25 85 6 60 6 Z" fill="#ffffff"/><path d="M60 28 L64.1 39.3 L76.2 39.7 L66.7 47.2 L70 58.8 L60 52 L50 58.8 L53.3 47.2 L43.8 39.7 L55.9 39.3 Z" fill="#0b2a4a"/></svg>
         <span class="display" style="font-size:22px">FAN<span style="color:var(--pin)">MAP</span></span>
       </a>
-      <span>fanmap.com · Find Your Fanhood</span>
+      <span>fanmap.com · Find Your Fanhood &nbsp;·&nbsp; <button class="foot-biz" onclick="toggleBusiness(true)">Bar or restaurant owner? Pricing here</button></span>
     </div>
     <p class="legal">Team and league names are used for identification only. Fan Map is an independent platform and is not sponsored by or affiliated with any team, league, or university. Demo shows sample data drawn from the Fan Map research database; product imagery is illustrative.</p>
   </div>
@@ -614,6 +675,16 @@ const TEAMS={
    {g:'SUNDERLAND at ARSENAL',d:'SEP 12',v:'Sunderland Supporters · Chicago',l:'Chicago, IL · Early kickoff breakfast club',c:31}],
   gear:[{e:'👕',n:'Sunderland Home Shirt 26/27',p:'$99.99'},{e:'🧣',n:'Red & White Bar Scarf',p:'$27.99'},{e:'🧢',n:'Crest Cap',p:'$29.99'},{e:'🧥',n:'Training Jacket',p:'$89.99'}]}
 };
+
+/* ============ BUSINESS SECTION TOGGLE ============ */
+function toggleBusiness(open){
+  const s=document.getElementById('business');
+  s.classList.toggle('open',open);
+  if(open)s.scrollIntoView({behavior:'smooth'});
+  else window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'});
+}
+if(location.hash==='#business'){document.getElementById('business').classList.add('open');setTimeout(()=>document.getElementById('business').scrollIntoView(),100);}
+window.addEventListener('hashchange',()=>{if(location.hash==='#business')toggleBusiness(true);});
 
 /* ============ DEMO ENGINE v2 — full beta feature set ============ */
 const META={
