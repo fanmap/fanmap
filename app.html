@@ -107,6 +107,16 @@
   .school-swatch{width:52px;height:52px;border-radius:14px;background:var(--sc);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--scText,#fff);}
   .school-name{font-family:'Bebas Neue',sans-serif;font-size:26px;line-height:1;}
   .school-meta{font-size:12px;color:var(--dim);margin-top:4px;}
+  .team-picker{width:100%;max-width:520px;margin:0 auto 16px;padding:18px;background:var(--surface);border:1px solid var(--line);border-radius:18px;}
+  .team-picker-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;text-align:left;}
+  .team-picker label{display:block;font-size:11px;color:var(--dim);font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px;}
+  .team-picker select{width:100%;min-height:46px;padding:10px 36px 10px 12px;border:1px solid var(--line);border-radius:11px;background:var(--bg);color:var(--text);font:600 14px 'DM Sans',sans-serif;}
+  .team-picker select:focus{border-color:var(--team);outline:2px solid var(--team-soft);}
+  .team-picker .team-field{grid-column:1/-1;}
+  .team-picker-status{min-height:20px;margin:10px 2px 0;color:var(--dim);font-size:12px;line-height:1.5;text-align:left;}
+  #schoolList{width:100%;max-width:520px;}
+  #schoolList .school-card{max-width:none;}
+  @media(max-width:520px){.team-picker-grid{grid-template-columns:1fr}.team-picker .team-field{grid-column:auto;}}
   .w-more{font-size:12px;color:var(--faint);margin-top:18px;}
 
   /* ---------- Home ---------- */
@@ -302,7 +312,16 @@ header{gap:12px}header .team-pill{min-width:0;max-width:calc(100% - 124px)}
       <h1 class="bebas" style="font-size:32px;font-weight:400;margin-bottom:8px">Your team. Your people.</h1>
       <p class="sub" style="margin-bottom:20px">Choose a display name and team to try watch parties, tailgates, and the fan board. No real account is created.</p>
       <div class="fgrid"><div class="full"><label for="accountName">Display name</label><input id="accountName" autocomplete="nickname" maxlength="60" required></div><div class="full"><label for="accountCity">Home city (optional)</label><input id="accountCity" autocomplete="address-level2" maxlength="80"></div></div>
-      <h2 class="bebas" style="font-weight:400;margin:20px 0 12px">Choose your team</h2><div id="schoolList" role="group" aria-label="Choose your permanent team"></div>
+      <h2 class="bebas" style="font-weight:400;margin:20px 0 12px">Choose your team</h2>
+      <div class="team-picker">
+        <div class="team-picker-grid">
+          <div><label for="teamCategory">Sport or category</label><select id="teamCategory"></select></div>
+          <div><label for="teamLeague">League or conference</label><select id="teamLeague"></select></div>
+          <div class="team-field"><label for="teamChoice">Team</label><select id="teamChoice"></select></div>
+        </div>
+        <p class="team-picker-status" id="teamPickerStatus" role="status"></p>
+      </div>
+      <div id="schoolList" role="group" aria-label="Selected permanent team"></div>
       <label class="check-row"><input id="teamConfirm" type="checkbox" required><span>I understand my team is permanent. To choose another, I must delete my Fan Map account and register again.</span></label>
       <button class="btn wide" type="submit" id="createAccount">Create preview profile &amp; enter</button>
       <p id="signupError" class="error" role="alert"></p>
@@ -471,6 +490,19 @@ const FEEDBACK_EMAIL = "";
 
 let SCHOOLS = {};
 
+const TEAM_CATEGORIES=['College','NFL','MLB','NHL','NBA','Soccer','Rugby','Cricket'];
+const TEAM_CATALOG={
+ arkansas:{category:'College',league:'SEC'},
+ bama:{category:'College',league:'SEC'},
+ asu:{category:'College',league:'Big 12'},
+ texas:{category:'College',league:'SEC'},
+ osu:{category:'College',league:'Big Ten'},
+ psu:{category:'College',league:'Big Ten'},
+ panthers:{category:'NFL',league:'NFL'},
+ hawks:{category:'NFL',league:'NFL'},
+ safc:{category:'Soccer',league:'Premier League'}
+};
+
 
 // ---------------- State ----------------
 let S = null;
@@ -494,10 +526,31 @@ function mapsQ(q){ return 'https://www.google.com/maps/dir/?api=1&travelmode=dri
 function textCrew(message,url){openShare('Invite your crew',message,url);}
 // ---------------- Welcome / school select ----------------
 function buildWelcome(){
- const list=$('schoolList');list.innerHTML='';
- teams.forEach(sc=>{const b=document.createElement('button');b.type='button';b.className='school-card';b.dataset.team=sc.key;b.style.setProperty('--sc',sc.theme.team);b.style.setProperty('--scText',sc.theme.swatchText);b.setAttribute('aria-pressed',String(pendingTeam===sc.key));
- b.innerHTML='<div class="school-swatch">'+escapeHTML(sc.display.split(' ').map(w=>w[0]).join('').slice(0,2))+'</div><div><div class="school-name">'+escapeHTML(sc.short)+'</div></div>';
- b.onclick=()=>{pendingTeam=sc.key;document.querySelectorAll('[data-team]').forEach(x=>{x.classList.toggle('selected',x.dataset.team===sc.key);x.setAttribute('aria-pressed',String(x.dataset.team===sc.key));});};list.appendChild(b);});
+ const category=$('teamCategory'),league=$('teamLeague'),choice=$('teamChoice');
+ category.innerHTML=TEAM_CATEGORIES.map(x=>'<option value="'+escapeHTML(x)+'">'+escapeHTML(x)+'</option>').join('');
+ category.value=TEAM_CATALOG[pendingTeam]?.category||'College';
+ const chooseTeam=key=>{pendingTeam=key||null;document.querySelectorAll('[data-team]').forEach(x=>{x.classList.toggle('selected',x.dataset.team===key);x.setAttribute('aria-pressed',String(x.dataset.team===key));});};
+ const renderSelected=()=>{
+  const list=$('schoolList');list.innerHTML='';const sc=teams.find(x=>x.key===choice.value);chooseTeam(sc?.key);
+  if(!sc)return;
+  const b=document.createElement('button');b.type='button';b.className='school-card selected';b.dataset.team=sc.key;b.style.setProperty('--sc',sc.theme.team);b.style.setProperty('--scText',sc.theme.swatchText);b.setAttribute('aria-pressed','true');
+  b.innerHTML='<div class="school-swatch">'+escapeHTML(sc.display.split(' ').map(w=>w[0]).join('').slice(0,2))+'</div><div><div class="school-name">'+escapeHTML(sc.short)+'</div><div class="school-meta">'+escapeHTML(TEAM_CATALOG[sc.key]?.league||'Team')+' · '+sc.locationCount+' locations</div></div>';
+  list.appendChild(b);
+ };
+ const renderTeams=()=>{
+  const matches=teams.filter(sc=>TEAM_CATALOG[sc.key]?.category===category.value&&TEAM_CATALOG[sc.key]?.league===league.value).sort((a,b)=>a.display.localeCompare(b.display));
+  choice.disabled=!matches.length;choice.innerHTML=matches.length?matches.map(sc=>'<option value="'+escapeHTML(sc.key)+'">'+escapeHTML(sc.display)+'</option>').join(''):'<option value="">Teams coming soon</option>';
+  if(matches.some(x=>x.key===pendingTeam))choice.value=pendingTeam;else if(matches.some(x=>x.key==='arkansas'))choice.value='arkansas';
+  $('teamPickerStatus').textContent=matches.length?matches.length+' team'+(matches.length===1?'':'s')+' available in this preview. Choose once—your team locks when you create the account.':'No teams imported for this league yet. Your spreadsheet data can be added here next.';
+  renderSelected();
+ };
+ const renderLeagues=()=>{
+  const leagues=[...new Set(teams.filter(sc=>TEAM_CATALOG[sc.key]?.category===category.value).map(sc=>TEAM_CATALOG[sc.key].league))].sort();
+  league.disabled=!leagues.length;league.innerHTML=leagues.length?leagues.map(x=>'<option value="'+escapeHTML(x)+'">'+escapeHTML(x)+'</option>').join(''):'<option value="">Teams coming soon</option>';
+  const preferredLeague=TEAM_CATALOG[pendingTeam]?.league;if(preferredLeague&&leagues.includes(preferredLeague))league.value=preferredLeague;else if(leagues.includes('SEC'))league.value='SEC';
+  renderTeams();
+ };
+ category.onchange=renderLeagues;league.onchange=renderTeams;choice.onchange=renderSelected;renderLeagues();
 }
 function selectSchool(key){
  if(!profile||profile.team!==key||!Object.hasOwn(SCHOOLS,key))return;
@@ -1132,7 +1185,7 @@ function previewRequireProfile(){if(!previewDb.profile)throw new Error('Create y
 function previewOwned(item){if(!item||!item.own)throw new Error('You can only change your own preview content.');return item;}
 async function api(path,options={}){
  const method=options.method||'GET',b=options.body||{},parts=path.split('/'),id=parts[1];
- const teamList=Object.values(PREVIEW_SCHOOLS).map(({key,short,display,theme})=>({key,short,display,theme}));
+ const teamList=Object.values(PREVIEW_SCHOOLS).map(({key,short,display,theme,chapters})=>({key,short,display,theme,locationCount:chapters.length}));
  if(path==='session')return {authenticated:true,profile:previewDb.profile,teams:teamList};
  if(path==='account'&&method==='POST'){
   if(previewDb.profile)throw new Error('Your team is locked. Delete your preview account to start again.');
