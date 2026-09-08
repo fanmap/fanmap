@@ -119,7 +119,7 @@ const requested = [];
 const localAssets = {
   interceptors: [requestInterceptor((request, {element}) => {
     const u = new URL(request.url);
-    if (u.origin === 'https://fanmap.com' && /^\/assets\/data\/(team-catalog|verified-locations)\.js$/.test(u.pathname)) {
+    if (u.origin === 'https://fanmap.com' && /^\/assets\/data\/(team-catalog|verified-locations|team-colors|team-stadiums)\.js$/.test(u.pathname)) {
       requested.push(u.pathname);
       return new Response(read(u.pathname.slice(1)), {headers: {'Content-Type': 'application/javascript'}});
     }
@@ -158,7 +158,7 @@ const tick = () => new Promise(resolve => setImmediate(resolve));
   const $ = id => w.document.getElementById(id);
   if (w.document.readyState !== 'complete') await new Promise(resolve => w.addEventListener('load', resolve, {once: true}));
   await tick();
-  assert.deepEqual(requested, ['/assets/data/team-catalog.js', '/assets/data/verified-locations.js']);
+  assert.deepEqual(requested, ['/assets/data/team-catalog.js', '/assets/data/verified-locations.js', '/assets/data/team-colors.js', '/assets/data/team-stadiums.js']);
   assert.equal($('signupForm').style.display, 'block', 'Signup starts without a server dependency');
   assert.equal((await w.api('session')).teams.length, 620);
   assert.equal($('teamCategory').options.length, 8);
@@ -190,6 +190,11 @@ const tick = () => new Promise(resolve => setImmediate(resolve));
   assert.equal($('app').style.display, 'block');
   assert.equal((await w.api('session')).profile.team, sample.teamKey);
   assert.match($('teamPillName').textContent, /LOCKED/);
+  const selected=w.eval('S'),palette=w.FANMAP_TEAM_COLORS[sample.teamKey];
+  assert.equal(w.document.documentElement.style.getPropertyValue('--team'),palette.primary);
+  assert.equal(w.document.documentElement.style.getPropertyValue('--team-secondary'),palette.secondary);
+  assert.equal(w.document.documentElement.style.getPropertyValue('--team-on-primary'),palette.onPrimary);
+  assert.deepEqual(copy(w.eval('pinPos')),copy(w.FANMAP_TEAM_STADIUMS[sample.teamKey].start),'Tailgate starts at this team’s home venue');
   const otherTeam = Object.keys(baseline).find(key => key !== sample.teamKey);
   await assert.rejects(w.api('account', {method: 'POST', body: {name: 'Switch attempt', team: otherTeam, confirm: true}}), /locked/i);
   w.selectSchool(otherTeam);
