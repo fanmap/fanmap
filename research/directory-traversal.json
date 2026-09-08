@@ -1,0 +1,1722 @@
+[
+  {
+    "src": "https://alumni.umich.edu/athletics/game-watch-parties/",
+    "teamKey": "college-big-ten-michigan",
+    "pagesReviewed": [
+      "https://alumni.umich.edu/athletics/game-watch-parties/"
+    ],
+    "traversal": "partial",
+    "observedEntries": 18,
+    "acceptedRecords": 18,
+    "unresolved": [
+      {
+        "entry": "Load More / entries after Dallas",
+        "reason": "The web-readable initial view exposes 18 venues. Following Load More returns the same page; later JavaScript results were not inspected."
+      }
+    ]
+  },
+  {
+    "src": "https://alumni.utk.edu/vol-watch-parties/",
+    "teamKey": "college-sec-tennessee",
+    "pagesReviewed": [
+      "https://alumni.utk.edu/vol-watch-parties/",
+      "https://www.halfmoonsportsgrill.com/"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 49,
+    "acceptedRecords": 48,
+    "unresolved": [
+      {
+        "entry": "Memphis — October 10 and November 14, 2026",
+        "reason": "Directory explicitly says Location TBD; no venue name to import."
+      }
+    ]
+  },
+  {
+    "src": "https://www.washington.edu/alumni/event/2026-football-watch-parties/",
+    "teamKey": "college-big-ten-washington",
+    "pagesReviewed": [
+      "https://www.washington.edu/alumni/event/2026-football-watch-parties/"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 17,
+    "acceptedRecords": 17,
+    "unresolved": [
+      {
+        "entry": "Connecticut Yankee, San Francisco",
+        "reason": "Only published date September 6, 2026 has passed; retained with discoveryStatus needs-update."
+      }
+    ]
+  },
+  {
+    "src": "https://www.uoalumni.com/events/football/football-watch-parties",
+    "teamKey": "college-big-ten-oregon",
+    "pagesReviewed": [
+      "https://www.uoalumni.com/events/football/football-watch-parties",
+      "https://www.uoalumni.com/event/athletic/2026/alaska-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/atlanta-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/bay-area-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/boston-ducks-watch-party",
+      "https://www.uoalumni.com/event/2026/central-oregon-ducks-watch-party-bend",
+      "https://www.uoalumni.com/event/2026/central-oregon-ducks-watch-party-redmond",
+      "https://www.uoalumni.com/event/athletic/2026/chicago-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/dallas-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/dc-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/denver-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/desert-ducks-watch-party-avondale",
+      "https://www.uoalumni.com/event/athletic/2026/desert-ducks-watch-party-scottsdale",
+      "https://www.uoalumni.com/event/athletic/2026/hawaii-ducks-watch-party-maui",
+      "https://www.uoalumni.com/event/athletic/2026/hawaii-ducks-watch-party-oahu",
+      "https://www.uoalumni.com/event/athletic/2026/houston-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/idaho-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/la-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/lane-county-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/music-city-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/new-york-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/orange-county-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/pdx-ducks-watch-party-east",
+      "https://www.uoalumni.com/event/athletic/2026/pdx-ducks-watch-party-west",
+      "https://www.uoalumni.com/event/athletic/2026/reno-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/sacramento-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/san-diego-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/seattle-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/singapore-ducks-watch-party-0",
+      "https://www.uoalumni.com/event/athletic/2026/temecula-valley-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/vegas-ducks-watch-party"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 30,
+    "acceptedRecords": 32,
+    "unresolved": [
+      {
+        "entry": "San Diego — September 12",
+        "reason": "National directory excludes the game; detail page says all games. Venue retained with September 12 omitted."
+      },
+      {
+        "entry": "Singapore",
+        "reason": "Location section establishes Singapore address but header says Sacramento; all-games versus selected-games copy conflicts and Pacific dates require local conversion. Venue retained with caveat."
+      },
+      {
+        "entry": "Orange County future venue assignments",
+        "reason": "Daily’s hosts 9 a.m. Pacific kickoffs; default is Buffalo Wild Wings. Future kickoff-dependent assignments are not guessed."
+      }
+    ]
+  },
+  {
+    "src": "https://www.lsualumni.org/watchparties",
+    "teamKey": "college-sec-lsu",
+    "pagesReviewed": [
+      "https://www.lsualumni.org/watchparties"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 42,
+    "acceptedRecords": 41,
+    "unresolved": [
+      {
+        "entry": "Fairhope, AL",
+        "reason": "Listed only as Residential Address; not a named public venue and not imported."
+      },
+      {
+        "entry": "Fort Lauderdale — Shuck N Dive",
+        "reason": "Ole Miss game only with unclear season; retained needs-update."
+      }
+    ]
+  },
+  {
+    "src": "https://www.lsusocal.org/watch-parties",
+    "teamKey": "college-sec-lsu",
+    "pagesReviewed": [
+      "https://www.lsusocal.org/watch-parties"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 2,
+    "acceptedRecords": 2,
+    "unresolved": []
+  },
+  {
+    "src": "https://www.dandydon.com/lsu-alumni-association-view-in-parties-and-announcements/",
+    "teamKey": "college-sec-lsu",
+    "pagesReviewed": [
+      "https://www.dandydon.com/lsu-alumni-association-view-in-parties-and-announcements/"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 26,
+    "acceptedRecords": 14,
+    "unresolved": [
+      {
+        "entry": "Other 12 visible venues",
+        "reason": "Already represented by stronger official/primary indexed listings; deduplicated."
+      },
+      {
+        "entry": "Dates and currency",
+        "reason": "Source explicitly warns many entries are old; all 14 additional leads need updates."
+      }
+    ]
+  },
+  {
+    "src": "https://www.lsualumni.org/lsuaachapters",
+    "teamKey": "college-sec-lsu",
+    "pagesReviewed": [
+      "https://www.lsualumni.org/lsuaachapters",
+      "https://www.lsualumni.org/lsu-alumni-birmingham-chapter",
+      "https://www.lsualumni.org/lsu-alumni-little-rock-chapter",
+      "https://www.lsualumni.org/lsu-alumni-nw-arkansas-chapter",
+      "https://www.lsualumni.org/lsu-alumni-denver-chapter",
+      "https://www.lsualumni.org/lsu-alumni-southwest-florida-chapter",
+      "https://www.lsualumni.org/lsu-alumni-panhandle-chapter",
+      "https://www.lsualumni.org/lsu-alumni-st-louis-chapter",
+      "https://www.lsualumni.org/lsu-alumni-east-tennessee-knoxville",
+      "https://www.lsualumni.org/lsu-alumni-north-houston-chapter",
+      "https://www.lsualumni.org/lsu-alumni-central-virginia-chapter",
+      "https://www.lsualumni.org/indianapolischapter",
+      "https://www.lsualumni.org/lsu-alumni-dallas-chapter",
+      "https://lsudenver.com/events/view-ins/",
+      "https://lsutampabayalumni.org/lsu/football-schedule.html",
+      "https://lsutampabayalumni.org/lsu/maps.html"
+    ],
+    "traversal": "partial",
+    "observedEntries": 46,
+    "acceptedRecords": 2,
+    "unresolved": [
+      {
+        "entry": "11 additionally reviewed chapter pages",
+        "reason": "No named watch venue visible; association footer address is not a local watch-party location."
+      },
+      {
+        "entry": "Dallas interactive directory",
+        "reason": "2026 chapter link could not load. All eight national-directory Dallas venues retained."
+      },
+      {
+        "entry": "Other regional chapter detail pages",
+        "reason": "Not traversed; all named venues from the dedicated national watch-party directory were captured."
+      },
+      {
+        "entry": "Denver / Aviators",
+        "reason": "Imported indexed chapter venue and alternate venue lead with missing address and needs-update caveats."
+      }
+    ]
+  },
+  {
+    "teamKey": "college-sec-georgia",
+    "src": "https://alumni.uga.edu/gamewatching/",
+    "traversal": "partial",
+    "checkedAt": "2026-09-08",
+    "observedEntries": 54,
+    "observedEntryUnit": "53 distinct chapter links plus Greenville without a link; Kansas City appears twice with the same target",
+    "acceptedRecords": 65,
+    "pagesReviewed": [
+      "https://alumni.uga.edu/gamewatching/",
+      "https://calendar.uga.edu/calendar/day/2023/11/11/4",
+      "https://calendar.uga.edu/event/charleston-chapter-game-watching-party-uga-vs-ole-miss-8458",
+      "https://calendar.uga.edu/event/new-orleans-chapter-game-watching-party-uga-vs-florida-2393",
+      "https://calendar.uga.edu/event/portland-chapter-game-watching-party-uga-vs-ole-miss",
+      "https://calendar.uga.edu/event/seattle-chapter-game-watching-party-uga-vs-alabama-2052",
+      "https://calendar.uga.edu/group/uga_alumni_association/calendar",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_charlotte",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_columbus_georgia",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_hampton_roads",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_hawaii",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_indianapolis",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_madison",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_northeast_georgia_mountains",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_northwest_arkansas",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_orlando",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_pittsburgh",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_san_diego",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_sarasota",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_space_coast",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_st_louis_area",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_tampa/calendar",
+      "https://calendar.uga.edu/group/uga_alumni_chapter_-_washington_dc",
+      "https://calendar.uga.edu/group/uga_alumni_chapters",
+      "https://calendar.uga.edu/search?search=Phoenix+Chapter%3A+Game-Watching+Party"
+    ],
+    "chapterLinksAttempted": 53,
+    "chaptersAttempted": [
+      "Albany",
+      "Athens",
+      "Atlanta",
+      "Columbus GA",
+      "Gainesville",
+      "Golden Isles",
+      "Milledgeville",
+      "Northeast Georgia Mountains",
+      "Savannah",
+      "Tifton",
+      "Emerald Coast",
+      "Orlando",
+      "Pensacola/Panhandle",
+      "Sarasota/Manatee",
+      "Space Coast",
+      "Tampa",
+      "New Orleans",
+      "Asheville",
+      "Charlotte",
+      "Charleston",
+      "Hilton Head",
+      "Nashville",
+      "Hampton Roads",
+      "Richmond",
+      "Baltimore",
+      "Boston",
+      "New York City",
+      "Pittsburgh",
+      "Washington DC",
+      "Northwest Arkansas",
+      "Chicago",
+      "Indianapolis",
+      "Kansas City",
+      "Detroit",
+      "St. Louis",
+      "Columbus OH",
+      "Madison",
+      "Phoenix",
+      "Austin",
+      "Dallas-Fort Worth",
+      "Houston",
+      "San Antonio",
+      "San Diego",
+      "Southern California",
+      "Northern Colorado",
+      "Hawaii",
+      "Portland",
+      "Salt Lake City",
+      "Las Vegas",
+      "Seattle",
+      "Jackson Hole",
+      "London",
+      "Mexico City"
+    ],
+    "unresolved": [
+      {
+        "entry": "Athens",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Gainesville",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Golden Isles",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Savannah",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Tifton",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Pensacola/Panhandle",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Asheville",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Hilton Head",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Nashville",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Richmond",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Detroit",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "San Antonio",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Salt Lake City",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Jackson Hole",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "London",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Mexico City",
+        "reason": "Chapter target was attempted; usable current venue details were unavailable due a fetch error/rate limit or missing indexed venue result."
+      },
+      {
+        "entry": "Greenville",
+        "reason": "Visible city name has no watch-party link."
+      },
+      {
+        "entry": "Tampa calendar page 2",
+        "reason": "Page 1 supplied all three observed venues; next page not reviewed."
+      },
+      {
+        "entry": "National alumni calendar pages 2-27",
+        "reason": "Page 1 fully reviewed. Pages 2, 3 and 4 failed (fetch error / HTTP 429), remaining pages not reviewed."
+      },
+      {
+        "entry": "Historical national calendar 2023-11-11 pages 1-3",
+        "reason": "Page 4 reviewed; attempts to open pages 1-3 failed."
+      },
+      {
+        "entry": "Precise municipalities / venue branches",
+        "reason": "Several regional chapter pages state only a chapter region. Records retain that region and flag missing street address / exact municipality; no coordinates invented."
+      }
+    ],
+    "notes": "National chapter index completely enumerated and every distinct linked target attempted. This is not a claim that all historical/current calendar event pages were traversed. Added all distinct named venues observed, including older dates marked needs-update. Georgia source could be expanded further when calendar fetches recover."
+  },
+  {
+    "teamKey": "college-sec-oklahoma",
+    "src": "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1493&sid=1720",
+    "traversal": "partial",
+    "checkedAt": "2026-09-08",
+    "observedEntries": 20,
+    "observedEntryUnit": "18 accepted named venues plus Birmingham and Coachella Valley contact-only rows; national total unknown",
+    "acceptedRecords": 18,
+    "pagesReviewed": [
+      "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1154&sid=1720",
+      "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1157&sid=1720",
+      "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1161&sid=1720",
+      "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1493&sid=1720",
+      "https://www.oucluboftulsa.com/s/1720/bp18/interior.aspx?gid=5&pgid=1147&sid=1720"
+    ],
+    "readingMode": "Indexed official search extracts; national direct page returns redirect loop",
+    "unresolved": [
+      {
+        "entry": "National watch-party table",
+        "reason": "Direct request loops redirects; full national row count and complete traversal unavailable. Indexed excerpts recovered 14 national venue rows."
+      },
+      {
+        "entry": "Birmingham",
+        "reason": "Contact instructions only; no venue published in observed row."
+      },
+      {
+        "entry": "Coachella Valley",
+        "reason": "Contact instructions only; no venue published in observed row."
+      },
+      {
+        "entry": "Atlanta",
+        "reason": "Search result indicates an older location beginning Hudson; incomplete name excluded."
+      },
+      {
+        "entry": "San Antonio",
+        "reason": "Social search result provides incomplete address and no retained exact source URL; excluded."
+      },
+      {
+        "entry": "Other national regions",
+        "reason": "Searches for New York, San Francisco, Portland, Seattle, Washington and Nashville did not expose named Oklahoma venue details. Not evidence of no watch location."
+      },
+      {
+        "entry": "Undated national listing",
+        "reason": "Source labels Season without a visible year. Venues are launch discovery content and require later host confirmation."
+      },
+      {
+        "entry": "Branch / street address gaps",
+        "reason": "Venue names retained with published chapter region when exact branch/address unknown."
+      }
+    ]
+  },
+  {
+    "teamKey": "college-sec-florida",
+    "src": "https://connect.ufalumni.ufl.edu/network/gator-clubs-and-affiliate-groups",
+    "traversal": "partial",
+    "checkedAt": "2026-09-08",
+    "observedEntries": null,
+    "acceptedRecords": 0,
+    "pagesReviewed": [
+      "https://connect.ufalumni.ufl.edu/home",
+      "https://connect.ufalumni.ufl.edu/network/gator-clubs-and-affiliate-groups"
+    ],
+    "unresolved": [
+      {
+        "entry": "Club directory traversal",
+        "reason": "Not yet traversed; parent prioritized saving Georgia and Oklahoma. National club landing page reviewed only."
+      }
+    ]
+  },
+  {
+    "teamKey": "college-sec-lsu",
+    "src": "https://www.lsualumni.org/lsuaachapters",
+    "traversal": "partial",
+    "checkedAt": "2026-09-08",
+    "observedEntries": null,
+    "acceptedRecords": 0,
+    "pagesReviewed": [
+      "https://www.lsualumni.org/lsuaachapters"
+    ],
+    "unresolved": [
+      {
+        "entry": "Chapter venue traversal",
+        "reason": "Index reviewed; venue traversal reassigned to college A agent. Use its audit for completed LSU results."
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-baltimore-ravens",
+    "src": "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups",
+    "pagesReviewed": [
+      "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 80,
+    "acceptedRecords": 78,
+    "unresolvedEntries": [
+      {
+        "name": "Central Florida Ravens Flock",
+        "city": "Longwood, FL",
+        "reason": "Club listed without named venue."
+      },
+      {
+        "name": "Tampa Ravens Flock — Tampa Location",
+        "reason": "Duplicate listing of Thomas P’s at 12836 Henderson Road, already accepted."
+      }
+    ],
+    "notes": "Every visible domestic directory entry reviewed. City/ZIP contradictions recorded; no coordinates inferred. International flocks are separate and not reviewed here."
+  },
+  {
+    "teamKey": "nfl-nfl-minnesota-vikings",
+    "src": "https://www.vikings.com/fans/clubs-watch-bars",
+    "pagesReviewed": [
+      "https://www.vikings.com/fans/clubs-watch-bars"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 106,
+    "acceptedRecords": 50,
+    "unresolvedEntries": [
+      {
+        "name": "Anchorage — Arctic Vikings Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Fresno — Central California Vikings Fan Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Huntington Beach — Orange County Minnesota Vikings",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Sacramento — Northern California MN Vikings Fan Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "San Bernardino — Inland Empire Viking Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Denver — SKOLORADO",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Fort Collins — Northern Colorado MN Vikings Fan Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Deltona — Central Florida Vikings",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Ft. Lauderdale — The Purple Palm Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Jacksonville — First Coast SKOL Crew",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Naples — Naples Vikings Fans",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Orlando — Orlando Vikings Fan Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Pompano Beach — So Flo MN Vikings Fans",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Tampa Bay — Tampa Bay Norsemen",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Atlanta — Skol Atlanta",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Honolulu — 808 Vikings Fans",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Chicago — Chicago Vikings Fans",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Chicago — Cook County Vikings Fan Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Quad Cities — Quad Cities Norsemen",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Louisville — Derby City Norsemen",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "New Orleans — Skol Dat",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Boston — Skol Boston",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Kansas City — MN Vikings Fan Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "St. Louis — MN Vikings Fan Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "New York City — SKOL NYC",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Raleigh — Raleigh Area Minnesota Vikings Group",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Wilmington — North Carolina Norsemen",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Columbus — The Central Ohio Minnesota Vikings Fan Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Portland — SKOL PDX",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Philadelphia — Philadelphia/New Jersey Vikings Fans",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Memphis — The Purple Pit",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Nashville — Nashville Norsemen",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Austin — MN Vikings Fan Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "El Paso — Minnesota Vikings Fan Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Houston — Purple Haven",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Houston — Space City Skoldiers",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "San Antonio — MVFSA",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "San Antonio — Minnesota Vikings — The Alamo City",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Arlington — NoVaVikes",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Seattle — Minnesota Vikings Fanmily Seattle",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Minnesota Vikings Brasil",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Vikings France",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Italian Vikings",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Minnesota Vikings Fan Club Sweden",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Minnesota Vikings Fans Germany e.V.",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "SKOL Vikings Monterrey",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Vikings Guadalajara",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Vikings Mexico",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Vikings México",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Skol Vikings CdMx",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Skol Vikings Chihuahua",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Skol Vikings Laguna",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Skol Vikings Puebla",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Swiss Vikes",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "UK & Ireland MN Vikings Fan Club",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      },
+      {
+        "name": "Vikings Spain",
+        "reason": "Club entry on overview gives no explicit venue; linked club page not exhaustively reviewed."
+      }
+    ],
+    "notes": "All 50 watch-bar rows and 56 club rows on overview reviewed. Minnesota watch bars are separate external map, not traversed. Club contacts not republished."
+  },
+  {
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "src": "https://fanclubs.patriots.com/search",
+    "pagesReviewed": [
+      "https://fanclubs.patriots.com/search?page=1",
+      "https://fanclubs.patriots.com/search?page=2",
+      "https://fanclubs.patriots.com/search?page=3",
+      "https://fanclubs.patriots.com/search?page=4",
+      "https://fanclubs.patriots.com/search?page=5",
+      "https://fanclubs.patriots.com/search?page=6",
+      "https://fanclubs.patriots.com/search?page=7",
+      "https://fanclubs.patriots.com/search?page=8",
+      "https://fanclubs.patriots.com/search?page=9",
+      "https://fanclubs.patriots.com/search?page=10",
+      "https://fanclubs.patriots.com/search?page=11",
+      "https://fanclubs.patriots.com/search?page=12",
+      "https://fanclubs.patriots.com/search?page=13",
+      "https://fanclubs.patriots.com/search?page=14",
+      "https://fanclubs.patriots.com/search?page=15",
+      "https://fanclubs.patriots.com/search?page=16",
+      "https://fanclubs.patriots.com/search?page=17",
+      "https://fanclubs.patriots.com/search?page=18",
+      "https://fanclubs.patriots.com/search?page=19",
+      "https://fanclubs.patriots.com/search?page=20",
+      "https://fanclubs.patriots.com/search?page=21",
+      "https://fanclubs.patriots.com/search?page=22",
+      "https://fanclubs.patriots.com/search?page=23",
+      "https://fanclubs.patriots.com/search?page=24",
+      "https://fanclubs.patriots.com/search?page=25",
+      "https://fanclubs.patriots.com/search?page=26"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 502,
+    "acceptedRecords": 272,
+    "unresolvedEntries": [
+      {
+        "name": "UK Patriots",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "KY Patriots",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "The P-10 Patriot Nuts",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "VA Beach Patriots Fans",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "New German Patriots",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Patrick Pass Fan Club",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Belgian Patriots Fanatics",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Philadelphia Patriots",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Patriots of Maine",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Serbia Patriots",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Patriots of Brazil",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Western Mass Patriots Fans",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Pikes Peak Pats",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "The New England Patriots Supporters Club of Queensland",
+        "page": 1,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "New England Patriots Fan Club of West Central Florida",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Pats Fans of Abington",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "The Instigator's Ski Club",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "#1 Pat's Fans of Wilmington, NC",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "DC Area Patriots Fan Club",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Jerry's Pats Page",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Old School Patriot Faithfuls",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Patriots Fan Club of St. Cloud, Florida",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "East to West Patriot Fans",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "New England Patriot Fan Club",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "The Only Indy Pats club!",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "Pats Fan Miami",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "The Jersey Crew",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "name": "New Berlin Patriots",
+        "page": 2,
+        "reason": "No named public venue in directory excerpt; possible mailing/home address not imported."
+      },
+      {
+        "page": 3,
+        "name": "Club-only and mailing-address entries",
+        "reason": "No named public watch venue in the rendered listing; mailing/residential addresses were not imported."
+      },
+      {
+        "page": 4,
+        "name": "Piper's Patriots",
+        "reason": "Inspected full profile; historical pub identification and search leads suggest successor businesses. Held for current-name check."
+      },
+      {
+        "page": 4,
+        "name": "Palm Beach Patriots",
+        "reason": "Registry explicitly says inactive/venue issues."
+      },
+      {
+        "page": 5,
+        "name": "Social-only clubs and unnamed meetup groups",
+        "reason": "No identifiable named public venue in rendered entry."
+      },
+      {
+        "page": 7,
+        "name": "Patriot Nation Zealots of Celebration",
+        "reason": "Registry says searching for a new home."
+      },
+      {
+        "page": 7,
+        "name": "PatriotsarmyNRW older venues",
+        "reason": "Full profile explicitly supersedes historical Essen and Duisburg-Walsum locations with Burgerhof."
+      },
+      {
+        "page": 8,
+        "name": "TRUE Pats Fans",
+        "reason": "Described family home fan cave; not a public venue."
+      },
+      {
+        "page": 9,
+        "name": "No Longer Active",
+        "reason": "Registry explicitly says inactive."
+      },
+      {
+        "page": 14,
+        "name": "M-D",
+        "reason": "Named bar but no city; insufficient location detail."
+      },
+      {
+        "page": 17,
+        "name": "Joes Down Below The Red Dog Tavern",
+        "reason": "Two registry rows describe it only as Home; public-venue status unclear, address excluded."
+      },
+      {
+        "page": 19,
+        "name": "P10 Tailgating Association",
+        "reason": "Tailgate parking-lot gathering; not a watch-party bar. Retain separate tailgate lead."
+      },
+      {
+        "page": 20,
+        "name": "305 Sports Bar",
+        "reason": "No city or street address in list."
+      },
+      {
+        "page": 21,
+        "name": "Club-only entries",
+        "reason": "No public venue name in rendered listings; personal/mailing addresses omitted."
+      },
+      {
+        "page": 22,
+        "name": "The Sandbox",
+        "reason": "No city or street address."
+      },
+      {
+        "page": 23,
+        "name": "Father Foxboro's Patriots Fan Club",
+        "reason": "Pre-game Lot 55B gathering; separate tailgate lead, not watch-party bar."
+      },
+      {
+        "page": 23,
+        "name": "Lewis' Bar and Grill; WOGERERs",
+        "reason": "No city or street address in list."
+      },
+      {
+        "page": 24,
+        "name": "Tailgater2000",
+        "reason": "Parking-lot tailgate gathering; not watch-party bar."
+      },
+      {
+        "page": 25,
+        "name": "Jake & Joe's",
+        "reason": "No city or branch address."
+      },
+      {
+        "page": 25,
+        "name": "PATRIOTS NATION HTX",
+        "reason": "Full club profile inspected; street address supplied but no venue named."
+      },
+      {
+        "page": 25,
+        "name": "Other club-only entries",
+        "reason": "No named public venue, or club address not explicitly established as public watch location."
+      }
+    ],
+    "notes": "All 26 visible result pages reviewed. Individual club profiles not exhaustively traversed. Cached registry totals varied 502/504/505; 502 rendered entries were reviewed across our page snapshots. Public named venues retained; mailing/home addresses not promoted to venues. Details in patriots-directories.json. Arizona club uses club-site address rather than conflicting registry street number.",
+    "pages": [
+      {
+        "page": 1,
+        "url": "https://fanclubs.patriots.com/search?page=1",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20
+      },
+      {
+        "page": 2,
+        "url": "https://fanclubs.patriots.com/search?page=2",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20
+      },
+      {
+        "page": 3,
+        "url": "https://fanclubs.patriots.com/search?page=3",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 4,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 4,
+        "url": "https://fanclubs.patriots.com/search?page=4",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 2,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 5,
+        "url": "https://fanclubs.patriots.com/search?page=5",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 5,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 6,
+        "url": "https://fanclubs.patriots.com/search?page=6",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 3,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 7,
+        "url": "https://fanclubs.patriots.com/search?page=7",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 10,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 8,
+        "url": "https://fanclubs.patriots.com/search?page=8",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 5,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 9,
+        "url": "https://fanclubs.patriots.com/search?page=9",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 6,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 10,
+        "url": "https://fanclubs.patriots.com/search?page=10",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 20,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 11,
+        "url": "https://fanclubs.patriots.com/search?page=11",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 20,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 12,
+        "url": "https://fanclubs.patriots.com/search?page=12",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 20,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 13,
+        "url": "https://fanclubs.patriots.com/search?page=13",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 18,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 14,
+        "url": "https://fanclubs.patriots.com/search?page=14",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 19,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 15,
+        "url": "https://fanclubs.patriots.com/search?page=15",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 19,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 16,
+        "url": "https://fanclubs.patriots.com/search?page=16",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 18,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 17,
+        "url": "https://fanclubs.patriots.com/search?page=17",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 18,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 18,
+        "url": "https://fanclubs.patriots.com/search?page=18",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 17,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 19,
+        "url": "https://fanclubs.patriots.com/search?page=19",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 16,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 20,
+        "url": "https://fanclubs.patriots.com/search?page=20",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 4,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 21,
+        "url": "https://fanclubs.patriots.com/search?page=21",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 6,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 22,
+        "url": "https://fanclubs.patriots.com/search?page=22",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 11,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 23,
+        "url": "https://fanclubs.patriots.com/search?page=23",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 8,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 24,
+        "url": "https://fanclubs.patriots.com/search?page=24",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 14,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 25,
+        "url": "https://fanclubs.patriots.com/search?page=25",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 20,
+        "capturedVenueRecords": 15,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      },
+      {
+        "page": 26,
+        "url": "https://fanclubs.patriots.com/search?page=26",
+        "opened": true,
+        "renderedListReviewed": true,
+        "observedEntries": 2,
+        "capturedVenueRecords": 2,
+        "note": "Rendered directory entries inspected manually. Club-only entries without a named public venue omitted; individual club profiles were not exhaustively traversed."
+      }
+    ],
+    "sourceDetailsOpened": [
+      "https://fanclubs.patriots.com/club/patriotsarmynrw",
+      "https://fanclubs.patriots.com/club/patriots-fans-of-tampa-bay",
+      "https://fanclubs.patriots.com/club/patriots-nation-htx",
+      "https://fanclubs.patriots.com/club/pipers-patriots-1423",
+      "https://fanclubs.patriots.com/bar/jacksons-lodo",
+      "https://jacksonslodo.com/"
+    ],
+    "limits": "Directory-submitted launch content, not a current-business verification sweep. Includes international entries and old listings with explicit notes; no invented coordinates or event schedules. Missing-venue club profiles need deeper follow-up. Counts refer to the rendered pages reviewed; cached registry totals vary."
+  },
+  {
+    "teamKey": "nfl-nfl-new-york-giants",
+    "src": "https://www.giants.com/barnetwork/",
+    "pagesReviewed": [
+      "https://www.giants.com/barnetwork/"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 84,
+    "acceptedRecords": 84,
+    "unresolvedEntries": [],
+    "notes": "All visible bar network rows reviewed; branch-specific venue names preserve multiple locations in same city. Jets duplicate Bleecker listing collapsed; scheduled-party section handled separately."
+  },
+  {
+    "teamKey": "nfl-nfl-new-york-jets",
+    "src": "https://www.newyorkjets.com/fans/bar-network",
+    "pagesReviewed": [
+      "https://www.newyorkjets.com/fans/bar-network"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 87,
+    "acceptedRecords": 83,
+    "unresolvedEntries": [
+      {
+        "name": "Bleeker Street Bar",
+        "reason": "Duplicate spelling of Bleecker Street Bar, same 648 Broadway address."
+      },
+      {
+        "name": "Stout NYC — September 27, 2026 watch party",
+        "reason": "Specific branch TBD; four standing Stout network venues accepted separately."
+      },
+      {
+        "name": "Blackjack Mulligans — October 10, 2026",
+        "reason": "Event listing says Sunday October 10 but weekday/date disagree. Venue can be discovery lead pending date review."
+      }
+    ],
+    "notes": "All visible bar network rows reviewed; branch-specific venue names preserve multiple locations in same city. Jets duplicate Bleecker listing collapsed; scheduled-party section handled separately."
+  },
+  {
+    "teamKey": "nfl-nfl-chicago-bears",
+    "src": "https://www.chicagobears.com/fan-zone/bears-bars",
+    "pagesReviewed": [
+      "https://www.chicagobears.com/fan-zone/bears-bars",
+      "https://www.chicagobears.com/fan-zone/headquarters-bars",
+      "https://www.chicagobears.com/fan-zone/bears-bars-rest-of-world"
+    ],
+    "traversal": "partial",
+    "observedEntries": null,
+    "acceptedRecords": 0,
+    "unresolvedEntries": [
+      {
+        "reason": "Official pages opened; interactive map listings not exposed in retrieved page text."
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-cincinnati-bengals",
+    "src": "https://www.bengals.com/fans/bengals-bars",
+    "pagesReviewed": [
+      "https://www.bengals.com/fans/bengals-bars"
+    ],
+    "traversal": "partial",
+    "observedEntries": null,
+    "acceptedRecords": 0,
+    "unresolvedEntries": [
+      {
+        "reason": "Official page opened. Current interactive table not exposed; named 2022/2023 game-ball recipients require city/address research before launch import."
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-tampa-bay-buccaneers",
+    "src": "https://www.buccaneers.com/budlight/bar-network",
+    "pagesReviewed": [
+      "https://www.buccaneers.com/budlight/bar-network"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 54,
+    "acceptedRecords": 54,
+    "unresolvedEntries": [],
+    "notes": "Every visible venue examined. Sponsor/text corruption in Buccaneers street fields held as address pending. Falcons page explicitly 2025; leads flagged needs-update and known past event dates retained. No offer prices or personal contacts copied."
+  },
+  {
+    "teamKey": "nfl-nfl-atlanta-falcons",
+    "src": "https://www.atlantafalcons.com/schedule/bar-program",
+    "pagesReviewed": [
+      "https://www.atlantafalcons.com/schedule/bar-program"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 27,
+    "acceptedRecords": 20,
+    "unresolvedEntries": [
+      {
+        "name": "November 9, 2025 party",
+        "reason": "Venue TBD."
+      },
+      {
+        "name": "Stat's Brewpub",
+        "reason": "Venue identity/address conflict: Falcons list Marietta address while linked venue is Atlanta; held until venue address reviewed."
+      }
+    ],
+    "notes": "Every visible venue examined. Sponsor/text corruption in Buccaneers street fields held as address pending. Falcons page explicitly 2025; leads flagged needs-update and known past event dates retained. No offer prices or personal contacts copied."
+  },
+  {
+    "teamKey": "nfl-nfl-green-bay-packers",
+    "src": "https://onmilwaukee.com/articles/packers-bars-across-united-states",
+    "pagesReviewed": [
+      "https://onmilwaukee.com/articles/packers-bars-across-united-states"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 52,
+    "acceptedRecords": 52,
+    "unresolvedEntries": [
+      {
+        "name": "Foghorn's — Rogers",
+        "reason": "Author says little Packers affiliation found; suggestion alone not adequate."
+      },
+      {
+        "name": "McGlynn's — Newark",
+        "reason": "Author chooses venue based on logo colors, not identified Packers gatherings."
+      },
+      {
+        "name": "Hero's — Bangor",
+        "reason": "Proposed for city historical connection; actual Packers venue not established."
+      },
+      {
+        "name": "Buffalo Wild Wings — Warwick",
+        "reason": "Author explicitly says no Packers bar; general chain suggestion."
+      },
+      {
+        "name": "Finnigan's — Burlington",
+        "reason": "Author chooses Irish pub based on green association, not identified Packers viewing."
+      }
+    ],
+    "notes": "Reviewed all geographic sections plus named alternatives. Accepted count includes alternatives within sections. Article states numerous older venues closed; none imported. Original guide is dated Jan20 2024, so all accepted items are community leads needing update. ObservedEntries is geographic sections, not total venue mentions."
+  },
+  {
+    "team": "Seattle Kraken",
+    "teamKey": "nhl-nhl-seattle-kraken",
+    "src": "https://www.nhl.com/kraken/fans/watch-parties",
+    "pagesReviewed": [
+      "https://www.nhl.com/kraken/fans/watch-parties"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 92,
+    "acceptedRecords": 91,
+    "unresolved": [
+      {
+        "entry": "Suki's II",
+        "reason": "Same address as Anchor Alliance listing Suki’s Bar and Grill; consolidated."
+      },
+      {
+        "entry": "Old Stove Brewing Co. — Ship Canal",
+        "reason": "Conflicting city/address retained as a lead without street navigation."
+      }
+    ],
+    "checkedAt": "2026-09-08",
+    "heldRecords": 0,
+    "emittedRecords": 91
+  },
+  {
+    "team": "Carolina Hurricanes",
+    "teamKey": "nhl-nhl-carolina-hurricanes",
+    "src": "https://www.nhl.com/hurricanes/fans/canes-bars",
+    "pagesReviewed": [
+      "https://www.nhl.com/hurricanes/fans/canes-bars"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 46,
+    "acceptedRecords": 46,
+    "unresolved": [
+      {
+        "entry": "27 Canes Bars entries",
+        "reason": "Venue and city/region present; street addresses omitted from visible team directory."
+      },
+      {
+        "entry": "H2 Public House",
+        "reason": "Lake Norman is a region rather than a municipality; accepted with location note."
+      }
+    ],
+    "checkedAt": "2026-09-08",
+    "heldRecords": 0,
+    "emittedRecords": 46
+  },
+  {
+    "team": "Florida Panthers",
+    "teamKey": "nhl-nhl-florida-panthers",
+    "src": "https://www.nhl.com/panthers/fans/catsontap",
+    "pagesReviewed": [
+      "https://www.nhl.com/panthers/fans/catsontap"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 33,
+    "acceptedRecords": 33,
+    "unresolved": [
+      {
+        "entry": "Two combined Duffy’s rows",
+        "reason": "Each split into its separately listed location/address."
+      }
+    ],
+    "checkedAt": "2026-09-08",
+    "heldRecords": 0,
+    "emittedRecords": 33
+  },
+  {
+    "team": "Nashville Predators",
+    "teamKey": "nhl-nhl-nashville-predators",
+    "src": "https://www.nhl.com/predators/fans/preds-approved",
+    "pagesReviewed": [
+      "https://www.nhl.com/predators/fans/preds-approved"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 80,
+    "acceptedRecords": 80,
+    "unresolved": [
+      {
+        "entry": "Partner-logo section",
+        "reason": "BetMGM Sports Lounge image plus two generic/unnamed graphics lack independently listed address in this directory; venue-logo graphics are not counted as directory rows."
+      },
+      {
+        "entry": "DB’s, JWB Grill, Champy’s Smyrna",
+        "reason": "Suspicious ZIP codes omitted; named venue, street and municipality retained."
+      },
+      {
+        "entry": "Sam’s Place — Nippers Corner",
+        "reason": "Street number 15545 retained as published; needs confirmation."
+      }
+    ],
+    "checkedAt": "2026-09-08",
+    "heldRecords": 0,
+    "emittedRecords": 80
+  },
+  {
+    "team": "New York Rangers",
+    "teamKey": "nhl-nhl-new-york-rangers",
+    "src": "https://www.nhl.com/rangers/fans/bar-network",
+    "pagesReviewed": [
+      "https://www.nhl.com/rangers/fans/bar-network"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 20,
+    "acceptedRecords": 20,
+    "unresolved": [
+      {
+        "entry": "Bravo Pizzeria & Sports Bar",
+        "reason": "Published address lacks a street suffix; accepted with note."
+      }
+    ],
+    "checkedAt": "2026-09-08",
+    "heldRecords": 0,
+    "emittedRecords": 20
+  },
+  {
+    "team": "St. Louis Blues",
+    "teamKey": "nhl-nhl-st-louis-blues",
+    "src": "https://www.nhl.com/blues/fans/bars",
+    "pagesReviewed": [
+      "https://www.nhl.com/blues/fans/bars"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 66,
+    "acceptedRecords": 65,
+    "unresolved": [
+      {
+        "entry": "Dallas Fan Club (Nodding Donkey)",
+        "reason": "Duplicate venue/address consolidated with Nodding Donkey."
+      },
+      {
+        "entry": "Hotshots — Arnold",
+        "reason": "Address collides with cinema and differs from branch city; retained as venue lead without street navigation."
+      }
+    ],
+    "checkedAt": "2026-09-08",
+    "heldRecords": 0,
+    "emittedRecords": 65
+  },
+  {
+    "team": "Columbus Blue Jackets",
+    "teamKey": "nhl-nhl-columbus-blue-jackets",
+    "src": "https://www.nhl.com/bluejackets/fans/bar-network",
+    "pagesReviewed": [
+      "https://www.nhl.com/bluejackets/fans/bar-network",
+      "https://www.rbararena.com/",
+      "https://budddairyfoodhall.com/location/",
+      "https://columbusbrewing.com/location/taproom/",
+      "https://columbusbrewing.com/location/beer-hall/",
+      "https://newalbanyohio.org/venue/bubbly-food-hall/",
+      "https://breakfastwithnick.com/2026/03/26/bubbly-hall-closing-rooh-revamping-joy-local-coffee-gahanna/"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 32,
+    "acceptedRecords": 31,
+    "unresolved": [
+      {
+        "entry": "Most directory venues",
+        "reason": "Directory describes locations around Columbus; precise municipalities and addresses are unresolved for 27 rows, retained with the clearly regional label Columbus area, OH."
+      },
+      {
+        "entry": "Bubbly Hall",
+        "reason": "Local dated report states permanent closure; retained as held research record, excluded from accepted active/discovery listings."
+      },
+      {
+        "entry": "Columbus Brewing Company — Taproom",
+        "reason": "Venue page varies Harrison Rd / Dr; confirm navigation with venue."
+      }
+    ],
+    "checkedAt": "2026-09-08",
+    "heldRecords": 1,
+    "emittedRecords": 32
+  },
+  {
+    "team": "Vegas Golden Knights",
+    "teamKey": "nhl-nhl-vegas-golden-knights",
+    "src": "https://www.nhl.com/goldenknights/news/vegas-golden-knights-to-host-official-watch-parties-for-game-6",
+    "pagesReviewed": [
+      "https://www.nhl.com/goldenknights/news/vegas-golden-knights-to-host-official-watch-parties-for-game-6"
+    ],
+    "traversal": "partial",
+    "observedEntries": 2,
+    "acceptedRecords": 2,
+    "unresolved": [
+      {
+        "entry": "Prior dated event research",
+        "reason": "Only prior research venue leads retained in this pass; this is not a fully exhausted current directory."
+      }
+    ],
+    "checkedAt": "2026-09-08",
+    "heldRecords": 0,
+    "emittedRecords": 2
+  },
+  {
+    "team": "San Jose Sharks",
+    "teamKey": "nhl-nhl-san-jose-sharks",
+    "src": "https://www.nhl.com/sharks/news/sharks-announce-2025-26-watch-party-schedule",
+    "pagesReviewed": [
+      "https://www.nhl.com/sharks/news/sharks-announce-2025-26-watch-party-schedule"
+    ],
+    "traversal": "partial",
+    "observedEntries": 2,
+    "acceptedRecords": 2,
+    "unresolved": [
+      {
+        "entry": "Prior dated event research",
+        "reason": "Only prior research venue leads retained in this pass; this is not a fully exhausted current directory."
+      }
+    ],
+    "checkedAt": "2026-09-08",
+    "heldRecords": 0,
+    "emittedRecords": 2
+  },
+  {
+    "src": "https://arsenalamerica.com/branches/",
+    "teamKey": "soccer-english-premier-league-arsenal",
+    "pagesReviewed": [
+      "https://arsenalamerica.com/branches/"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 94,
+    "acceptedRecords": 94,
+    "unresolved": [
+      "Directory has 94 visible venue entries including satellites; prose branch count differs from venue count. NYC and Philadelphia are linked independent clubs and reviewed separately.",
+      "ZIPs omitted; known suspect ZIPs for Little Rock and Ann Arbor not propagated. Address spellings otherwise source-listed."
+    ]
+  },
+  {
+    "src": "https://arsenal.nyc/",
+    "teamKey": "soccer-english-premier-league-arsenal",
+    "pagesReviewed": [
+      "https://arsenal.nyc/"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 9,
+    "acceptedRecords": 9,
+    "unresolved": [
+      "Street addresses not provided in visible directory text."
+    ]
+  },
+  {
+    "src": "https://fcbayern.com/en/fans/fan-clubs/us-where-to-watch",
+    "teamKey": "soccer-bundesliga-bayern-munich",
+    "pagesReviewed": [
+      "https://fcbayern.com/en/fans/fan-clubs/us-where-to-watch"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 60,
+    "acceptedRecords": 55,
+    "unresolved": [
+      "One duplicate Kansas City Bier Company row under KS/MO collapsed. One Midland, NJ entry has TBD venue and is omitted. Three Canada entries excluded from US scope.",
+      "Directory city labels are supporter market labels in several cases (e.g. Queens, St. Petersburg, Boston, Washington DC). Street addresses need enrichment; no coordinates inferred."
+    ]
+  },
+  {
+    "src": "https://www.mrsc.ie/branches/usa/",
+    "teamKey": "rugby-united-rugby-championship-munster",
+    "pagesReviewed": [
+      "https://www.mrsc.ie/branches/usa/"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 24,
+    "acceptedRecords": 24,
+    "unresolved": [
+      "Six street addresses reused from prior inspection; remaining records retain directory city and source.",
+      "The Halway Line spelling retained from directory; destination domain is thehalfwaylinebar.com."
+    ]
+  },
+  {
+    "src": "https://arsphl.com/",
+    "teamKey": "soccer-english-premier-league-arsenal",
+    "pagesReviewed": [
+      "https://arsphl.com/"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 8,
+    "acceptedRecords": 8,
+    "unresolved": [
+      "Artillery West Chester is not screening the displayed next match; F&A Grog House opening time is TBD. Directory membership retained, match-specific opening not presumed."
+    ]
+  },
+  {
+    "src": "https://www.chelseainamerica.com/groups",
+    "teamKey": "soccer-english-premier-league-chelsea",
+    "pagesReviewed": [
+      "https://www.chelseainamerica.com/",
+      "https://www.chelseainamerica.com/groups",
+      "https://www.chelseainamerica.com/locals/oc-blues",
+      "https://www.chelseainamerica.com/locals/carefree-louisiana",
+      "https://www.chelseainamerica.com/locals/chelsea-houston-1905",
+      "https://www.chelseainamerica.com/locals/phoenix-blues",
+      "https://www.chelseainamerica.com/locals/big-d-north-texas-blues",
+      "https://www.chelseainamerica.com/locals/shed-end-dallas",
+      "https://www.chelseainamerica.com/locals/motor-city-blues",
+      "https://www.chelseainamerica.com/locals/ft-worth-blues",
+      "https://www.chelseainamerica.com/locals/rva-blues",
+      "https://www.chelseainamerica.com/locals/blue-in-the-lou",
+      "https://www.chelseainamerica.com/locals/charm-city-blues",
+      "https://www.chelseainamerica.com/locals/shed-end-seattle-northwest-blues",
+      "https://www.chelseainamerica.com/locals/milwaukee-blues",
+      "https://www.chelseainamerica.com/locals/sacramento-blues",
+      "https://www.chelseainamerica.com/locals/cigar-city-blues",
+      "https://www.chelseainamerica.com/locals/circle-city-chelsea",
+      "https://www.chelseainamerica.com/locals/stumptown-blues",
+      "https://www.chelseainamerica.com/locals/beltway-blues",
+      "https://www.chelseainamerica.com/locals/georgia-blues",
+      "https://www.chelseainamerica.com/locals/bluegrass-blues",
+      "https://www.chelseainamerica.com/locals/kansas-city-blues",
+      "https://www.chelseainamerica.com/locals/sb-bay-area-blues",
+      "https://www.chelseainamerica.com/locals/twin-cities-blues",
+      "https://www.chelseainamerica.com/locals/vegas-blues",
+      "https://www.chelseainamerica.com/locals/nebraska-blues",
+      "https://www.chelseainamerica.com/locals/hampton-roads-blues",
+      "https://www.chelseainamerica.com/locals/raleigh-durham-blues",
+      "https://www.chelseainamerica.com/locals/cape-fear-blues",
+      "https://www.chelseainamerica.com/locals/rocket-city-blues",
+      "https://www.chelseainamerica.com/locals/queen-city-blues",
+      "https://www.chelseainamerica.com/locals/music-city-blues",
+      "https://www.chelseainamerica.com/locals/san-jose-blues",
+      "https://www.chelseainamerica.com/locals/orlando-blues",
+      "https://www.chelseainamerica.com/locals/oklahoma-city-blues",
+      "https://www.chelseainamerica.com/locals/tulsa-blues",
+      "https://www.chelseainamerica.com/locals/gate-city-blues"
+    ],
+    "traversal": "partial",
+    "observedEntries": 40,
+    "acceptedRecords": 40,
+    "unresolved": [
+      "All 36 discovered chapter pages inspected; 40 named pubs captured. Homepage advertises over 46 groups, but groups map does not expose a complete text directory; additional chapters remain undiscovered.",
+      "Vernon Lanes source label is malformed; marked needs-update.",
+      "Local city typos Youngville and Royal Oaks normalized to Youngsville and Royal Oak, with note retained."
+    ]
+  },
+  {
+    "src": "https://www.nybluescfc.com/pubs",
+    "teamKey": "soccer-english-premier-league-chelsea",
+    "pagesReviewed": [
+      "https://www.nybluescfc.com/pubs"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 2,
+    "acceptedRecords": 2,
+    "unresolved": []
+  }
+]

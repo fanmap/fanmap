@@ -22,25 +22,29 @@ const original = JSON.parse(html.match(/const PREVIEW_SCHOOLS=(.*);\nconst PREVI
 const baseline = {...original, ...copy(catalog.teams)};
 const research = JSON.parse(read('research/venue-research.json'));
 const identity = r => JSON.stringify([r.teamKey, r.venue, r.city, r.addr || '']);
-const eligible = research.filter(r => !['historical', 'hold'].includes(r.disposition) &&
-  (!r.eventDate || r.eventDate >= layer.checkedAt) &&
-  (!r.validThrough || r.validThrough >= layer.checkedAt));
+const eligible = research.filter(r => r.disposition !== 'hold');
 
 assert.equal(Object.keys(baseline).length, 620, 'The full team catalog must survive the merge');
 assert.equal(new Set(Object.values(catalog.metadata).map(r => r.category)).size, 8);
 assert.equal(new Set(Object.values(catalog.metadata).map(r => r.league)).size, 39);
 assert.ok(eligible.length > 0, 'The reviewed research must contain current venues');
 assert.deepEqual(layer.records.map(identity).sort(), eligible.map(identity).sort(),
-  'Public records must match reviewed current evidence, excluding held and historical entries');
+  'Public records include sourced venue leads while keeping unresolved conflicts on hold');
 assert.equal(new Set(layer.records.map(r => r.id)).size, layer.records.length, 'Venue IDs are unique');
 for (const r of layer.records) {
   const evidence = eligible.find(item => identity(item) === identity(r));
   assert.ok(baseline[r.teamKey], 'Every venue belongs to a selectable team');
   assert.equal(r.src, evidence.src);
   assert.equal(r.sourceCheckedAt, evidence.checkedAt);
-  assert.equal(r.sourceVerification, evidence.verification);
-  assert.equal(r.eventDate, evidence.eventDate || null);
-  assert.equal(r.validThrough, evidence.validThrough || null);
+  assert.equal(r.sourceBasis, evidence.verification);
+  if(r.listingStatus==='needs-update'){
+    assert.equal(r.eventDate,null,'Historical venues must not appear as upcoming events');
+    assert.equal(r.sourceVerification,null,'A historical source must not imply current verification');
+    assert.equal(r.verified,false);
+  }else{
+    assert.equal(r.eventDate,evidence.eventDate||null);
+    assert.equal(r.validThrough,evidence.validThrough||null);
+  }
   assert.equal(r.addressSource || '', evidence.addressSource || '');
   assert.match(r.src, /^https?:\/\//);
   assert.equal(r.lat, null, 'Research must not invent venue coordinates');
@@ -73,8 +77,8 @@ const future = new Date(Math.max(...layer.records.flatMap(r => [r.eventDate, r.v
 const expired = emptyTeams();
 apply(expired, future);
 const remaining = Object.values(expired).flatMap(t => t.chapters);
-assert.equal(remaining.length, layer.records.filter(r => !r.eventDate && !r.validThrough).length,
-  'Expired dated events and season listings must not be added to a fresh session');
+assert.equal(remaining.length, layer.records.length,
+  'An expired event remains discoverable as a venue lead');
 assert.ok(remaining.every(r => !r.eventDate && !r.validThrough));
 
 // Check the inclusive boundary for both expiry types independently of the current dataset.
@@ -85,23 +89,25 @@ boundary.window.FANMAP_VERIFIED_LOCATIONS.records = [
   {teamKey: 'test', id: 'season', venue: 'Season venue', city: 'Test city', validThrough: '2026-09-09'},
   {teamKey: 'test', id: 'standing', venue: 'Standing venue', city: 'Test city'}
 ];
-for (const [date, expected] of [['2026-09-08', 3], ['2026-09-09', 3], ['2026-09-10', 1]]) {
+for (const [date, expected] of [['2026-09-08', 0], ['2026-09-09', 0], ['2026-09-10', 2]]) {
   const fresh = {test: {chapters: []}};
   boundary.window.applyFanMapVerifiedLocations(fresh, date);
-  assert.equal(fresh.test.chapters.length, expected, 'Expiry boundary: ' + date);
+  assert.equal(fresh.test.chapters.length,3,'Venue leads remain available');
+  assert.equal(fresh.test.chapters.filter(r=>r.listingStatus==='needs-update').length,expected,'Expiry downgrades the event claim: '+date);
 }
 
 boundary.window.FANMAP_VERIFIED_LOCATIONS.records = [
-  {teamKey: 'test', id: 'new-address-id', venue: 'Moved Bar', city: 'Test City', addr: '2 Main St', lat: null, lng: null},
-  {teamKey: 'test', id: 'same-address-id', venue: 'Stable Bar', city: 'Test City', addr: '3 Main St.', lat: null, lng: null}
+  {teamKey: 'test', id: 'original-moved-id', venue: 'Moved Bar', city: 'Test City', addr: '2 Main St', lat: null, lng: null},
+  {teamKey: 'test', id: 'same-address-id', venue: 'Stable Bar', city: 'Test City', addr: '3 Main St.', lat: null, lng: null},
+  {teamKey: 'test', id: 'second-branch', venue: 'Stable Bar', city: 'Test City', addr: '8 Main St', lat: null, lng: null}
 ];
 const corrected = {test: {chapters: [
   {id: 'original-moved-id', venue: 'Moved Bar', city: 'Test City', addr: '1 Main St', lat: 33, lng: -112},
   {id: 'original-stable-id', venue: 'Stable Bar', city: 'Test City', addr: '3 MAIN ST', lat: 34, lng: -113}
 ]}};
 boundary.window.applyFanMapVerifiedLocations(corrected, layer.checkedAt);
-assert.equal(corrected.test.chapters.length, 2, 'Source updates merge into existing venues');
-assert.deepEqual(corrected.test.chapters.map(r => r.id), ['original-moved-id', 'original-stable-id']);
+assert.equal(corrected.test.chapters.length, 3, 'Distinct street addresses preserve separate branches');
+assert.deepEqual(corrected.test.chapters.map(r => r.id), ['original-moved-id', 'original-stable-id','second-branch']);
 assert.equal(corrected.test.chapters[0].addr, '2 Main St');
 assert.equal(corrected.test.chapters[0].lat, null, 'A changed address invalidates old coordinates');
 assert.equal(corrected.test.chapters[0].lng, null);
@@ -233,9 +239,23 @@ const tick = () => new Promise(resolve => setImmediate(resolve));
     assert.ok(body.includes('https://fanmap.com/'), 'SMS includes Fan Map discovery link');
   }
   w.hideDialog();
+  // A venue can support launch discovery and invites before its details are verified.
+  const listed={id:'listed-test',name:'Fan club',venue:'Neighborhood Sports Pub',city:'Phoenix, AZ',addr:'',verified:false,namedVenue:true,sourceVerification:null,listingStatus:'listed',src:'https://example.com/club',lat:null,lng:null};
+  w.eval('S').chapters.push(listed);
+  w.document.querySelector('#partyChips [data-f="verified"]').click();
+  const listedCard=$('pcard-'+listed.id);
+  assert.ok(listedCard,'Listed venues are discoverable without verification');
+  assert.equal(listedCard.querySelector('.badge').textContent,'Listed venue');
+  listedCard.querySelector('[data-party-directions]').click();
+  const listedRoute=new URL($('dialogBody').querySelector('a[href*="travelmode=driving"]').href);
+  assert.equal(listedRoute.searchParams.get('destination'),listed.venue+' '+listed.city);
+  assert.ok(decodeURIComponent(listedCard.querySelector('[data-party-text]').href).includes(listed.venue));
+  w.hideDialog();
+  checkedChip.click();
+  assert.equal($('pcard-'+listed.id),null,'Source-checked filter does not overstate an unconfirmed listing');
   await tick();
   assert.deepEqual(errors, [], 'No runtime errors');
-  process.stdout.write('PASS: 620 teams, 8 categories, 39 leagues; ' + layer.records.length + ' current source records; historic/held exclusion, idempotent merge, all old IDs and coordinate handling, fresh-session expiry, locked signup, checked filters/source dates, address-based driving and SMS, zero runtime errors.\n');
+  process.stdout.write('PASS: 620 teams, 8 categories, 39 leagues; ' + layer.records.length + ' directory listings; held conflicts excluded, past events become leads, branch-safe merge, preserved IDs, locked signup, confidence filters, unverified venue driving and SMS, zero runtime errors.\n');
 })().catch(error => {
   process.stderr.write(error.stack + '\n');
   process.exitCode = 1;

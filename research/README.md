@@ -1,112 +1,168 @@
-# Fan Map location research — maintainer notes
+# Fan Map launch directory
 
-Research date: September 8, 2026. This is a first batch of US watch-party location research against the existing team catalog. It is not complete coverage of all remaining teams or all locations for the teams researched.
+Updated September 8, 2026.
 
-## Batch coverage
+**1,956 named team–venue listings across 65 teams**, within 2,205 total directory records across 76 teams. All 620 catalog teams remain selectable. Some venues host multiple teams; these are team affiliations, not a count of distinct physical businesses.
 
-The catalog has **620 teams**. This pass reviewed **77 teams** and added **100 source-checked team–venue listings across 40 teams**. These are affiliations, not 100 distinct physical businesses: some venues host multiple teams. **22 historical or held records** remain outside the active list.
+This release adds **1,505 listings** compared with the previous 700-record release. The expansion works through directory pages rather than imposing per-team sample quotas. Exact traversal and remaining gaps are recorded below.
 
-There are now **700 total directory records across 61 teams**, including the previous research records. The older records have not all been rechecked. **543 teams were not reviewed in this pass**, and **37 reviewed teams still lack an accepted current venue from this pass**. These figures do not mean that those teams have no fan gathering places.
+## Inclusion and verification
 
-| Category | Source-checked listings | Teams with accepted listings |
+The launch rule is simple: a named venue, a supported city or region, and a public source are enough to add a useful listing. A full street address or direct host confirmation is not required. Fans can open directions and send SMS invites from these listings.
+
+- **Listed venue:** imported from an alumni, supporter, team, venue, or community directory. Current operations and screening arrangements may need confirmation.
+- **Source checked:** retained from the earlier focused source review. This means the source was checked, not that a host confirmed the next game or that the business was independently verified open.
+- **Check details:** an older listing, relocation, or other detail needs an update. Past event dates are retained in research and do not appear as upcoming events.
+- **Venue pending:** the catalog has a chapter or club record without a named venue. These records are separate from named-venue totals.
+
+The new data layer contains 1,605 records: 100 from the prior source-checked batch and 1,505 directory listings or leads. 11 records are held for known closure, stale-brand, or unresolved location issues. Verification is an enrichment step as Fan Map scales.
+
+## Named venue coverage
+
+| Category | Named listings | Teams with named venues |
 | --- | ---: | ---: |
-| College | 20 | 9 |
-| NFL | 20 | 6 |
-| MLB | 5 | 2 |
-| NHL | 14 | 7 |
-| NBA | 5 | 3 |
-| Soccer | 20 | 10 |
-| Rugby | 16 | 3 |
-| Cricket | 0 | 0 |
+| College | 559 | 15 |
+| NFL | 740 | 14 |
+| MLB | 9 | 6 |
+| NHL | 370 | 9 |
+| NBA | 11 | 5 |
+| Soccer | 226 | 10 |
+| Rugby | 36 | 5 |
+| Cricket | 5 | 1 |
 
-### Teams with accepted listings
+### Teams
 
-| Team | Category | Listings | Evidence |
-| --- | --- | ---: | --- |
-| Arizona | College | 1 | [Source](https://alumni.arizona.edu/events/seattle-wa-seattle-alumni-chapter-football-watch-parties) |
-| Florida | College | 4 | [Source](https://connect.ufalumni.ufl.edu/gatorclubofmiami/events/watchparties) |
-| LSU | College | 2 | [Source](https://www.lsusocal.org/watch-parties) |
-| Michigan | College | 4 | [Source](https://alumni.umich.edu/athletics/game-watch-parties/) |
-| Oklahoma | College | 2 | [Source](https://www.ouclubofhouston.org/Watch-Parties) |
-| Oregon | College | 2 | [Source](https://www.uoalumni.com/event/athletic/2026/desert-ducks-watch-party-scottsdale) |
-| Tennessee | College | 2 | [Source](https://alumni.utk.edu/vol-watch-parties/) |
-| Washington | College | 2 | [Source](https://www.washington.edu/alumni/event/2026-football-watch-parties/) |
-| Wisconsin | College | 1 | [Source](https://www.uwalumni.com/events/stl-gw-notre-dame/) |
-| Houston Astros | MLB | 3 | [Source](https://www.mlb.com/astros/fans/stros-social-club) |
-| Seattle Mariners | MLB | 2 | [Source](https://www.hatback.com/seattle-mariners/) |
-| Atlanta Hawks | NBA | 2 | [Source](https://www.nba.com/hawks/barnetwork) |
-| Dallas Mavericks | NBA | 1 | [Source](https://www.happiesthourdallas.com/news-item/mavericks/) |
-| Memphis Grizzlies | NBA | 2 | [Source](https://www.nba.com/grizzlies/barnetwork) |
-| Baltimore Ravens | NFL | 5 | [Source](https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups) |
-| Buffalo Bills | NFL | 3 | [Source](https://dfwbillsbackers.org/about/) |
-| Cleveland Browns | NFL | 2 | [Source](https://brownsbackersworldwide.com/chapters/phx-area-browns-backers/) |
-| Kansas City Chiefs | NFL | 1 | [Source](https://chiefsfansofdallas.com/) |
-| Minnesota Vikings | NFL | 4 | [Source](https://www.vikings.com/fans/clubs-watch-bars) |
-| New England Patriots | NFL | 5 | [Source](https://nepfca.com/) |
-| Carolina Hurricanes | NHL | 2 | [Source](https://www.nhl.com/hurricanes/fans/canes-bars) |
-| Columbus Blue Jackets | NHL | 2 | [Source](https://www.nhl.com/bluejackets/fans/bar-network) |
-| Florida Panthers | NHL | 2 | [Source](https://www.nhl.com/panthers/fans/catsontap) |
-| Nashville Predators | NHL | 2 | [Source](https://www.nhl.com/predators/fans/preds-approved) |
-| New York Rangers | NHL | 2 | [Source](https://www.nhl.com/rangers/fans/bar-network) |
-| Seattle Kraken | NHL | 2 | [Source](https://www.nhl.com/kraken/fans/watch-parties) |
-| St. Louis Blues | NHL | 2 | [Source](https://www.nhl.com/blues/fans/bars) |
-| Munster | Rugby | 6 | [Source](https://www.mrsc.ie/branches/usa/) |
-| New England Free Jacks | Rugby | 6 | [Source](https://freejacks.com/2026-pub-partners/) |
-| Old Glory DC | Rugby | 4 | [Source](https://oldglorydc.com/bar-network/) |
-| Arsenal | Soccer | 5 | [Source](https://arsenalamerica.com/branches/) |
-| Barcelona | Soccer | 2 | [Source](https://www.fcbarcelonanyc.com/) |
-| Bayern Munich | Soccer | 2 | [Source](https://fcbayern.com/en/fans/fan-clubs/us-where-to-watch) |
-| Chelsea | Soccer | 2 | [Source](https://www.chelseainamerica.com/locals/phoenix-blues) |
-| Everton | Soccer | 1 | [Source](https://www.turnmillnyc.com/everton-fc/) |
-| Liverpool | Soccer | 3 | [Source](https://www.lfcboston.com/) |
-| Manchester City | Soccer | 1 | [Source](https://www.newyorkskyblues.com/) |
-| Manchester United | Soccer | 1 | [Source](https://smithfieldnyc.com/fan-clubs/manchester-united-fc/) |
-| Real Madrid | Soccer | 1 | [Source](https://www.playwrightirishpubnyc.com/real-madrid/) |
-| Tottenham Hotspur | Soccer | 2 | [Source](https://dcspurs.org/) |
+| Team | Category | Named listings |
+| --- | --- | ---: |
+| Alabama | College | 51 |
+| Arizona | College | 1 |
+| Arizona State | College | 31 |
+| Arkansas | College | 12 |
+| Florida | College | 4 |
+| Georgia | College | 65 |
+| LSU | College | 58 |
+| Michigan | College | 18 |
+| Ohio State | College | 138 |
+| Oklahoma | College | 18 |
+| Oregon | College | 32 |
+| Penn State | College | 65 |
+| Tennessee | College | 48 |
+| Washington | College | 17 |
+| Wisconsin | College | 1 |
+| Seattle Orcas | Cricket | 5 |
+| Arizona Diamondbacks | MLB | 1 |
+| Chicago Cubs | MLB | 1 |
+| Houston Astros | MLB | 3 |
+| Milwaukee Brewers | MLB | 1 |
+| Seattle Mariners | MLB | 2 |
+| Texas Rangers | MLB | 1 |
+| Atlanta Dream | NBA | 5 |
+| Atlanta Hawks | NBA | 2 |
+| Dallas Mavericks | NBA | 1 |
+| Indiana Pacers | NBA | 1 |
+| Memphis Grizzlies | NBA | 2 |
+| Atlanta Falcons | NFL | 20 |
+| Baltimore Ravens | NFL | 78 |
+| Buffalo Bills | NFL | 3 |
+| Carolina Panthers | NFL | 41 |
+| Cleveland Browns | NFL | 2 |
+| Green Bay Packers | NFL | 53 |
+| Kansas City Chiefs | NFL | 1 |
+| Minnesota Vikings | NFL | 50 |
+| New England Patriots | NFL | 266 |
+| New York Giants | NFL | 84 |
+| New York Jets | NFL | 83 |
+| San Francisco 49ers | NFL | 1 |
+| Seattle Seahawks | NFL | 4 |
+| Tampa Bay Buccaneers | NFL | 54 |
+| Carolina Hurricanes | NHL | 46 |
+| Columbus Blue Jackets | NHL | 31 |
+| Florida Panthers | NHL | 33 |
+| Nashville Predators | NHL | 80 |
+| New York Rangers | NHL | 20 |
+| San Jose Sharks | NHL | 2 |
+| Seattle Kraken | NHL | 91 |
+| St. Louis Blues | NHL | 65 |
+| Vegas Golden Knights | NHL | 2 |
+| Anthem Rugby Carolina | Rugby | 1 |
+| Chicago Hounds | Rugby | 1 |
+| Munster | Rugby | 24 |
+| New England Free Jacks | Rugby | 6 |
+| Old Glory DC | Rugby | 4 |
+| Arsenal | Soccer | 111 |
+| Barcelona | Soccer | 2 |
+| Bayern Munich | Soccer | 53 |
+| Chelsea | Soccer | 43 |
+| Everton | Soccer | 1 |
+| Liverpool | Soccer | 11 |
+| Manchester City | Soccer | 1 |
+| Manchester United | Soccer | 1 |
+| Real Madrid | Soccer | 1 |
+| Tottenham Hotspur | Soccer | 2 |
 
-### Files and rebuild
+## Directory traversal
 
-- [Venue research](venue-research.json): all evidence, address sources, event dates, and held records.
-- [Team coverage queue](location-coverage.json): every catalog team and its status in this pass.
-- [Team review notes](reviewed-teams.json): inspected sources and unresolved leads.
-- [Additional leads](additional-leads.json): broader research notes without a single team assignment.
-- [Public venue layer](../assets/data/verified-locations.js): accepted records loaded by the demo.
+“Complete visible directory” describes the specific linked page or set of pages reviewed. It does not mean every location worldwide for that team is included, or that all listings are current. Some national directories require chapter links or interactive controls; those gaps remain explicit.
 
-After editing reviewed evidence, run `node scripts/build-location-research.cjs` from the repository root. The script validates keys, required source fields, and duplicates; regenerates the public layer and coverage queue; and does not fetch websites. To run the interaction test, install jsdom 30 in your development environment and run `node tests/verified-locations.cjs`. The deployed site has no build dependency on jsdom.
+| Directory / team | Traversal | Observed entries | Captured records | Source |
+| --- | --- | ---: | ---: | --- |
+| Michigan | partial | 18 | 18 | [Source](https://alumni.umich.edu/athletics/game-watch-parties/) |
+| Tennessee | complete-visible-directory | 49 | 48 | [Source](https://alumni.utk.edu/vol-watch-parties/) |
+| Washington | complete-visible-directory | 17 | 17 | [Source](https://www.washington.edu/alumni/event/2026-football-watch-parties/) |
+| Oregon | complete-visible-directory | 30 | 32 | [Source](https://www.uoalumni.com/events/football/football-watch-parties) |
+| LSU | complete-visible-directory | 42 | 41 | [Source](https://www.lsualumni.org/watchparties) |
+| LSU | complete-visible-directory | 2 | 2 | [Source](https://www.lsusocal.org/watch-parties) |
+| LSU | complete-visible-directory | 26 | 14 | [Source](https://www.dandydon.com/lsu-alumni-association-view-in-parties-and-announcements/) |
+| LSU | partial | 46 | 2 | [Source](https://www.lsualumni.org/lsuaachapters) |
+| Georgia | partial | 54 | 65 | [Source](https://alumni.uga.edu/gamewatching/) |
+| Oklahoma | partial | 20 | 18 | [Source](https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1493&sid=1720) |
+| Florida | partial | — | 0 | [Source](https://connect.ufalumni.ufl.edu/network/gator-clubs-and-affiliate-groups) |
+| LSU | partial | — | 0 | [Source](https://www.lsualumni.org/lsuaachapters) |
+| Baltimore Ravens | complete-visible-directory | 80 | 78 | [Source](https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups) |
+| Minnesota Vikings | complete-visible-directory | 106 | 50 | [Source](https://www.vikings.com/fans/clubs-watch-bars) |
+| New England Patriots | complete-visible-directory | 502 | 272 | [Source](https://fanclubs.patriots.com/search) |
+| New York Giants | complete-visible-directory | 84 | 84 | [Source](https://www.giants.com/barnetwork/) |
+| New York Jets | complete-visible-directory | 87 | 83 | [Source](https://www.newyorkjets.com/fans/bar-network) |
+| Chicago Bears | partial | — | 0 | [Source](https://www.chicagobears.com/fan-zone/bears-bars) |
+| Cincinnati Bengals | partial | — | 0 | [Source](https://www.bengals.com/fans/bengals-bars) |
+| Tampa Bay Buccaneers | complete-visible-directory | 54 | 54 | [Source](https://www.buccaneers.com/budlight/bar-network) |
+| Atlanta Falcons | complete-visible-directory | 27 | 20 | [Source](https://www.atlantafalcons.com/schedule/bar-program) |
+| Green Bay Packers | complete-visible-directory | 52 | 52 | [Source](https://onmilwaukee.com/articles/packers-bars-across-united-states) |
+| Seattle Kraken | complete-visible-directory | 92 | 91 | [Source](https://www.nhl.com/kraken/fans/watch-parties) |
+| Carolina Hurricanes | complete-visible-directory | 46 | 46 | [Source](https://www.nhl.com/hurricanes/fans/canes-bars) |
+| Florida Panthers | complete-visible-directory | 33 | 33 | [Source](https://www.nhl.com/panthers/fans/catsontap) |
+| Nashville Predators | complete-visible-directory | 80 | 80 | [Source](https://www.nhl.com/predators/fans/preds-approved) |
+| New York Rangers | complete-visible-directory | 20 | 20 | [Source](https://www.nhl.com/rangers/fans/bar-network) |
+| St. Louis Blues | complete-visible-directory | 66 | 65 | [Source](https://www.nhl.com/blues/fans/bars) |
+| Columbus Blue Jackets | complete-visible-directory | 32 | 31 | [Source](https://www.nhl.com/bluejackets/fans/bar-network) |
+| Vegas Golden Knights | partial | 2 | 2 | [Source](https://www.nhl.com/goldenknights/news/vegas-golden-knights-to-host-official-watch-parties-for-game-6) |
+| San Jose Sharks | partial | 2 | 2 | [Source](https://www.nhl.com/sharks/news/sharks-announce-2025-26-watch-party-schedule) |
+| Arsenal | complete-visible-directory | 94 | 94 | [Source](https://arsenalamerica.com/branches/) |
+| Arsenal | complete-visible-directory | 9 | 9 | [Source](https://arsenal.nyc/) |
+| Bayern Munich | complete-visible-directory | 60 | 55 | [Source](https://fcbayern.com/en/fans/fan-clubs/us-where-to-watch) |
+| Munster | complete-visible-directory | 24 | 24 | [Source](https://www.mrsc.ie/branches/usa/) |
+| Arsenal | complete-visible-directory | 8 | 8 | [Source](https://arsphl.com/) |
+| Chelsea | partial | 40 | 40 | [Source](https://www.chelseainamerica.com/groups) |
+| Chelsea | complete-visible-directory | 2 | 2 | [Source](https://www.nybluescfc.com/pubs) |
 
-## What the evidence means
+## Files and maintenance
 
-Use **Source checked** for a location supported by an inspected team, alumni chapter, supporter group, or venue page. The date records when the page was reviewed; it is not a date when the business or host personally confirmed the location.
+- [Full venue research](venue-research.json): source links, evidence, confidence, historical dates, corrections and held records.
+- [Coverage queue](location-coverage.json): every catalog team and its coverage status.
+- [Directory traversal](directory-traversal.json): pages reviewed and unresolved entries.
+- [Merge report](merge-report.json): imported files and duplicates consolidated.
+- [Sourced corrections](location-corrections.json): resolved address and naming conflicts.
+- [Team review notes](reviewed-teams.json): earlier research plus directory passes.
+- [Public directory layer](../assets/data/verified-locations.js): runtime data; the older filename is retained for compatibility.
 
-- `official-directory`: a team, alumni, or supporter organization publishes the location. Describe official affiliation only when the source explicitly establishes it.
-- `venue-published`: the venue itself advertises the team gathering. This establishes a published host claim, not team endorsement.
-- `dated-event`: evidence covers the stated event or season. It does not establish a permanent meeting place.
-- **Host confirmed** requires a separate, recorded confirmation from the organizer or venue. No direct host outreach was performed for this batch.
+Edit reviewed records, then run:
 
-Preserve each record's source URL, source title, short evidence note, check date, verification basis, and any event date. A null publication date means no reliable date was found; a copyright year or search crawl date is not a publication date.
+```sh
+node scripts/build-location-research.cjs
+node scripts/write-location-report.cjs
+node tests/verified-locations.cjs
+```
 
-## Import and maintenance
+The test uses jsdom 30 in the development environment. The published site has no build dependency on it. For new manually collected directory batches, use `node scripts/merge-location-expansion.cjs /path/to/batch` first; the importer preserves stable IDs, sourced corrections and provenance. These scripts process local data and do not scrape websites.
 
-1. Match `teamKey` to the catalog and deduplicate by team, venue, and address. Preserve richer existing records and source history. A shared bar may legitimately host several teams.
-2. Exclude dated events that ended before the research date from the active location list. Retain them in the research archive as leads. Future dated events should show their actual date and expire after it; do not convert them into standing venues.
-3. Resolve notes about conflicting addresses, moved groups, ambiguous branches, or missing street addresses before activating a map pin. Never substitute a stadium, generic national fan-club directory, or opponent's party for a supporter venue.
-4. Do not invent coordinates or copy a city center as a venue pin. Keep latitude and longitude empty until an address is geocoded and the result checked against the named venue. An address-based directions link can be used while coordinates are pending.
-5. Revisit standing sources before the next season and after a reported move or closure. A listing does not guarantee that every game is shown or that early entry is available; preserve any limitations from the host.
-6. Do not import personal contact names, email addresses, or phone numbers from the research pages. Public source links provide the route back to the organizer.
-
-The `reviewed-teams.json` and `additional-leads.json` files distinguish sources that were successfully inspected from search leads, inaccessible pages, historical-only evidence, and unresolved conflicts. A search result or directory landing page alone is not enough to add a venue.
-
-## Strong starting points for the next pass
-
-| Sport/category | Sources already identified | Next action |
-| --- | --- | --- |
-| College | [Michigan game watches](https://alumni.umich.edu/athletics/game-watch-parties/), [Tennessee watch parties](https://alumni.utk.edu/vol-watch-parties/), [Washington 2026 parties](https://www.washington.edu/alumni/event/2026-football-watch-parties/), [Georgia game watching](https://alumni.uga.edu/gamewatching/) | Work through chapter pages and current-season events; resolve Georgia's inaccessible event pages. |
-| NFL | [Ravens domestic flocks](https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups), [Vikings clubs and bars](https://www.vikings.com/fans/clubs-watch-bars), [Browns Backers](https://brownsbackersworldwide.com/), [Patriots fan clubs](https://fanclubs.patriots.com/) | Expand named chapters and venue addresses. Packers, Broncos, and Steelers directories need further interactive review. |
-| MLB | [Astros 'Stros Social Club](https://www.mlb.com/astros/fans/stros-social-club), [Rays watch parties](https://www.mlb.com/rays/fans/watch-party) | Extract additional standing venue partners; inspect the Rays Bar League. Keep old postseason announcements archived. |
-| NBA / WNBA | [Hawks bar network](https://www.nba.com/hawks/barnetwork), [Grizzlies bar network](https://www.nba.com/grizzlies/barnetwork), [Liberty bar network](https://liberty.wnba.com/bar-network) | Expand NBA venue networks and inspect the Liberty's named venues. Do not treat G League gatherings as parent NBA team parties. |
-| NHL | [Hurricanes Canes Bars](https://www.nhl.com/hurricanes/fans/canes-bars), [Blue Jackets bar network](https://www.nhl.com/bluejackets/fans/bar-network), [Panthers Cats on Tap](https://www.nhl.com/panthers/fans/catsontap), [Rangers bar network](https://www.nhl.com/rangers/fans/bar-network), [Blues bars](https://www.nhl.com/blues/fans/bars) | Expand these standing networks and check new season listings for clubs whose current pages show no named locations. |
-| Soccer | [Arsenal America branches](https://arsenalamerica.com/branches/), [Chelsea in America](https://www.chelseainamerica.com/), [Bayern US watch bars](https://fcbayern.com/en/fans/fan-clubs/us-where-to-watch), [Manchester United US chapters](https://manutdusa.com/chapters/) | Inspect additional local club pages and confirm street addresses. Current OLSC Seattle lists The Westy and Doyle's; older articles naming St. Andrews should not override it. |
-| Rugby | [Free Jacks 2026 pub partners](https://freejacks.com/2026-pub-partners/), [Munster US branches](https://www.mrsc.ie/branches/usa/), [Old Glory DC bar network](https://oldglorydc.com/bar-network/) | Expand partner venues with resolved addresses. Check current team identity before reusing older RFCLA or other predecessor-team events. |
-| Cricket | [Seattle Orcas official watch-party announcement](https://www.seattleorcas.com/news/seattle-orcas-announce-official-watch-parties-and-broadcast-lineup-for-major-league-cricket-season-four), [Washington Freedom](https://www.washingtonfreedom.com/), [San Francisco Unicorns events](https://www.sfunicorns.com/events/) | Seek new dated announcements or an explicit standing arrangement. The Orcas evidence in this batch is historical; a World Cup screening hosted by a franchise does not establish viewing of that franchise's matches. |
-
-Cricket remains an active research gap. This pass did not establish current standing US venues for the researched MLC clubs. That means the evidence threshold was not met here, not that no fan communities or venues exist. IPL and other cricket leagues require separate research. Do not mark the category, its teams, or the overall catalog as comprehensively verified.
+Use venue name plus the sourced city for navigation when a street address is missing. Never invent coordinates or substitute a city-center point for an exact venue pin. Address corrections use venue-owned sources when available. Keep direct host confirmation separate from directory inclusion, and preserve source notes when a listing needs an update. No personal contacts or private-home addresses are imported.

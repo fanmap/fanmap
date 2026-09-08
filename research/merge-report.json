@@ -1,0 +1,471 @@
+{
+  "inputFiles": [
+    "college-a-lsu.json",
+    "college-a.json",
+    "college-b.json",
+    "nfl.json",
+    "nhl.json",
+    "soccer-rugby.json"
+  ],
+  "incomingRecords": 1559,
+  "addedRecords": 1494,
+  "duplicateRecordsMerged": 65,
+  "resultRecords": 1616,
+  "duplicates": [
+    {
+      "teamKey": "college-sec-lsu",
+      "venue": "Jameson's Pub",
+      "city": "Santa Monica, CA",
+      "keptId": "checked-98d771b6989efc0b",
+      "source": "https://www.lsualumni.org/watchparties"
+    },
+    {
+      "teamKey": "college-sec-lsu",
+      "venue": "Roundin’ 3rd Sports Bar & Grill",
+      "city": "Upland, CA",
+      "keptId": "checked-4c1144363b26c325",
+      "source": "https://www.lsusocal.org/watch-parties"
+    },
+    {
+      "teamKey": "college-big-ten-michigan",
+      "venue": "Fadó Irish Pub",
+      "city": "Atlanta, GA",
+      "keptId": "checked-c773e4b14a71c954",
+      "source": "https://alumni.umich.edu/athletics/game-watch-parties/"
+    },
+    {
+      "teamKey": "college-big-ten-michigan",
+      "venue": "Haymaker",
+      "city": "Austin, TX",
+      "keptId": "checked-a1cc40ad9ead921a",
+      "source": "https://alumni.umich.edu/athletics/game-watch-parties/"
+    },
+    {
+      "teamKey": "college-big-ten-michigan",
+      "venue": "Duffy's Tavern and Grille",
+      "city": "Chicago, IL",
+      "keptId": "checked-70eee7485b5a2afa",
+      "source": "https://alumni.umich.edu/athletics/game-watch-parties/"
+    },
+    {
+      "teamKey": "college-big-ten-michigan",
+      "venue": "Happiest Hour",
+      "city": "Dallas, TX",
+      "keptId": "checked-283a43617f714aa5",
+      "source": "https://alumni.umich.edu/athletics/game-watch-parties/"
+    },
+    {
+      "teamKey": "college-sec-tennessee",
+      "venue": "Half Moon Sports Grill",
+      "city": "Phoenix, AZ",
+      "keptId": "checked-5c8a567aed7f5b47",
+      "source": "https://alumni.utk.edu/vol-watch-parties/"
+    },
+    {
+      "teamKey": "college-sec-tennessee",
+      "venue": "Bloom’s Saloon",
+      "city": "San Francisco, CA",
+      "keptId": "checked-559c8bc922ef8451",
+      "source": "https://alumni.utk.edu/vol-watch-parties/"
+    },
+    {
+      "teamKey": "college-big-ten-washington",
+      "venue": "Legends Restaurant & Sports Bar",
+      "city": "Long Beach, CA",
+      "keptId": "checked-b5da286b7a3822ad",
+      "source": "https://www.washington.edu/alumni/event/2026-football-watch-parties/"
+    },
+    {
+      "teamKey": "college-big-ten-washington",
+      "venue": "Graystone Tavern",
+      "city": "Chicago, IL",
+      "keptId": "checked-e8a61ee1e4f094ee",
+      "source": "https://www.washington.edu/alumni/event/2026-football-watch-parties/"
+    },
+    {
+      "teamKey": "college-big-ten-oregon",
+      "venue": "Irish Channel Restaurant & Pub",
+      "city": "Washington, DC",
+      "keptId": "checked-8835c107a1e2587b",
+      "source": "https://www.uoalumni.com/event/athletic/2026/dc-ducks-watch-party"
+    },
+    {
+      "teamKey": "college-big-ten-oregon",
+      "venue": "Mavrix",
+      "city": "Scottsdale, AZ",
+      "keptId": "checked-5b6f1fafe8c5b60f",
+      "source": "https://www.uoalumni.com/event/athletic/2026/desert-ducks-watch-party-scottsdale"
+    },
+    {
+      "teamKey": "college-sec-oklahoma",
+      "venue": "Bungalow Heights",
+      "city": "Houston, TX",
+      "keptId": "checked-1bcd28ef4e992561",
+      "source": "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1493&sid=1720"
+    },
+    {
+      "teamKey": "college-sec-oklahoma",
+      "venue": "Frisco Bar and Grill",
+      "city": "Frisco, TX",
+      "keptId": "checked-4df51f9b467d564b",
+      "source": "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1493&sid=1720"
+    },
+    {
+      "teamKey": "nfl-nfl-cleveland-browns",
+      "venue": "Gallagher's",
+      "city": "Phoenix, AZ",
+      "keptId": "checked-4a32edfcca0f5b2d",
+      "source": "https://brownsbackersworldwide.com/chapters/phx-area-browns-backers/"
+    },
+    {
+      "teamKey": "nfl-nfl-cleveland-browns",
+      "venue": "Buffalo Wild Wings",
+      "city": "Middletown, DE",
+      "keptId": "checked-4873adb291aae65f",
+      "source": "https://brownsbackersworldwide.com/chapters/1st-state-dawg-pound/"
+    },
+    {
+      "teamKey": "nfl-nfl-buffalo-bills",
+      "venue": "Buffalo Bros.",
+      "city": "Fort Worth, TX",
+      "keptId": "checked-70d5198e94acdcc0",
+      "source": "https://dfwbillsbackers.org/about/"
+    },
+    {
+      "teamKey": "nfl-nfl-buffalo-bills",
+      "venue": "Anchor Bar Frisco",
+      "city": "Frisco, TX",
+      "keptId": "checked-1e899af54c315733",
+      "source": "https://dfwbillsbackers.org/about/"
+    },
+    {
+      "teamKey": "nfl-nfl-buffalo-bills",
+      "venue": "The Hideaway",
+      "city": "Dallas, TX",
+      "keptId": "checked-3cd67b616b76bdf8",
+      "source": "https://dfwbillsbackers.org/about/"
+    },
+    {
+      "teamKey": "nfl-nfl-kansas-city-chiefs",
+      "venue": "Wizard's Sports Cafe",
+      "city": "Richardson, TX",
+      "keptId": "checked-d8d1087e88157255",
+      "source": "https://chiefsfansofdallas.com/"
+    },
+    {
+      "teamKey": "nfl-nfl-baltimore-ravens",
+      "venue": "Park Tavern & Market",
+      "city": "Gilbert, AZ",
+      "keptId": "checked-482368dcfef83a67",
+      "source": "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups"
+    },
+    {
+      "teamKey": "nfl-nfl-baltimore-ravens",
+      "venue": "Oggi's",
+      "city": "Glendale, AZ",
+      "keptId": "checked-98e7bc3c78e8d1a6",
+      "source": "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups"
+    },
+    {
+      "teamKey": "nfl-nfl-baltimore-ravens",
+      "venue": "Bootleggers Modern American Smokehouse",
+      "city": "Scottsdale, AZ",
+      "keptId": "checked-8bcb5c3c5712c89d",
+      "source": "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups"
+    },
+    {
+      "teamKey": "nfl-nfl-baltimore-ravens",
+      "venue": "Toledo's Mexican Restaurant",
+      "city": "Fresno, CA",
+      "keptId": "checked-9faf6f8f7a72769a",
+      "source": "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups"
+    },
+    {
+      "teamKey": "nfl-nfl-baltimore-ravens",
+      "venue": "The Naughty Pig",
+      "city": "West Hollywood, CA",
+      "keptId": "checked-78e66064fb71c155",
+      "source": "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups"
+    },
+    {
+      "teamKey": "nfl-nfl-new-england-patriots",
+      "venue": "Charley's Place",
+      "city": "Glendale, AZ",
+      "keptId": "checked-0c40645a3d21a76b",
+      "source": "https://nepfca.com/"
+    },
+    {
+      "teamKey": "nfl-nfl-new-england-patriots",
+      "venue": "Jack's Pub",
+      "city": "Milwaukee, WI",
+      "keptId": "checked-ede7e2c1dfbb4af7",
+      "source": "https://fanclubs.patriots.com/club/mke-pats"
+    },
+    {
+      "teamKey": "nfl-nfl-new-england-patriots",
+      "venue": "Yogi's",
+      "city": "Dublin, OH",
+      "keptId": "checked-0f8301b6c4b388f8",
+      "source": "https://fanclubs.patriots.com/club/patriots-fan-club-of-columbus"
+    },
+    {
+      "teamKey": "nfl-nfl-new-england-patriots",
+      "venue": "BlueSky Golf Club",
+      "city": "Jacksonville, FL",
+      "keptId": "checked-7e5fa98ba03b33cb",
+      "source": "https://fanclubs.patriots.com/club/the-patriot-fans-of-jacksonville"
+    },
+    {
+      "teamKey": "nfl-nfl-new-england-patriots",
+      "venue": "The Garage",
+      "city": "Los Angeles, CA",
+      "keptId": "checked-677461893f0d61e8",
+      "source": "https://fanclubs.patriots.com/club/pats-fans-parking-south-at-the-garage"
+    },
+    {
+      "teamKey": "nfl-nfl-minnesota-vikings",
+      "venue": "Four Peaks Brewery — 8th Street Pub",
+      "city": "Tempe, AZ",
+      "keptId": "checked-dd54a557b08cde56",
+      "source": "https://www.vikings.com/fans/clubs-watch-bars"
+    },
+    {
+      "teamKey": "nfl-nfl-minnesota-vikings",
+      "venue": "The Regal Seagull",
+      "city": "Encinitas, CA",
+      "keptId": "checked-af5464aab1bce4cf",
+      "source": "https://www.vikings.com/fans/clubs-watch-bars"
+    },
+    {
+      "teamKey": "nfl-nfl-minnesota-vikings",
+      "venue": "The Graystone Tavern",
+      "city": "Chicago, IL",
+      "keptId": "checked-8a833c8a86c772a7",
+      "source": "https://www.vikings.com/fans/clubs-watch-bars"
+    },
+    {
+      "teamKey": "nfl-nfl-minnesota-vikings",
+      "venue": "Valhalla Pub & Eatery",
+      "city": "Charlotte, NC",
+      "keptId": "checked-db415ef044d61d44",
+      "source": "https://www.vikings.com/fans/clubs-watch-bars"
+    },
+    {
+      "teamKey": "nfl-nfl-new-england-patriots",
+      "venue": "Buster's Sports Tavern",
+      "city": "Fort Myers, FL",
+      "keptId": null,
+      "source": "https://fanclubs.patriots.com/search?page=13"
+    },
+    {
+      "teamKey": "nhl-nhl-seattle-kraken",
+      "venue": "The Angry Beaver",
+      "city": "Seattle, WA",
+      "keptId": "checked-931951c177212052",
+      "source": "https://www.nhl.com/kraken/fans/watch-parties"
+    },
+    {
+      "teamKey": "nhl-nhl-seattle-kraken",
+      "venue": "Sam’s Saloon",
+      "city": "Kennewick, WA",
+      "keptId": "checked-76446a59d9b24d03",
+      "source": "https://www.nhl.com/kraken/fans/watch-parties"
+    },
+    {
+      "teamKey": "nhl-nhl-carolina-hurricanes",
+      "venue": "Carolina Ale House — Cary",
+      "city": "Cary, NC",
+      "keptId": "checked-729649fe42d93b61",
+      "source": "https://www.nhl.com/hurricanes/fans/canes-bars"
+    },
+    {
+      "teamKey": "nhl-nhl-carolina-hurricanes",
+      "venue": "Carolina Ale House — Durham",
+      "city": "Durham, NC",
+      "keptId": "checked-8e7dbac5d21c641f",
+      "source": "https://www.nhl.com/hurricanes/fans/canes-bars"
+    },
+    {
+      "teamKey": "nhl-nhl-florida-panthers",
+      "venue": "American Social — Fort Lauderdale",
+      "city": "Fort Lauderdale, FL",
+      "keptId": "checked-0ab48973c5f156fc",
+      "source": "https://www.nhl.com/panthers/fans/catsontap"
+    },
+    {
+      "teamKey": "nhl-nhl-florida-panthers",
+      "venue": "Grails",
+      "city": "Miami, FL",
+      "keptId": "checked-fdf41fcfa84442e1",
+      "source": "https://www.nhl.com/panthers/fans/catsontap"
+    },
+    {
+      "teamKey": "nhl-nhl-nashville-predators",
+      "venue": "TailGate Brewery — Chattanooga",
+      "city": "Chattanooga, TN",
+      "keptId": "checked-5dd444980f4790b6",
+      "source": "https://www.nhl.com/predators/fans/preds-approved"
+    },
+    {
+      "teamKey": "nhl-nhl-nashville-predators",
+      "venue": "Pinewood Social",
+      "city": "Nashville, TN",
+      "keptId": "checked-5f4616009e4d3120",
+      "source": "https://www.nhl.com/predators/fans/preds-approved"
+    },
+    {
+      "teamKey": "nhl-nhl-new-york-rangers",
+      "venue": "Tailor Public House",
+      "city": "New York, NY",
+      "keptId": "checked-f536008c2ae46682",
+      "source": "https://www.nhl.com/rangers/fans/bar-network"
+    },
+    {
+      "teamKey": "nhl-nhl-new-york-rangers",
+      "venue": "Blue Haven South",
+      "city": "New York, NY",
+      "keptId": "checked-f82da906eb211cdd",
+      "source": "https://www.nhl.com/rangers/fans/bar-network"
+    },
+    {
+      "teamKey": "nhl-nhl-st-louis-blues",
+      "venue": "314 Social Bar & Restaurant",
+      "city": "Maryland Heights, MO",
+      "keptId": "checked-e3b40c05633834b5",
+      "source": "https://www.nhl.com/blues/fans/bars"
+    },
+    {
+      "teamKey": "nhl-nhl-st-louis-blues",
+      "venue": "Big Daddy’s Bar in Soulard",
+      "city": "St. Louis, MO",
+      "keptId": "checked-fa3a333458138e47",
+      "source": "https://www.nhl.com/blues/fans/bars"
+    },
+    {
+      "teamKey": "nhl-nhl-columbus-blue-jackets",
+      "venue": "Budd Dairy Food Hall",
+      "city": "Columbus, OH",
+      "keptId": "checked-540072bfe82e60d9",
+      "source": "https://www.nhl.com/bluejackets/fans/bar-network"
+    },
+    {
+      "teamKey": "nhl-nhl-columbus-blue-jackets",
+      "venue": "R Bar Arena",
+      "city": "Columbus, OH",
+      "keptId": "checked-f9b31d3acd1f4171",
+      "source": "https://www.nhl.com/bluejackets/fans/bar-network"
+    },
+    {
+      "teamKey": "nhl-nhl-vegas-golden-knights",
+      "venue": "Craig Ranch Amphitheater",
+      "city": "North Las Vegas, NV",
+      "keptId": "checked-55de28ae9c982b99",
+      "source": "https://www.nhl.com/goldenknights/news/vegas-golden-knights-to-host-official-watch-parties-for-game-6"
+    },
+    {
+      "teamKey": "nhl-nhl-vegas-golden-knights",
+      "venue": "Water Street Plaza",
+      "city": "Henderson, NV",
+      "keptId": "checked-08ae77d6f817d8cb",
+      "source": "https://www.nhl.com/goldenknights/news/vegas-golden-knights-to-host-official-watch-parties-for-game-6"
+    },
+    {
+      "teamKey": "nhl-nhl-san-jose-sharks",
+      "venue": "Fieldwork",
+      "city": "San Leandro, CA",
+      "keptId": "checked-575fccc2e36bdad1",
+      "source": "https://www.nhl.com/sharks/news/sharks-announce-2025-26-watch-party-schedule"
+    },
+    {
+      "teamKey": "nhl-nhl-san-jose-sharks",
+      "venue": "Splash",
+      "city": "San Jose, CA",
+      "keptId": "checked-e31b1cd73965fe92",
+      "source": "https://www.nhl.com/sharks/news/sharks-announce-2025-26-watch-party-schedule"
+    },
+    {
+      "teamKey": "soccer-english-premier-league-arsenal",
+      "venue": "Yucca Tap Room",
+      "city": "Tempe, AZ",
+      "keptId": "checked-c9f26bd0a32cf3b7",
+      "source": "https://arsenalamerica.com/branches/"
+    },
+    {
+      "teamKey": "soccer-english-premier-league-arsenal",
+      "venue": "Corbett’s",
+      "city": "Tucson, AZ",
+      "keptId": "checked-d7dec0f7271c5c26",
+      "source": "https://arsenalamerica.com/branches/"
+    },
+    {
+      "teamKey": "soccer-english-premier-league-arsenal",
+      "venue": "Botanical Live",
+      "city": "Fayetteville, AR",
+      "keptId": "checked-0cc28f996f7ff494",
+      "source": "https://arsenalamerica.com/branches/"
+    },
+    {
+      "teamKey": "soccer-english-premier-league-arsenal",
+      "venue": "The Fox & Hounds",
+      "city": "Studio City, CA",
+      "keptId": "checked-3edf9a06365a4ac5",
+      "source": "https://arsenalamerica.com/branches/"
+    },
+    {
+      "teamKey": "soccer-english-premier-league-arsenal",
+      "venue": "The Globe Pub",
+      "city": "Chicago, IL",
+      "keptId": "checked-c741b4fd4d12f7af",
+      "source": "https://arsenalamerica.com/branches/"
+    },
+    {
+      "teamKey": "rugby-united-rugby-championship-munster",
+      "venue": "The Irish Times",
+      "city": "San Francisco, CA",
+      "keptId": "checked-1d8db5caef12af72",
+      "source": "https://www.mrsc.ie/branches/usa/"
+    },
+    {
+      "teamKey": "rugby-united-rugby-championship-munster",
+      "venue": "Ye Olde King’s Head",
+      "city": "Santa Monica, CA",
+      "keptId": "checked-035358417e014738",
+      "source": "https://www.mrsc.ie/branches/usa/"
+    },
+    {
+      "teamKey": "rugby-united-rugby-championship-munster",
+      "venue": "Stadium Pub",
+      "city": "Walnut Creek, CA",
+      "keptId": "checked-751223306e38b721",
+      "source": "https://www.mrsc.ie/branches/usa/"
+    },
+    {
+      "teamKey": "rugby-united-rugby-championship-munster",
+      "venue": "The Globe Pub",
+      "city": "Chicago, IL",
+      "keptId": "checked-5649c31d4a4328bf",
+      "source": "https://www.mrsc.ie/branches/usa/"
+    },
+    {
+      "teamKey": "rugby-united-rugby-championship-munster",
+      "venue": "Mulligans",
+      "city": "Hoboken, NJ",
+      "keptId": "checked-742ae0865c751d51",
+      "source": "https://www.mrsc.ie/branches/usa/"
+    },
+    {
+      "teamKey": "rugby-united-rugby-championship-munster",
+      "venue": "The Kent Ale House",
+      "city": "Brooklyn, NY",
+      "keptId": "checked-08a99e650b52a403",
+      "source": "https://www.mrsc.ie/branches/usa/"
+    },
+    {
+      "teamKey": "soccer-english-premier-league-chelsea",
+      "venue": "O'Kellys Sports Bar",
+      "city": "Mesa, AZ",
+      "keptId": "checked-1248bf61f145d062",
+      "source": "https://www.chelseainamerica.com/locals/phoenix-blues"
+    }
+  ]
+}

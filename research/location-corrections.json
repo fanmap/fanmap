@@ -1,0 +1,60 @@
+[
+  {
+    "id": "checked-f55104e7857c8604",
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "patch": {
+      "venue": "Buster's Sports Tavern",
+      "src": "https://fanclubs.patriots.com/search?page=13",
+      "discoveryStatus": "directory-listed",
+      "note": "One venue record for the Windjammer fan club and Buster\u2019s listing at the same address."
+    },
+    "releaseHold": true
+  },
+  {
+    "id": "checked-ac455420339bfabd",
+    "teamKey": "nhl-nhl-seattle-kraken",
+    "patch": {
+      "city": "Seattle, WA",
+      "addr": "600 West Nickerson St, Seattle, WA 98119",
+      "addressSource": "https://www.oldstove.com/shipcanal",
+      "discoveryStatus": "directory-listed",
+      "note": "Venue address supplied by its own website; the team directory pairs this branch with a different city."
+    },
+    "releaseHold": true
+  },
+  {
+    "id": "checked-416f01cead3f79b8",
+    "teamKey": "nhl-nhl-nashville-predators",
+    "patch": {
+      "addr": "15545B Old Hickory Blvd, Nashville, TN 37211",
+      "addressSource": "https://www.samsplace.net/locations/nippers-corner-tn",
+      "discoveryStatus": "directory-listed",
+      "note": "Street number and unit checked against the venue website."
+    },
+    "releaseHold": true
+  },
+  {
+    "id": "checked-1266d04556ead372",
+    "teamKey": "nhl-nhl-st-louis-blues",
+    "patch": {
+      "city": "Arnold, MO",
+      "addr": "131 Arnold Crossroads Ctr, Arnold, MO 63010",
+      "addressSource": "https://hotshotsnet.com/locations/arnold-mo/",
+      "discoveryStatus": "directory-listed",
+      "note": "Branch address supplied by the venue website; the team directory contains a conflicting address."
+    },
+    "releaseHold": true
+  },
+  {
+    "id": "checked-c7bb56ac9f6b2463",
+    "teamKey": "soccer-bundesliga-bayern-munich",
+    "patch": {
+      "city": "Brea, CA",
+      "addr": "375 W Central Avenue, Brea, CA 92821",
+      "addressSource": "https://www.thephoenixclub.com/",
+      "discoveryStatus": "needs-update",
+      "note": "The venue moved from Anaheim to Brea. Its Bayern gathering arrangement at the new location needs confirmation."
+    },
+    "releaseHold": true
+  }
+]

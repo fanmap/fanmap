@@ -912,5 +912,375 @@
       "https://www.chubbysquirrelbrewing.com/",
       "https://theauldshebeenva.com/contact/"
     ]
+  },
+  {
+    "teamKey": "college-big-ten-michigan",
+    "checkedAt": "2026-09-08",
+    "result": "partial",
+    "directoryPass": true,
+    "sources": [
+      "https://alumni.umich.edu/athletics/game-watch-parties/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-sec-tennessee",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://alumni.utk.edu/vol-watch-parties/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-big-ten-washington",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.washington.edu/alumni/event/2026-football-watch-parties/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-big-ten-oregon",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.uoalumni.com/events/football/football-watch-parties"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-sec-lsu",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.lsualumni.org/watchparties"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-sec-lsu",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.lsusocal.org/watch-parties"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-sec-lsu",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.dandydon.com/lsu-alumni-association-view-in-parties-and-announcements/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-sec-lsu",
+    "checkedAt": "2026-09-08",
+    "result": "partial",
+    "directoryPass": true,
+    "sources": [
+      "https://www.lsualumni.org/lsuaachapters"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-sec-georgia",
+    "checkedAt": "2026-09-08",
+    "result": "partial",
+    "directoryPass": true,
+    "sources": [
+      "https://alumni.uga.edu/gamewatching/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-sec-oklahoma",
+    "checkedAt": "2026-09-08",
+    "result": "partial",
+    "directoryPass": true,
+    "sources": [
+      "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1493&sid=1720"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-sec-florida",
+    "checkedAt": "2026-09-08",
+    "result": "partial",
+    "directoryPass": true,
+    "sources": [
+      "https://connect.ufalumni.ufl.edu/network/gator-clubs-and-affiliate-groups"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-baltimore-ravens",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-minnesota-vikings",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.vikings.com/fans/clubs-watch-bars"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://fanclubs.patriots.com/search"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-new-york-giants",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.giants.com/barnetwork/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-new-york-jets",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.newyorkjets.com/fans/bar-network"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-chicago-bears",
+    "checkedAt": "2026-09-08",
+    "result": "partial",
+    "directoryPass": true,
+    "sources": [
+      "https://www.chicagobears.com/fan-zone/bears-bars"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-cincinnati-bengals",
+    "checkedAt": "2026-09-08",
+    "result": "partial",
+    "directoryPass": true,
+    "sources": [
+      "https://www.bengals.com/fans/bengals-bars"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-tampa-bay-buccaneers",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.buccaneers.com/budlight/bar-network"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-atlanta-falcons",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.atlantafalcons.com/schedule/bar-program"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-green-bay-packers",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://onmilwaukee.com/articles/packers-bars-across-united-states"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nhl-nhl-seattle-kraken",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.nhl.com/kraken/fans/watch-parties"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nhl-nhl-carolina-hurricanes",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.nhl.com/hurricanes/fans/canes-bars"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nhl-nhl-florida-panthers",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.nhl.com/panthers/fans/catsontap"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nhl-nhl-nashville-predators",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.nhl.com/predators/fans/preds-approved"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nhl-nhl-new-york-rangers",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.nhl.com/rangers/fans/bar-network"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nhl-nhl-st-louis-blues",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.nhl.com/blues/fans/bars"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nhl-nhl-columbus-blue-jackets",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.nhl.com/bluejackets/fans/bar-network"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nhl-nhl-vegas-golden-knights",
+    "checkedAt": "2026-09-08",
+    "result": "partial",
+    "directoryPass": true,
+    "sources": [
+      "https://www.nhl.com/goldenknights/news/vegas-golden-knights-to-host-official-watch-parties-for-game-6"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nhl-nhl-san-jose-sharks",
+    "checkedAt": "2026-09-08",
+    "result": "partial",
+    "directoryPass": true,
+    "sources": [
+      "https://www.nhl.com/sharks/news/sharks-announce-2025-26-watch-party-schedule"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-english-premier-league-arsenal",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://arsenalamerica.com/branches/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-english-premier-league-arsenal",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://arsenal.nyc/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-bundesliga-bayern-munich",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://fcbayern.com/en/fans/fan-clubs/us-where-to-watch"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "rugby-united-rugby-championship-munster",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.mrsc.ie/branches/usa/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-english-premier-league-arsenal",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://arsphl.com/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-english-premier-league-chelsea",
+    "checkedAt": "2026-09-08",
+    "result": "partial",
+    "directoryPass": true,
+    "sources": [
+      "https://www.chelseainamerica.com/groups"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-english-premier-league-chelsea",
+    "checkedAt": "2026-09-08",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.nybluescfc.com/pubs"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
   }
 ]

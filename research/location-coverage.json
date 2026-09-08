@@ -2,17 +2,21 @@
   "summary": {
     "checkedAt": "2026-09-08",
     "totalTeams": 620,
+    "directoryLayerListings": 1605,
     "newSourceCheckedVenues": 100,
+    "listedVenuesAwaitingConfirmation": 1505,
     "teamsWithSourceCheckedVenues": 40,
-    "totalTeamsWithAnyRecords": 61,
-    "totalDirectoryRecords": 700,
-    "historicalOrHeldRecords": 22,
-    "teamsReviewed": 77,
+    "totalTeamsWithAnyRecords": 76,
+    "totalDirectoryRecords": 2205,
+    "totalNamedVenueListings": 1956,
+    "totalTeamsWithNamedVenues": 65,
+    "heldRecords": 11,
+    "teamsReviewed": 83,
     "statusCounts": {
-      "not-yet-reviewed": 543,
+      "not-yet-reviewed": 537,
       "source-checked-venues": 40,
-      "reviewed-needs-follow-up": 26,
-      "historical-or-held-evidence": 11
+      "reviewed-needs-follow-up": 25,
+      "listed-venues": 18
     }
   },
   "teams": [
@@ -23,6 +27,8 @@
       "league": "SEC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 12,
       "existingRecordCount": 19,
       "sources": [],
       "reviews": []
@@ -34,6 +40,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 31,
       "existingRecordCount": 31,
       "sources": [],
       "reviews": []
@@ -45,6 +53,8 @@
       "league": "SEC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 51,
       "existingRecordCount": 51,
       "sources": [],
       "reviews": []
@@ -56,6 +66,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 65,
       "existingRecordCount": 65,
       "sources": [],
       "reviews": []
@@ -67,6 +79,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 138,
       "existingRecordCount": 138,
       "sources": [],
       "reviews": []
@@ -78,6 +92,8 @@
       "league": "SEC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 156,
       "sources": [],
       "reviews": []
@@ -89,6 +105,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 41,
       "existingRecordCount": 41,
       "sources": [],
       "reviews": []
@@ -100,6 +118,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 4,
       "existingRecordCount": 36,
       "sources": [],
       "reviews": []
@@ -111,6 +131,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 23,
       "sources": [],
       "reviews": []
@@ -122,6 +144,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -133,6 +157,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -144,6 +170,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -155,6 +183,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -166,6 +196,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -177,6 +209,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -188,6 +222,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -199,6 +235,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -210,6 +248,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -221,6 +261,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -232,6 +274,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -243,6 +287,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -254,6 +300,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -265,6 +313,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -276,6 +326,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -287,6 +339,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -298,6 +352,8 @@
       "league": "ACC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -309,6 +365,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -320,6 +378,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -331,6 +391,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -342,6 +404,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -353,6 +417,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -364,6 +430,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -375,6 +443,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -386,6 +456,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -397,6 +469,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -408,6 +482,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -419,6 +495,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -430,6 +508,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -441,6 +521,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -452,6 +534,8 @@
       "league": "American",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -463,6 +547,8 @@
       "league": "Big 12",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 1,
+      "listedVenueCount": 0,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://alumni.arizona.edu/events/seattle-wa-seattle-alumni-chapter-football-watch-parties"
@@ -487,6 +573,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -498,6 +586,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -509,6 +599,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -520,6 +612,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -531,6 +625,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -542,6 +638,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -553,6 +651,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -564,6 +664,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -575,6 +677,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -586,6 +690,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -597,6 +703,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -608,6 +716,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -619,6 +729,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -630,6 +742,8 @@
       "league": "Big 12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -641,6 +755,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -652,6 +768,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -663,6 +781,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -674,6 +794,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -685,6 +807,8 @@
       "league": "Big Ten",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 4,
+      "listedVenueCount": 14,
+      "namedVenueCount": 18,
       "existingRecordCount": 0,
       "sources": [
         "https://alumni.umich.edu/athletics/game-watch-parties/"
@@ -699,6 +823,16 @@
             "https://alumni.umich.edu/athletics/game-watch-parties/"
           ],
           "checkedAt": "2026-09-08"
+        },
+        {
+          "teamKey": "college-big-ten-michigan",
+          "checkedAt": "2026-09-08",
+          "result": "partial",
+          "directoryPass": true,
+          "sources": [
+            "https://alumni.umich.edu/athletics/game-watch-parties/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -709,6 +843,8 @@
       "league": "Big Ten",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -733,6 +869,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -744,6 +882,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -755,6 +895,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -766,10 +908,40 @@
       "league": "Big Ten",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 30,
+      "namedVenueCount": 32,
       "existingRecordCount": 0,
       "sources": [
         "https://www.uoalumni.com/event/athletic/2026/desert-ducks-watch-party-scottsdale",
-        "https://www.uoalumni.com/event/athletic/2026/dc-ducks-watch-party"
+        "https://www.uoalumni.com/event/athletic/2026/dc-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/alaska-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/atlanta-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/bay-area-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/boston-ducks-watch-party",
+        "https://www.uoalumni.com/event/2026/central-oregon-ducks-watch-party-bend",
+        "https://www.uoalumni.com/event/2026/central-oregon-ducks-watch-party-redmond",
+        "https://www.uoalumni.com/event/athletic/2026/chicago-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/dallas-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/denver-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/desert-ducks-watch-party-avondale",
+        "https://www.uoalumni.com/event/athletic/2026/hawaii-ducks-watch-party-maui",
+        "https://www.uoalumni.com/event/athletic/2026/hawaii-ducks-watch-party-oahu",
+        "https://www.uoalumni.com/event/athletic/2026/houston-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/idaho-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/la-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/lane-county-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/music-city-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/new-york-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/orange-county-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/pdx-ducks-watch-party-east",
+        "https://www.uoalumni.com/event/athletic/2026/pdx-ducks-watch-party-west",
+        "https://www.uoalumni.com/event/athletic/2026/reno-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/sacramento-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/san-diego-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/seattle-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/singapore-ducks-watch-party-0",
+        "https://www.uoalumni.com/event/athletic/2026/temecula-valley-ducks-watch-party",
+        "https://www.uoalumni.com/event/athletic/2026/vegas-ducks-watch-party"
       ],
       "reviews": [
         {
@@ -782,6 +954,16 @@
             "https://www.uoalumni.com/event/athletic/2026/desert-ducks-watch-party-scottsdale"
           ],
           "checkedAt": "2026-09-08"
+        },
+        {
+          "teamKey": "college-big-ten-oregon",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.uoalumni.com/events/football/football-watch-parties"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -792,6 +974,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -803,6 +987,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -814,6 +1000,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -825,6 +1013,8 @@
       "league": "Big Ten",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -836,6 +1026,8 @@
       "league": "Big Ten",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 15,
+      "namedVenueCount": 17,
       "existingRecordCount": 0,
       "sources": [
         "https://www.washington.edu/alumni/event/2026-football-watch-parties/"
@@ -850,6 +1042,16 @@
             "https://www.washington.edu/alumni/event/2026-football-watch-parties/"
           ],
           "checkedAt": "2026-09-08"
+        },
+        {
+          "teamKey": "college-big-ten-washington",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.washington.edu/alumni/event/2026-football-watch-parties/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -860,6 +1062,8 @@
       "league": "Big Ten",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 1,
+      "listedVenueCount": 0,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://www.uwalumni.com/events/stl-gw-notre-dame/"
@@ -884,6 +1088,8 @@
       "league": "Conference USA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -895,6 +1101,8 @@
       "league": "Conference USA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -906,6 +1114,8 @@
       "league": "Conference USA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -917,6 +1127,8 @@
       "league": "Conference USA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -928,6 +1140,8 @@
       "league": "Conference USA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -939,6 +1153,8 @@
       "league": "Conference USA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -950,6 +1166,8 @@
       "league": "Conference USA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -961,6 +1179,8 @@
       "league": "Conference USA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -972,6 +1192,8 @@
       "league": "Conference USA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -983,6 +1205,8 @@
       "league": "Conference USA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -994,6 +1218,8 @@
       "league": "Conference USA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1005,6 +1231,8 @@
       "league": "Conference USA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1016,6 +1244,8 @@
       "league": "Independent",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1027,6 +1257,8 @@
       "league": "Independent",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1038,6 +1270,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1049,6 +1283,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1060,6 +1296,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1071,6 +1309,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1082,6 +1322,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1093,6 +1335,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1104,6 +1348,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1115,6 +1361,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1126,6 +1374,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1137,6 +1387,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1148,6 +1400,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1159,6 +1413,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1170,6 +1426,8 @@
       "league": "MAC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1181,6 +1439,8 @@
       "league": "Mountain West",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1192,6 +1452,8 @@
       "league": "Mountain West",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1203,6 +1465,8 @@
       "league": "Mountain West",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1214,6 +1478,8 @@
       "league": "Mountain West",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1225,6 +1491,8 @@
       "league": "Mountain West",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1236,6 +1504,8 @@
       "league": "Mountain West",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1247,6 +1517,8 @@
       "league": "Mountain West",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1258,6 +1530,8 @@
       "league": "Mountain West",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1269,6 +1543,8 @@
       "league": "Mountain West",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1280,6 +1556,8 @@
       "league": "Mountain West",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1291,6 +1569,8 @@
       "league": "Mountain West",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1302,6 +1582,8 @@
       "league": "Mountain West",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1313,6 +1595,8 @@
       "league": "Pac-12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1324,6 +1608,8 @@
       "league": "Pac-12",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1335,6 +1621,8 @@
       "league": "SEC",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -1359,6 +1647,8 @@
       "league": "SEC",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 4,
+      "listedVenueCount": 0,
+      "namedVenueCount": 4,
       "existingRecordCount": 0,
       "sources": [
         "https://connect.ufalumni.ufl.edu/gatorclubofmiami/events/watchparties",
@@ -1377,6 +1667,16 @@
             "https://connect.ufalumni.ufl.edu/houstongatorclub/about/events/eventdescription?CalendarEventKey=a1478fd1-2201-45da-9804-019f92778719&CommunityKey=89a7fed9-89f5-4041-a97b-19866e42e12d&Home=/events/calendar"
           ],
           "checkedAt": "2026-09-08"
+        },
+        {
+          "teamKey": "college-sec-florida",
+          "checkedAt": "2026-09-08",
+          "result": "partial",
+          "directoryPass": true,
+          "sources": [
+            "https://connect.ufalumni.ufl.edu/network/gator-clubs-and-affiliate-groups"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -1385,10 +1685,37 @@
       "team": "Georgia",
       "category": "College",
       "league": "SEC",
-      "status": "reviewed-needs-follow-up",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 65,
+      "namedVenueCount": 65,
       "existingRecordCount": 0,
-      "sources": [],
+      "sources": [
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_columbus_georgia",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_northeast_georgia_mountains",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_orlando",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_sarasota",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_space_coast",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_charlotte",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_hampton_roads",
+        "https://calendar.uga.edu/group/uga_alumni_association/calendar",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_pittsburgh",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_washington_dc",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_northwest_arkansas",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_indianapolis",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_st_louis_area",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_madison",
+        "https://calendar.uga.edu/search?search=Phoenix+Chapter%3A+Game-Watching+Party",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_san_diego",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_hawaii",
+        "https://calendar.uga.edu/event/seattle-chapter-game-watching-party-uga-vs-alabama-2052",
+        "https://calendar.uga.edu/event/portland-chapter-game-watching-party-uga-vs-ole-miss",
+        "https://calendar.uga.edu/group/uga_alumni_chapter_-_tampa/calendar",
+        "https://calendar.uga.edu/calendar/day/2023/11/11/4",
+        "https://calendar.uga.edu/event/new-orleans-chapter-game-watching-party-uga-vs-florida-2393",
+        "https://calendar.uga.edu/event/charleston-chapter-game-watching-party-uga-vs-ole-miss-8458",
+        "https://calendar.uga.edu/group/uga_alumni_chapters"
+      ],
       "reviews": [
         {
           "team": "Georgia",
@@ -1401,6 +1728,16 @@
           ],
           "note": "Official national directory found; linked current event pages failed to open. No venue retained from snippets alone.",
           "checkedAt": "2026-09-08"
+        },
+        {
+          "teamKey": "college-sec-georgia",
+          "checkedAt": "2026-09-08",
+          "result": "partial",
+          "directoryPass": true,
+          "sources": [
+            "https://alumni.uga.edu/gamewatching/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -1411,6 +1748,8 @@
       "league": "SEC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1422,9 +1761,15 @@
       "league": "SEC",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 56,
+      "namedVenueCount": 58,
       "existingRecordCount": 0,
       "sources": [
-        "https://www.lsusocal.org/watch-parties"
+        "https://www.lsusocal.org/watch-parties",
+        "https://www.lsualumni.org/watchparties",
+        "https://lsutampabayalumni.org/lsu/football-schedule.html",
+        "https://lsudenver.com/events/view-ins/",
+        "https://www.dandydon.com/lsu-alumni-association-view-in-parties-and-announcements/"
       ],
       "reviews": [
         {
@@ -1436,6 +1781,46 @@
             "https://www.lsusocal.org/watch-parties"
           ],
           "checkedAt": "2026-09-08"
+        },
+        {
+          "teamKey": "college-sec-lsu",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.lsualumni.org/watchparties"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        },
+        {
+          "teamKey": "college-sec-lsu",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.lsusocal.org/watch-parties"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        },
+        {
+          "teamKey": "college-sec-lsu",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.dandydon.com/lsu-alumni-association-view-in-parties-and-announcements/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        },
+        {
+          "teamKey": "college-sec-lsu",
+          "checkedAt": "2026-09-08",
+          "result": "partial",
+          "directoryPass": true,
+          "sources": [
+            "https://www.lsualumni.org/lsuaachapters"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -1446,6 +1831,8 @@
       "league": "SEC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1457,6 +1844,8 @@
       "league": "SEC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1468,10 +1857,17 @@
       "league": "SEC",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 16,
+      "namedVenueCount": 18,
       "existingRecordCount": 0,
       "sources": [
         "https://www.ouclubofhouston.org/Watch-Parties",
-        "https://ouclubofcollincounty.com/"
+        "https://ouclubofcollincounty.com/",
+        "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1493&sid=1720",
+        "https://www.oucluboftulsa.com/s/1720/bp18/interior.aspx?gid=5&pgid=1147&sid=1720",
+        "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1161&sid=1720",
+        "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1157&sid=1720",
+        "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1154&sid=1720"
       ],
       "reviews": [
         {
@@ -1484,6 +1880,16 @@
             "https://www.ouclubofhouston.org/Watch-Parties"
           ],
           "checkedAt": "2026-09-08"
+        },
+        {
+          "teamKey": "college-sec-oklahoma",
+          "checkedAt": "2026-09-08",
+          "result": "partial",
+          "directoryPass": true,
+          "sources": [
+            "https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1493&sid=1720"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -1494,6 +1900,8 @@
       "league": "SEC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1505,6 +1913,8 @@
       "league": "SEC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1516,6 +1926,8 @@
       "league": "SEC",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 46,
+      "namedVenueCount": 48,
       "existingRecordCount": 0,
       "sources": [
         "https://alumni.utk.edu/vol-watch-parties/"
@@ -1530,6 +1942,16 @@
             "https://alumni.utk.edu/vol-watch-parties/"
           ],
           "checkedAt": "2026-09-08"
+        },
+        {
+          "teamKey": "college-sec-tennessee",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://alumni.utk.edu/vol-watch-parties/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -1540,6 +1962,8 @@
       "league": "SEC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1551,6 +1975,8 @@
       "league": "SEC",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1562,6 +1988,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1573,6 +2001,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1584,6 +2014,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1595,6 +2027,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1606,6 +2040,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1617,6 +2053,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1628,6 +2066,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1639,6 +2079,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1650,6 +2092,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1661,6 +2105,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1672,6 +2118,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1683,6 +2131,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1694,6 +2144,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1705,6 +2157,8 @@
       "league": "Sun Belt",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1716,6 +2170,8 @@
       "league": "BBL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1727,6 +2183,8 @@
       "league": "BBL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1738,6 +2196,8 @@
       "league": "BBL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1749,6 +2209,8 @@
       "league": "BBL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1760,6 +2222,8 @@
       "league": "BBL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1771,6 +2235,8 @@
       "league": "BBL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1782,6 +2248,8 @@
       "league": "BBL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1793,6 +2261,8 @@
       "league": "BBL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1804,6 +2274,8 @@
       "league": "CPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1815,6 +2287,8 @@
       "league": "CPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1826,6 +2300,8 @@
       "league": "CPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1837,6 +2313,8 @@
       "league": "CPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1848,6 +2326,8 @@
       "league": "CPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1859,6 +2339,8 @@
       "league": "CPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1870,6 +2352,8 @@
       "league": "IPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1881,6 +2365,8 @@
       "league": "IPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1892,6 +2378,8 @@
       "league": "IPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1903,6 +2391,8 @@
       "league": "IPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1914,6 +2404,8 @@
       "league": "IPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1925,6 +2417,8 @@
       "league": "IPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1936,6 +2430,8 @@
       "league": "IPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1947,6 +2443,8 @@
       "league": "IPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1958,6 +2456,8 @@
       "league": "IPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1969,6 +2469,8 @@
       "league": "IPL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -1980,6 +2482,8 @@
       "league": "Major League Cricket",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -2002,6 +2506,8 @@
       "league": "Major League Cricket",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -2024,6 +2530,8 @@
       "league": "Major League Cricket",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -2045,8 +2553,10 @@
       "team": "Seattle Orcas",
       "category": "Cricket",
       "league": "Major League Cricket",
-      "status": "historical-or-held-evidence",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 5,
+      "namedVenueCount": 5,
       "existingRecordCount": 0,
       "sources": [
         "https://www.seattleorcas.com/news/seattle-orcas-announce-official-watch-parties-and-broadcast-lineup-for-major-league-cricket-season-four"
@@ -2071,6 +2581,8 @@
       "league": "Major League Cricket",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -2093,6 +2605,8 @@
       "league": "Major League Cricket",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -2116,6 +2630,8 @@
       "league": "PSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2127,6 +2643,8 @@
       "league": "PSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2138,6 +2656,8 @@
       "league": "PSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2149,6 +2669,8 @@
       "league": "PSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2160,6 +2682,8 @@
       "league": "PSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2171,6 +2695,8 @@
       "league": "PSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2180,8 +2706,10 @@
       "team": "Arizona Diamondbacks",
       "category": "MLB",
       "league": "MLB",
-      "status": "historical-or-held-evidence",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 1,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://www.mlb.com/news/press-release-d-backs-fans-embrace-the-chaos-and-sell-out-chase-field"
@@ -2207,6 +2735,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2218,6 +2748,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2229,6 +2761,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2240,6 +2774,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2249,8 +2785,10 @@
       "team": "Chicago Cubs",
       "category": "MLB",
       "league": "MLB",
-      "status": "historical-or-held-evidence",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 1,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://www.bleachernation.com/cubs/2026/06/19/attn-come-to-our-free-cubs-watch-party-this-month/"
@@ -2276,6 +2814,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2287,6 +2827,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2298,6 +2840,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2309,6 +2853,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2320,6 +2866,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2331,6 +2879,8 @@
       "league": "MLB",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 3,
+      "listedVenueCount": 0,
+      "namedVenueCount": 3,
       "existingRecordCount": 0,
       "sources": [
         "https://www.mlb.com/astros/fans/stros-social-club",
@@ -2358,6 +2908,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2369,6 +2921,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2380,6 +2934,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 1,
       "sources": [],
       "reviews": []
@@ -2391,6 +2947,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2400,8 +2958,10 @@
       "team": "Milwaukee Brewers",
       "category": "MLB",
       "league": "MLB",
-      "status": "historical-or-held-evidence",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 1,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://www.mlb.com/press-release/press-release-brewers-announce-national-league-division-series-watch-parties"
@@ -2427,6 +2987,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2438,6 +3000,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2449,6 +3013,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2460,6 +3026,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2471,6 +3039,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2482,6 +3052,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2493,6 +3065,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2504,6 +3078,8 @@
       "league": "MLB",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 0,
+      "namedVenueCount": 2,
       "existingRecordCount": 0,
       "sources": [
         "https://www.hatback.com/seattle-mariners/",
@@ -2531,6 +3107,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2542,6 +3120,8 @@
       "league": "MLB",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 1,
       "sources": [],
       "reviews": [
@@ -2564,8 +3144,10 @@
       "team": "Texas Rangers",
       "category": "MLB",
       "league": "MLB",
-      "status": "historical-or-held-evidence",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 1,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://www.mlb.com/press-release/press-release-texas-rangers-to-host-watch-parties-at-globe-life-field-for-americ"
@@ -2591,6 +3173,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2602,6 +3186,8 @@
       "league": "MLB",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2613,6 +3199,8 @@
       "league": "NBA",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 0,
+      "namedVenueCount": 2,
       "existingRecordCount": 1,
       "sources": [
         "https://www.nba.com/hawks/barnetwork"
@@ -2638,6 +3226,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2649,6 +3239,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2660,6 +3252,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2671,6 +3265,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2682,6 +3278,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2693,6 +3291,8 @@
       "league": "NBA",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 1,
+      "listedVenueCount": 0,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://www.happiesthourdallas.com/news-item/mavericks/"
@@ -2718,6 +3318,8 @@
       "league": "NBA",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -2743,6 +3345,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2754,6 +3358,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2765,6 +3371,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2774,8 +3382,10 @@
       "team": "Indiana Pacers",
       "category": "NBA",
       "league": "NBA",
-      "status": "historical-or-held-evidence",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 1,
+      "namedVenueCount": 1,
       "existingRecordCount": 1,
       "sources": [
         "https://www.nba.com/pacers/somethingextrarules"
@@ -2801,6 +3411,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2812,6 +3424,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2823,6 +3437,8 @@
       "league": "NBA",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 0,
+      "namedVenueCount": 2,
       "existingRecordCount": 0,
       "sources": [
         "https://www.nba.com/grizzlies/barnetwork"
@@ -2848,6 +3464,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2859,6 +3477,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2870,6 +3490,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2881,6 +3503,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2892,6 +3516,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 1,
       "sources": [],
       "reviews": []
@@ -2903,6 +3529,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2914,6 +3542,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2925,6 +3555,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 1,
       "sources": [],
       "reviews": []
@@ -2936,6 +3568,8 @@
       "league": "NBA",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -2961,6 +3595,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2972,6 +3608,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2983,6 +3621,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -2994,6 +3634,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3005,6 +3647,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3016,6 +3660,8 @@
       "league": "NBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3025,8 +3671,10 @@
       "team": "Atlanta Dream",
       "category": "NBA",
       "league": "WNBA",
-      "status": "historical-or-held-evidence",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 5,
+      "namedVenueCount": 5,
       "existingRecordCount": 0,
       "sources": [
         "https://dream.wnba.com/news/atlanta-dream-partners-with-local-bars-for-official-playoff-watch-parties"
@@ -3052,6 +3700,8 @@
       "league": "WNBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3063,6 +3713,8 @@
       "league": "WNBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3074,6 +3726,8 @@
       "league": "WNBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3085,6 +3739,8 @@
       "league": "WNBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3096,6 +3752,8 @@
       "league": "WNBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3107,6 +3765,8 @@
       "league": "WNBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3118,6 +3778,8 @@
       "league": "WNBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3129,6 +3791,8 @@
       "league": "WNBA",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -3153,6 +3817,8 @@
       "league": "WNBA",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -3177,6 +3843,8 @@
       "league": "WNBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3188,6 +3856,8 @@
       "league": "WNBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3199,6 +3869,8 @@
       "league": "WNBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3210,6 +3882,8 @@
       "league": "WNBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3221,6 +3895,8 @@
       "league": "WNBA",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3232,6 +3908,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3241,11 +3919,26 @@
       "team": "Atlanta Falcons",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 20,
+      "namedVenueCount": 20,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.atlantafalcons.com/schedule/bar-program"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-atlanta-falcons",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.atlantafalcons.com/schedule/bar-program"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-baltimore-ravens",
@@ -3254,6 +3947,8 @@
       "league": "NFL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 5,
+      "listedVenueCount": 73,
+      "namedVenueCount": 78,
       "existingRecordCount": 1,
       "sources": [
         "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups"
@@ -3268,6 +3963,16 @@
             "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups"
           ],
           "result": "venues-found"
+        },
+        {
+          "teamKey": "nfl-nfl-baltimore-ravens",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -3278,6 +3983,8 @@
       "league": "NFL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 3,
+      "listedVenueCount": 0,
+      "namedVenueCount": 3,
       "existingRecordCount": 1,
       "sources": [
         "https://dfwbillsbackers.org/about/"
@@ -3300,22 +4007,48 @@
       "team": "Chicago Bears",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
-      "reviews": []
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-chicago-bears",
+          "checkedAt": "2026-09-08",
+          "result": "partial",
+          "directoryPass": true,
+          "sources": [
+            "https://www.chicagobears.com/fan-zone/bears-bars"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-cincinnati-bengals",
       "team": "Cincinnati Bengals",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
-      "reviews": []
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-cincinnati-bengals",
+          "checkedAt": "2026-09-08",
+          "result": "partial",
+          "directoryPass": true,
+          "sources": [
+            "https://www.bengals.com/fans/bengals-bars"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-cleveland-browns",
@@ -3324,6 +4057,8 @@
       "league": "NFL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 0,
+      "namedVenueCount": 2,
       "existingRecordCount": 10,
       "sources": [
         "https://brownsbackersworldwide.com/chapters/phx-area-browns-backers/",
@@ -3350,6 +4085,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3361,6 +4098,8 @@
       "league": "NFL",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -3385,6 +4124,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3394,10 +4135,14 @@
       "team": "Green Bay Packers",
       "category": "NFL",
       "league": "NFL",
-      "status": "reviewed-needs-follow-up",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 52,
+      "namedVenueCount": 53,
       "existingRecordCount": 2,
-      "sources": [],
+      "sources": [
+        "https://onmilwaukee.com/articles/packers-bars-across-united-states"
+      ],
       "reviews": [
         {
           "teamKey": "nfl-nfl-green-bay-packers",
@@ -3410,6 +4155,16 @@
           ],
           "reason": "Official directory opened but rendered no bar records. Indexed registration dropdown contains some bar names, insufficient for a full address. Historical 2025 pep rallies are not standing watch-party evidence.",
           "result": "needs-interactive-directory-review"
+        },
+        {
+          "teamKey": "nfl-nfl-green-bay-packers",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://onmilwaukee.com/articles/packers-bars-across-united-states"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -3420,6 +4175,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3431,6 +4188,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3442,6 +4201,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3453,6 +4214,8 @@
       "league": "NFL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 1,
+      "listedVenueCount": 0,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://chiefsfansofdallas.com/"
@@ -3477,6 +4240,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 1,
       "sources": [],
       "reviews": []
@@ -3488,6 +4253,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3499,6 +4266,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3510,6 +4279,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 1,
       "sources": [],
       "reviews": []
@@ -3521,6 +4292,8 @@
       "league": "NFL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 4,
+      "listedVenueCount": 46,
+      "namedVenueCount": 50,
       "existingRecordCount": 0,
       "sources": [
         "https://www.vikings.com/fans/clubs-watch-bars"
@@ -3535,6 +4308,16 @@
             "https://www.vikings.com/fans/clubs-watch-bars"
           ],
           "result": "venues-found"
+        },
+        {
+          "teamKey": "nfl-nfl-minnesota-vikings",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.vikings.com/fans/clubs-watch-bars"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -3545,13 +4328,43 @@
       "league": "NFL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 5,
+      "listedVenueCount": 261,
+      "namedVenueCount": 266,
       "existingRecordCount": 1,
       "sources": [
         "https://nepfca.com/",
         "https://fanclubs.patriots.com/club/mke-pats",
         "https://fanclubs.patriots.com/club/patriots-fan-club-of-columbus",
         "https://fanclubs.patriots.com/club/the-patriot-fans-of-jacksonville",
-        "https://fanclubs.patriots.com/club/pats-fans-parking-south-at-the-garage"
+        "https://fanclubs.patriots.com/club/pats-fans-parking-south-at-the-garage",
+        "https://fanclubs.patriots.com/search?page=1",
+        "https://fanclubs.patriots.com/search?page=13",
+        "https://fanclubs.patriots.com/search?page=2",
+        "https://fanclubs.patriots.com/search?page=3",
+        "https://fanclubs.patriots.com/search?page=4",
+        "https://fanclubs.patriots.com/search?page=5",
+        "https://fanclubs.patriots.com/search?page=6",
+        "https://fanclubs.patriots.com/search?page=22",
+        "https://fanclubs.patriots.com/search?page=7",
+        "https://fanclubs.patriots.com/club/patriotsarmynrw",
+        "https://fanclubs.patriots.com/search?page=8",
+        "https://fanclubs.patriots.com/search?page=9",
+        "https://fanclubs.patriots.com/search?page=10",
+        "https://fanclubs.patriots.com/search?page=11",
+        "https://fanclubs.patriots.com/search?page=12",
+        "https://fanclubs.patriots.com/search?page=14",
+        "https://fanclubs.patriots.com/search?page=15",
+        "https://fanclubs.patriots.com/search?page=16",
+        "https://fanclubs.patriots.com/search?page=17",
+        "https://fanclubs.patriots.com/search?page=18",
+        "https://fanclubs.patriots.com/search?page=19",
+        "https://fanclubs.patriots.com/club/patriots-fans-of-tampa-bay",
+        "https://fanclubs.patriots.com/search?page=20",
+        "https://fanclubs.patriots.com/search?page=21",
+        "https://fanclubs.patriots.com/search?page=23",
+        "https://fanclubs.patriots.com/search?page=24",
+        "https://fanclubs.patriots.com/search?page=25",
+        "https://fanclubs.patriots.com/search?page=26"
       ],
       "reviews": [
         {
@@ -3567,6 +4380,16 @@
             "https://nepfca.com/"
           ],
           "result": "venues-found"
+        },
+        {
+          "teamKey": "nfl-nfl-new-england-patriots",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://fanclubs.patriots.com/search"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -3577,6 +4400,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3586,22 +4411,52 @@
       "team": "New York Giants",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 84,
+      "namedVenueCount": 84,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.giants.com/barnetwork/"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-new-york-giants",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.giants.com/barnetwork/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-new-york-jets",
       "team": "New York Jets",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 83,
+      "namedVenueCount": 83,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.newyorkjets.com/fans/bar-network"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-new-york-jets",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.newyorkjets.com/fans/bar-network"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-philadelphia-eagles",
@@ -3610,6 +4465,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3621,6 +4478,8 @@
       "league": "NFL",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 1,
       "sources": [],
       "reviews": [
@@ -3642,10 +4501,14 @@
       "team": "San Francisco 49ers",
       "category": "NFL",
       "league": "NFL",
-      "status": "reviewed-needs-follow-up",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 1,
+      "namedVenueCount": 1,
       "existingRecordCount": 1,
-      "sources": [],
+      "sources": [
+        "https://www.nedw.org/"
+      ],
       "reviews": [
         {
           "teamKey": "nfl-nfl-san-francisco-49ers",
@@ -3665,11 +4528,26 @@
       "team": "Tampa Bay Buccaneers",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 54,
+      "namedVenueCount": 54,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.buccaneers.com/budlight/bar-network"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-tampa-bay-buccaneers",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.buccaneers.com/budlight/bar-network"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-tennessee-titans",
@@ -3678,6 +4556,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3689,6 +4569,8 @@
       "league": "NFL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3700,6 +4582,8 @@
       "league": "NHL",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -3723,6 +4607,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3734,6 +4620,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3745,6 +4633,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3756,6 +4646,8 @@
       "league": "NHL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 44,
+      "namedVenueCount": 46,
       "existingRecordCount": 0,
       "sources": [
         "https://www.nhl.com/hurricanes/fans/canes-bars"
@@ -3771,6 +4663,16 @@
             "https://www.nhl.com/hurricanes/fans/canes-bars"
           ],
           "note": "Initial verified sample; directory coverage is not exhaustive."
+        },
+        {
+          "teamKey": "nhl-nhl-carolina-hurricanes",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.nhl.com/hurricanes/fans/canes-bars"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -3781,6 +4683,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3792,6 +4696,8 @@
       "league": "NHL",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -3815,6 +4721,8 @@
       "league": "NHL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 29,
+      "namedVenueCount": 31,
       "existingRecordCount": 0,
       "sources": [
         "https://www.nhl.com/bluejackets/fans/bar-network"
@@ -3830,6 +4738,16 @@
             "https://www.nhl.com/bluejackets/fans/bar-network"
           ],
           "note": "Initial verified sample; directory coverage is not exhaustive."
+        },
+        {
+          "teamKey": "nhl-nhl-columbus-blue-jackets",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.nhl.com/bluejackets/fans/bar-network"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -3840,6 +4758,8 @@
       "league": "NHL",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -3863,6 +4783,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3874,6 +4796,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3885,6 +4809,8 @@
       "league": "NHL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 31,
+      "namedVenueCount": 33,
       "existingRecordCount": 0,
       "sources": [
         "https://www.nhl.com/panthers/fans/catsontap"
@@ -3900,6 +4826,16 @@
             "https://www.nhl.com/panthers/fans/catsontap"
           ],
           "note": "Initial verified sample; directory coverage is not exhaustive."
+        },
+        {
+          "teamKey": "nhl-nhl-florida-panthers",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.nhl.com/panthers/fans/catsontap"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -3910,6 +4846,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3921,6 +4859,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3932,6 +4872,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3943,6 +4885,8 @@
       "league": "NHL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 78,
+      "namedVenueCount": 80,
       "existingRecordCount": 0,
       "sources": [
         "https://www.nhl.com/predators/fans/preds-approved"
@@ -3958,6 +4902,16 @@
             "https://www.nhl.com/predators/fans/preds-approved"
           ],
           "note": "Initial verified sample; directory coverage is not exhaustive."
+        },
+        {
+          "teamKey": "nhl-nhl-nashville-predators",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.nhl.com/predators/fans/preds-approved"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -3968,6 +4922,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -3979,6 +4935,8 @@
       "league": "NHL",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -4002,6 +4960,8 @@
       "league": "NHL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 18,
+      "namedVenueCount": 20,
       "existingRecordCount": 0,
       "sources": [
         "https://www.nhl.com/rangers/fans/bar-network"
@@ -4017,6 +4977,16 @@
             "https://www.nhl.com/rangers/fans/bar-network"
           ],
           "note": "Initial verified sample; directory coverage is not exhaustive."
+        },
+        {
+          "teamKey": "nhl-nhl-new-york-rangers",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.nhl.com/rangers/fans/bar-network"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -4027,6 +4997,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4038,6 +5010,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4049,6 +5023,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4058,8 +5034,10 @@
       "team": "San Jose Sharks",
       "category": "NHL",
       "league": "NHL",
-      "status": "historical-or-held-evidence",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 2,
+      "namedVenueCount": 2,
       "existingRecordCount": 0,
       "sources": [
         "https://www.nhl.com/sharks/news/sharks-announce-2025-26-watch-party-schedule"
@@ -4075,6 +5053,16 @@
             "https://www.nhl.com/sharks/news/sharks-announce-2025-26-watch-party-schedule"
           ],
           "note": "Initial verified sample; directory coverage is not exhaustive."
+        },
+        {
+          "teamKey": "nhl-nhl-san-jose-sharks",
+          "checkedAt": "2026-09-08",
+          "result": "partial",
+          "directoryPass": true,
+          "sources": [
+            "https://www.nhl.com/sharks/news/sharks-announce-2025-26-watch-party-schedule"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -4085,6 +5073,8 @@
       "league": "NHL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 89,
+      "namedVenueCount": 91,
       "existingRecordCount": 0,
       "sources": [
         "https://www.nhl.com/kraken/fans/watch-parties"
@@ -4100,6 +5090,16 @@
             "https://www.nhl.com/kraken/fans/watch-parties"
           ],
           "note": "Initial verified sample; directory coverage is not exhaustive."
+        },
+        {
+          "teamKey": "nhl-nhl-seattle-kraken",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.nhl.com/kraken/fans/watch-parties"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -4110,6 +5110,8 @@
       "league": "NHL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 63,
+      "namedVenueCount": 65,
       "existingRecordCount": 0,
       "sources": [
         "https://www.nhl.com/blues/fans/bars"
@@ -4125,6 +5127,16 @@
             "https://www.nhl.com/blues/fans/bars"
           ],
           "note": "Initial verified sample; directory coverage is not exhaustive."
+        },
+        {
+          "teamKey": "nhl-nhl-st-louis-blues",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.nhl.com/blues/fans/bars"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -4135,6 +5147,8 @@
       "league": "NHL",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -4158,6 +5172,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4169,6 +5185,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4180,6 +5198,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4189,8 +5209,10 @@
       "team": "Vegas Golden Knights",
       "category": "NHL",
       "league": "NHL",
-      "status": "historical-or-held-evidence",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 2,
+      "namedVenueCount": 2,
       "existingRecordCount": 0,
       "sources": [
         "https://www.nhl.com/goldenknights/news/vegas-golden-knights-to-host-official-watch-parties-for-game-6"
@@ -4206,6 +5228,16 @@
             "https://www.nhl.com/goldenknights/news/vegas-golden-knights-to-host-official-watch-parties-for-game-6"
           ],
           "note": "Initial verified sample; directory coverage is not exhaustive."
+        },
+        {
+          "teamKey": "nhl-nhl-vegas-golden-knights",
+          "checkedAt": "2026-09-08",
+          "result": "partial",
+          "directoryPass": true,
+          "sources": [
+            "https://www.nhl.com/goldenknights/news/vegas-golden-knights-to-host-official-watch-parties-for-game-6"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -4216,6 +5248,8 @@
       "league": "NHL",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -4239,6 +5273,8 @@
       "league": "NHL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4250,6 +5286,8 @@
       "league": "Gallagher Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4261,6 +5299,8 @@
       "league": "Gallagher Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4272,6 +5312,8 @@
       "league": "Gallagher Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4283,6 +5325,8 @@
       "league": "Gallagher Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4294,6 +5338,8 @@
       "league": "Gallagher Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4305,6 +5351,8 @@
       "league": "Gallagher Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4316,6 +5364,8 @@
       "league": "Gallagher Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4327,6 +5377,8 @@
       "league": "Gallagher Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4338,6 +5390,8 @@
       "league": "Gallagher Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4349,6 +5403,8 @@
       "league": "Gallagher Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4360,6 +5416,8 @@
       "league": "Japan Rugby League One",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4371,6 +5429,8 @@
       "league": "Japan Rugby League One",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4382,6 +5442,8 @@
       "league": "Japan Rugby League One",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4393,6 +5455,8 @@
       "league": "Japan Rugby League One",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4404,6 +5468,8 @@
       "league": "Japan Rugby League One",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4415,6 +5481,8 @@
       "league": "Japan Rugby League One",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4426,6 +5494,8 @@
       "league": "Japan Rugby League One",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4437,6 +5507,8 @@
       "league": "Japan Rugby League One",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4448,6 +5520,8 @@
       "league": "Japan Rugby League One",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4459,6 +5533,8 @@
       "league": "Japan Rugby League One",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4470,6 +5546,8 @@
       "league": "Japan Rugby League One",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4481,6 +5559,8 @@
       "league": "Japan Rugby League One",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4490,8 +5570,10 @@
       "team": "Anthem Rugby Carolina",
       "category": "Rugby",
       "league": "Major League Rugby",
-      "status": "historical-or-held-evidence",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 1,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://anthemrc.com/news/anthem-rc-at-old-glory-dc-week-11-preview/"
@@ -4516,6 +5598,8 @@
       "league": "Major League Rugby",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -4536,8 +5620,10 @@
       "team": "Chicago Hounds",
       "category": "Rugby",
       "league": "Major League Rugby",
-      "status": "historical-or-held-evidence",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 1,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://www.chicagohounds.com/news/eastern-conference-final-roster-revealed/"
@@ -4562,6 +5648,8 @@
       "league": "Major League Rugby",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 6,
+      "listedVenueCount": 0,
+      "namedVenueCount": 6,
       "existingRecordCount": 1,
       "sources": [
         "https://freejacks.com/2026-pub-partners/"
@@ -4586,6 +5674,8 @@
       "league": "Major League Rugby",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 4,
+      "listedVenueCount": 0,
+      "namedVenueCount": 4,
       "existingRecordCount": 0,
       "sources": [
         "https://oldglorydc.com/bar-network/"
@@ -4623,6 +5713,8 @@
       "league": "Major League Rugby",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -4647,6 +5739,8 @@
       "league": "Super Rugby Pacific",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4658,6 +5752,8 @@
       "league": "Super Rugby Pacific",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4669,6 +5765,8 @@
       "league": "Super Rugby Pacific",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4680,6 +5778,8 @@
       "league": "Super Rugby Pacific",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4691,6 +5791,8 @@
       "league": "Super Rugby Pacific",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4702,6 +5804,8 @@
       "league": "Super Rugby Pacific",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4713,6 +5817,8 @@
       "league": "Super Rugby Pacific",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4724,6 +5830,8 @@
       "league": "Super Rugby Pacific",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4735,6 +5843,8 @@
       "league": "Super Rugby Pacific",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4746,6 +5856,8 @@
       "league": "Super Rugby Pacific",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4757,6 +5869,8 @@
       "league": "Super Rugby Pacific",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4768,6 +5882,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4779,6 +5895,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4790,6 +5908,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4801,6 +5921,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4812,6 +5934,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4823,6 +5947,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4834,6 +5960,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4845,6 +5973,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4856,6 +5986,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4867,6 +5999,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4878,6 +6012,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4889,6 +6025,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4900,6 +6038,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4911,6 +6051,8 @@
       "league": "Top 14",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4922,6 +6064,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4933,6 +6077,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4944,6 +6090,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4955,6 +6103,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4966,6 +6116,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4977,6 +6129,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4988,6 +6142,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -4999,6 +6155,8 @@
       "league": "United Rugby Championship",
       "status": "reviewed-needs-follow-up",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": [
@@ -5021,6 +6179,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5032,6 +6192,8 @@
       "league": "United Rugby Championship",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 6,
+      "listedVenueCount": 18,
+      "namedVenueCount": 24,
       "existingRecordCount": 1,
       "sources": [
         "https://www.mrsc.ie/branches/usa/"
@@ -5046,6 +6208,16 @@
           "sources": [
             "https://www.mrsc.ie/branches/usa/"
           ]
+        },
+        {
+          "teamKey": "rugby-united-rugby-championship-munster",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.mrsc.ie/branches/usa/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -5056,6 +6228,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5067,6 +6241,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5078,6 +6254,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5089,6 +6267,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5100,6 +6280,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5111,6 +6293,8 @@
       "league": "United Rugby Championship",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5122,6 +6306,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5133,6 +6319,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5144,6 +6332,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5155,6 +6345,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5166,6 +6358,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5177,6 +6371,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5188,6 +6384,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5199,6 +6397,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5210,6 +6410,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5221,6 +6423,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5232,6 +6436,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5243,6 +6449,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5254,6 +6462,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5265,6 +6475,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5276,6 +6488,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5287,6 +6501,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5298,6 +6514,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5309,6 +6527,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5320,6 +6540,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5331,6 +6553,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5342,6 +6566,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5353,6 +6579,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5364,6 +6592,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5375,6 +6605,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5386,6 +6618,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5397,6 +6631,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5408,6 +6644,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5419,6 +6657,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5430,6 +6670,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5441,6 +6683,8 @@
       "league": "Argentine Primera Division",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5452,6 +6696,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5463,6 +6709,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5474,6 +6722,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5485,6 +6735,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5496,6 +6748,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5507,6 +6761,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5518,6 +6774,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5529,6 +6787,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5540,6 +6800,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5551,6 +6813,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5562,6 +6826,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5573,6 +6839,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5584,6 +6852,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5595,6 +6865,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5606,6 +6878,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5617,6 +6891,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5628,6 +6904,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5639,6 +6917,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5650,6 +6930,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5661,6 +6943,8 @@
       "league": "Brazilian Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5672,6 +6956,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5683,6 +6969,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5694,6 +6982,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5705,6 +6995,8 @@
       "league": "Bundesliga",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 51,
+      "namedVenueCount": 53,
       "existingRecordCount": 1,
       "sources": [
         "https://fcbayern.com/en/fans/fan-clubs/us-where-to-watch",
@@ -5732,6 +7024,16 @@
           ],
           "note": "Team directory lists dozens of US fan bars; only two with independently supported full addresses included in this pass. The fcb-nyc.com site was reviewed but not used as the source URL because it contains unrelated betting-app copy.",
           "teamKey": "soccer-bundesliga-bayern-munich"
+        },
+        {
+          "teamKey": "soccer-bundesliga-bayern-munich",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://fcbayern.com/en/fans/fan-clubs/us-where-to-watch"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -5742,6 +7044,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5753,6 +7057,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5764,6 +7070,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5775,6 +7083,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5786,6 +7096,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5797,6 +7109,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5808,6 +7122,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5819,6 +7135,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5830,6 +7148,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5841,6 +7161,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5852,6 +7174,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5863,6 +7187,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5874,6 +7200,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5885,6 +7213,8 @@
       "league": "Bundesliga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5896,9 +7226,13 @@
       "league": "English Premier League",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 5,
+      "listedVenueCount": 106,
+      "namedVenueCount": 111,
       "existingRecordCount": 0,
       "sources": [
-        "https://arsenalamerica.com/branches/"
+        "https://arsenalamerica.com/branches/",
+        "https://arsenal.nyc/",
+        "https://arsphl.com/"
       ],
       "reviews": [
         {
@@ -5921,6 +7255,36 @@
           ],
           "note": "National source has many additional branches beyond this bounded first pass. Little Rock listing has a suspect ZIP (72701); omitted pending separate address confirmation.",
           "teamKey": "soccer-english-premier-league-arsenal"
+        },
+        {
+          "teamKey": "soccer-english-premier-league-arsenal",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://arsenalamerica.com/branches/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        },
+        {
+          "teamKey": "soccer-english-premier-league-arsenal",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://arsenal.nyc/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        },
+        {
+          "teamKey": "soccer-english-premier-league-arsenal",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://arsphl.com/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -5931,6 +7295,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5942,6 +7308,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5953,6 +7321,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5964,6 +7334,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -5975,10 +7347,48 @@
       "league": "English Premier League",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 41,
+      "namedVenueCount": 43,
       "existingRecordCount": 0,
       "sources": [
         "https://www.chelseainamerica.com/locals/phoenix-blues",
-        "https://www.chelseainamerica.com/locals/tucson-blues"
+        "https://www.chelseainamerica.com/locals/tucson-blues",
+        "https://www.chelseainamerica.com/locals/oc-blues",
+        "https://www.chelseainamerica.com/locals/carefree-louisiana",
+        "https://www.chelseainamerica.com/locals/chelsea-houston-1905",
+        "https://www.chelseainamerica.com/locals/big-d-north-texas-blues",
+        "https://www.chelseainamerica.com/locals/shed-end-dallas",
+        "https://www.chelseainamerica.com/locals/motor-city-blues",
+        "https://www.chelseainamerica.com/locals/ft-worth-blues",
+        "https://www.chelseainamerica.com/locals/rva-blues",
+        "https://www.chelseainamerica.com/locals/blue-in-the-lou",
+        "https://www.chelseainamerica.com/locals/charm-city-blues",
+        "https://www.chelseainamerica.com/locals/shed-end-seattle-northwest-blues",
+        "https://www.chelseainamerica.com/locals/milwaukee-blues",
+        "https://www.chelseainamerica.com/locals/sacramento-blues",
+        "https://www.chelseainamerica.com/locals/cigar-city-blues",
+        "https://www.chelseainamerica.com/locals/circle-city-chelsea",
+        "https://www.chelseainamerica.com/locals/stumptown-blues",
+        "https://www.chelseainamerica.com/locals/beltway-blues",
+        "https://www.chelseainamerica.com/locals/georgia-blues",
+        "https://www.chelseainamerica.com/locals/bluegrass-blues",
+        "https://www.chelseainamerica.com/locals/kansas-city-blues",
+        "https://www.chelseainamerica.com/locals/sb-bay-area-blues",
+        "https://www.chelseainamerica.com/locals/twin-cities-blues",
+        "https://www.chelseainamerica.com/locals/vegas-blues",
+        "https://www.chelseainamerica.com/locals/nebraska-blues",
+        "https://www.chelseainamerica.com/locals/hampton-roads-blues",
+        "https://www.chelseainamerica.com/locals/raleigh-durham-blues",
+        "https://www.chelseainamerica.com/locals/cape-fear-blues",
+        "https://www.chelseainamerica.com/locals/rocket-city-blues",
+        "https://www.chelseainamerica.com/locals/queen-city-blues",
+        "https://www.chelseainamerica.com/locals/music-city-blues",
+        "https://www.chelseainamerica.com/locals/san-jose-blues",
+        "https://www.chelseainamerica.com/locals/orlando-blues",
+        "https://www.chelseainamerica.com/locals/oklahoma-city-blues",
+        "https://www.chelseainamerica.com/locals/tulsa-blues",
+        "https://www.chelseainamerica.com/locals/gate-city-blues",
+        "https://www.nybluescfc.com/pubs"
       ],
       "reviews": [
         {
@@ -5992,6 +7402,26 @@
             "https://www.chelseainamerica.com/locals/tucson-blues"
           ],
           "note": "Manual web search and source opens; source-checked standing locations, no direct host outreach or invented event schedules."
+        },
+        {
+          "teamKey": "soccer-english-premier-league-chelsea",
+          "checkedAt": "2026-09-08",
+          "result": "partial",
+          "directoryPass": true,
+          "sources": [
+            "https://www.chelseainamerica.com/groups"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        },
+        {
+          "teamKey": "soccer-english-premier-league-chelsea",
+          "checkedAt": "2026-09-08",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.nybluescfc.com/pubs"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -6002,6 +7432,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6013,6 +7445,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6024,6 +7458,8 @@
       "league": "English Premier League",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 1,
+      "listedVenueCount": 0,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://www.turnmillnyc.com/everton-fc/"
@@ -6049,6 +7485,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6060,6 +7498,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6071,6 +7511,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6082,6 +7524,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6093,6 +7537,8 @@
       "league": "English Premier League",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 3,
+      "listedVenueCount": 0,
+      "namedVenueCount": 11,
       "existingRecordCount": 9,
       "sources": [
         "https://www.lfcboston.com/",
@@ -6131,6 +7577,8 @@
       "league": "English Premier League",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 1,
+      "listedVenueCount": 0,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://www.newyorkskyblues.com/"
@@ -6156,6 +7604,8 @@
       "league": "English Premier League",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 1,
+      "listedVenueCount": 0,
+      "namedVenueCount": 1,
       "existingRecordCount": 1,
       "sources": [
         "https://smithfieldnyc.com/fan-clubs/manchester-united-fc/"
@@ -6191,6 +7641,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6202,6 +7654,8 @@
       "league": "English Premier League",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6213,6 +7667,8 @@
       "league": "English Premier League",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 0,
+      "namedVenueCount": 2,
       "existingRecordCount": 0,
       "sources": [
         "https://dcspurs.org/",
@@ -6240,6 +7696,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6251,6 +7709,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6262,6 +7722,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6273,6 +7735,8 @@
       "league": "La Liga",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
+      "listedVenueCount": 0,
+      "namedVenueCount": 2,
       "existingRecordCount": 0,
       "sources": [
         "https://www.fcbarcelonanyc.com/",
@@ -6310,6 +7774,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6321,6 +7787,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6332,6 +7800,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6343,6 +7813,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6354,6 +7826,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6365,6 +7839,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6376,6 +7852,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6387,6 +7865,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6398,6 +7878,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6409,6 +7891,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6420,6 +7904,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6431,6 +7917,8 @@
       "league": "La Liga",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 1,
+      "listedVenueCount": 0,
+      "namedVenueCount": 1,
       "existingRecordCount": 0,
       "sources": [
         "https://www.playwrightirishpubnyc.com/real-madrid/"
@@ -6456,6 +7944,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6467,6 +7957,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6478,6 +7970,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6489,6 +7983,8 @@
       "league": "La Liga",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6500,6 +7996,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6511,6 +8009,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6522,6 +8022,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6533,6 +8035,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6544,6 +8048,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6555,6 +8061,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6566,6 +8074,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6577,6 +8087,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6588,6 +8100,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6599,6 +8113,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6610,6 +8126,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6621,6 +8139,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6632,6 +8152,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6643,6 +8165,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6654,6 +8178,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6665,6 +8191,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6676,6 +8204,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6687,6 +8217,8 @@
       "league": "Liga MX",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6698,6 +8230,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6709,6 +8243,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6720,6 +8256,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6731,6 +8269,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6742,6 +8282,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6753,6 +8295,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6764,6 +8308,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6775,6 +8321,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6786,6 +8334,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6797,6 +8347,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6808,6 +8360,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6819,6 +8373,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6830,6 +8386,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6841,6 +8399,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6852,6 +8412,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6863,6 +8425,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6874,6 +8438,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6885,6 +8451,8 @@
       "league": "Liga Portugal",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6896,6 +8464,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6907,6 +8477,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6918,6 +8490,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6929,6 +8503,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6940,6 +8516,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6951,6 +8529,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6962,6 +8542,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6973,6 +8555,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6984,6 +8568,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -6995,6 +8581,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7006,6 +8594,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7017,6 +8607,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7028,6 +8620,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7039,6 +8633,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7050,6 +8646,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7061,6 +8659,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7072,6 +8672,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7083,6 +8685,8 @@
       "league": "Ligue 1",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7094,6 +8698,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7105,6 +8711,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7116,6 +8724,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7127,6 +8737,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7138,6 +8750,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7149,6 +8763,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7160,6 +8776,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7171,6 +8789,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7182,6 +8802,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7193,6 +8815,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7204,6 +8828,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7215,6 +8841,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7226,6 +8854,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7237,6 +8867,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7248,6 +8880,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7259,6 +8893,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7270,6 +8906,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7281,6 +8919,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7292,6 +8932,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7303,6 +8945,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7314,6 +8958,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7325,6 +8971,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7336,6 +8984,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7347,6 +8997,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7358,6 +9010,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7369,6 +9023,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7380,6 +9036,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7391,6 +9049,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7402,6 +9062,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7413,6 +9075,8 @@
       "league": "MLS",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7424,6 +9088,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7435,6 +9101,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7446,6 +9114,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7457,6 +9127,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7468,6 +9140,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7479,6 +9153,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7490,6 +9166,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7501,6 +9179,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7512,6 +9192,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7523,6 +9205,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7534,6 +9218,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7545,6 +9231,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7556,6 +9244,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7567,6 +9257,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7578,6 +9270,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7589,6 +9283,8 @@
       "league": "NWSL",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7600,6 +9296,8 @@
       "league": "Scottish Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7611,6 +9309,8 @@
       "league": "Scottish Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 1,
       "sources": [],
       "reviews": []
@@ -7622,6 +9322,8 @@
       "league": "Scottish Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7633,6 +9335,8 @@
       "league": "Scottish Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7644,6 +9348,8 @@
       "league": "Scottish Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7655,6 +9361,8 @@
       "league": "Scottish Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7666,6 +9374,8 @@
       "league": "Scottish Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7677,6 +9387,8 @@
       "league": "Scottish Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7688,6 +9400,8 @@
       "league": "Scottish Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7699,6 +9413,8 @@
       "league": "Scottish Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 1,
       "sources": [],
       "reviews": []
@@ -7710,6 +9426,8 @@
       "league": "Scottish Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7721,6 +9439,8 @@
       "league": "Scottish Premiership",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7732,6 +9452,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7743,6 +9465,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7754,6 +9478,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7765,6 +9491,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7776,6 +9504,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7787,6 +9517,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7798,6 +9530,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7809,6 +9543,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7820,6 +9556,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7831,6 +9569,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7842,6 +9582,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7853,6 +9595,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7864,6 +9608,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7875,6 +9621,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7886,6 +9634,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7897,6 +9647,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7908,6 +9660,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7919,6 +9673,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7930,6 +9686,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
@@ -7941,6 +9699,8 @@
       "league": "Serie A",
       "status": "not-yet-reviewed",
       "sourceCheckedVenueCount": 0,
+      "listedVenueCount": 0,
+      "namedVenueCount": 0,
       "existingRecordCount": 0,
       "sources": [],
       "reviews": []
