@@ -1,0 +1,916 @@
+[
+  {
+    "team": "Florida",
+    "teamKey": "college-sec-florida",
+    "result": "source-backed venues found",
+    "count": 4,
+    "sources": [
+      "https://connect.ufalumni.ufl.edu/events/lvsecfans?CalendarEventKey=ae102f89-3b80-405d-be59-01a04701589d&CommunityKey=74ac27dd-b929-4ad5-8d9a-ba469b60be81&Home=/events/calendar",
+      "https://connect.ufalumni.ufl.edu/gatorclubofmiami/events/watchparties",
+      "https://connect.ufalumni.ufl.edu/houstongatorclub/about/events/eventdescription?CalendarEventKey=a1478fd1-2201-45da-9804-019f92778719&CommunityKey=89a7fed9-89f5-4041-a97b-19866e42e12d&Home=/events/calendar"
+    ],
+    "checkedAt": "2026-09-08"
+  },
+  {
+    "team": "Georgia",
+    "teamKey": "college-sec-georgia",
+    "result": "needs further source verification",
+    "count": 0,
+    "sources": [
+      "https://alumni.uga.edu/gamewatching/",
+      "https://calendar.uga.edu/event/atlanta-chapter-game-watching-party-uga-vs-auburn-5656"
+    ],
+    "note": "Official national directory found; linked current event pages failed to open. No venue retained from snippets alone.",
+    "checkedAt": "2026-09-08"
+  },
+  {
+    "team": "LSU",
+    "teamKey": "college-sec-lsu",
+    "result": "source-backed venues found",
+    "count": 2,
+    "sources": [
+      "https://www.lsusocal.org/watch-parties"
+    ],
+    "checkedAt": "2026-09-08"
+  },
+  {
+    "team": "Tennessee",
+    "teamKey": "college-sec-tennessee",
+    "result": "source-backed venues found",
+    "count": 2,
+    "sources": [
+      "https://alumni.utk.edu/vol-watch-parties/"
+    ],
+    "checkedAt": "2026-09-08"
+  },
+  {
+    "team": "Michigan",
+    "teamKey": "college-big-ten-michigan",
+    "result": "source-backed venues found",
+    "count": 4,
+    "sources": [
+      "https://alumni.umich.edu/athletics/game-watch-parties/"
+    ],
+    "checkedAt": "2026-09-08"
+  },
+  {
+    "team": "Michigan State",
+    "teamKey": "college-big-ten-michigan-state",
+    "result": "needs further source verification",
+    "count": 0,
+    "sources": [
+      "https://www.baltimorespartans.com/s/1393/18/home.aspx?gid=82&pgid=10367&sid=1393",
+      "https://www.stlspartans.org/s/1393/18/home.aspx?gid=82&pgid=10071&sid=1393"
+    ],
+    "note": "Search surfaced current Baltimore game watches at Cross Street Public House, but opening official chapter pages failed/redirect loop. Retained for follow-up only.",
+    "checkedAt": "2026-09-08"
+  },
+  {
+    "team": "Oregon",
+    "teamKey": "college-big-ten-oregon",
+    "result": "source-backed venues found",
+    "count": 2,
+    "sources": [
+      "https://www.uoalumni.com/event/athletic/2026/dc-ducks-watch-party",
+      "https://www.uoalumni.com/event/athletic/2026/desert-ducks-watch-party-scottsdale"
+    ],
+    "checkedAt": "2026-09-08"
+  },
+  {
+    "team": "Washington",
+    "teamKey": "college-big-ten-washington",
+    "result": "source-backed venues found",
+    "count": 2,
+    "sources": [
+      "https://www.washington.edu/alumni/event/2026-football-watch-parties/"
+    ],
+    "checkedAt": "2026-09-08"
+  },
+  {
+    "team": "Arizona",
+    "teamKey": "college-big-12-arizona",
+    "result": "source-backed venues found",
+    "count": 1,
+    "sources": [
+      "https://alumni.arizona.edu/events/seattle-wa-seattle-alumni-chapter-football-watch-parties"
+    ],
+    "checkedAt": "2026-09-08"
+  },
+  {
+    "team": "Wisconsin",
+    "teamKey": "college-big-ten-wisconsin",
+    "result": "source-backed venues found",
+    "count": 1,
+    "sources": [
+      "https://www.uwalumni.com/events/stl-gw-notre-dame/"
+    ],
+    "checkedAt": "2026-09-08"
+  },
+  {
+    "team": "Auburn",
+    "teamKey": "college-sec-auburn",
+    "result": "needs further source verification",
+    "count": 0,
+    "sources": [
+      "https://alumni.auburn.edu/project_category/watch-party-locations/",
+      "https://www.laauburnclub.com/game-watches"
+    ],
+    "note": "Official directory open failed; LA club page returned no text. Search suggests 33 Taps in Culver City, but no venue retained without inspectable source.",
+    "checkedAt": "2026-09-08"
+  },
+  {
+    "team": "Oklahoma",
+    "teamKey": "college-sec-oklahoma",
+    "result": "source-backed venues found",
+    "count": 2,
+    "sources": [
+      "https://ouclubofcollincounty.com/",
+      "https://www.ouclubofhouston.org/Watch-Parties"
+    ],
+    "checkedAt": "2026-09-08"
+  },
+  {
+    "teamKey": "nfl-nfl-baltimore-ravens",
+    "team": "Baltimore Ravens",
+    "checkedAt": "2026-09-08",
+    "count": 5,
+    "sources": [
+      "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups"
+    ],
+    "result": "venues-found"
+  },
+  {
+    "teamKey": "nfl-nfl-buffalo-bills",
+    "team": "Buffalo Bills",
+    "checkedAt": "2026-09-08",
+    "count": 3,
+    "sources": [
+      "https://dfwbillsbackers.org/about/"
+    ],
+    "result": "venues-found"
+  },
+  {
+    "teamKey": "nfl-nfl-cleveland-browns",
+    "team": "Cleveland Browns",
+    "checkedAt": "2026-09-08",
+    "count": 2,
+    "sources": [
+      "https://brownsbackersworldwide.com/chapters/1st-state-dawg-pound/",
+      "https://brownsbackersworldwide.com/chapters/phx-area-browns-backers/"
+    ],
+    "result": "venues-found"
+  },
+  {
+    "teamKey": "nfl-nfl-kansas-city-chiefs",
+    "team": "Kansas City Chiefs",
+    "checkedAt": "2026-09-08",
+    "count": 1,
+    "sources": [
+      "https://chiefsfansofdallas.com/"
+    ],
+    "result": "venues-found"
+  },
+  {
+    "teamKey": "nfl-nfl-minnesota-vikings",
+    "team": "Minnesota Vikings",
+    "checkedAt": "2026-09-08",
+    "count": 4,
+    "sources": [
+      "https://www.vikings.com/fans/clubs-watch-bars"
+    ],
+    "result": "venues-found"
+  },
+  {
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "team": "New England Patriots",
+    "checkedAt": "2026-09-08",
+    "count": 5,
+    "sources": [
+      "https://fanclubs.patriots.com/club/mke-pats",
+      "https://fanclubs.patriots.com/club/patriots-fan-club-of-columbus",
+      "https://fanclubs.patriots.com/club/pats-fans-parking-south-at-the-garage",
+      "https://fanclubs.patriots.com/club/the-patriot-fans-of-jacksonville",
+      "https://nepfca.com/"
+    ],
+    "result": "venues-found"
+  },
+  {
+    "teamKey": "nfl-nfl-green-bay-packers",
+    "team": "Green Bay Packers",
+    "checkedAt": "2026-09-08",
+    "count": 0,
+    "sources": [
+      "https://www.packerseverywhere.com/find-a-bar",
+      "https://www.packerseverywhere.com/submit-a-fan-club"
+    ],
+    "reason": "Official directory opened but rendered no bar records. Indexed registration dropdown contains some bar names, insufficient for a full address. Historical 2025 pep rallies are not standing watch-party evidence.",
+    "result": "needs-interactive-directory-review"
+  },
+  {
+    "teamKey": "nfl-nfl-denver-broncos",
+    "team": "Denver Broncos",
+    "checkedAt": "2026-09-08",
+    "count": 0,
+    "sources": [
+      "https://www.denverbroncos.com/fans/bar-network/",
+      "https://www.google.com/maps/d/embed?mid=1xchAka9Ekq7Zb-Ib4WBwMaZ2wDUbLnE"
+    ],
+    "reason": "Official bar directory and linked map opened, but rendered no bar rows. Network eligibility requires every game with sound; do not create a generic network location.",
+    "result": "needs-interactive-directory-review"
+  },
+  {
+    "teamKey": "nfl-nfl-pittsburgh-steelers",
+    "team": "Pittsburgh Steelers",
+    "checkedAt": "2026-09-08",
+    "count": 0,
+    "sources": [
+      "https://www.steelers.com/fans/snufanclubs/"
+    ],
+    "reason": "Official directory opened, but named venue rows unavailable in rendered text. Dallas club search lead names Longhorn Icehouse; primary club page/address still needs verification.",
+    "result": "needs-interactive-directory-review"
+  },
+  {
+    "teamKey": "nfl-nfl-san-francisco-49ers",
+    "team": "San Francisco 49ers",
+    "checkedAt": "2026-09-08",
+    "count": 0,
+    "sources": [
+      "https://www.nedw.org/"
+    ],
+    "reason": "Niner Empire Desert West homepage names G57 in Glendale as home venue but retains older Dave & Buster’s food/menu and dog-friendly copy, and no street address was present. Hold until current address and venue resolved.",
+    "result": "conflicting-venue-copy"
+  },
+  {
+    "teamKey": "mlb-mlb-arizona-diamondbacks",
+    "team": "Arizona Diamondbacks",
+    "checkedAt": "2026-09-08",
+    "result": "historical-only",
+    "currentRecords": 0,
+    "historicalRecords": 1,
+    "sources": [
+      "https://www.mlb.com/news/press-release-d-backs-fans-embrace-the-chaos-and-sell-out-chase-field"
+    ]
+  },
+  {
+    "teamKey": "nba-wnba-atlanta-dream",
+    "team": "Atlanta Dream",
+    "checkedAt": "2026-09-08",
+    "result": "historical-only",
+    "currentRecords": 0,
+    "historicalRecords": 5,
+    "sources": [
+      "https://dream.wnba.com/news/atlanta-dream-partners-with-local-bars-for-official-playoff-watch-parties"
+    ]
+  },
+  {
+    "teamKey": "nba-nba-atlanta-hawks",
+    "team": "Atlanta Hawks",
+    "checkedAt": "2026-09-08",
+    "result": "current-source-found",
+    "currentRecords": 2,
+    "historicalRecords": 0,
+    "sources": [
+      "https://www.nba.com/hawks/barnetwork"
+    ]
+  },
+  {
+    "teamKey": "mlb-mlb-chicago-cubs",
+    "team": "Chicago Cubs",
+    "checkedAt": "2026-09-08",
+    "result": "historical-only",
+    "currentRecords": 0,
+    "historicalRecords": 1,
+    "sources": [
+      "https://www.bleachernation.com/cubs/2026/06/19/attn-come-to-our-free-cubs-watch-party-this-month/"
+    ]
+  },
+  {
+    "teamKey": "nba-nba-dallas-mavericks",
+    "team": "Dallas Mavericks",
+    "checkedAt": "2026-09-08",
+    "result": "current-source-found",
+    "currentRecords": 1,
+    "historicalRecords": 0,
+    "sources": [
+      "https://www.happiesthourdallas.com/news-item/mavericks/"
+    ]
+  },
+  {
+    "teamKey": "mlb-mlb-houston-astros",
+    "team": "Houston Astros",
+    "checkedAt": "2026-09-08",
+    "result": "current-source-found",
+    "currentRecords": 3,
+    "historicalRecords": 0,
+    "sources": [
+      "https://www.homerundugout.com/astros-watch-party-katy",
+      "https://www.mlb.com/astros/fans/stros-social-club"
+    ]
+  },
+  {
+    "teamKey": "nba-nba-indiana-pacers",
+    "team": "Indiana Pacers",
+    "checkedAt": "2026-09-08",
+    "result": "historical-only",
+    "currentRecords": 0,
+    "historicalRecords": 1,
+    "sources": [
+      "https://www.nba.com/pacers/somethingextrarules"
+    ]
+  },
+  {
+    "teamKey": "nba-nba-memphis-grizzlies",
+    "team": "Memphis Grizzlies",
+    "checkedAt": "2026-09-08",
+    "result": "current-source-found",
+    "currentRecords": 2,
+    "historicalRecords": 0,
+    "sources": [
+      "https://www.nba.com/grizzlies/barnetwork"
+    ]
+  },
+  {
+    "teamKey": "mlb-mlb-milwaukee-brewers",
+    "team": "Milwaukee Brewers",
+    "checkedAt": "2026-09-08",
+    "result": "historical-only",
+    "currentRecords": 0,
+    "historicalRecords": 1,
+    "sources": [
+      "https://www.mlb.com/press-release/press-release-brewers-announce-national-league-division-series-watch-parties"
+    ]
+  },
+  {
+    "teamKey": "mlb-mlb-seattle-mariners",
+    "team": "Seattle Mariners",
+    "checkedAt": "2026-09-08",
+    "result": "current-source-found",
+    "currentRecords": 2,
+    "historicalRecords": 0,
+    "sources": [
+      "https://admiralpubseattle.com/",
+      "https://www.hatback.com/seattle-mariners/"
+    ]
+  },
+  {
+    "teamKey": "mlb-mlb-texas-rangers",
+    "team": "Texas Rangers",
+    "checkedAt": "2026-09-08",
+    "result": "historical-only",
+    "currentRecords": 0,
+    "historicalRecords": 1,
+    "sources": [
+      "https://www.mlb.com/press-release/press-release-texas-rangers-to-host-watch-parties-at-globe-life-field-for-americ"
+    ]
+  },
+  {
+    "teamKey": "nba-nba-phoenix-suns",
+    "team": "Phoenix Suns",
+    "checkedAt": "2026-09-08",
+    "result": "needs-further-verification",
+    "currentRecords": 0,
+    "historicalRecords": 0,
+    "sources": [
+      "https://www.facebook.com/suns/posts/want-to-join-your-fellow-suns-fans-watching-tomorrows-gamevisit-cold-beers-chees/901834821299344/",
+      "https://www.nba.com/suns/news/game-preview-round-2-game-5"
+    ],
+    "note": "Official team social result names Cold Beers & Cheeseburgers at 7th Street/Missouri, but event date not reliably exposed; omitted until date/current recurrence can be checked. Valley Suns G League sources were not assigned to Phoenix Suns."
+  },
+  {
+    "teamKey": "nba-wnba-new-york-liberty",
+    "team": "New York Liberty",
+    "checkedAt": "2026-09-08",
+    "result": "directory-found-needs-location-extraction",
+    "currentRecords": 0,
+    "historicalRecords": 0,
+    "sources": [
+      "https://liberty.wnba.com/bar-network"
+    ],
+    "note": "Official standing network exists but named venue details were not exposed in retrieved page. Secondary directory entries not copied as verified."
+  },
+  {
+    "teamKey": "nba-wnba-minnesota-lynx",
+    "team": "Minnesota Lynx",
+    "checkedAt": "2026-09-08",
+    "result": "needs-further-verification",
+    "currentRecords": 0,
+    "historicalRecords": 0,
+    "sources": [
+      "https://www.minneapolis.org/blog/minnesota-lynx-playoffs/"
+    ],
+    "note": "Tourism page reflects 2025 postseason; no concrete recurring primary-source venue extracted."
+  },
+  {
+    "teamKey": "nba-nba-denver-nuggets",
+    "team": "Denver Nuggets",
+    "checkedAt": "2026-09-08",
+    "result": "needs-further-verification",
+    "currentRecords": 0,
+    "historicalRecords": 0,
+    "sources": [
+      "https://www.nba.com/nuggets/news/nuggets-watch-party-presented-bud-light",
+      "https://www.mcgregorsquare.com/event/nuggets-watch-party/"
+    ],
+    "note": "Named venue/event leads found, but date or current recurring standing not firmly established; omitted."
+  },
+  {
+    "teamKey": "mlb-mlb-tampa-bay-rays",
+    "team": "Tampa Bay Rays",
+    "checkedAt": "2026-09-08",
+    "result": "directory-found-needs-location-extraction",
+    "currentRecords": 0,
+    "historicalRecords": 0,
+    "sources": [
+      "https://www.mlb.com/rays/fans/watch-party"
+    ],
+    "note": "Official watch-party page links Rays Bar League but location list was not extracted in this pass."
+  },
+  {
+    "team": "Carolina Hurricanes",
+    "teamKey": "nhl-nhl-carolina-hurricanes",
+    "checkedAt": "2026-09-08",
+    "result": "standing venues found",
+    "records": 2,
+    "sources": [
+      "https://www.nhl.com/hurricanes/fans/canes-bars"
+    ],
+    "note": "Initial verified sample; directory coverage is not exhaustive."
+  },
+  {
+    "team": "Columbus Blue Jackets",
+    "teamKey": "nhl-nhl-columbus-blue-jackets",
+    "checkedAt": "2026-09-08",
+    "result": "standing venues found",
+    "records": 2,
+    "sources": [
+      "https://www.nhl.com/bluejackets/fans/bar-network"
+    ],
+    "note": "Initial verified sample; directory coverage is not exhaustive."
+  },
+  {
+    "team": "Florida Panthers",
+    "teamKey": "nhl-nhl-florida-panthers",
+    "checkedAt": "2026-09-08",
+    "result": "standing venues found",
+    "records": 2,
+    "sources": [
+      "https://www.nhl.com/panthers/fans/catsontap"
+    ],
+    "note": "Initial verified sample; directory coverage is not exhaustive."
+  },
+  {
+    "team": "Nashville Predators",
+    "teamKey": "nhl-nhl-nashville-predators",
+    "checkedAt": "2026-09-08",
+    "result": "standing venues found",
+    "records": 2,
+    "sources": [
+      "https://www.nhl.com/predators/fans/preds-approved"
+    ],
+    "note": "Initial verified sample; directory coverage is not exhaustive."
+  },
+  {
+    "team": "New York Rangers",
+    "teamKey": "nhl-nhl-new-york-rangers",
+    "checkedAt": "2026-09-08",
+    "result": "standing venues found",
+    "records": 2,
+    "sources": [
+      "https://www.nhl.com/rangers/fans/bar-network"
+    ],
+    "note": "Initial verified sample; directory coverage is not exhaustive."
+  },
+  {
+    "team": "San Jose Sharks",
+    "teamKey": "nhl-nhl-san-jose-sharks",
+    "checkedAt": "2026-09-08",
+    "result": "historical events only",
+    "records": 2,
+    "sources": [
+      "https://www.nhl.com/sharks/news/sharks-announce-2025-26-watch-party-schedule"
+    ],
+    "note": "Initial verified sample; directory coverage is not exhaustive."
+  },
+  {
+    "team": "Seattle Kraken",
+    "teamKey": "nhl-nhl-seattle-kraken",
+    "checkedAt": "2026-09-08",
+    "result": "standing venues found",
+    "records": 2,
+    "sources": [
+      "https://www.nhl.com/kraken/fans/watch-parties"
+    ],
+    "note": "Initial verified sample; directory coverage is not exhaustive."
+  },
+  {
+    "team": "St. Louis Blues",
+    "teamKey": "nhl-nhl-st-louis-blues",
+    "checkedAt": "2026-09-08",
+    "result": "standing venues found",
+    "records": 2,
+    "sources": [
+      "https://www.nhl.com/blues/fans/bars"
+    ],
+    "note": "Initial verified sample; directory coverage is not exhaustive."
+  },
+  {
+    "team": "Vegas Golden Knights",
+    "teamKey": "nhl-nhl-vegas-golden-knights",
+    "checkedAt": "2026-09-08",
+    "result": "historical events only",
+    "records": 2,
+    "sources": [
+      "https://www.nhl.com/goldenknights/news/vegas-golden-knights-to-host-official-watch-parties-for-game-6"
+    ],
+    "note": "Initial verified sample; directory coverage is not exhaustive."
+  },
+  {
+    "team": "Dallas Stars",
+    "teamKey": "nhl-nhl-dallas-stars",
+    "checkedAt": "2026-09-08",
+    "result": "no named venues in opened official watch-party page",
+    "records": 0,
+    "sources": [
+      "https://www.nhl.com/stars/fans/watch-parties"
+    ],
+    "note": "Page describes program but currently exposes no venue schedule; requires later follow-up."
+  },
+  {
+    "team": "Tampa Bay Lightning",
+    "teamKey": "nhl-nhl-tampa-bay-lightning",
+    "checkedAt": "2026-09-08",
+    "result": "search lead only; no venue established",
+    "records": 0,
+    "sources": [
+      "https://www.nhl.com/lightning/team/playoffs/watch-parties"
+    ],
+    "note": "Search result contains historical photo galleries but no named location; not imported."
+  },
+  {
+    "team": "Colorado Avalanche",
+    "teamKey": "nhl-nhl-colorado-avalanche",
+    "checkedAt": "2026-09-08",
+    "result": "search leads only; no opened team venue evidence",
+    "records": 0,
+    "sources": [
+      "https://www.nhl.com/avalanche/fans/watch-parties"
+    ],
+    "note": "Venue-owned recurring listing lead at https://www.dnvrbar.com/event/avalanche-watch-parties/; not opened or imported during this official-team pass."
+  },
+  {
+    "team": "New York Islanders",
+    "teamKey": "nhl-nhl-new-york-islanders",
+    "checkedAt": "2026-09-08",
+    "result": "search lead for directory",
+    "records": 0,
+    "sources": [
+      "https://www.nhl.com/islanders/fans/isles-viewing-parties"
+    ],
+    "note": "Directory requires further inspection; no venue imported."
+  },
+  {
+    "team": "Anaheim Ducks",
+    "teamKey": "nhl-nhl-anaheim-ducks",
+    "checkedAt": "2026-09-08",
+    "result": "search result says upcoming season information TBA",
+    "records": 0,
+    "sources": [
+      "https://www.nhl.com/ducks/fans/watch-parties"
+    ],
+    "note": "No venue imported; result not promoted to a verified location."
+  },
+  {
+    "team": "Washington Capitals",
+    "teamKey": "nhl-nhl-washington-capitals",
+    "checkedAt": "2026-09-08",
+    "result": "search lead for approved bar network",
+    "records": 0,
+    "sources": [
+      "https://www.nhl.com/capitals/news/capitals-announce-game-3-watch-party-at-the-wharf-as-part-of-additional-playoffs-initiatives-presented-by-vanda-pharmaceuticals-inc"
+    ],
+    "note": "Follow Destination Gameday link in official article for next pass; no venue imported."
+  },
+  {
+    "team": "Arsenal",
+    "teamKey": "soccer-english-premier-league-arsenal",
+    "checkedAt": "2026-09-08",
+    "result": "standing-venues-found",
+    "venues": 5,
+    "sources": [
+      "https://arsenalamerica.com/branches/"
+    ],
+    "note": "Manual web search and source opens; source-checked standing locations, no direct host outreach or invented event schedules."
+  },
+  {
+    "team": "Chelsea",
+    "teamKey": "soccer-english-premier-league-chelsea",
+    "checkedAt": "2026-09-08",
+    "result": "standing-venues-found",
+    "venues": 2,
+    "sources": [
+      "https://www.chelseainamerica.com/locals/phoenix-blues",
+      "https://www.chelseainamerica.com/locals/tucson-blues"
+    ],
+    "note": "Manual web search and source opens; source-checked standing locations, no direct host outreach or invented event schedules."
+  },
+  {
+    "team": "Tottenham Hotspur",
+    "teamKey": "soccer-english-premier-league-tottenham-hotspur",
+    "checkedAt": "2026-09-08",
+    "result": "standing-venues-found",
+    "venues": 2,
+    "sources": [
+      "https://dcspurs.org/",
+      "https://www.chicagospurs.com/"
+    ],
+    "note": "Manual web search and source opens; source-checked standing locations, no direct host outreach or invented event schedules."
+  },
+  {
+    "team": "Manchester City",
+    "teamKey": "soccer-english-premier-league-manchester-city",
+    "checkedAt": "2026-09-08",
+    "result": "standing-venues-found",
+    "venues": 1,
+    "sources": [
+      "https://www.newyorkskyblues.com/"
+    ],
+    "note": "Manual web search and source opens; source-checked standing locations, no direct host outreach or invented event schedules."
+  },
+  {
+    "team": "Everton",
+    "teamKey": "soccer-english-premier-league-everton",
+    "checkedAt": "2026-09-08",
+    "result": "standing-venues-found",
+    "venues": 1,
+    "sources": [
+      "https://www.turnmillnyc.com/everton-fc/"
+    ],
+    "note": "Manual web search and source opens; source-checked standing locations, no direct host outreach or invented event schedules."
+  },
+  {
+    "team": "Manchester United",
+    "teamKey": "soccer-english-premier-league-manchester-united",
+    "checkedAt": "2026-09-08",
+    "result": "standing-venues-found",
+    "venues": 1,
+    "sources": [
+      "https://smithfieldnyc.com/fan-clubs/manchester-united-fc/"
+    ],
+    "note": "Manual web search and source opens; source-checked standing locations, no direct host outreach or invented event schedules."
+  },
+  {
+    "team": "Bayern Munich",
+    "teamKey": "soccer-bundesliga-bayern-munich",
+    "checkedAt": "2026-09-08",
+    "result": "standing-venues-found",
+    "venues": 2,
+    "sources": [
+      "https://fcbayern.com/en/fans/fan-clubs/us-where-to-watch",
+      "https://germantampabay.com/fcbmc/"
+    ],
+    "note": "Manual web search and source opens; source-checked standing locations, no direct host outreach or invented event schedules."
+  },
+  {
+    "team": "Real Madrid",
+    "teamKey": "soccer-la-liga-real-madrid",
+    "checkedAt": "2026-09-08",
+    "result": "standing-venues-found",
+    "venues": 1,
+    "sources": [
+      "https://www.playwrightirishpubnyc.com/real-madrid/"
+    ],
+    "note": "Manual web search and source opens; source-checked standing locations, no direct host outreach or invented event schedules."
+  },
+  {
+    "team": "Barcelona",
+    "teamKey": "soccer-la-liga-barcelona",
+    "checkedAt": "2026-09-08",
+    "result": "standing-venues-found",
+    "venues": 2,
+    "sources": [
+      "https://www.fcbarcelonanyc.com/",
+      "https://fcbarcelonadc.com/"
+    ],
+    "note": "Manual web search and source opens; source-checked standing locations, no direct host outreach or invented event schedules."
+  },
+  {
+    "team": "Liverpool",
+    "teamKey": "soccer-english-premier-league-liverpool",
+    "checkedAt": "2026-09-08",
+    "result": "standing-venues-found",
+    "venues": 3,
+    "sources": [
+      "https://www.lfcboston.com/",
+      "https://www.olscseattle.com/locations"
+    ],
+    "note": "Manual web search and source opens; source-checked standing locations, no direct host outreach or invented event schedules."
+  },
+  {
+    "team": "Arsenal",
+    "checkedAt": "2026-09-08",
+    "result": "additional-directory-candidates",
+    "sources": [
+      "https://arsenalamerica.com/branches/"
+    ],
+    "note": "National source has many additional branches beyond this bounded first pass. Little Rock listing has a suspect ZIP (72701); omitted pending separate address confirmation.",
+    "teamKey": "soccer-english-premier-league-arsenal"
+  },
+  {
+    "team": "Liverpool",
+    "checkedAt": "2026-09-08",
+    "result": "older-venue-not-used",
+    "sources": [
+      "https://www.liverpoolfc.com/news/we-love-you-liverpool-meet-official-lfc-supporters-club-seattle",
+      "https://www.olscseattle.com/locations"
+    ],
+    "note": "The 2023 Liverpool article lists St. Andrews. Current supporter directory lists The Westy and Doyle’s; older venue was not added.",
+    "teamKey": "soccer-english-premier-league-liverpool"
+  },
+  {
+    "team": "Barcelona",
+    "checkedAt": "2026-09-08",
+    "result": "los-angeles-candidate-not-added",
+    "sources": [
+      "https://www.instagram.com/penyabarcala/"
+    ],
+    "note": "Search found Viibz venue/address references but bounded pass used directly opened New York and DC supporter websites instead.",
+    "teamKey": "soccer-la-liga-barcelona"
+  },
+  {
+    "team": "Bayern Munich",
+    "checkedAt": "2026-09-08",
+    "result": "additional-directory-candidates",
+    "sources": [
+      "https://fcbayern.com/en/fans/fan-clubs/us-where-to-watch"
+    ],
+    "note": "Team directory lists dozens of US fan bars; only two with independently supported full addresses included in this pass. The fcb-nyc.com site was reviewed but not used as the source URL because it contains unrelated betting-app copy.",
+    "teamKey": "soccer-bundesliga-bayern-munich"
+  },
+  {
+    "team": "Manchester United",
+    "checkedAt": "2026-09-08",
+    "result": "additional-directory-candidates",
+    "sources": [
+      "https://manutdusa.com/chapters/"
+    ],
+    "note": "Official US network is a further research source; concrete entry in this pass comes from venue-published supporter page.",
+    "teamKey": "soccer-english-premier-league-manchester-united"
+  },
+  {
+    "teamKey": "rugby-major-league-rugby-new-england-free-jacks",
+    "team": "New England Free Jacks",
+    "result": "records-found",
+    "checkedAt": "2026-09-08",
+    "note": "6 venue records; 0 historical records.",
+    "sources": [
+      "https://freejacks.com/2026-pub-partners/"
+    ]
+  },
+  {
+    "teamKey": "rugby-united-rugby-championship-munster",
+    "team": "Munster",
+    "result": "records-found",
+    "checkedAt": "2026-09-08",
+    "note": "6 venue records; 0 historical records.",
+    "sources": [
+      "https://www.mrsc.ie/branches/usa/"
+    ]
+  },
+  {
+    "teamKey": "rugby-major-league-rugby-old-glory-dc",
+    "team": "Old Glory DC",
+    "result": "records-found",
+    "checkedAt": "2026-09-08",
+    "note": "4 venue records; 0 historical records.",
+    "sources": [
+      "https://oldglorydc.com/bar-network/"
+    ]
+  },
+  {
+    "teamKey": "cricket-major-league-cricket-seattle-orcas",
+    "team": "Seattle Orcas",
+    "result": "records-found",
+    "checkedAt": "2026-09-08",
+    "note": "6 venue records; 6 historical records.",
+    "sources": [
+      "https://www.seattleorcas.com/news/seattle-orcas-announce-official-watch-parties-and-broadcast-lineup-for-major-league-cricket-season-four"
+    ]
+  },
+  {
+    "teamKey": "rugby-major-league-rugby-anthem-rugby-carolina",
+    "team": "Anthem Rugby Carolina",
+    "result": "records-found",
+    "checkedAt": "2026-09-08",
+    "note": "1 venue records; 1 historical records.",
+    "sources": [
+      "https://anthemrc.com/news/anthem-rc-at-old-glory-dc-week-11-preview/"
+    ]
+  },
+  {
+    "teamKey": "rugby-major-league-rugby-chicago-hounds",
+    "team": "Chicago Hounds",
+    "result": "records-found",
+    "checkedAt": "2026-09-08",
+    "note": "1 venue records; 1 historical records.",
+    "sources": [
+      "https://www.chicagohounds.com/news/eastern-conference-final-roster-revealed/"
+    ]
+  },
+  {
+    "teamKey": "rugby-major-league-rugby-seattle-seawolves",
+    "team": "Seattle Seawolves",
+    "result": "needs-follow-up",
+    "checkedAt": "2026-09-08",
+    "note": "Official social search surfaced Moss Bay Hall watch-party lead; open team page is a meet-and-greet, not watch-party evidence. No import.",
+    "sources": [
+      "https://www.seawolves.rugby/",
+      "https://seawolves.rugby/news/meet-your-2025-seawolves-squad",
+      "https://www.instagram.com/p/DYku6PZkv9k/"
+    ]
+  },
+  {
+    "teamKey": "rugby-major-league-rugby-california-legion",
+    "team": "California Legion",
+    "result": "needs-follow-up",
+    "checkedAt": "2026-09-08",
+    "note": "Historical RFCLA Tower 12 announcement predates current merged team and has conflicting original/rescheduled dates. No import.",
+    "sources": [
+      "https://legion.rugby/news/latest/rfcla-team-to-face-houston-in-first-ever-playoff"
+    ]
+  },
+  {
+    "teamKey": "rugby-united-rugby-championship-leinster",
+    "team": "Leinster",
+    "result": "no-source-backed-US-venue-found",
+    "checkedAt": "2026-09-08",
+    "note": "Grafton NYC association surfaced only in fan discussion; official team search did not corroborate. Do not label verified.",
+    "sources": [
+      "https://www.leinsterrugby.ie/"
+    ]
+  },
+  {
+    "teamKey": "cricket-major-league-cricket-san-francisco-unicorns",
+    "team": "San Francisco Unicorns",
+    "result": "no-team-game-venue-confirmed",
+    "checkedAt": "2026-09-08",
+    "note": "Official Ohlone College event was a 2024 World Cup final screening, not Unicorns match viewing. No import.",
+    "sources": [
+      "https://www.sfunicorns.com/events/",
+      "https://www.sfunicorns.com/event/san-francisco-unicorns-family-day-presented-by-royal-a-sparkling-success/"
+    ]
+  },
+  {
+    "teamKey": "cricket-major-league-cricket-washington-freedom",
+    "team": "Washington Freedom",
+    "result": "needs-follow-up",
+    "checkedAt": "2026-09-08",
+    "note": "Official social search found June 2026 watch-party post but no recoverable venue detail. No import.",
+    "sources": [
+      "https://www.washingtonfreedom.com/",
+      "https://www.facebook.com/WSHFreedom/posts/one-team-one-city-one-watch-party-catch-every-moment-with-fellow-freedom-fans-an/980840228291631/"
+    ]
+  },
+  {
+    "teamKey": "cricket-major-league-cricket-texas-super-kings",
+    "team": "Texas Super Kings",
+    "result": "no-source-backed-US-venue-found",
+    "checkedAt": "2026-09-08",
+    "note": "Search results did not establish a named standing US watch-party venue. No stadium substitution.",
+    "sources": [
+      "https://www.texassuperkings.com/"
+    ]
+  },
+  {
+    "teamKey": "cricket-major-league-cricket-mi-new-york",
+    "team": "MI New York",
+    "result": "no-source-backed-US-venue-found",
+    "checkedAt": "2026-09-08",
+    "note": "Search results did not establish a named US supporter viewing venue. Opposing-team parties were not assigned to MI New York.",
+    "sources": [
+      "https://www.minewyork.com/"
+    ]
+  },
+  {
+    "teamKey": "cricket-major-league-cricket-los-angeles-knight-riders",
+    "team": "Los Angeles Knight Riders",
+    "result": "no-source-backed-US-venue-found",
+    "checkedAt": "2026-09-08",
+    "note": "Search results did not establish a named US supporter viewing venue. Opposing-team parties were not assigned to LAKR.",
+    "sources": [
+      "https://www.lakriders.com/"
+    ]
+  },
+  {
+    "teamKey": "rugby-major-league-rugby-old-glory-dc",
+    "team": "Old Glory DC",
+    "result": "additional-leads-not-imported",
+    "checkedAt": "2026-09-08",
+    "note": "Auld Shebeen and Chubby Squirrel need recoverable addresses; Ornery’s current site lists Herndon/Bristow only, making Fairfax association uncertain. 2024 Taffer’s Tavern designation is superseded by current network and was not imported.",
+    "sources": [
+      "https://oldglorydc.com/bar-network/",
+      "https://www.ornerybeer.com/",
+      "https://www.chubbysquirrelbrewing.com/",
+      "https://theauldshebeenva.com/contact/"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "team": "Sunderland",
+    "checkedAt": "2026-09-08",
+    "result": "excluded-existing-rich-data",
+    "sources": [],
+    "note": "Deliberately not researched in this pass per task scope."
+  },
+  {
+    "team": "MLS clubs",
+    "checkedAt": "2026-09-08",
+    "result": "not-searched-in-bounded-pass",
+    "sources": [],
+    "note": "Kept this pass focused on the ten assigned European clubs."
+  }
+]
