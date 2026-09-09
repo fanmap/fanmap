@@ -14,12 +14,27 @@ jobs:
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
-      - name: Verify exact public release files
-        run: python3 scripts/verify-public.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exact public open-access release files
+        run: python scripts/verify-public.py
+      - name: Install fresh browser for live check
+        run: |
+          python -m pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Verify actual visitors can use locations and tools without accounts
+        env:
+          FANMAP_TEST_URL: https://fanmap.com
+          FANMAP_BROWSER: chromium
+        run: python tests/open-access-browser.py 2>&1 | tee test-results/live-browser.log
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: fanmap-public-release
-          path: test-results/public-release.json
+          path: |
+            test-results/public-release.json
+            test-results/live-browser.log
+            test-results/*open-home.png
           if-no-files-found: ignore
-          retention-days: 7
+          retention-days: 3

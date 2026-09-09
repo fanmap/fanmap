@@ -1,11 +1,14 @@
-# Location and stadium corpora must NEVER be published by GitHub Pages/Jekyll.
+# Temporary public mode: runtime directory and map data are intentionally public.
+# Keep research, unused account code, server code and private imports off Pages.
 exclude:
-  - assets/data
   - research
   - scripts
   - tests
   - supabase
   - docs
+  - assets/access.js
+  - assets/access.css
+  - assets/access-config.js
   - README.md
   - node_modules
   - package.json

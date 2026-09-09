@@ -1,32 +1,25 @@
-# Fan Map — account-required access
+# Fan Map — temporary open access
 
-The public homepage explains Fan Map and routes visitors to **Create account** or **Sign in**. Guests cannot load the location directory, tailgate map, saved places, or member invitations. No demo profile or local flag is accepted as authorization.
+FanMap.com currently opens the functional app without registration or sign-in, at the owner's request while the account backend is being prepared. The public experience has **Home, Watch parties, Tailgates, Fan zone, and Saved**. There is no pilot pitch, early-access form, or signup gate.
 
-## Current deployment status
+## Available now
 
-The public access gate is fail closed. `assets/access-config.js` intentionally has `enabled: false` and no project credentials because a backend has not yet been connected. Registration/sign-in are not operational in that state, and the UI clearly says so. Do not enable it until the activation checklist below is complete.
+Visitors choose a team and can search directory locations, view listed addresses and directions, save watch-party places, use the independent stadium-area satellite map, create meeting-point pins, and share those pins with another browser. The existing team-color palettes, stadium data, venue research, merchandise/ticket destinations and available fan-support links are preserved.
 
-## Public data exclusion
+Saved teams, places and meeting points are stored in the current browser, not in a cloud account. The startup script recovers a prior `fanmap.legacy.backup.v1` browser backup only when the active browser profile is absent. It does not overwrite a newer profile or delete the backup. Shared tailgate URLs carry the location and user-entered details; anyone receiving a link can open that snapshot without an account. The sharing form discloses this before saving.
 
-GitHub Pages/Jekyll must honor `_config.yml`: the entire `assets/data`, `research`, `scripts`, `tests`, and `supabase` trees are excluded. `scripts/build-public.cjs` provides a strict allowlisted equivalent for testing and future custom deployment. The location and stadium corpus is never an anonymous application download. Old `/app` and `/app.html` routes redirect to the gated homepage. Old coordinate-bearing `#pin` links are no longer rendered; already-copied URLs/data cannot be erased by this release.
+## Deliberate temporary access policy
 
-**The repository is currently public. Excluding files from Pages does not restrict GitHub, Git history, forks, previously generated Actions artifacts, or prior downloads. The owner must make the repository private (or move the corpus and its history into private storage). Confirm the account's Pages support before changing repository visibility so the public domain is not inadvertently unpublished. No claim of full data confidentiality is made while the public repository still contains the corpus.**
+The app's runtime directory and stadium data assets are public in this mode. This reverses the site's account-only restriction; it is not a claim that the public directory is private. Research files, server code, private import files and inactive auth scripts are still excluded from the deployed Pages site. `scripts/build-public.cjs` uses an explicit allowlist.
 
-## Authenticated backend, prepared for connection
+## Account work preserved for later
 
-The Supabase migration creates profiles, the member-only directory payload, per-user saved state, expiring opaque share IDs, and a request limiter. All tables have RLS enabled and all direct privileges revoked from anon/authenticated roles. Only the server-side service role accesses them. The Edge Function validates the bearer token using Auth `getUser`, rejects anonymous/unconfirmed users and missing profiles, and uses the verified user ID for writes. It never accepts a caller-supplied owner ID. All private responses use `Cache-Control: private, no-store`.
+`assets/access.js`, `assets/access.css`, `assets/access-config.js`, `supabase/`, and the account-policy tests remain in the repository, but the public entry point does not load them. No Supabase database privileges, policies, credentials or configuration were changed to enable public access. Signup and sign-in remain inactive. The last account-gated release is preserved on `account-required` at `d54d60376ae0a0a35073f6ce81ed3fe96182c60e`. `docs/account-required-setup.md` records that previous release's activation checklist, not the current public site's policy.
 
-The frontend uses real email/password signup, email confirmation, sign-in, recovery, and sign-out through Supabase Auth when configured. There is no fake fallback. App scripts/maps load only after the private API approves the session and returns its payload. Saves use the account API rather than guest local storage; sign-out removes the in-page data. New tailgate invitation URLs use random server-side identifiers and require a verified member account to resolve. External directions links open only from the member view.
+Before re-enabling accounts, deploy and test the real backend, update the entry point and public build allowlist, and reinstate private-data exclusions. Do not merely place a login dialog over publicly downloadable data.
 
-### Activation checklist
+## Verification
 
-1. Connect the owner's Supabase project. Apply `supabase/migrations/20260909030000_member_access.sql` and test that direct anonymous/ordinary-user REST reads on every new table are denied.
-2. Configure email/password authentication with email confirmation enabled, production email delivery and production redirect URLs for `https://fanmap.com/` (including allowed query parameters). Test signup, confirmation, password recovery, disabled users and expired sessions with real accounts.
-3. Run `node scripts/build-member-data.cjs` in a trusted workspace. Import `_private/member-payload.json` into `fanmap_member_payload` at id `directory` using a server-side credential. Never publish the import file or service-role key.
-4. Deploy `supabase/functions/fanmap-access`. Its gateway JWT setting is false only because the function explicitly verifies tokens with Auth before every data access. Confirm unauthenticated calls return 401, anonymous/unverified accounts return 403, and a verified member can load data, save state, and resolve an opaque share. Test cross-account state isolation.
-5. Put only the project's public URL and publishable key into `assets/access-config.js`, set enabled true, and run the end-to-end tests against the actual provider before launch.
-6. Resolve public GitHub/history exposure, and check all legacy static data URLs on the live domain remain 404/403.
+Run `node scripts/build-public.cjs`, `node tests/open-access.cjs`, the directory regression tests, and the existing public Playwright suite. The additional open-access browser test checks clean guests, old app routes, legacy browser-save recovery, and absence of account API calls. The inactive server authorization unit tests continue to run separately; they do not prove a live backend has been configured.
 
-## Tests
-
-`node --test tests/account-api.mjs` covers server policy with injected service doubles. `tests/account-browser.py` covers guests, forged local profiles, deep links, data-path exclusion, responsive layout, a mocked authenticated-member flow and server denial overriding a client session. These tests do not establish that a live Supabase project is configured. Existing directory, color and stadium regressions remain in the repository. No emails are sent by the browser test suite.
+The public-release workflow checks that the actual domain serves the exact committed app/data assets and opens the directory and tailgate pin tools in a fresh browser with no account. It does not send texts, make purchases, or contact a backend account service.
