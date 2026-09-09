@@ -17,16 +17,13 @@
 <link rel="stylesheet" href="/assets/vendor/leaflet.css?v=web1">
 <link rel="stylesheet" href="/assets/web-app.css?v=web2">
 <link rel="stylesheet" href="/assets/web-launch.css?v=web2">
-<script defer src="/assets/vendor/leaflet.js?v=web1"></script>
-<script defer src="/assets/data/team-base.js?v=web2"></script>
-<script defer src="/assets/data/team-catalog.js?v=web1"></script>
-<script defer src="/assets/data/team-colors.js?v=web1"></script>
-<script defer src="/assets/data/team-stadiums.js?v=web1"></script>
-<script defer src="/assets/data/verified-locations.js?v=web1"></script>
-<script defer src="/assets/web-app.js?v=web2"></script>
+<meta name="referrer" content="no-referrer">
+<link rel="stylesheet" href="/assets/access.css?v=accounts1">
+<script defer src="/assets/access-config.js?v=accounts1"></script>
+<script defer src="/assets/access.js?v=accounts1"></script>
 </head>
 <body>
-<a class="skip" href="#main">Skip to the app</a>
+<a class="skip" href="#publicHome">Skip to content</a>
 <header class="topbar">
   <a class="brand" href="/" aria-label="Fan Map home"><img src="/assets/brand/fan-map-white-web.webp" width="720" height="315" alt="Fan Map — Find Your Fanhood"></a>
   <nav class="modes" aria-label="Explore Fan Map">
@@ -37,8 +34,23 @@
     <button data-view="saved">Saved</button>
   </nav>
   <button id="teamButton" class="team-button" disabled><span id="teamBadge"></span><span id="teamLabel">Choose your team</span><span aria-hidden="true">⌄</span></button>
+  <button class="member-signout" data-sign-out>Sign out</button>
+  <div class="guest-actions"><button class="button secondary" data-auth-mode="signin">Sign in</button><button class="button" data-auth-mode="signup">Create account</button></div>
 </header>
-<div id="storageWarning" class="notice" role="status" hidden>Device storage is unavailable. You can browse and share, but your changes will not survive a reload.</div>
+<section id="publicHome" class="guest-home" tabindex="-1" aria-labelledby="publicTitle">
+  <div class="guest-hero"><p class="eyebrow">YOUR TEAM. YOUR PEOPLE.</p><h1 id="publicTitle">Find your<br><span>fanhood.</span></h1><p class="guest-lede">Watch together. Tailgate together. Make every city feel like home field.</p><div class="actions"><button class="button" data-auth-mode="signup">Create your account</button><button class="button secondary" data-auth-mode="signin">Sign in</button></div><p class="account-lock">An account is required for locations, maps, and all Fan Map tools.</p><p id="accessNotice" role="status"></p></div>
+  <div class="access-benefits">
+    <article><p class="eyebrow">WATCH PARTIES</p><h2>Your people are out there.</h2><p>Find your team’s watch-party venues and fan clubs. Save a place and bring your crew.</p><button class="button secondary" data-auth-mode="signup">Join to find your people</button></article>
+    <article><p class="eyebrow">TAILGATES</p><h2>One pin. Your whole crew.</h2><p>Start at your team’s stadium, choose a meeting point, and share it with fellow members.</p><button class="button secondary" data-auth-mode="signup">Join to plan your tailgate</button></article>
+  </div>
+  <div class="guest-footer"><span>Watch parties · Tailgates · Team gear · Tickets · Fan zone</span><span>Fan Map is independent of the teams and venues listed.</span></div>
+</section>
+<dialog id="authDialog" aria-labelledby="authTitle"><div class="dialog-heading"><h2 id="authTitle">Find your fanhood.</h2><button class="close" data-close-auth aria-label="Close account dialog">×</button></div><p class="muted">Sign in to access locations, stadium maps, saved places, and member invitations.</p>
+  <div id="authUnavailable" role="status">Account registration and sign-in are not available yet. Locations and tools remain locked until the account service is connected.</div>
+  <form id="authForm" hidden><label id="authNameField"><span>Display name</span><input id="authName" name="display_name" autocomplete="nickname" minlength="2" maxlength="60" required></label><label id="authEmailField"><span>Email address</span><input id="authEmail" name="email" type="email" autocomplete="email" maxlength="254" required></label><label id="authPasswordField"><span>Password</span><input id="authPassword" name="password" type="password" autocomplete="new-password" minlength="8" maxlength="128" required></label><button class="button wide" id="authSubmit" type="submit">Create account</button><div class="auth-options"><button type="button" id="authSwitch" data-auth-mode="signin">Already a member? Sign in</button><button type="button" data-auth-mode="reset">Forgot password?</button></div></form>
+  <p id="authStatus" role="status" aria-live="polite"></p>
+</dialog>
+<div id="storageWarning" class="notice" role="status" hidden>Account sync is unavailable. Recent changes are only in this signed-in session.</div>
 <div id="bootStatus" class="loading" role="status">Loading your fanhood…</div>
 <main id="main" tabindex="-1" hidden>
   <section class="intro">
@@ -73,9 +85,9 @@
   </section>
   <section id="tailgateView" aria-label="Stadium-area tailgating" hidden>
     <div class="tailgate-toolbar"><div><h2 id="stadiumName">Your home stadium</h2><p class="muted" id="stadiumNote"></p></div><div class="actions"><button id="recenter" class="button secondary">Back to stadium</button><button id="useLocation" class="button secondary">Use my location</button><button id="newPin" class="button">Drop a pin</button></div></div>
-    <div class="tailgate-layout"><div><div id="tailgateMap" role="region" aria-label="Interactive stadium-area satellite map" tabindex="0"></div><p class="quiet map-help" id="mapHelp">Tap the map to place a meeting point, or use “Drop a pin” at the center of the map. This does not reserve a space or establish permission to tailgate.</p></div><aside><div class="section-heading"><h2>Your meeting points</h2><span class="quiet">Saved on this device</span></div><div id="pinList"></div></aside></div>
+    <div class="tailgate-layout"><div><div id="tailgateMap" role="region" aria-label="Interactive stadium-area satellite map" tabindex="0"></div><p class="quiet map-help" id="mapHelp">Tap the map to place a meeting point, or use “Drop a pin” at the center of the map. This does not reserve a space or establish permission to tailgate.</p></div><aside><div class="section-heading"><h2>Your meeting points</h2><span class="quiet">Saved to your account</span></div><div id="pinList"></div></aside></div>
   </section>
-  <section id="savedView" aria-label="Saved locations" hidden><p class="muted saved-intro">Your saved places and meeting points stay in this browser. They are not a cloud account.</p><h2>Watch-party places</h2><div id="savedVenues" class="saved-grid"></div><h2 class="saved-heading">Tailgate meeting points</h2><div id="savedPins" class="saved-grid"></div></section>
+  <section id="savedView" aria-label="Saved locations" hidden><p class="muted saved-intro">Your saved places and meeting points belong to your account. Sign in to access them.</p><h2>Watch-party places</h2><div id="savedVenues" class="saved-grid"></div><h2 class="saved-heading">Tailgate meeting points</h2><div id="savedPins" class="saved-grid"></div></section>
   <section id="fanView" aria-label="Fan zone" hidden>
     <div id="fanEssentials" class="essentials-grid"></div>
     <div class="section-heading fan-section"><h2>Sports desk</h2><span class="quiet">Read current coverage at the publisher</span></div><div id="publisherList" class="essentials-grid"></div>
@@ -86,7 +98,7 @@
 </main>
 <dialog id="teamDialog" aria-labelledby="teamDialogTitle">
   <div class="dialog-heading"><div><p class="eyebrow">FIND YOUR FANHOOD</p><h2 id="teamDialogTitle">Who are you here for?</h2></div><button class="close" data-close="teamDialog" aria-label="Close team selection">×</button></div>
-  <p class="muted">Choose a team and get your whole game-day experience. No sign-up required to explore.</p>
+  <p class="muted">Choose a team and get your whole game-day experience. Your account is required to explore.</p>
   <label class="dialog-search"><span>Search teams</span><input id="teamSearch" type="search" placeholder="Team name, sport, or league" autocomplete="off" maxlength="100"></label>
   <label><span>Sport or category</span><select id="categoryFilter"><option value="">All sports &amp; categories</option></select></label>
   <div id="teamResults" class="team-results" aria-label="Team choices"></div><p id="teamCount" class="quiet" role="status"></p>
@@ -98,7 +110,7 @@
     <label><span>Landmark or instructions (optional)</span><textarea id="pinNote" maxlength="240" rows="3" placeholder="Look for our tent beside the south entrance."></textarea></label>
     <label><span>Game date (optional)</span><input id="pinDate" type="date"></label>
     <div class="coordinates"><label><span>Latitude</span><input id="pinLat" type="number" step="any" min="-90" max="90" required></label><label><span>Longitude</span><input id="pinLng" type="number" step="any" min="-180" max="180" required></label></div>
-    <p class="quiet">A shared link includes this exact location and the details you enter. Share only with people you intend to invite. Links are snapshots, not live updates.</p>
+    <p class="quiet">Meeting-point links require a Fan Map account. Share only with people you intend to invite. The URL does not contain your coordinates; it opens a saved snapshot after sign-in.</p>
     <p id="pinError" role="alert" class="error"></p><button class="button wide" type="submit">Save meeting point</button>
   </form>
 </dialog>

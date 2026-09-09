@@ -1,7 +1,7 @@
 /* Fan Map public web app. Uses generated public data and self-hosted maps. */
 (function (root) {
   'use strict';
-  const STORAGE_KEY = 'fanmap.web.v1';
+  // Member data and state are supplied only by the authenticated API.
   const own = (o, k) => !!o && Object.prototype.hasOwnProperty.call(o, k);
   const text = v => String(v == null ? '' : v);
   const esc = v => text(v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -16,6 +16,11 @@
     return result;
   }
   function buildTeams(env, html) {
+    if (env.FANMAP_PRIVATE_DATA) {
+      const data=env.FANMAP_PRIVATE_DATA;
+      if(!data.teams || !data.colors || !data.stadiums)throw new Error('The member directory did not load.');
+      return JSON.parse(JSON.stringify(data.teams));
+    }
     if (!env.FANMAP_CATALOG || !env.FANMAP_TEAM_COLORS || !env.FANMAP_TEAM_STADIUMS || !env.FANMAP_VERIFIED_LOCATIONS || typeof env.applyFanMapVerifiedLocations !== 'function') throw new Error('A required directory asset did not load.');
     const base = env.FANMAP_BASE_TEAMS || parseBaseTeams(html || "");
     const teams = JSON.parse(JSON.stringify({...base, ...env.FANMAP_CATALOG.teams}));
@@ -54,6 +59,7 @@
   const core = {parseBaseTeams,buildTeams,validCoordinates,stadiumFor,cleanPin,listingStatus,namedVenue,safeURL,esc,normal};
   if (typeof module !== 'undefined' && module.exports) module.exports = core;
   if (!root.document) return;
+  if (!root.FANMAP_ACCESS?.isAllowed() || !root.FANMAP_PRIVATE_DATA) return;
   const $ = id => document.getElementById(id);
   let teams={}, teamKey='', view='home', selectedVenue='', pageLimit=40, map=null, mapGroup=null, lastMapTeam='', sharedPin=null, storageOK=true, shareData=null, toastTimer;
   let state={teamKey:'',myTeams:{},saved:[],pins:[]};
@@ -63,23 +69,24 @@
     return '<svg class="team-icon" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="'+hex(c.primary,'#34343c')+'" stroke="rgba(255,255,255,.25)"/><path d="M20 8a8 8 0 0 0-8 8c0 6 8 15 8 15s8-9 8-15a8 8 0 0 0-8-8Z" fill="'+hex(c.secondary,'#FFFFFF')+'"/><circle cx="20" cy="16" r="3" fill="'+hex(c.primary,'#34343c')+'"/></svg>';
   }
   function toast(message) { clearTimeout(toastTimer); $('toast').textContent=message; $('toast').hidden=false; toastTimer=setTimeout(()=>$('toast').hidden=true,4500); }
+  let saveRevision=0;
   function persist() {
-    try { localStorage.setItem(STORAGE_KEY,JSON.stringify(state)); storageOK=true; } catch { storageOK=false; }
-    $('storageWarning').hidden=storageOK;
-    return storageOK;
+    const revision=++saveRevision;
+    root.FANMAP_ACCESS.saveState(state).then(()=>{
+      if(revision===saveRevision){storageOK=true;$('storageWarning').hidden=true;toast('Saved to your account.');}
+    }).catch(()=>{
+      if(revision===saveRevision){storageOK=false;$('storageWarning').hidden=false;toast('Account sync failed. Changes remain in this session only.');}
+    });
+    return true;
   }
   function restore() {
-    try {
-      const raw=JSON.parse(localStorage.getItem(STORAGE_KEY)||'null');
-      if (raw && typeof raw === 'object') {
-        state.teamKey=own(teams,raw.teamKey)?raw.teamKey:'';
-        if(raw.myTeams && typeof raw.myTeams==='object')for(const [category,key] of Object.entries(raw.myTeams)){if(own(teams,key)&&teams[key].category===category)state.myTeams[category]=key;}
-        if(state.teamKey)state.myTeams[teams[state.teamKey].category]=state.teamKey;
-        state.saved=Array.isArray(raw.saved)?raw.saved.filter(v=>v && own(teams,v.teamKey) && typeof v.id==='string').slice(0,500):[];
-        state.pins=Array.isArray(raw.pins)?raw.pins.map(p=>cleanPin(p,teams)).filter(Boolean).slice(0,100):[];
-      }
-      localStorage.setItem(STORAGE_KEY,JSON.stringify(state));
-    } catch { storageOK=false; $('storageWarning').hidden=false; }
+    const raw=root.FANMAP_ACCESS.initialState();
+    if(raw && typeof raw==='object') {
+      state.teamKey=own(teams,raw.teamKey)?raw.teamKey:'';
+      if(raw.myTeams && typeof raw.myTeams==='object')for(const [category,key] of Object.entries(raw.myTeams)){if(own(teams,key)&&teams[key].category===category)state.myTeams[category]=key;}
+      state.saved=Array.isArray(raw.saved)?raw.saved.filter(v=>v&&own(teams,v.teamKey)&&typeof v.id==='string').slice(0,500):[];
+      state.pins=Array.isArray(raw.pins)?raw.pins.map(p=>cleanPin(p,teams)).filter(Boolean).slice(0,100):[];
+    }
   }
   function setTheme() {
     const p=palette(teamKey);
@@ -93,20 +100,19 @@
   }
   function navigate(replace=false) {
     const u=makeURL(view,teamKey,view==='watch'?selectedVenue:'');
-    if(sharedPin && sharedPin.teamKey===teamKey && view==='tailgate')u.hash='pin='+encodePin(sharedPin);
+    const share=new URL(location.href).searchParams.get('share');
+    if(sharedPin && sharedPin.teamKey===teamKey && view==='tailgate' && /^[a-f0-9-]{36}$/i.test(share||''))u.searchParams.set('share',share);
     history[replace?'replaceState':'pushState']({},'',u);
   }
-  function encodePin(p) { const bytes=new TextEncoder().encode(JSON.stringify(p)); let bin=''; for(const b of bytes)bin+=String.fromCharCode(b); return btoa(bin).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,''); }
-  function decodePin(str) { if(!str || str.length>6000 || !/^[A-Za-z0-9_-]+$/.test(str))return null; try {let s=str.replace(/-/g,'+').replace(/_/g,'/'); s+='='.repeat((4-s.length%4)%4); return cleanPin(JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(s),c=>c.charCodeAt(0)))),teams);}catch{return null;} }
   function readRoute() {
-    const url=new URL(location.href); const payload=new URLSearchParams(url.hash.slice(1)).get('pin');
-    sharedPin=payload?decodePin(payload):null;
+    const url=new URL(location.href);
+    sharedPin=root.FANMAP_SHARED_PIN?cleanPin(root.FANMAP_SHARED_PIN,teams):null;
     const requested=url.searchParams.get('team');
     teamKey=sharedPin?sharedPin.teamKey:own(teams,requested)?requested:state.teamKey;
     const requestedView=url.searchParams.get('view'); const aliases={map:'watch',parties:'watch',tailgates:'tailgate',more:'fan',shop:'fan'};
     view=sharedPin?'tailgate':['home','watch','tailgate','fan','saved'].includes(requestedView)?requestedView:(own(aliases,requestedView)?aliases[requestedView]:'home');
     selectedVenue=url.searchParams.get('venue')||'';
-    if(payload&&!sharedPin)toast('That meeting-point link is invalid. It was not loaded.');
+    if(url.searchParams.has('legacyInvite'))toast('Ask the host for a new member-only meeting link.');
   }
   function selectTeam(key) {
     if(!own(teams,key))return;
@@ -128,11 +134,11 @@
     if(!findVenue(key,id))return;
     const had=isSaved(key,id);
     if(had)state.saved=state.saved.filter(s=>!(s.teamKey===key&&s.id===id));
-    else {if(state.saved.length>=500){toast('Your device has 500 saved places. Remove one before adding another.');return;}state.saved.push({teamKey:key,id});}
+    else {if(state.saved.length>=500){toast('Your account has 500 saved places. Remove one before adding another.');return;}state.saved.push({teamKey:key,id});}
     const saved=persist(); renderVenues(); renderSaved();
     if(view==='watch'&&selectedVenue)showVenue(selectedVenue,false);
     if(view==='home')renderHome();
-    toast(had?'Removed from saved places.':saved?'Saved on this device.':'Saved for this session only. Device storage is unavailable.');
+    toast(had?'Removed from saved places.':saved?'Saving to your account…':'Account sync is unavailable. Changes remain in this session only.');
   }
   function card(v,key=teamKey) {
     const status=listingStatus(v), title=namedVenue(v)?v.venue:v.name||'Fan club', saved=isSaved(key,v.id);
@@ -202,7 +208,7 @@
   }
   function pinCard(p,shared=false) {
     const attrs=' data-pin="'+esc(p.id)+'"'; const old=p.date&&p.date<day();
-    return '<article class="pin-card"><p class="card-city">'+esc(teams[p.teamKey].display)+'</p><h3>'+esc(p.name)+'</h3><p>'+esc(p.note||'Your crew’s meeting point.')+'</p><p class="coordinates-text">'+p.lat.toFixed(6)+', '+p.lng.toFixed(6)+(p.date?' · '+esc(p.date):'')+'</p>'+(old?'<span class="tag old">Past date · confirm a new plan</span>':'')+'<p class="quiet" style="margin-top:12px">'+(shared?'Shared link · not saved on this device':'Saved on this device · not publicly posted')+'</p><div class="actions"><button class="button secondary small" data-action="view-pin"'+attrs+'>View pin</button><button class="button secondary small" data-action="share-pin"'+attrs+'>Share</button><a class="button secondary small" href="https://www.google.com/maps/dir/?api=1&amp;destination='+encodeURIComponent(p.lat+','+p.lng)+'" target="_blank" rel="noopener noreferrer">Directions ↗</a><button class="button secondary small" data-action="'+(shared?'import-pin':'delete-pin')+'"'+attrs+'>'+(shared?'Save to device':'Delete')+'</button></div></article>';
+    return '<article class="pin-card"><p class="card-city">'+esc(teams[p.teamKey].display)+'</p><h3>'+esc(p.name)+'</h3><p>'+esc(p.note||'Your crew’s meeting point.')+'</p><p class="coordinates-text">'+p.lat.toFixed(6)+', '+p.lng.toFixed(6)+(p.date?' · '+esc(p.date):'')+'</p>'+(old?'<span class="tag old">Past date · confirm a new plan</span>':'')+'<p class="quiet" style="margin-top:12px">'+(shared?'Shared link · not saved to your account':'Saved to your account · not publicly posted')+'</p><div class="actions"><button class="button secondary small" data-action="view-pin"'+attrs+'>View pin</button><button class="button secondary small" data-action="share-pin"'+attrs+'>Share</button><a class="button secondary small" href="https://www.google.com/maps/dir/?api=1&amp;destination='+encodeURIComponent(p.lat+','+p.lng)+'" target="_blank" rel="noopener noreferrer">Directions ↗</a><button class="button secondary small" data-action="'+(shared?'import-pin':'delete-pin')+'"'+attrs+'>'+(shared?'Save to account':'Delete')+'</button></div></article>';
   }
   function renderPins() {
     const pins=state.pins.filter(p=>p.teamKey===teamKey);
@@ -227,7 +233,10 @@
     $('nativeShare').hidden=!navigator.share; $('shareDialog').showModal();
   }
   function shareVenue(key,id) {const v=findVenue(key,id);if(!v)return;const title=namedVenue(v)?v.venue:v.name;showShare(title,makeURL('watch',key,id).href,'Watch '+teams[key].display+' with us at '+title+(v.city?' — '+v.city:'')+'. Confirm plans with the host.');}
-  function sharePin(p) {const u=makeURL('tailgate',p.teamKey);u.hash='pin='+encodePin(p);showShare(p.name,u.href,'Meet the '+teams[p.teamKey].display+' crew at '+p.name+(p.date?' on '+p.date:'')+'. '+p.note);}
+  async function sharePin(p) {
+    try { const url=await root.FANMAP_ACCESS.createShare(p);showShare(p.name,url,'Meet the '+teams[p.teamKey].display+' crew at '+p.name+'. Sign in to Fan Map to see the meeting point.'); }
+    catch(error) { toast(error.message || 'The meeting link could not be created.'); }
+  }
   function externalCard(label,title,description,url,action,sponsored=false) {
     const safe=safeURL(url);if(!safe)return '';
     return '<article class="essential-card"><p class="eyebrow">'+esc(label)+'</p><h3>'+esc(title)+'</h3><p class="muted">'+esc(description)+'</p><a class="button secondary wide" href="'+esc(safe)+'" target="_blank" rel="noopener noreferrer'+(sponsored?' sponsored':'')+'">'+esc(action)+' ↗</a></article>';
@@ -282,7 +291,7 @@
   }
   function info(privacy) {
     $('infoTitle').textContent=privacy?'Your information. Your control.':'A better game-day plan.';
-    $('infoContent').innerHTML=privacy?'<h3>Stored on your device</h3><p>Your team choices (one per sport category), starred locations, and meeting points are stored in this browser’s local storage. They do not sync between devices. Clearing site data removes them.</p><h3>Sharing is your choice</h3><p>Meeting-point links contain the exact coordinates, name, date, and instructions you enter. Anyone who receives or forwards a link can read those details. Existing links are snapshots: deleting your saved copy does not revoke a link already shared.</p><h3>Maps and your location</h3><p>Your device location is requested only after you press “Use my location.” Map providers receive ordinary requests for the areas you view. Venue maps use Google Maps; tailgate maps use Esri imagery and optional OpenStreetMap tiles. Location is not sent to a Fan Map account service.</p><h3>No account required</h3><p>This web release does not create cloud accounts, publish public posts, collect payments, or send email. A source link or directions button opens an external provider.</p>':'<h3>One team. Your whole game day.</h3><p>Home brings together watch-party discovery, stadium tailgates, merchandise, tickets, sports coverage, and available team-support links.</p><h3>Watch parties</h3><p>Choose your team, search a city, and find its venues or fan clubs. Open a place for its listed address, directions, source, and a link to text your crew.</p><h3>Tailgates</h3><p>A separate satellite map starts at your team’s mapped home stadium or arena. Tap the map to save a meeting point. Add a landmark and share the exact pin.</p><h3>Directory status</h3><p>“Source checked” means a source was reviewed—not that tonight’s event is guaranteed. “Listed” records still need confirmation. “Needs update” can include an older event or listing. Always check the host’s current plans.</p><h3>Your saved places</h3><p>Stars and meeting points persist in this browser. Shared links open the actual place or pin for the recipient. Cloud accounts, a public fan board, and payments are not connected in this release.</p>';
+    $('infoContent').innerHTML=privacy?'<h3>Your member account</h3><p>Your team choices, starred locations, and meeting points are saved to your account. Only signed-in members can load the directory and use Fan Map tools.</p><h3>Sharing is your choice</h3><p>New meeting-point links contain an opaque reference, not coordinates. Anyone who receives or forwards a link must sign in with a verified Fan Map account to view the details. Existing links are snapshots: deleting your saved copy does not revoke a link already shared.</p><h3>Maps and your location</h3><p>Your device location is requested only after you press “Use my location.” Map providers receive ordinary requests for the areas you view. Venue maps use Google Maps; tailgate maps use Esri imagery and optional OpenStreetMap tiles. Location is saved to your account only when you save a meeting point. Sharing creates a member-only invitation record.</p><h3>Account required</h3><p>Account registration and email confirmation are required for locations and tools. Public posts and payments are not enabled. A source link or directions button opens an external provider.</p>':'<h3>One team. Your whole game day.</h3><p>Home brings together watch-party discovery, stadium tailgates, merchandise, tickets, sports coverage, and available team-support links.</p><h3>Watch parties</h3><p>Choose your team, search a city, and find its venues or fan clubs. Open a place for its listed address, directions, source, and a link to text your crew.</p><h3>Tailgates</h3><p>A separate satellite map starts at your team’s mapped home stadium or arena. Tap the map to save a meeting point. Add a landmark and share the exact pin.</p><h3>Directory status</h3><p>“Source checked” means a source was reviewed—not that tonight’s event is guaranteed. “Listed” records still need confirmation. “Needs update” can include an older event or listing. Always check the host’s current plans.</p><h3>Your saved places</h3><p>Stars and meeting points save to your account. Shared links require the recipient to sign in. A public fan board and payments are not connected in this release.</p>';
     $('infoDialog').showModal();
   }
   function bind() {
@@ -298,11 +307,11 @@
     };
     $('pinForm').onsubmit=e=>{
       e.preventDefault();
-      if(state.pins.length>=100){$('pinError').textContent='This device has 100 meeting points. Delete one before adding another.';return;}
+      if(state.pins.length>=100){$('pinError').textContent='Your account has 100 meeting points. Delete one before adding another.';return;}
       const id=root.crypto&&crypto.randomUUID?crypto.randomUUID():'pin-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,10);
       const p=cleanPin({id,teamKey,name:$('pinName').value,note:$('pinNote').value,date:$('pinDate').value,lat:Number($('pinLat').value),lng:Number($('pinLng').value)},teams);
       if(!p){$('pinError').textContent='Enter a name and valid latitude and longitude.';return;}
-      state.pins.push(p);const ok=persist();$('pinDialog').close();renderTailgate();renderSaved();if(map)map.setView([p.lat,p.lng],17);toast(ok?'Meeting point saved on this device.':'Meeting point saved for this session only.');
+      state.pins.push(p);const ok=persist();$('pinDialog').close();renderTailgate();renderSaved();if(map)map.setView([p.lat,p.lng],17);toast(ok?'Saving the meeting point to your account…':'Changes remain in this session only until synced.');
     };
     $('copyLink').onclick=async()=>{try{if(!navigator.clipboard)throw new Error('Unavailable');await navigator.clipboard.writeText($('shareURL').value);$('shareStatus').textContent='Link copied.';}catch{$('shareURL').focus();$('shareURL').select();$('shareStatus').textContent='Select and copy the link above.';}};
     $('nativeShare').onclick=async()=>{try{await navigator.share(shareData);}catch(e){if(e.name!=='AbortError')$('shareStatus').textContent='Sharing is unavailable here. Copy the link or send a text instead.';}};
@@ -320,8 +329,8 @@
       const p=b.dataset.pin?getPin(b.dataset.pin):null;
       if(action==='share-pin'&&p)sharePin(p);
       if(action==='view-pin'&&p){teamKey=p.teamKey;view='tailgate';state.teamKey=teamKey;persist();render();navigate();if(map)map.setView([p.lat,p.lng],18);}
-      if(action==='import-pin'&&p){if(state.pins.length>=100){toast('Delete a meeting point before saving another.');return;}if(!state.pins.some(x=>x.id===p.id))state.pins.push({...p});const ok=persist();renderPins();renderSaved();toast(ok?'Meeting point saved on this device.':'Saved for this session only.');}
-      if(action==='delete-pin'&&p&&confirm('Delete “'+p.name+'” from this device? Links already shared will still work.')){state.pins=state.pins.filter(x=>x.id!==p.id);persist();renderPins();renderSaved();if(view==='tailgate')renderTailgate();}
+      if(action==='import-pin'&&p){if(state.pins.length>=100){toast('Delete a meeting point before saving another.');return;}if(!state.pins.some(x=>x.id===p.id))state.pins.push({...p});const ok=persist();renderPins();renderSaved();toast(ok?'Saving the meeting point to your account…':'Saved for this session only.');}
+      if(action==='delete-pin'&&p&&confirm('Delete “'+p.name+'” from your account? Links already shared will still work.')){state.pins=state.pins.filter(x=>x.id!==p.id);persist();renderPins();renderSaved();if(view==='tailgate')renderTailgate();}
     });
     root.addEventListener('popstate',()=>{readRoute();render();});
   }
