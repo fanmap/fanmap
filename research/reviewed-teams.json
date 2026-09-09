@@ -1282,5 +1282,305 @@
       "https://www.nybluescfc.com/pubs"
     ],
     "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-philadelphia-eagles",
+    "checkedAt": "2026-09-09",
+    "result": "complete-public-map-data",
+    "directoryPass": true,
+    "sources": [
+      "https://www.philadelphiaeagles.com/landing/map"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-english-premier-league-leeds-united",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.luamericas.com/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/rgk-club/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/scruffy-murphys/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/astra-stube/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/muddy-murphys-irish-pub/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/munster-inn/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/library-square-public-house/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/lord-alfred/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/bleachers-sports-bar/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/murphys-geelong/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/harveys-sports-bar-and-grill/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/pj-obriens/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/johnny-foxs/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/celtic-bar/penrith-gaels-club/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-acc-clemson",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://clemsonclub.org/football-watching-parties/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "texas",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://dallastexasexes.org/gamewatch/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-english-premier-league-leeds-united",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.leedsunitedsupportersclub.org.uk/branches/rest-of-the-world/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-independent-notre-dame",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://ndclubofaustin.com/2026/08/29/2026-football-game-watches-are-back/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-sec-auburn",
+    "checkedAt": "2026-09-09",
+    "result": "source-listing-review",
+    "directoryPass": true,
+    "sources": [
+      "https://www.instagram.com/laauburnclub/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "texas",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/78/boston/game-watches"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "texas",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/77/chicago/game-watches"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "texas",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/34/houston/game-watching"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "texas",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/86/puget-sound/game-watches"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "texas",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/157/united-kingdom/game-watching"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "texas",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/75/washington-dc/game-watches"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "texas",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/80/new-york/game-watches"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "checkedAt": "2026-09-09",
+    "result": "partial",
+    "directoryPass": true,
+    "sources": [
+      "https://www.celticbars.com/cscs/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "college-sec-auburn",
+    "checkedAt": "2026-09-09",
+    "result": "blocked-fetch",
+    "directoryPass": true,
+    "sources": [
+      "https://alumni.auburn.edu/clubs/game-watch-locations/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "texas",
+    "checkedAt": "2026-09-09",
+    "result": "partial",
+    "directoryPass": true,
+    "sources": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
   }
 ]

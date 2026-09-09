@@ -6,7 +6,7 @@ const vm = require('node:vm');
 const crypto = require('node:crypto');
 const assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '..');
-const checkedAt = '2026-09-08';
+const checkedAt = process.env.FANMAP_RESEARCH_DATE || new Date().toISOString().slice(0,10);
 const read = p => fs.readFileSync(path.join(root,p),'utf8');
 const entries = JSON.parse(read('research/venue-research.json'));
 const reviews = JSON.parse(read('research/reviewed-teams.json'));
@@ -23,7 +23,7 @@ const publicRows = [];
 for(const r of entries){
   assert(teams[r.teamKey], 'Unknown team '+r.teamKey);
   assert(r.venue && r.city && r.src && r.evidence && r.checkedAt, 'Missing source/venue fields '+r.team);
-  assert.equal(r.checkedAt,checkedAt);
+  assert(/^\d{4}-\d{2}-\d{2}$/.test(r.checkedAt) && r.checkedAt<=checkedAt, 'Invalid source-check date '+r.checkedAt);
   assert(allowed.has(r.verification),'Unknown verification basis '+r.verification);
   assert(['http:','https:'].includes(new URL(r.src).protocol),'Unsafe source URL');
   if(r.addressSource)assert(['http:','https:'].includes(new URL(r.addressSource).protocol),'Unsafe address source URL');
@@ -39,7 +39,7 @@ for(const r of entries){
   assert(!ids.has(identity),'Duplicate venue '+identity);ids.add(identity);
   const id=r.id||'checked-'+crypto.createHash('sha256').update(identity).digest('hex').slice(0,16);
   publicRows.push({teamKey:r.teamKey,id,name:r.name||r.team+' fans',venue:r.venue,city:r.city,addr:r.addr||'',
-    note:historical?[(r.eventDate||r.validThrough)?'Previously listed watch-party venue.':'Listing details need an update.',r.note||'Check the source for current game-day plans.'].join(' '):r.note||'',src:r.src,addressSource:r.addressSource||null,sourceTitle:r.sourceTitle||'',sourceCheckedAt:checkedAt,
+    note:historical?[(r.eventDate||r.validThrough)?'Previously listed watch-party venue.':'Listing details need an update.',r.note||'Check the source for current game-day plans.'].join(' '):r.note||'',src:r.src,addressSource:r.addressSource||null,sourceTitle:r.sourceTitle||'',sourceCheckedAt:r.checkedAt,
     sourceBasis:r.verification,sourceVerification:sourceChecked?r.verification:null,listingStatus:historical?'needs-update':sourceChecked?'source-checked':'listed',
     eventDate:historical?null:r.eventDate||null,validThrough:historical?null:r.validThrough||null,lastKnownEventDate:historical?r.eventDate||r.validThrough||null:null,
     namedVenue:true,verified:sourceChecked,lat:null,lng:null});

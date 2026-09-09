@@ -1,10 +1,10 @@
 # Fan Map launch directory
 
-Updated September 8, 2026.
+Updated 2026-09-09.
 
-**1,956 named team–venue listings across 65 teams**, within 2,205 total directory records across 76 teams. All 620 catalog teams remain selectable. Some venues host multiple teams; these are team affiliations, not a count of distinct physical businesses.
+**2,188 named team–venue listings across 72 teams**, within 2,437 total directory records across 81 teams. All 620 catalog teams remain selectable. Some venues host multiple teams; these are team affiliations, not a count of distinct physical businesses.
 
-This release adds **1,505 listings** compared with the previous 700-record release. The expansion works through directory pages rather than imposing per-team sample quotas. Exact traversal and remaining gaps are recorded below.
+This release adds **1,737 listings** cumulatively since the initial 700-record release. The expansion works through directory pages rather than imposing per-team sample quotas. Exact traversal and remaining gaps are recorded below.
 
 ## Inclusion and verification
 
@@ -15,18 +15,18 @@ The launch rule is simple: a named venue, a supported city or region, and a publ
 - **Check details:** an older listing, relocation, or other detail needs an update. Past event dates are retained in research and do not appear as upcoming events.
 - **Venue pending:** the catalog has a chapter or club record without a named venue. These records are separate from named-venue totals.
 
-The new data layer contains 1,605 records: 100 from the prior source-checked batch and 1,505 directory listings or leads. 11 records are held for known closure, stale-brand, or unresolved location issues. Verification is an enrichment step as Fan Map scales.
+The new data layer contains 1,837 records: 100 from the prior source-checked batch and 1,737 directory listings or leads. 11 records are held for known closure, stale-brand, or unresolved location issues. Verification is an enrichment step as Fan Map scales.
 
 ## Named venue coverage
 
 | Category | Named listings | Teams with named venues |
 | --- | ---: | ---: |
-| College | 559 | 15 |
-| NFL | 740 | 14 |
+| College | 578 | 19 |
+| NFL | 889 | 15 |
 | MLB | 9 | 6 |
 | NHL | 370 | 9 |
 | NBA | 11 | 5 |
-| Soccer | 226 | 10 |
+| Soccer | 290 | 12 |
 | Rugby | 36 | 5 |
 | Cricket | 5 | 1 |
 
@@ -38,15 +38,19 @@ The new data layer contains 1,605 records: 100 from the prior source-checked bat
 | Arizona | College | 1 |
 | Arizona State | College | 31 |
 | Arkansas | College | 12 |
+| Auburn | College | 1 |
+| Clemson | College | 3 |
 | Florida | College | 4 |
 | Georgia | College | 65 |
 | LSU | College | 58 |
 | Michigan | College | 18 |
+| Notre Dame | College | 3 |
 | Ohio State | College | 138 |
 | Oklahoma | College | 18 |
 | Oregon | College | 32 |
 | Penn State | College | 65 |
 | Tennessee | College | 48 |
+| Texas | College | 12 |
 | Washington | College | 17 |
 | Wisconsin | College | 1 |
 | Seattle Orcas | Cricket | 5 |
@@ -72,6 +76,7 @@ The new data layer contains 1,605 records: 100 from the prior source-checked bat
 | New England Patriots | NFL | 266 |
 | New York Giants | NFL | 84 |
 | New York Jets | NFL | 83 |
+| Philadelphia Eagles | NFL | 149 |
 | San Francisco 49ers | NFL | 1 |
 | Seattle Seahawks | NFL | 4 |
 | Tampa Bay Buccaneers | NFL | 54 |
@@ -92,8 +97,10 @@ The new data layer contains 1,605 records: 100 from the prior source-checked bat
 | Arsenal | Soccer | 111 |
 | Barcelona | Soccer | 2 |
 | Bayern Munich | Soccer | 53 |
+| Celtic | Soccer | 13 |
 | Chelsea | Soccer | 43 |
 | Everton | Soccer | 1 |
+| Leeds United | Soccer | 51 |
 | Liverpool | Soccer | 11 |
 | Manchester City | Soccer | 1 |
 | Manchester United | Soccer | 1 |
@@ -113,11 +120,10 @@ The new data layer contains 1,605 records: 100 from the prior source-checked bat
 | LSU | complete-visible-directory | 42 | 41 | [Source](https://www.lsualumni.org/watchparties) |
 | LSU | complete-visible-directory | 2 | 2 | [Source](https://www.lsusocal.org/watch-parties) |
 | LSU | complete-visible-directory | 26 | 14 | [Source](https://www.dandydon.com/lsu-alumni-association-view-in-parties-and-announcements/) |
-| LSU | partial | 46 | 2 | [Source](https://www.lsualumni.org/lsuaachapters) |
+| LSU | partial | — | 0 | [Source](https://www.lsualumni.org/lsuaachapters) |
 | Georgia | partial | 54 | 65 | [Source](https://alumni.uga.edu/gamewatching/) |
 | Oklahoma | partial | 20 | 18 | [Source](https://oklahoma.imodules.com/s/1720/bp18/interior.aspx?gid=5&pgid=1493&sid=1720) |
 | Florida | partial | — | 0 | [Source](https://connect.ufalumni.ufl.edu/network/gator-clubs-and-affiliate-groups) |
-| LSU | partial | — | 0 | [Source](https://www.lsualumni.org/lsuaachapters) |
 | Baltimore Ravens | complete-visible-directory | 80 | 78 | [Source](https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups) |
 | Minnesota Vikings | complete-visible-directory | 106 | 50 | [Source](https://www.vikings.com/fans/clubs-watch-bars) |
 | New England Patriots | complete-visible-directory | 502 | 272 | [Source](https://fanclubs.patriots.com/search) |
@@ -144,6 +150,36 @@ The new data layer contains 1,605 records: 100 from the prior source-checked bat
 | Arsenal | complete-visible-directory | 8 | 8 | [Source](https://arsphl.com/) |
 | Chelsea | partial | 40 | 40 | [Source](https://www.chelseainamerica.com/groups) |
 | Chelsea | complete-visible-directory | 2 | 2 | [Source](https://www.nybluescfc.com/pubs) |
+| Philadelphia Eagles | complete-public-map-data | 151 | 149 | [Source](https://www.philadelphiaeagles.com/landing/map) |
+| Leeds United | complete-visible-directory | 49 | 49 | [Source](https://www.luamericas.com/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/rgk-club/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/scruffy-murphys/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/astra-stube/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/muddy-murphys-irish-pub/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/munster-inn/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/library-square-public-house/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/lord-alfred/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/bleachers-sports-bar/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/murphys-geelong/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/harveys-sports-bar-and-grill/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/pj-obriens/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/johnny-foxs/) |
+| Celtic | complete-visible-page | 1 | 1 | [Source](https://www.celticbars.com/celtic-bar/penrith-gaels-club/) |
+| Clemson | complete-visible-page | 3 | 3 | [Source](https://clemsonclub.org/football-watching-parties/) |
+| Texas | complete-visible-page | 2 | 2 | [Source](https://dallastexasexes.org/gamewatch/) |
+| Leeds United | complete-visible-page | 2 | 2 | [Source](https://www.leedsunitedsupportersclub.org.uk/branches/rest-of-the-world/) |
+| Notre Dame | complete-visible-page | 3 | 3 | [Source](https://ndclubofaustin.com/2026/08/29/2026-football-game-watches-are-back/) |
+| Auburn | source-listing-review | 1 | 1 | [Source](https://www.instagram.com/laauburnclub/) |
+| Texas | complete-visible-page | 1 | 1 | [Source](https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/78/boston/game-watches) |
+| Texas | complete-visible-page | 1 | 1 | [Source](https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/77/chicago/game-watches) |
+| Texas | complete-visible-page | 2 | 2 | [Source](https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/34/houston/game-watching) |
+| Texas | complete-visible-page | 1 | 1 | [Source](https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/86/puget-sound/game-watches) |
+| Texas | complete-visible-page | 2 | 2 | [Source](https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/157/united-kingdom/game-watching) |
+| Texas | complete-visible-page | 1 | 1 | [Source](https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/75/washington-dc/game-watches) |
+| Texas | complete-visible-page | 2 | 2 | [Source](https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/80/new-york/game-watches) |
+| Celtic | partial | 640 | 13 | [Source](https://www.celticbars.com/cscs/) |
+| Auburn | blocked-fetch | — | 0 | [Source](https://alumni.auburn.edu/clubs/game-watch-locations/) |
+| Texas | partial | — | 8 | [Source](https://www.texasexes.org/chapters-and-networks/find-chapter-or-network) |
 
 ## Files and maintenance
 

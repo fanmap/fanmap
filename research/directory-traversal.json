@@ -154,45 +154,19 @@
     ]
   },
   {
-    "src": "https://www.lsualumni.org/lsuaachapters",
     "teamKey": "college-sec-lsu",
-    "pagesReviewed": [
-      "https://www.lsualumni.org/lsuaachapters",
-      "https://www.lsualumni.org/lsu-alumni-birmingham-chapter",
-      "https://www.lsualumni.org/lsu-alumni-little-rock-chapter",
-      "https://www.lsualumni.org/lsu-alumni-nw-arkansas-chapter",
-      "https://www.lsualumni.org/lsu-alumni-denver-chapter",
-      "https://www.lsualumni.org/lsu-alumni-southwest-florida-chapter",
-      "https://www.lsualumni.org/lsu-alumni-panhandle-chapter",
-      "https://www.lsualumni.org/lsu-alumni-st-louis-chapter",
-      "https://www.lsualumni.org/lsu-alumni-east-tennessee-knoxville",
-      "https://www.lsualumni.org/lsu-alumni-north-houston-chapter",
-      "https://www.lsualumni.org/lsu-alumni-central-virginia-chapter",
-      "https://www.lsualumni.org/indianapolischapter",
-      "https://www.lsualumni.org/lsu-alumni-dallas-chapter",
-      "https://lsudenver.com/events/view-ins/",
-      "https://lsutampabayalumni.org/lsu/football-schedule.html",
-      "https://lsutampabayalumni.org/lsu/maps.html"
-    ],
+    "src": "https://www.lsualumni.org/lsuaachapters",
     "traversal": "partial",
-    "observedEntries": 46,
-    "acceptedRecords": 2,
+    "checkedAt": "2026-09-08",
+    "observedEntries": null,
+    "acceptedRecords": 0,
+    "pagesReviewed": [
+      "https://www.lsualumni.org/lsuaachapters"
+    ],
     "unresolved": [
       {
-        "entry": "11 additionally reviewed chapter pages",
-        "reason": "No named watch venue visible; association footer address is not a local watch-party location."
-      },
-      {
-        "entry": "Dallas interactive directory",
-        "reason": "2026 chapter link could not load. All eight national-directory Dallas venues retained."
-      },
-      {
-        "entry": "Other regional chapter detail pages",
-        "reason": "Not traversed; all named venues from the dedicated national watch-party directory were captured."
-      },
-      {
-        "entry": "Denver / Aviators",
-        "reason": "Imported indexed chapter venue and alternate venue lead with missing address and needs-update caveats."
+        "entry": "Chapter venue traversal",
+        "reason": "Index reviewed; venue traversal reassigned to college A agent. Use its audit for completed LSU results."
       }
     ]
   },
@@ -441,23 +415,6 @@
       {
         "entry": "Club directory traversal",
         "reason": "Not yet traversed; parent prioritized saving Georgia and Oklahoma. National club landing page reviewed only."
-      }
-    ]
-  },
-  {
-    "teamKey": "college-sec-lsu",
-    "src": "https://www.lsualumni.org/lsuaachapters",
-    "traversal": "partial",
-    "checkedAt": "2026-09-08",
-    "observedEntries": null,
-    "acceptedRecords": 0,
-    "pagesReviewed": [
-      "https://www.lsualumni.org/lsuaachapters"
-    ],
-    "unresolved": [
-      {
-        "entry": "Chapter venue traversal",
-        "reason": "Index reviewed; venue traversal reassigned to college A agent. Use its audit for completed LSU results."
       }
     ]
   },
@@ -1718,5 +1675,461 @@
     "observedEntries": 2,
     "acceptedRecords": 2,
     "unresolved": []
+  },
+  {
+    "teamKey": "nfl-nfl-philadelphia-eagles",
+    "src": "https://www.philadelphiaeagles.com/landing/map",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.philadelphiaeagles.com/landing/map",
+      "https://philadelphia-eagles.github.io/MKT-Landings-Map/data/bars.json"
+    ],
+    "traversal": "complete-public-map-data",
+    "observedEntries": 151,
+    "acceptedRecords": 149,
+    "unresolved": [
+      {
+        "entry": "Thos. O'Reilly's Public House",
+        "reason": "Source address missing city."
+      },
+      {
+        "entry": "Marina 84 Sports Bar & Grill",
+        "reason": "Source city and postal address appear inconsistent; resolve before adding."
+      }
+    ]
+  },
+  {
+    "teamKey": "soccer-english-premier-league-leeds-united",
+    "src": "https://www.luamericas.com/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.luamericas.com/arizona",
+      "https://www.luamericas.com/atlanta",
+      "https://www.luamericas.com/austin",
+      "https://www.luamericas.com/baltimore",
+      "https://www.luamericas.com/bayarea",
+      "https://www.luamericas.com/boston",
+      "https://www.luamericas.com/charlotte",
+      "https://www.luamericas.com/chicago",
+      "https://www.luamericas.com/cincinnati",
+      "https://www.luamericas.com/cleveland",
+      "https://www.luamericas.com/colorado",
+      "https://www.luamericas.com/columbus",
+      "https://www.luamericas.com/connecticut",
+      "https://www.luamericas.com/dc",
+      "https://www.luamericas.com/detroit",
+      "https://www.luamericas.com/dallas",
+      "https://www.luamericas.com/fortworth",
+      "https://www.luamericas.com/fresno",
+      "https://www.luamericas.com/houston",
+      "https://www.luamericas.com/indiana",
+      "https://www.luamericas.com/jacksonville",
+      "https://www.luamericas.com/knoxville",
+      "https://www.luamericas.com/lasvegas",
+      "https://www.luamericas.com/losangeles",
+      "https://www.luamericas.com/mexicocity",
+      "https://www.luamericas.com/miami-ftlauderdale",
+      "https://www.luamericas.com/minnesota",
+      "https://www.luamericas.com/nashville",
+      "https://www.luamericas.com/neworleans",
+      "https://www.luamericas.com/newyork",
+      "https://www.luamericas.com/niagara",
+      "https://www.luamericas.com/orlando",
+      "https://www.luamericas.com/philadelphia",
+      "https://www.luamericas.com/pittsburgh",
+      "https://www.luamericas.com/portland",
+      "https://www.luamericas.com/puertorico",
+      "https://www.luamericas.com/raleigh-durham",
+      "https://www.luamericas.com/rhode-island",
+      "https://www.luamericas.com/sacramento",
+      "https://www.luamericas.com/sanantonio",
+      "https://www.luamericas.com/sandiego",
+      "https://www.luamericas.com/seattle",
+      "https://www.luamericas.com/stlouis",
+      "https://www.luamericas.com/tampabay",
+      "https://www.luamericas.com/toronto",
+      "https://www.luamericas.com/upstatenewyork",
+      "https://www.luamericas.com/vancouver",
+      "https://www.luamericas.com/virginia",
+      "https://www.luamericas.com/wisconsin"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 49,
+    "acceptedRecords": 49,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/rgk-club/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/rgk-club/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/scruffy-murphys/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/scruffy-murphys/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/astra-stube/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/astra-stube/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/muddy-murphys-irish-pub/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/muddy-murphys-irish-pub/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/munster-inn/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/munster-inn/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/library-square-public-house/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/library-square-public-house/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/lord-alfred/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/lord-alfred/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/bleachers-sports-bar/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/bleachers-sports-bar/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/murphys-geelong/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/murphys-geelong/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/harveys-sports-bar-and-grill/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/harveys-sports-bar-and-grill/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/pj-obriens/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/pj-obriens/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/johnny-foxs/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/johnny-foxs/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/celtic-bar/penrith-gaels-club/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/celtic-bar/penrith-gaels-club/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "college-acc-clemson",
+    "src": "https://clemsonclub.org/football-watching-parties/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://clemsonclub.org/football-watching-parties/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 3,
+    "acceptedRecords": 3,
+    "unresolved": []
+  },
+  {
+    "teamKey": "texas",
+    "src": "https://dallastexasexes.org/gamewatch/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://dallastexasexes.org/gamewatch/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 2,
+    "acceptedRecords": 2,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-english-premier-league-leeds-united",
+    "src": "https://www.leedsunitedsupportersclub.org.uk/branches/rest-of-the-world/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.leedsunitedsupportersclub.org.uk/branches/rest-of-the-world/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 2,
+    "acceptedRecords": 2,
+    "unresolved": []
+  },
+  {
+    "teamKey": "college-independent-notre-dame",
+    "src": "https://ndclubofaustin.com/2026/08/29/2026-football-game-watches-are-back/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://ndclubofaustin.com/2026/08/29/2026-football-game-watches-are-back/"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 3,
+    "acceptedRecords": 3,
+    "unresolved": []
+  },
+  {
+    "teamKey": "college-sec-auburn",
+    "src": "https://www.instagram.com/laauburnclub/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.instagram.com/laauburnclub/"
+    ],
+    "traversal": "source-listing-review",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "texas",
+    "src": "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/78/boston/game-watches",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/78/boston/game-watches"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "texas",
+    "src": "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/77/chicago/game-watches",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/77/chicago/game-watches"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "texas",
+    "src": "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/34/houston/game-watching",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/34/houston/game-watching"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 2,
+    "acceptedRecords": 2,
+    "unresolved": []
+  },
+  {
+    "teamKey": "texas",
+    "src": "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/86/puget-sound/game-watches",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/86/puget-sound/game-watches"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "texas",
+    "src": "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/157/united-kingdom/game-watching",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/157/united-kingdom/game-watching"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 2,
+    "acceptedRecords": 2,
+    "unresolved": []
+  },
+  {
+    "teamKey": "texas",
+    "src": "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/75/washington-dc/game-watches",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/75/washington-dc/game-watches"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "texas",
+    "src": "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/80/new-york/game-watches",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/80/new-york/game-watches"
+    ],
+    "traversal": "complete-visible-page",
+    "observedEntries": 2,
+    "acceptedRecords": 2,
+    "unresolved": []
+  },
+  {
+    "teamKey": "soccer-scottish-premiership-celtic",
+    "src": "https://www.celticbars.com/cscs/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.celticbars.com/cscs/",
+      "https://www.celticbars.com/celtic-bar/rgk-club/",
+      "https://www.celticbars.com/celtic-bar/scruffy-murphys/",
+      "https://www.celticbars.com/celtic-bar/astra-stube/",
+      "https://www.celticbars.com/celtic-bar/muddy-murphys-irish-pub/",
+      "https://www.celticbars.com/celtic-bar/munster-inn/",
+      "https://www.celticbars.com/celtic-bar/library-square-public-house/",
+      "https://www.celticbars.com/celtic-bar/lord-alfred/",
+      "https://www.celticbars.com/celtic-bar/bleachers-sports-bar/",
+      "https://www.celticbars.com/celtic-bar/murphys-geelong/",
+      "https://www.celticbars.com/celtic-bar/harveys-sports-bar-and-grill/",
+      "https://www.celticbars.com/celtic-bar/pj-obriens/",
+      "https://www.celticbars.com/celtic-bar/johnny-foxs/",
+      "https://www.celticbars.com/celtic-bar/penrith-gaels-club/"
+    ],
+    "traversal": "partial",
+    "observedEntries": 640,
+    "acceptedRecords": 13,
+    "unresolved": [
+      {
+        "entry": "Remaining linked supporter club pages",
+        "reason": "13 venue pages reviewed in this pass; remaining worldwide club links need traversal. Club count is not venue count."
+      }
+    ]
+  },
+  {
+    "teamKey": "college-sec-auburn",
+    "src": "https://alumni.auburn.edu/clubs/game-watch-locations/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://alumni.auburn.edu/clubs/game-watch-locations/",
+      "https://alumni.auburn.edu/project/florida-watchparty/",
+      "https://alumni.auburn.edu/project/california-watchparty/"
+    ],
+    "traversal": "blocked-fetch",
+    "acceptedRecords": 0,
+    "unresolved": [
+      {
+        "entry": "State directories",
+        "reason": "502 responses; LA club public social listing retained separately."
+      }
+    ]
+  },
+  {
+    "teamKey": "texas",
+    "src": "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/15/austin-county/local-events/game-watch-parties",
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/78/boston/game-watches",
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/77/chicago/game-watches",
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/34/houston/game-watching",
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/86/puget-sound/game-watches",
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/157/united-kingdom/game-watching",
+      "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network/75/washington-dc/game-watches"
+    ],
+    "traversal": "partial",
+    "acceptedRecords": 8,
+    "unresolved": [
+      {
+        "entry": "Other chapter pages",
+        "reason": "Seven dedicated watch pages reviewed; remaining chapter homepages need traversal."
+      },
+      {
+        "entry": "Silver Saddle Smokehouse, Bellville",
+        "reason": "Undated Texas-West Virginia event page; year and current venue status unresolved. Not imported."
+      }
+    ]
   }
 ]

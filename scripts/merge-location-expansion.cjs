@@ -5,6 +5,7 @@ const root=path.resolve(__dirname,'..'),input=path.resolve(process.argv[2]||'res
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const target=path.join(root,'research/venue-research.json');
 const old=read(target),context={window:{}};
+const checkedAt=process.env.FANMAP_RESEARCH_DATE||new Date().toISOString().slice(0,10);
 vm.runInNewContext(fs.readFileSync(path.join(root,'assets/data/team-catalog.js'),'utf8'),context);
 const metadata=context.window.FANMAP_CATALOG.metadata;
 const norm=s=>String(s||'').normalize('NFKD').toLowerCase().replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
@@ -14,14 +15,14 @@ const venue=s=>norm(String(s||'').replace(/^the\s+/i,'').replace(/&/g,'and'));
 const originalId=r=>'checked-'+crypto.createHash('sha256').update([r.teamKey,norm(r.venue),norm(r.addr||r.city)].join('|')).digest('hex').slice(0,16);
 const fields=['id','teamKey','team','category','league','name','venue','city','addr','src','sourceTitle','evidence','checkedAt','eventDate','publishedDate','verification','note','addressSource','disposition','discoveryStatus','validThrough','additionalSources','statusSource','statusEvidence','reviewLevel'];
 function clean(r){
- const out=Object.fromEntries(fields.filter(k=>r[k]!==undefined).map(k=>[k,r[k]]));
+ const out=Object.fromEntries(Object.keys(r).filter(k=>fields.includes(k)&&r[k]!==undefined).map(k=>[k,r[k]]));
  assert(metadata[out.teamKey],'Unknown team '+out.teamKey);
  assert(out.venue&&out.city&&out.src,'Missing discovery fields '+JSON.stringify(out));
  out.city=city(out.city);out.addr=out.addr||'';
  // A street-only source address remains paired with its sourced city for navigation.
  if(out.addr&&!norm(out.addr).includes(norm(out.city.split(',')[0])))out.addr+=', '+out.city;
  out.category=metadata[out.teamKey].category;out.league=metadata[out.teamKey].league;
- out.checkedAt=out.checkedAt||'2026-09-08';out.verification=out.verification||'community-directory';
+ out.checkedAt=out.checkedAt||checkedAt;out.verification=out.verification||'community-directory';
  out.evidence=out.evidence||'Named venue listed by the linked source; details need confirmation.';
  return out;
 }
@@ -66,14 +67,17 @@ if(fs.existsSync(savedCorrections))for(const fix of read(savedCorrections)){
 }
 fs.writeFileSync(target,JSON.stringify(rows,null,2)+'\n');
 const audits=fs.readdirSync(input).filter(f=>f.endsWith('-directories.json')&&!f.includes('patriots')).sort().flatMap(f=>read(path.join(input,f)));
-fs.writeFileSync(path.join(root,'research/directory-traversal.json'),JSON.stringify(audits,null,2)+'\n');
+const auditPath=path.join(root,'research/directory-traversal.json');
+const previousAudits=fs.existsSync(auditPath)?read(auditPath):[];
+const cumulativeAudits=[...new Map([...previousAudits,...audits.map(a=>({...a,checkedAt:a.checkedAt||checkedAt}))].map(a=>[[a.teamKey,a.src,a.checkedAt||'2026-09-08'].join('|'),a])).values()];
+fs.writeFileSync(auditPath,JSON.stringify(cumulativeAudits,null,2)+'\n');
 const reviewsPath=path.join(root,'research/reviewed-teams.json'),reviews=read(reviewsPath);
 for(const audit of audits){
  if(!audit.teamKey||!metadata[audit.teamKey])continue;
  if(reviews.some(r=>r.teamKey===audit.teamKey&&r.directoryPass&&r.sources?.includes(audit.src)))continue;
- reviews.push({teamKey:audit.teamKey,checkedAt:'2026-09-08',result:audit.traversal,directoryPass:true,sources:[audit.src],note:'See directory-traversal.json for entry counts and unresolved details.'});
+ reviews.push({teamKey:audit.teamKey,checkedAt:audit.checkedAt||checkedAt,result:audit.traversal,directoryPass:true,sources:[audit.src],note:'See directory-traversal.json for entry counts and unresolved details.'});
 }
 fs.writeFileSync(reviewsPath,JSON.stringify(reviews,null,2)+'\n');
-const report={inputFiles:files,incomingRecords:incomingCount,addedRecords:added,duplicateRecordsMerged:duplicates.length,resultRecords:rows.length,duplicates};
+const report={checkedAt,previousResearchRecords:old.length,inputFiles:files,incomingRecords:incomingCount,addedRecords:added,duplicateRecordsMerged:duplicates.length,resultRecords:rows.length,duplicates};
 fs.writeFileSync(path.join(root,'research/merge-report.json'),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({...report,duplicates:undefined},null,2));
