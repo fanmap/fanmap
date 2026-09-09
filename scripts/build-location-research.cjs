@@ -13,7 +13,7 @@ const reviews = JSON.parse(read('research/reviewed-teams.json'));
 const context = {window:{}};
 vm.runInNewContext(read('assets/data/team-catalog.js'),context);
 const catalog = context.window.FANMAP_CATALOG;
-const html = read('app.html');
+const html = read('research/legacy-app.source.txt');
 const original = JSON.parse(html.match(/const PREVIEW_SCHOOLS=(.*);\nconst PREVIEW_AFFILIATES=/)[1]);
 const teams = {...original,...catalog.teams};
 const normalize = s => String(s||'').normalize('NFKD').toLowerCase().replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0E0E11">
 <title>Fan Map — Find Your Fanhood</title>
+<link rel="canonical" href="https://fanmap.com/">
 <meta name="description" content="Find your team's watch-party venues and fan clubs. Plan a stadium-area tailgate, save your meeting point, and share it with your crew.">
 <meta property="og:title" content="Fan Map — Find Your Fanhood">
 <meta property="og:description" content="Your team. Your people. Find watch parties and share your game-day meeting point.">
@@ -13,20 +14,26 @@
 <link rel="icon" href="/favicon.ico">
 <link rel="apple-touch-icon" href="/assets/brand/fan-map-pin-180.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="/assets/web-app.css?v=1">
+<link rel="stylesheet" href="/assets/vendor/leaflet.css?v=web1">
+<link rel="stylesheet" href="/assets/web-app.css?v=web2">
+<link rel="stylesheet" href="/assets/web-launch.css?v=web2">
+<script defer src="/assets/vendor/leaflet.js?v=web1"></script>
+<script defer src="/assets/data/team-base.js?v=web2"></script>
 <script defer src="/assets/data/team-catalog.js?v=web1"></script>
 <script defer src="/assets/data/team-colors.js?v=web1"></script>
 <script defer src="/assets/data/team-stadiums.js?v=web1"></script>
 <script defer src="/assets/data/verified-locations.js?v=web1"></script>
-<script defer src="/assets/web-app.js?v=1"></script>
+<script defer src="/assets/web-app.js?v=web2"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to the app</a>
 <header class="topbar">
   <a class="brand" href="/" aria-label="Fan Map home"><img src="/assets/brand/fan-map-white-web.webp" width="720" height="315" alt="Fan Map — Find Your Fanhood"></a>
   <nav class="modes" aria-label="Explore Fan Map">
-    <button data-view="watch" class="active" aria-current="page">Watch parties</button>
+    <button data-view="home" class="active" aria-current="page">Home</button>
+    <button data-view="watch">Watch parties</button>
     <button data-view="tailgate">Tailgates</button>
+    <button data-view="fan">Fan zone</button>
     <button data-view="saved">Saved</button>
   </nav>
   <button id="teamButton" class="team-button" disabled><span id="teamBadge"></span><span id="teamLabel">Choose your team</span><span aria-hidden="true">⌄</span></button>
@@ -38,7 +45,20 @@
     <div><p class="eyebrow" id="teamContext">FIND YOUR FANHOOD</p><h1 id="pageTitle">Your team. Your people.</h1><p class="muted" id="pageSubtitle">Find a place to watch. Make a plan with your crew.</p></div>
     <button class="button secondary" id="aboutButton">How Fan Map works</button>
   </section>
-  <section id="watchView" aria-label="Watch-party discovery">
+  <section id="homeView" aria-label="Your game-day home">
+    <div id="myTeams" class="my-teams" aria-label="Your saved teams"></div>
+    <div class="home-actions">
+      <button class="home-action" data-view="watch"><span class="action-symbol" aria-hidden="true">⌖</span><span class="eyebrow">WATCH PARTIES</span><h2>Find your people.</h2><p>Explore your team’s bars, watch-party venues, and fan clubs.</p><span class="action-link">Find a place to watch →</span></button>
+      <button class="home-action" data-view="tailgate"><span class="action-symbol" aria-hidden="true">◎</span><span class="eyebrow">TAILGATES</span><h2>Make your meeting point.</h2><p>Start at your stadium, drop a pin, and text your crew the exact spot.</p><span class="action-link">Open your stadium map →</span></button>
+    </div>
+    <div id="homeStats" class="home-stats" aria-label="Team directory coverage"></div>
+    <div class="section-heading"><h2>Everything for game day.</h2><button class="text-button" data-view="fan">Open fan zone →</button></div>
+    <div id="homeEssentials" class="essentials-grid"></div>
+    <div class="section-heading"><h2>Your team’s places</h2><button class="text-button" data-view="watch">See all places →</button></div>
+    <div id="homePlaces" class="saved-grid"></div>
+    <p class="quiet">Directory listings are starting points. Confirm current game-day plans with the venue or club before heading out.</p>
+  </section>
+  <section id="watchView" aria-label="Watch-party discovery" hidden>
     <div class="searchbar">
       <label class="search-field"><span>City, venue, or fan club</span><input id="venueSearch" type="search" placeholder="Where are you watching?" autocomplete="off" maxlength="160"></label>
       <label><span>Show</span><select id="venueFilter"><option value="all">All directory listings</option><option value="named">Named venues</option><option value="checked">Source-checked venues</option><option value="saved">Saved venues</option></select></label>
@@ -56,11 +76,17 @@
     <div class="tailgate-layout"><div><div id="tailgateMap" role="region" aria-label="Interactive stadium-area satellite map" tabindex="0"></div><p class="quiet map-help" id="mapHelp">Tap the map to place a meeting point, or use “Drop a pin” at the center of the map. This does not reserve a space or establish permission to tailgate.</p></div><aside><div class="section-heading"><h2>Your meeting points</h2><span class="quiet">Saved on this device</span></div><div id="pinList"></div></aside></div>
   </section>
   <section id="savedView" aria-label="Saved locations" hidden><p class="muted saved-intro">Your saved places and meeting points stay in this browser. They are not a cloud account.</p><h2>Watch-party places</h2><div id="savedVenues" class="saved-grid"></div><h2 class="saved-heading">Tailgate meeting points</h2><div id="savedPins" class="saved-grid"></div></section>
+  <section id="fanView" aria-label="Fan zone" hidden>
+    <div id="fanEssentials" class="essentials-grid"></div>
+    <div class="section-heading fan-section"><h2>Sports desk</h2><span class="quiet">Read current coverage at the publisher</span></div><div id="publisherList" class="essentials-grid"></div>
+    <div class="section-heading fan-section"><h2>Back your team. Find your community.</h2></div><div id="supportLinks" class="essentials-grid"></div>
+    <p class="quiet" style="margin-top:20px">Purchases, donations, and subscriptions take place with the linked provider—not with Fan Map. Fan Map may earn a commission from qualifying merchandise purchases through affiliate links.</p>
+  </section>
   <footer><span>Fan Map is independent and is not affiliated with the teams or venues listed.</span><button id="privacyButton">Privacy &amp; storage</button></footer>
 </main>
 <dialog id="teamDialog" aria-labelledby="teamDialogTitle">
   <div class="dialog-heading"><div><p class="eyebrow">FIND YOUR FANHOOD</p><h2 id="teamDialogTitle">Who are you here for?</h2></div><button class="close" data-close="teamDialog" aria-label="Close team selection">×</button></div>
-  <p class="muted">Choose a team to find your people. No sign-up required to explore.</p>
+  <p class="muted">Choose a team and get your whole game-day experience. No sign-up required to explore.</p>
   <label class="dialog-search"><span>Search teams</span><input id="teamSearch" type="search" placeholder="Team name, sport, or league" autocomplete="off" maxlength="100"></label>
   <label><span>Sport or category</span><select id="categoryFilter"><option value="">All sports &amp; categories</option></select></label>
   <div id="teamResults" class="team-results" aria-label="Team choices"></div><p id="teamCount" class="quiet" role="status"></p>

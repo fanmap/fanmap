@@ -4,7 +4,7 @@ const root=path.resolve(__dirname,'..'),ctx={window:{}};
 for(const name of ['team-catalog','team-stadiums','verified-locations'])vm.runInNewContext(fs.readFileSync(path.join(root,'assets/data/'+name+'.js'),'utf8'),ctx);
 const nfl=Object.entries(ctx.window.FANMAP_CATALOG.metadata).filter(([,m])=>m.category==='NFL').map(([k])=>k);
 const stadiums=ctx.window.FANMAP_TEAM_STADIUMS,records=ctx.window.FANMAP_VERIFIED_LOCATIONS.records;
-const html=fs.readFileSync(path.join(root,'app.html'),'utf8');
+const html=fs.readFileSync(path.join(root,'research/legacy-app.source.txt'),'utf8');
 const original=JSON.parse(html.match(/const PREVIEW_SCHOOLS=(.*);\nconst PREVIEW_AFFILIATES=/)[1]);
 const visible={...original,...JSON.parse(JSON.stringify(ctx.window.FANMAP_CATALOG.teams))};
 ctx.window.applyFanMapVerifiedLocations(visible,'2026-09-09');

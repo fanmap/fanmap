@@ -1,5 +1,4 @@
-/* Fan Map web app. The existing app is read as a data/dependency source only;
-   its preview UI, sample profiles, and simulated APIs are never executed. */
+/* Fan Map public web app. Uses generated public data and self-hosted maps. */
 (function (root) {
   'use strict';
   const STORAGE_KEY = 'fanmap.web.v1';
@@ -18,7 +17,8 @@
   }
   function buildTeams(env, html) {
     if (!env.FANMAP_CATALOG || !env.FANMAP_TEAM_COLORS || !env.FANMAP_TEAM_STADIUMS || !env.FANMAP_VERIFIED_LOCATIONS || typeof env.applyFanMapVerifiedLocations !== 'function') throw new Error('A required directory asset did not load.');
-    const teams = {...parseBaseTeams(html), ...env.FANMAP_CATALOG.teams};
+    const base = env.FANMAP_BASE_TEAMS || parseBaseTeams(html || "");
+    const teams = JSON.parse(JSON.stringify({...base, ...env.FANMAP_CATALOG.teams}));
     for (const [key,t] of Object.entries(teams)) {
       t.key = key;
       const meta = env.FANMAP_CATALOG.metadata[key] || {};
@@ -55,8 +55,8 @@
   if (typeof module !== 'undefined' && module.exports) module.exports = core;
   if (!root.document) return;
   const $ = id => document.getElementById(id);
-  let teams={}, teamKey='', view='watch', selectedVenue='', pageLimit=40, map=null, mapGroup=null, lastMapTeam='', sourceHTML='', sharedPin=null, storageOK=true, shareData=null, toastTimer;
-  let state={teamKey:'',saved:[],pins:[]};
+  let teams={}, teamKey='', view='home', selectedVenue='', pageLimit=40, map=null, mapGroup=null, lastMapTeam='', sharedPin=null, storageOK=true, shareData=null, toastTimer;
+  let state={teamKey:'',myTeams:{},saved:[],pins:[]};
   const palette = key => root.FANMAP_TEAM_COLORS[key] || {primary:'#34343c',secondary:'#FFFFFF',onPrimary:'#FFFFFF',readable:'#C4C4CC',soft:'rgba(255,255,255,.08)'};
   function badge(key) {
     const c=palette(key), hex=(s,f)=>/^#[0-9a-f]{6}$/i.test(s||'')?s:f;
@@ -73,6 +73,8 @@
       const raw=JSON.parse(localStorage.getItem(STORAGE_KEY)||'null');
       if (raw && typeof raw === 'object') {
         state.teamKey=own(teams,raw.teamKey)?raw.teamKey:'';
+        if(raw.myTeams && typeof raw.myTeams==='object')for(const [category,key] of Object.entries(raw.myTeams)){if(own(teams,key)&&teams[key].category===category)state.myTeams[category]=key;}
+        if(state.teamKey)state.myTeams[teams[state.teamKey].category]=state.teamKey;
         state.saved=Array.isArray(raw.saved)?raw.saved.filter(v=>v && own(teams,v.teamKey) && typeof v.id==='string').slice(0,500):[];
         state.pins=Array.isArray(raw.pins)?raw.pins.map(p=>cleanPin(p,teams)).filter(Boolean).slice(0,100):[];
       }
@@ -101,14 +103,15 @@
     sharedPin=payload?decodePin(payload):null;
     const requested=url.searchParams.get('team');
     teamKey=sharedPin?sharedPin.teamKey:own(teams,requested)?requested:state.teamKey;
-    const requestedView=url.searchParams.get('view'); view=sharedPin?'tailgate':['watch','tailgate','saved'].includes(requestedView)?requestedView:'watch';
+    const requestedView=url.searchParams.get('view'); const aliases={map:'watch',parties:'watch',tailgates:'tailgate',more:'fan',shop:'fan'};
+    view=sharedPin?'tailgate':['home','watch','tailgate','fan','saved'].includes(requestedView)?requestedView:(own(aliases,requestedView)?aliases[requestedView]:'home');
     selectedVenue=url.searchParams.get('venue')||'';
     if(payload&&!sharedPin)toast('That meeting-point link is invalid. It was not loaded.');
   }
   function selectTeam(key) {
     if(!own(teams,key))return;
-    teamKey=key; state.teamKey=key; selectedVenue=''; sharedPin=null; pageLimit=40; persist();
-    $('venueSearch').value=''; $('teamDialog').close(); setTheme(); navigate(); render();
+    teamKey=key; state.teamKey=key; state.myTeams[teams[key].category]=key; selectedVenue=''; sharedPin=null; pageLimit=40; persist();
+    $('venueSearch').value=''; if($('teamDialog').open)$('teamDialog').close(); setTheme(); navigate(); render();
   }
   function openTeams() {
     $('teamSearch').value=''; $('categoryFilter').value=''; renderTeams(); $('teamDialog').showModal(); setTimeout(()=>$('teamSearch').focus(),30);
@@ -127,7 +130,8 @@
     if(had)state.saved=state.saved.filter(s=>!(s.teamKey===key&&s.id===id));
     else {if(state.saved.length>=500){toast('Your device has 500 saved places. Remove one before adding another.');return;}state.saved.push({teamKey:key,id});}
     const saved=persist(); renderVenues(); renderSaved();
-    if(selectedVenue)showVenue(selectedVenue,false);
+    if(view==='watch'&&selectedVenue)showVenue(selectedVenue,false);
+    if(view==='home')renderHome();
     toast(had?'Removed from saved places.':saved?'Saved on this device.':'Saved for this session only. Device storage is unavailable.');
   }
   function card(v,key=teamKey) {
@@ -163,14 +167,7 @@
   }
   function library() {
     if(root.L||root.leaflet)return root.L||root.leaflet;
-    const doc=new DOMParser().parseFromString(sourceHTML,'text/html');
-    const css=Array.from(doc.head.querySelectorAll('style')).find(s=>s.textContent.trim().startsWith('.leaflet-'));
-    const js=Array.from(doc.head.querySelectorAll('script:not([src])')).find(s=>s.textContent.includes('.leaflet=')&&s.textContent.includes('tileLayer'));
-    if(!css||!js)throw new Error('The map library is unavailable.');
-    const style=document.createElement('style');style.textContent=css.textContent;document.head.prepend(style);
-    const script=document.createElement('script');script.textContent=js.textContent;document.head.appendChild(script);
-    if(!(root.L||root.leaflet))throw new Error('The map library did not start.');
-    return root.L||root.leaflet;
+    throw new Error('The map library is unavailable.');
   }
   function pinIcon(L,key) {return L.divIcon({html:badge(key),className:'fm-pin',iconSize:[38,38],iconAnchor:[19,38],popupAnchor:[0,-36]});}
   function currentStadium(){return stadiumFor(root.FANMAP_TEAM_STADIUMS,teamKey);}
@@ -231,19 +228,61 @@
   }
   function shareVenue(key,id) {const v=findVenue(key,id);if(!v)return;const title=namedVenue(v)?v.venue:v.name;showShare(title,makeURL('watch',key,id).href,'Watch '+teams[key].display+' with us at '+title+(v.city?' — '+v.city:'')+'. Confirm plans with the host.');}
   function sharePin(p) {const u=makeURL('tailgate',p.teamKey);u.hash='pin='+encodePin(p);showShare(p.name,u.href,'Meet the '+teams[p.teamKey].display+' crew at '+p.name+(p.date?' on '+p.date:'')+'. '+p.note);}
+  function externalCard(label,title,description,url,action,sponsored=false) {
+    const safe=safeURL(url);if(!safe)return '';
+    return '<article class="essential-card"><p class="eyebrow">'+esc(label)+'</p><h3>'+esc(title)+'</h3><p class="muted">'+esc(description)+'</p><a class="button secondary wide" href="'+esc(safe)+'" target="_blank" rel="noopener noreferrer'+(sponsored?' sponsored':'')+'">'+esc(action)+' ↗</a></article>';
+  }
+  function merchandiseURL() {
+    const affiliates=root.FANMAP_AFFILIATES||{}, aliases={arkansas:'uark'};
+    const known=safeURL(affiliates[teamKey]||affiliates[aliases[teamKey]]);
+    if(known)return known;
+    const base=safeURL(affiliates.global);if(!base)return 'https://www.fanatics.com/';
+    if(!teamKey)return base;
+    const url=new URL(base);url.searchParams.set('u','https://www.fanatics.com/?query='+encodeURIComponent(teams[teamKey].display));url.searchParams.set('subId1',teamKey);return url.href;
+  }
+  function essentials() {
+    const t=teams[teamKey],name=t?t.display:'your team';
+    return externalCard('TEAM GEAR','Wear your colors.',name+' gear for wherever game day finds you.',merchandiseURL(),'Shop team gear',!!(root.FANMAP_AFFILIATES&&root.FANMAP_AFFILIATES.global))+
+      externalCard('TICKETS','Be there for the moment.','Find tickets and choose your seat with StubHub.','https://www.stubhub.com/secure/search?q='+encodeURIComponent(t?t.display:''),'Find tickets');
+  }
+  function renderHome() {
+    const t=teams[teamKey],keys=Object.values(state.myTeams).filter(k=>own(teams,k));
+    $('myTeams').innerHTML=keys.length?'<span class="quiet">My teams</span>'+keys.map(k=>'<button class="my-team'+(k===teamKey?' selected':'')+'" data-team="'+esc(k)+'">'+badge(k)+'<span>'+esc(teams[k].display)+'</span></button>').join('')+'<button class="text-button" data-action="choose-team">Choose a team +</button>':'';
+    const locations=t?t.chapters:[];
+    const cities=new Set(locations.map(v=>normal(v.city)).filter(Boolean));
+    $('homeStats').innerHTML=t?'<div><strong>'+locations.length.toLocaleString()+'</strong><span>Directory locations</span></div><div><strong>'+cities.size.toLocaleString()+'</strong><span>Cities / areas</span></div><div><strong>'+state.saved.filter(v=>v.teamKey===teamKey).length+'</strong><span>Saved places</span></div>':'<p class="muted">Choose from '+Object.keys(teams).length+' teams across college and professional sports.</p>';
+    $('homeEssentials').innerHTML=essentials();
+    $('homePlaces').innerHTML=locations.length?locations.filter(namedVenue).slice(0,3).map(v=>card(v)).join(''):'<div class="empty"><h3>'+(t?'Explore your fan community.':'Start with your team.')+'</h3><p>'+(t?'Visit the team directory while we expand local venue coverage.':'Choose your team to find watch-party venues and make your game-day plan.')+'</p>'+(t?officialLink():'<button class="button" data-action="choose-team">Choose your team</button>')+'</div>';
+  }
+  function renderFanZone() {
+    const t=teams[teamKey];$('fanEssentials').innerHTML=essentials();
+    const sports={College:'college-football',NFL:'nfl',NBA:'nba',MLB:'mlb',NHL:'nhl',Soccer:'soccer',Rugby:'rugby',Cricket:'cricket'};
+    const sport=t?sports[t.category]||'':'';
+    let publishers=externalCard('SPORTS DESK','ESPN','Open the publisher for current sports coverage.','https://www.espn.com/'+(sport?sport+'/':''),'Read ESPN')+externalCard('SPORTS DESK','Yahoo Sports','Headlines, scores, and stories from the sports desk.','https://sports.yahoo.com/','Read Yahoo Sports');
+    if(teamKey==='arkansas')publishers=externalCard('ARKANSAS','HawgSports','Follow Arkansas coverage at the publisher.','https://247sports.com/college/arkansas/','Read HawgSports')+publishers;
+    $('publisherList').innerHTML=publishers;
+    let links='';
+    if(t){
+      if(t.nil)links+=externalCard('ATHLETE SUPPORT',t.nil.label||'Support your athletes','Review the program and contribute directly with the provider.',t.nil.url,'Visit support program');
+      if(t.foundation)links+=externalCard('TEAM SUPPORT',t.foundation.label||'Back your program','Review giving opportunities with the linked organization.',t.foundation.url,'Explore giving');
+      links+=externalCard('FAN COMMUNITY',t.display+' fans','Find team, alumni, or supporter information from the directory linked for your team.',t.alumni_url,'Visit fan directory');
+    }
+    $('supportLinks').innerHTML=links||'<div class="empty"><p>Choose a team to see its available community and support links.</p><button class="button" data-action="choose-team">Choose your team</button></div>';
+  }
   function render() {
     setTheme();
     document.querySelectorAll('[data-view]').forEach(b=>{const on=b.dataset.view===view;b.classList.toggle('active',on);if(on)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
-    $('watchView').hidden=view!=='watch';$('tailgateView').hidden=view!=='tailgate';$('savedView').hidden=view!=='saved';
+    $('homeView').hidden=view!=='home';$('watchView').hidden=view!=='watch';$('tailgateView').hidden=view!=='tailgate';$('savedView').hidden=view!=='saved';$('fanView').hidden=view!=='fan';
     const t=teams[teamKey];$('teamContext').textContent=t?t.category+' / '+t.league:'FIND YOUR FANHOOD';
-    $('pageTitle').textContent=view==='tailgate'?'Make game day a meet-up.':view==='saved'?'Keep your crew’s places close.':t?t.display+'. Anywhere.':'Your team. Your people.';
-    $('pageSubtitle').textContent=view==='tailgate'?'Your stadium. Your meeting point. One text to your crew.':view==='saved'?'Your watch-party places and tailgate pins, ready for game day.':'Find watch-party venues and fan clubs. Never watch alone.';
+    $('pageTitle').textContent=view==='home'?(t?t.display+'. Your game day.':'Find your fanhood.'):view==='fan'?'All in for your team.':view==='tailgate'?'Make game day a meet-up.':view==='saved'?'Keep your crew’s places close.':t?t.display+'. Anywhere.':'Your team. Your people.';
+    $('pageSubtitle').textContent=view==='home'?'Watch parties. Tailgates. Tickets. Team gear. Your people.':view==='fan'?'Wear your colors, find tickets, follow the news, and support your team.':view==='tailgate'?'Your stadium. Your meeting point. One text to your crew.':view==='saved'?'Your watch-party places and tailgate pins, ready for game day.':'Find watch-party venues and fan clubs. Never watch alone.';
+    if(view==='home')renderHome();if(view==='fan')renderFanZone();
     if(view==='watch'){renderVenues();if(selectedVenue)showVenue(selectedVenue,false);else clearDetail();}
     if(view==='tailgate')renderTailgate();if(view==='saved')renderSaved();
   }
   function info(privacy) {
     $('infoTitle').textContent=privacy?'Your information. Your control.':'A better game-day plan.';
-    $('infoContent').innerHTML=privacy?'<h3>Stored on your device</h3><p>Your last selected team, starred locations, and meeting points are stored in this browser’s local storage. They do not sync between devices. Clearing site data removes them.</p><h3>Sharing is your choice</h3><p>Meeting-point links contain the exact coordinates, name, date, and instructions you enter. Anyone who receives or forwards a link can read those details. Existing links are snapshots: deleting your saved copy does not revoke a link already shared.</p><h3>Maps and your location</h3><p>Your device location is requested only after you press “Use my location.” Map providers receive ordinary requests for the areas you view. Venue maps use Google Maps; tailgate maps use Esri imagery and optional OpenStreetMap tiles. Location is not sent to a Fan Map account service.</p><h3>No account required</h3><p>This web release does not create cloud accounts, publish public posts, collect payments, or send email. A source link or directions button opens an external provider.</p>':'<h3>Watch parties</h3><p>Choose your team, search a city, and find its venues or fan clubs. Open a place for its listed address, directions, source, and a link to text your crew.</p><h3>Tailgates</h3><p>A separate satellite map starts at your team’s mapped home stadium or arena. Tap the map to save a meeting point. Add a landmark and share the exact pin.</p><h3>Directory status</h3><p>“Source checked” means a source was reviewed—not that tonight’s event is guaranteed. “Listed” records still need confirmation. “Needs update” can include an older event or listing. Always check the host’s current plans.</p><h3>Saved, not simulated</h3><p>Stars and meeting points persist in this browser. Shared links open the actual place or pin for the recipient. Cloud accounts, a public fan board, and payments are not connected in this release.</p>';
+    $('infoContent').innerHTML=privacy?'<h3>Stored on your device</h3><p>Your team choices (one per sport category), starred locations, and meeting points are stored in this browser’s local storage. They do not sync between devices. Clearing site data removes them.</p><h3>Sharing is your choice</h3><p>Meeting-point links contain the exact coordinates, name, date, and instructions you enter. Anyone who receives or forwards a link can read those details. Existing links are snapshots: deleting your saved copy does not revoke a link already shared.</p><h3>Maps and your location</h3><p>Your device location is requested only after you press “Use my location.” Map providers receive ordinary requests for the areas you view. Venue maps use Google Maps; tailgate maps use Esri imagery and optional OpenStreetMap tiles. Location is not sent to a Fan Map account service.</p><h3>No account required</h3><p>This web release does not create cloud accounts, publish public posts, collect payments, or send email. A source link or directions button opens an external provider.</p>':'<h3>One team. Your whole game day.</h3><p>Home brings together watch-party discovery, stadium tailgates, merchandise, tickets, sports coverage, and available team-support links.</p><h3>Watch parties</h3><p>Choose your team, search a city, and find its venues or fan clubs. Open a place for its listed address, directions, source, and a link to text your crew.</p><h3>Tailgates</h3><p>A separate satellite map starts at your team’s mapped home stadium or arena. Tap the map to save a meeting point. Add a landmark and share the exact pin.</p><h3>Directory status</h3><p>“Source checked” means a source was reviewed—not that tonight’s event is guaranteed. “Listed” records still need confirmation. “Needs update” can include an older event or listing. Always check the host’s current plans.</p><h3>Your saved places</h3><p>Stars and meeting points persist in this browser. Shared links open the actual place or pin for the recipient. Cloud accounts, a public fan board, and payments are not connected in this release.</p>';
     $('infoDialog').showModal();
   }
   function bind() {
@@ -288,8 +327,7 @@
   }
   async function boot() {
     try{
-      const response=await fetch('/app.html',{cache:'no-cache'});if(!response.ok)throw new Error('Shared directory request failed: '+response.status);
-      sourceHTML=await response.text();teams=buildTeams(root,sourceHTML);restore();readRoute();
+      teams=buildTeams(root);restore();readRoute();
       $('categoryFilter').innerHTML='<option value="">All sports &amp; categories</option>'+[...new Set(Object.values(teams).map(t=>t.category))].sort().map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
       bind();$('bootStatus').hidden=true;$('main').hidden=false;$('teamButton').disabled=false;render();
       if(!teamKey && view!=='saved')openTeams();

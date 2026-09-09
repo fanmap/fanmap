@@ -8,7 +8,7 @@ const {JSDOM, requestInterceptor, VirtualConsole} = require('jsdom');
 const root = path.resolve(__dirname, '..');
 const read = name => fs.readFileSync(path.join(root, name), 'utf8');
 const copy = value => JSON.parse(JSON.stringify(value));
-const html = read('app.html');
+const html = read('research/legacy-app.source.txt');
 const context = {window: {}};
 for (const name of ['team-catalog', 'team-colors']) {
   vm.runInNewContext(read('assets/data/' + name + '.js'), context);

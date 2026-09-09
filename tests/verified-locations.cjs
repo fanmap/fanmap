@@ -9,7 +9,7 @@ const {JSDOM, requestInterceptor, VirtualConsole} = require('jsdom');
 const root = path.resolve(__dirname, '..');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
 const copy = value => JSON.parse(JSON.stringify(value));
-const html = read('app.html');
+const html = read('research/legacy-app.source.txt');
 const catalogCode = read('assets/data/team-catalog.js');
 const venueCode = read('assets/data/verified-locations.js');
 const context = {window: {}};
