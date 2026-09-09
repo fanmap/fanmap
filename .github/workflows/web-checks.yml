@@ -1,0 +1,30 @@
+name: FanMap web checks
+on:
+  push:
+    branches: [website-functional]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript syntax
+        run: node --check assets/web-app.js
+      - name: Check directory and palette preservation
+        run: |
+          node tests/location-import.cjs
+          node tests/nfl-watch-scope.cjs
+      - name: Package source for release inspection
+        if: always()
+        run: git archive --format=zip HEAD -o fanmap-source.zip
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fanmap-release-inspection
+          path: fanmap-source.zip
+          retention-days: 3
