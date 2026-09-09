@@ -2,27 +2,27 @@
 
 Updated 2026-09-09.
 
-**2,188 named team–venue listings across 72 teams**, within 2,437 total directory records across 81 teams. All 620 catalog teams remain selectable. Some venues host multiple teams; these are team affiliations, not a count of distinct physical businesses.
+**3,831 named team–venue listings across 89 teams**, within 4,080 total directory records across 95 teams. All 620 catalog teams remain selectable. Some venues host multiple teams; these are team affiliations, not a count of distinct physical businesses.
 
-This release adds **1,737 listings** cumulatively since the initial 700-record release. The expansion works through directory pages rather than imposing per-team sample quotas. Exact traversal and remaining gaps are recorded below.
+This release adds **3,380 listings** cumulatively since the initial 700-record release. The expansion works through directory pages rather than imposing per-team sample quotas. Exact traversal and remaining gaps are recorded below.
 
 ## Inclusion and verification
 
-The launch rule is simple: a named venue, a supported city or region, and a public source are enough to add a useful listing. A full street address or direct host confirmation is not required. Fans can open directions and send SMS invites from these listings.
+Watch-party discovery covers publicly open bars and restaurants (including public taprooms). Stadiums and arenas belong to the separate tailgate map, centered on the selected team’s home venue. Private residences and members-only club meeting rooms do not qualify as watch-party venues. A named public business, a supported city or region, and a public source are enough to add a useful listing. A full street address or direct host confirmation is not required. Fans can open directions and send SMS invites from these listings.
 
 - **Listed venue:** imported from an alumni, supporter, team, venue, or community directory. Current operations and screening arrangements may need confirmation.
 - **Source checked:** retained from the earlier focused source review. This means the source was checked, not that a host confirmed the next game or that the business was independently verified open.
 - **Check details:** an older listing, relocation, or other detail needs an update. Past event dates are retained in research and do not appear as upcoming events.
 - **Venue pending:** the catalog has a chapter or club record without a named venue. These records are separate from named-venue totals.
 
-The new data layer contains 1,837 records: 100 from the prior source-checked batch and 1,737 directory listings or leads. 11 records are held for known closure, stale-brand, or unresolved location issues. Verification is an enrichment step as Fan Map scales.
+The new data layer contains 3,480 records: 99 from the prior source-checked batch and 3,381 directory listings or leads. 23 records are held for known closure, stale-brand, or unresolved location issues. Verification is an enrichment step as Fan Map scales.
 
 ## Named venue coverage
 
 | Category | Named listings | Teams with named venues |
 | --- | ---: | ---: |
 | College | 578 | 19 |
-| NFL | 889 | 15 |
+| NFL | 2532 | 32 |
 | MLB | 9 | 6 |
 | NHL | 370 | 9 |
 | NBA | 11 | 5 |
@@ -65,21 +65,38 @@ The new data layer contains 1,837 records: 100 from the prior source-checked bat
 | Dallas Mavericks | NBA | 1 |
 | Indiana Pacers | NBA | 1 |
 | Memphis Grizzlies | NBA | 2 |
+| Arizona Cardinals | NFL | 7 |
 | Atlanta Falcons | NFL | 20 |
 | Baltimore Ravens | NFL | 78 |
-| Buffalo Bills | NFL | 3 |
+| Buffalo Bills | NFL | 526 |
 | Carolina Panthers | NFL | 41 |
-| Cleveland Browns | NFL | 2 |
+| Chicago Bears | NFL | 172 |
+| Cincinnati Bengals | NFL | 79 |
+| Cleveland Browns | NFL | 18 |
+| Dallas Cowboys | NFL | 132 |
+| Denver Broncos | NFL | 45 |
+| Detroit Lions | NFL | 4 |
 | Green Bay Packers | NFL | 53 |
-| Kansas City Chiefs | NFL | 1 |
-| Minnesota Vikings | NFL | 50 |
-| New England Patriots | NFL | 266 |
+| Houston Texans | NFL | 3 |
+| Indianapolis Colts | NFL | 20 |
+| Jacksonville Jaguars | NFL | 13 |
+| Kansas City Chiefs | NFL | 31 |
+| Las Vegas Raiders | NFL | 5 |
+| Los Angeles Chargers | NFL | 19 |
+| Los Angeles Rams | NFL | 2 |
+| Miami Dolphins | NFL | 17 |
+| Minnesota Vikings | NFL | 49 |
+| New England Patriots | NFL | 256 |
+| New Orleans Saints | NFL | 3 |
 | New York Giants | NFL | 84 |
 | New York Jets | NFL | 83 |
-| Philadelphia Eagles | NFL | 149 |
-| San Francisco 49ers | NFL | 1 |
-| Seattle Seahawks | NFL | 4 |
+| Philadelphia Eagles | NFL | 148 |
+| Pittsburgh Steelers | NFL | 69 |
+| San Francisco 49ers | NFL | 308 |
+| Seattle Seahawks | NFL | 101 |
 | Tampa Bay Buccaneers | NFL | 54 |
+| Tennessee Titans | NFL | 67 |
+| Washington Commanders | NFL | 25 |
 | Carolina Hurricanes | NHL | 46 |
 | Columbus Blue Jackets | NHL | 31 |
 | Florida Panthers | NHL | 33 |
@@ -180,9 +197,35 @@ The new data layer contains 1,837 records: 100 from the prior source-checked bat
 | Celtic | partial | 640 | 13 | [Source](https://www.celticbars.com/cscs/) |
 | Auburn | blocked-fetch | — | 0 | [Source](https://alumni.auburn.edu/clubs/game-watch-locations/) |
 | Texas | partial | — | 8 | [Source](https://www.texasexes.org/chapters-and-networks/find-chapter-or-network) |
+| San Francisco 49ers | complete-visible-directory | 843 | 341 | [Source](https://www.49ers.com/fans/faithful-fan-chapters) |
+| Chicago Bears | complete-visible-directory | 122 | 122 | [Source](https://www.chicagobears.com/fan-zone/headquarters-bars) |
+| Chicago Bears | complete-visible-directory | 52 | 51 | [Source](https://www.chicagobears.com/fan-zone/bears-bars-rest-of-world) |
+| Cincinnati Bengals | complete-public-map-pass | 82 | 79 | [Source](https://www.bengals.com/fans/bengals-bars) |
+| Buffalo Bills | complete-visible-directory | 543 | 525 | [Source](https://www.buffalobills.com/fans/bills-backers/chapters) |
+| Denver Broncos | complete-visible-directory | 45 | 45 | [Source](https://www.denverbroncos.com/fans/bar-network/) |
+| Arizona Cardinals | complete-public-map-pass | 8 | 7 | [Source](https://www.azcardinals.com/gameday/birds-and-brews) |
+| Los Angeles Chargers | complete-page-and-map-public-venue-pass | 20 | 4 | [Source](https://www.chargers.com/fan-zone/bars) |
+| Kansas City Chiefs | complete-visible-directory | 30 | 30 | [Source](https://www.chiefs.com/fans/chiefskingdomworldwide) |
+| Indianapolis Colts | complete-visible-directory | 26 | 20 | [Source](https://www.colts.com/clubs/find) |
+| Washington Commanders | complete-visible-directory | 25 | 25 | [Source](https://www.commanders.com/fans/rally/rallybarnetwork) |
+| Dallas Cowboys | complete-visible-directory | 130 | 130 | [Source](https://www.dallascowboys.com/cowboys-central/texas-locations) |
+| Miami Dolphins | complete-community-directory-official-directory-unavailable | 18 | 17 | [Source](https://305sportsbabe.com/outoftownbars) |
+| Jacksonville Jaguars | complete-visible-directory | 17 | 13 | [Source](https://www.boldcitybrigade.org/chapters) |
+| Cleveland Browns | targeted-public-venue-pass-more-clubs-pending | 16 | 16 | [Source](https://brownsbackersworldwide.com/chapters/dallas-area-browns-backers/) |
+| Dallas Cowboys | targeted-public-venue-pass-more-clubs-pending | 4 | 4 | [Source](https://www.dallascowboysfanclub.com/chapters/) |
+| Detroit Lions | targeted-public-venue-pass-more-clubs-pending | 4 | 4 | [Source](https://sociallatitude.com/detroit-lions-watch-parties-at-social-latitude/) |
+| Houston Texans | targeted-public-venue-pass-more-clubs-pending | 3 | 3 | [Source](https://www.instagram.com/texansfanclubofsa/) |
+| Las Vegas Raiders | targeted-public-venue-pass-more-clubs-pending | 4 | 4 | [Source](https://www.raiders.com/news/booster-clubs-of-the-raiders-a-special-community-within-raider-nation) |
+| Los Angeles Rams | targeted-public-venue-pass-more-clubs-pending | 2 | 2 | [Source](https://tomswatchbar.com/los-angeles/best-los-angeles-rams-bar-los-angeles/) |
+| New Orleans Saints | targeted-public-venue-pass-more-clubs-pending | 3 | 3 | [Source](https://www.shoalcreeksaloon.com/footballschedule) |
+| Las Vegas Raiders | venue-event-page | 1 | 1 | [Source](https://www.thedecoyhtx.com/event/raiders-vs-chargers/) |
+| Seattle Seahawks | complete-visible-directory | 101 | 98 | [Source](https://www.seahawks.com/game-day/bar-alliance/) |
+| Pittsburgh Steelers | complete-map-layers-club-venues-pending | 149 | 82 | [Source](https://www.steelers.com/fans/snufanclubs/) |
+| Tennessee Titans | complete-map-and-detailed-page | 70 | 18 | [Source](https://www.tennesseetitans.com/fans/gameday-hangouts/) |
 
 ## Files and maintenance
 
+- [NFL coverage](nfl-coverage.md): all 32 teams, public watch-party counts and remaining source gaps.
 - [Full venue research](venue-research.json): source links, evidence, confidence, historical dates, corrections and held records.
 - [Coverage queue](location-coverage.json): every catalog team and its coverage status.
 - [Directory traversal](directory-traversal.json): pages reviewed and unresolved entries.

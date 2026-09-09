@@ -1,0 +1,765 @@
+{
+  "checkedAt": "2026-09-09",
+  "scope": {
+    "watchParties": "Publicly open bars and restaurants, including public taprooms. No private homes, members-only meeting rooms, stadiums or arenas.",
+    "tailgating": "Separate stadium and arena map centered on the selected team’s sourced home venue."
+  },
+  "baseline": {
+    "version": "3.11",
+    "namedNflTeamVenueListings": 889
+  },
+  "namedNflTeamVenueListings": 2532,
+  "teamsWithNamedWatchVenues": 32,
+  "teamsWithSourcedTailgateCenters": 32,
+  "completeWorldwideInventory": false,
+  "teams": [
+    {
+      "teamKey": "nfl-nfl-arizona-cardinals",
+      "team": "Arizona Cardinals",
+      "namedWatchVenues": 7,
+      "tailgateHomeVenue": "State Farm Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Full eight-entry Birds & Brews map reviewed; standalone casino excluded.",
+      "sources": [
+        "https://www.azcardinals.com/gameday/birds-and-brews"
+      ],
+      "directories": [
+        {
+          "src": "https://www.azcardinals.com/gameday/birds-and-brews",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-public-map-pass",
+          "observedEntries": 8,
+          "acceptedRecords": 7,
+          "unresolvedEntries": 1
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-atlanta-falcons",
+      "team": "Atlanta Falcons",
+      "namedWatchVenues": 20,
+      "tailgateHomeVenue": "Mercedes-Benz Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Retained from the prior directory pass; this release does not claim a new exhaustive review.",
+      "sources": [
+        "https://www.atlantafalcons.com/schedule/bar-program"
+      ],
+      "directories": [
+        {
+          "src": "https://www.atlantafalcons.com/schedule/bar-program",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 27,
+          "acceptedRecords": 20,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-baltimore-ravens",
+      "team": "Baltimore Ravens",
+      "namedWatchVenues": 78,
+      "tailgateHomeVenue": "M&T Bank Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Retained from the prior directory pass; this release does not claim a new exhaustive review.",
+      "sources": [
+        "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups"
+      ],
+      "directories": [
+        {
+          "src": "https://www.baltimoreravens.com/fans/find-a-flock/domestic-flock-groups",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 80,
+          "acceptedRecords": 78,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-buffalo-bills",
+      "team": "Buffalo Bills",
+      "namedWatchVenues": 526,
+      "tailgateHomeVenue": "Highmark Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "All 543 official chapter-map entries reviewed. Only named public bars/restaurants included.",
+      "sources": [
+        "https://dfwbillsbackers.org/about/",
+        "https://www.buffalobills.com/fans/bills-backers/chapters"
+      ],
+      "directories": [
+        {
+          "src": "https://www.buffalobills.com/fans/bills-backers/chapters",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 543,
+          "acceptedRecords": 525,
+          "unresolvedEntries": 18
+        }
+      ]
+    },
+    {
+      "teamKey": "panthers",
+      "team": "Carolina Panthers",
+      "namedWatchVenues": 41,
+      "tailgateHomeVenue": "Bank of America Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Retained from the prior directory pass; this release does not claim a new exhaustive review.",
+      "sources": [],
+      "directories": []
+    },
+    {
+      "teamKey": "nfl-nfl-chicago-bears",
+      "team": "Chicago Bears",
+      "namedWatchVenues": 172,
+      "tailgateHomeVenue": "Soldier Field",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Both published Bears bar maps reviewed; public venues consolidated.",
+      "sources": [
+        "https://www.chicagobears.com/fan-zone/bears-bars-rest-of-world",
+        "https://www.chicagobears.com/fan-zone/headquarters-bars"
+      ],
+      "directories": [
+        {
+          "src": "https://www.chicagobears.com/fan-zone/bears-bars",
+          "traversal": "partial",
+          "observedEntries": null,
+          "acceptedRecords": 0,
+          "unresolvedEntries": 0
+        },
+        {
+          "src": "https://www.chicagobears.com/fan-zone/headquarters-bars",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 122,
+          "acceptedRecords": 122,
+          "unresolvedEntries": 0
+        },
+        {
+          "src": "https://www.chicagobears.com/fan-zone/bears-bars-rest-of-world",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 52,
+          "acceptedRecords": 51,
+          "unresolvedEntries": 1
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-cincinnati-bengals",
+      "team": "Cincinnati Bengals",
+      "namedWatchVenues": 79,
+      "tailgateHomeVenue": "Paycor Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Full 82-entry team bar map reviewed; event-space and airport entries excluded.",
+      "sources": [
+        "https://www.bengals.com/fans/bengals-bars"
+      ],
+      "directories": [
+        {
+          "src": "https://www.bengals.com/fans/bengals-bars",
+          "traversal": "partial",
+          "observedEntries": null,
+          "acceptedRecords": 0,
+          "unresolvedEntries": 0
+        },
+        {
+          "src": "https://www.bengals.com/fans/bengals-bars",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-public-map-pass",
+          "observedEntries": 82,
+          "acceptedRecords": 79,
+          "unresolvedEntries": 3
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-cleveland-browns",
+      "team": "Cleveland Browns",
+      "namedWatchVenues": 18,
+      "tailgateHomeVenue": "Huntington Bank Field",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Indexed chapter pages added. Full Browns Backers directory was unavailable; the remaining chapters still need a pass.",
+      "sources": [
+        "https://brownsbackersworldwide.com/chapters/phx-area-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/1st-state-dawg-pound/",
+        "https://brownsbackersworldwide.com/chapters/dallas-area-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/san-diego-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/mile-high-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/photo-city-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/fort-lauderdale-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/washington-dc-area-browns-backers-club/",
+        "https://brownsbackersworldwide.com/chapters/north-shore-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/space-city-dawg-pound/",
+        "https://brownsbackersworldwide.com/chapters/north-coast-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/jacksonville-browns-backers/",
+        "https://peleebrownsbackers.com/join/",
+        "https://www.hotlantabrowns.org/"
+      ],
+      "directories": [
+        {
+          "src": "https://brownsbackersworldwide.com/chapters/dallas-area-browns-backers/",
+          "checkedAt": "2026-09-09",
+          "traversal": "targeted-public-venue-pass-more-clubs-pending",
+          "observedEntries": 16,
+          "acceptedRecords": 16,
+          "unresolvedEntries": 1
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-dallas-cowboys",
+      "team": "Dallas Cowboys",
+      "namedWatchVenues": 132,
+      "tailgateHomeVenue": "AT&T Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Full 130-entry Cowboys Central Texas map plus Southern California club venues reviewed.",
+      "sources": [
+        "https://www.dallascowboys.com/cowboys-central/texas-locations",
+        "https://www.dallascowboysfanclub.com/chapters/"
+      ],
+      "directories": [
+        {
+          "src": "https://www.dallascowboys.com/cowboys-central/texas-locations",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 130,
+          "acceptedRecords": 130,
+          "unresolvedEntries": 0
+        },
+        {
+          "src": "https://www.dallascowboysfanclub.com/chapters/",
+          "checkedAt": "2026-09-09",
+          "traversal": "targeted-public-venue-pass-more-clubs-pending",
+          "observedEntries": 4,
+          "acceptedRecords": 4,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-denver-broncos",
+      "team": "Denver Broncos",
+      "namedWatchVenues": 45,
+      "tailgateHomeVenue": "Empower Field at Mile High",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Full 45-entry team bar-network feed reviewed.",
+      "sources": [
+        "https://www.denverbroncos.com/fans/bar-network/"
+      ],
+      "directories": [
+        {
+          "src": "https://www.denverbroncos.com/fans/bar-network/",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 45,
+          "acceptedRecords": 45,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-detroit-lions",
+      "team": "Detroit Lions",
+      "namedWatchVenues": 4,
+      "tailgateHomeVenue": "Ford Field",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "2026 Canadian Bar Tour and a venue-published supporter location added; broader chapter coverage remains open.",
+      "sources": [
+        "https://sociallatitude.com/detroit-lions-watch-parties-at-social-latitude/",
+        "https://www.detroitlions.com/international/raise-the-roar-bar-tour"
+      ],
+      "directories": [
+        {
+          "src": "https://sociallatitude.com/detroit-lions-watch-parties-at-social-latitude/",
+          "checkedAt": "2026-09-09",
+          "traversal": "targeted-public-venue-pass-more-clubs-pending",
+          "observedEntries": 4,
+          "acceptedRecords": 4,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-green-bay-packers",
+      "team": "Green Bay Packers",
+      "namedWatchVenues": 53,
+      "tailgateHomeVenue": "Lambeau Field",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Retained from the prior directory pass; this release does not claim a new exhaustive review.",
+      "sources": [
+        "https://onmilwaukee.com/articles/packers-bars-across-united-states"
+      ],
+      "directories": [
+        {
+          "src": "https://onmilwaukee.com/articles/packers-bars-across-united-states",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 52,
+          "acceptedRecords": 52,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-houston-texans",
+      "team": "Houston Texans",
+      "namedWatchVenues": 3,
+      "tailgateHomeVenue": "Reliant Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Targeted club and venue pass; additional regional fan clubs remain to research.",
+      "sources": [
+        "https://www.instagram.com/texansfanclubofsa/",
+        "https://tomswatchbar.com/inglewood/best-houston-texans-bar-in-inglewood/"
+      ],
+      "directories": [
+        {
+          "src": "https://www.instagram.com/texansfanclubofsa/",
+          "checkedAt": "2026-09-09",
+          "traversal": "targeted-public-venue-pass-more-clubs-pending",
+          "observedEntries": 3,
+          "acceptedRecords": 3,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-indianapolis-colts",
+      "team": "Indianapolis Colts",
+      "namedWatchVenues": 20,
+      "tailgateHomeVenue": "Lucas Oil Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Full 26-entry club page reviewed; stadium, private lodge and unnamed locations excluded.",
+      "sources": [
+        "https://www.colts.com/clubs/find"
+      ],
+      "directories": [
+        {
+          "src": "https://www.colts.com/clubs/find",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 26,
+          "acceptedRecords": 20,
+          "unresolvedEntries": 6
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-jacksonville-jaguars",
+      "team": "Jacksonville Jaguars",
+      "namedWatchVenues": 13,
+      "tailgateHomeVenue": "EverBank Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Retained from the prior directory pass; this release does not claim a new exhaustive review.",
+      "sources": [
+        "https://www.boldcitybrigade.org/chapters",
+        "https://www.instagram.com/bcbtampabay/"
+      ],
+      "directories": [
+        {
+          "src": "https://www.boldcitybrigade.org/chapters",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 17,
+          "acceptedRecords": 13,
+          "unresolvedEntries": 4
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-kansas-city-chiefs",
+      "team": "Kansas City Chiefs",
+      "namedWatchVenues": 31,
+      "tailgateHomeVenue": "Arrowhead Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Full 30-entry team fan-venue map reviewed.",
+      "sources": [
+        "https://chiefsfansofdallas.com/",
+        "https://www.chiefs.com/fans/chiefskingdomworldwide"
+      ],
+      "directories": [
+        {
+          "src": "https://www.chiefs.com/fans/chiefskingdomworldwide",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 30,
+          "acceptedRecords": 30,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-las-vegas-raiders",
+      "team": "Las Vegas Raiders",
+      "namedWatchVenues": 5,
+      "tailgateHomeVenue": "Allegiant Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Named public venues from team and venue announcements added. Booster contact addresses are not watch-party locations; individual club venues remain to resolve.",
+      "sources": [
+        "https://www.raiders.com/news/booster-clubs-of-the-raiders-a-special-community-within-raider-nation",
+        "https://www.thedecoyhtx.com/event/raiders-vs-chargers/"
+      ],
+      "directories": [
+        {
+          "src": "https://www.raiders.com/news/booster-clubs-of-the-raiders-a-special-community-within-raider-nation",
+          "checkedAt": "2026-09-09",
+          "traversal": "targeted-public-venue-pass-more-clubs-pending",
+          "observedEntries": 4,
+          "acceptedRecords": 4,
+          "unresolvedEntries": 1
+        },
+        {
+          "src": "https://www.thedecoyhtx.com/event/raiders-vs-chargers/",
+          "checkedAt": "2026-09-09",
+          "traversal": "venue-event-page",
+          "observedEntries": 1,
+          "acceptedRecords": 1,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-los-angeles-chargers",
+      "team": "Los Angeles Chargers",
+      "namedWatchVenues": 19,
+      "tailgateHomeVenue": "SoFi Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Map and page reviewed together, including bars missing from the embedded map. One entertainment-facility entry remains unresolved.",
+      "sources": [
+        "https://www.chargers.com/fan-zone/bars"
+      ],
+      "directories": [
+        {
+          "src": "https://www.chargers.com/fan-zone/bars",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-page-and-map-public-venue-pass",
+          "observedEntries": 20,
+          "acceptedRecords": 4,
+          "unresolvedEntries": 1
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-los-angeles-rams",
+      "team": "Los Angeles Rams",
+      "namedWatchVenues": 2,
+      "tailgateHomeVenue": "SoFi Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Targeted club and venue pass; additional regional fan clubs remain to research. Pico Rivera club has a season-opener exception.",
+      "sources": [
+        "https://tomswatchbar.com/los-angeles/best-los-angeles-rams-bar-los-angeles/",
+        "https://www.instagram.com/socalramsboosterclub/"
+      ],
+      "directories": [
+        {
+          "src": "https://tomswatchbar.com/los-angeles/best-los-angeles-rams-bar-los-angeles/",
+          "checkedAt": "2026-09-09",
+          "traversal": "targeted-public-venue-pass-more-clubs-pending",
+          "observedEntries": 2,
+          "acceptedRecords": 2,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-miami-dolphins",
+      "team": "Miami Dolphins",
+      "namedWatchVenues": 17,
+      "tailgateHomeVenue": "Hard Rock Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Complete 305 Sports Babe out-of-town bar list reviewed. The official fan-club directory was unavailable.",
+      "sources": [
+        "https://305sportsbabe.com/outoftownbars"
+      ],
+      "directories": [
+        {
+          "src": "https://305sportsbabe.com/outoftownbars",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-community-directory-official-directory-unavailable",
+          "observedEntries": 18,
+          "acceptedRecords": 17,
+          "unresolvedEntries": 1
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-minnesota-vikings",
+      "team": "Minnesota Vikings",
+      "namedWatchVenues": 49,
+      "tailgateHomeVenue": "U.S. Bank Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Retained from the prior directory pass; this release does not claim a new exhaustive review.",
+      "sources": [
+        "https://www.vikings.com/fans/clubs-watch-bars"
+      ],
+      "directories": [
+        {
+          "src": "https://www.vikings.com/fans/clubs-watch-bars",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 106,
+          "acceptedRecords": 50,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-new-england-patriots",
+      "team": "New England Patriots",
+      "namedWatchVenues": 256,
+      "tailgateHomeVenue": "Gillette Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Retained from the prior directory pass; this release does not claim a new exhaustive review.",
+      "sources": [
+        "https://nepfca.com/",
+        "https://fanclubs.patriots.com/club/mke-pats",
+        "https://fanclubs.patriots.com/club/patriots-fan-club-of-columbus",
+        "https://fanclubs.patriots.com/club/the-patriot-fans-of-jacksonville",
+        "https://fanclubs.patriots.com/club/pats-fans-parking-south-at-the-garage",
+        "https://fanclubs.patriots.com/search?page=1",
+        "https://fanclubs.patriots.com/search?page=13",
+        "https://fanclubs.patriots.com/search?page=2",
+        "https://fanclubs.patriots.com/search?page=3",
+        "https://fanclubs.patriots.com/search?page=4",
+        "https://fanclubs.patriots.com/search?page=5",
+        "https://fanclubs.patriots.com/search?page=6",
+        "https://fanclubs.patriots.com/search?page=22",
+        "https://fanclubs.patriots.com/search?page=7",
+        "https://fanclubs.patriots.com/club/patriotsarmynrw",
+        "https://fanclubs.patriots.com/search?page=8",
+        "https://fanclubs.patriots.com/search?page=9",
+        "https://fanclubs.patriots.com/search?page=10",
+        "https://fanclubs.patriots.com/search?page=11",
+        "https://fanclubs.patriots.com/search?page=12",
+        "https://fanclubs.patriots.com/search?page=14",
+        "https://fanclubs.patriots.com/search?page=15",
+        "https://fanclubs.patriots.com/search?page=16",
+        "https://fanclubs.patriots.com/search?page=17",
+        "https://fanclubs.patriots.com/search?page=18",
+        "https://fanclubs.patriots.com/search?page=19",
+        "https://fanclubs.patriots.com/club/patriots-fans-of-tampa-bay",
+        "https://fanclubs.patriots.com/search?page=20",
+        "https://fanclubs.patriots.com/search?page=21",
+        "https://fanclubs.patriots.com/search?page=23",
+        "https://fanclubs.patriots.com/search?page=24",
+        "https://fanclubs.patriots.com/search?page=25",
+        "https://fanclubs.patriots.com/search?page=26"
+      ],
+      "directories": [
+        {
+          "src": "https://fanclubs.patriots.com/search",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 502,
+          "acceptedRecords": 272,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-new-orleans-saints",
+      "team": "New Orleans Saints",
+      "namedWatchVenues": 3,
+      "tailgateHomeVenue": "Caesars Superdome",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Targeted venue pass; additional regional fan clubs remain to research. The older Frontier listing is labeled for an update.",
+      "sources": [
+        "https://www.shoalcreeksaloon.com/footballschedule",
+        "https://www.facebook.com/sdsaintsfans/photos/d41d8cd9/1409477724520208/",
+        "https://www.thefrontierchicago.com/events/saints-game-day-specials-9f42e638"
+      ],
+      "directories": [
+        {
+          "src": "https://www.shoalcreeksaloon.com/footballschedule",
+          "checkedAt": "2026-09-09",
+          "traversal": "targeted-public-venue-pass-more-clubs-pending",
+          "observedEntries": 3,
+          "acceptedRecords": 3,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-new-york-giants",
+      "team": "New York Giants",
+      "namedWatchVenues": 84,
+      "tailgateHomeVenue": "MetLife Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Retained from the prior directory pass; this release does not claim a new exhaustive review.",
+      "sources": [
+        "https://www.giants.com/barnetwork/"
+      ],
+      "directories": [
+        {
+          "src": "https://www.giants.com/barnetwork/",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 84,
+          "acceptedRecords": 84,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-new-york-jets",
+      "team": "New York Jets",
+      "namedWatchVenues": 83,
+      "tailgateHomeVenue": "MetLife Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Retained from the prior directory pass; this release does not claim a new exhaustive review.",
+      "sources": [
+        "https://www.newyorkjets.com/fans/bar-network"
+      ],
+      "directories": [
+        {
+          "src": "https://www.newyorkjets.com/fans/bar-network",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 87,
+          "acceptedRecords": 83,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-philadelphia-eagles",
+      "team": "Philadelphia Eagles",
+      "namedWatchVenues": 148,
+      "tailgateHomeVenue": "Lincoln Financial Field",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Retained from the prior directory pass; this release does not claim a new exhaustive review.",
+      "sources": [
+        "https://www.philadelphiaeagles.com/landing/map"
+      ],
+      "directories": [
+        {
+          "src": "https://www.philadelphiaeagles.com/landing/map",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-public-map-data",
+          "observedEntries": 151,
+          "acceptedRecords": 149,
+          "unresolvedEntries": 2
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "team": "Pittsburgh Steelers",
+      "namedWatchVenues": 69,
+      "tailgateHomeVenue": "Acrisure Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Both public map layers reviewed. Named bars and chapter addresses matched to named public businesses are included; other club venues need follow-up.",
+      "sources": [
+        "https://www.steelers.com/fans/snufanclubs/"
+      ],
+      "directories": [
+        {
+          "src": "https://www.steelers.com/fans/snufanclubs/",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-map-layers-club-venues-pending",
+          "observedEntries": 149,
+          "acceptedRecords": 82,
+          "unresolvedEntries": 67
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "team": "San Francisco 49ers",
+      "namedWatchVenues": 308,
+      "tailgateHomeVenue": "Levi's Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Both overlapping chapter layers reviewed. Private/unclear venues, malformed locations and conflicting cities excluded; remaining chapter details need follow-up.",
+      "sources": [
+        "https://www.nedw.org/",
+        "https://www.49ers.com/fans/faithful-fan-chapters"
+      ],
+      "directories": [
+        {
+          "src": "https://www.49ers.com/fans/faithful-fan-chapters",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 843,
+          "acceptedRecords": 341,
+          "unresolvedEntries": 158
+        }
+      ]
+    },
+    {
+      "teamKey": "hawks",
+      "team": "Seattle Seahawks",
+      "namedWatchVenues": 101,
+      "tailgateHomeVenue": "Lumen Field",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Washington Bar Alliance page reviewed; broader international coverage remains open.",
+      "sources": [
+        "https://www.seahawks.com/game-day/bar-alliance/"
+      ],
+      "directories": [
+        {
+          "src": "https://www.seahawks.com/game-day/bar-alliance/",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 101,
+          "acceptedRecords": 98,
+          "unresolvedEntries": 3
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-tampa-bay-buccaneers",
+      "team": "Tampa Bay Buccaneers",
+      "namedWatchVenues": 54,
+      "tailgateHomeVenue": "Raymond James Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Retained from the prior directory pass; this release does not claim a new exhaustive review.",
+      "sources": [
+        "https://www.buccaneers.com/budlight/bar-network"
+      ],
+      "directories": [
+        {
+          "src": "https://www.buccaneers.com/budlight/bar-network",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 54,
+          "acceptedRecords": 54,
+          "unresolvedEntries": 0
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-tennessee-titans",
+      "team": "Tennessee Titans",
+      "namedWatchVenues": 67,
+      "tailgateHomeVenue": "Nissan Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Full 70-entry map and 50-entry detailed page reviewed together. Club-only map pins excluded from watch venues.",
+      "sources": [
+        "https://www.tennesseetitans.com/fans/gameday-hangouts/"
+      ],
+      "directories": [
+        {
+          "src": "https://www.tennesseetitans.com/fans/gameday-hangouts/",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-map-and-detailed-page",
+          "observedEntries": 70,
+          "acceptedRecords": 18,
+          "unresolvedEntries": 5
+        }
+      ]
+    },
+    {
+      "teamKey": "nfl-nfl-washington-commanders",
+      "team": "Washington Commanders",
+      "namedWatchVenues": 25,
+      "tailgateHomeVenue": "Northwest Stadium",
+      "tailgateCenterAvailable": true,
+      "coverageNote": "Full 25-entry Rally Bar Network page reviewed.",
+      "sources": [
+        "https://www.commanders.com/fans/rally/rallybarnetwork"
+      ],
+      "directories": [
+        {
+          "src": "https://www.commanders.com/fans/rally/rallybarnetwork",
+          "checkedAt": "2026-09-09",
+          "traversal": "complete-visible-directory",
+          "observedEntries": 25,
+          "acceptedRecords": 25,
+          "unresolvedEntries": 0
+        }
+      ]
+    }
+  ]
+}

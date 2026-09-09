@@ -6,7 +6,7 @@
       "venue": "Buster's Sports Tavern",
       "src": "https://fanclubs.patriots.com/search?page=13",
       "discoveryStatus": "directory-listed",
-      "note": "One venue record for the Windjammer fan club and Buster\u2019s listing at the same address."
+      "note": "One venue record for the Windjammer fan club and Buster’s listing at the same address."
     },
     "releaseHold": true
   },
@@ -56,5 +56,125 @@
       "note": "The venue moved from Anaheim to Brea. Its Bayern gathering arrangement at the new location needs confirmation."
     },
     "releaseHold": true
+  },
+  {
+    "id": "checked-7e5fa98ba03b33cb",
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "patch": {
+      "disposition": "hold",
+      "statusSource": "https://fanclubs.patriots.com/club/the-patriot-fans-of-jacksonville",
+      "statusEvidence": "Watch-party scope is public bars/restaurants. This source names an activity facility, private membership venue, or airport location; no unrestricted named public bar is established.",
+      "note": "Held outside watch-party scope pending a named publicly accessible bar/restaurant. This does not affect stadium or arena tailgate mapping."
+    }
+  },
+  {
+    "id": "checked-5e979db694255fed",
+    "teamKey": "nfl-nfl-minnesota-vikings",
+    "patch": {
+      "disposition": "hold",
+      "statusSource": "https://www.vikings.com/fans/clubs-watch-bars",
+      "statusEvidence": "Watch-party scope is public bars/restaurants. This source names an activity facility, private membership venue, or airport location; no unrestricted named public bar is established.",
+      "note": "Held outside watch-party scope pending a named publicly accessible bar/restaurant. This does not affect stadium or arena tailgate mapping."
+    }
+  },
+  {
+    "id": "checked-8cefbe3e64871e9d",
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "patch": {
+      "disposition": "hold",
+      "statusSource": "https://fanclubs.patriots.com/search?page=1",
+      "statusEvidence": "Watch-party scope is public bars/restaurants. This source names an activity facility, private membership venue, or airport location; no unrestricted named public bar is established.",
+      "note": "Held outside watch-party scope pending a named publicly accessible bar/restaurant. This does not affect stadium or arena tailgate mapping."
+    }
+  },
+  {
+    "id": "checked-05a95bffc1a7ccac",
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "patch": {
+      "disposition": "hold",
+      "statusSource": "https://fanclubs.patriots.com/search?page=1",
+      "statusEvidence": "Watch-party scope is public bars/restaurants. This source names an activity facility, private membership venue, or airport location; no unrestricted named public bar is established.",
+      "note": "Held outside watch-party scope pending a named publicly accessible bar/restaurant. This does not affect stadium or arena tailgate mapping."
+    }
+  },
+  {
+    "id": "checked-79303172cfdd0d40",
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "patch": {
+      "disposition": "hold",
+      "statusSource": "https://fanclubs.patriots.com/search?page=2",
+      "statusEvidence": "Watch-party scope is public bars/restaurants. This source names an activity facility, private membership venue, or airport location; no unrestricted named public bar is established.",
+      "note": "Held outside watch-party scope pending a named publicly accessible bar/restaurant. This does not affect stadium or arena tailgate mapping."
+    }
+  },
+  {
+    "id": "checked-a73f7a00eb8b3993",
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "patch": {
+      "disposition": "hold",
+      "statusSource": "https://fanclubs.patriots.com/search?page=12",
+      "statusEvidence": "Watch-party scope is public bars/restaurants. This source names an activity facility, private membership venue, or airport location; no unrestricted named public bar is established.",
+      "note": "Held outside watch-party scope pending a named publicly accessible bar/restaurant. This does not affect stadium or arena tailgate mapping."
+    }
+  },
+  {
+    "id": "checked-1470f4f12df55b2f",
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "patch": {
+      "disposition": "hold",
+      "statusSource": "https://fanclubs.patriots.com/search?page=14",
+      "statusEvidence": "Watch-party scope is public bars/restaurants. This source names an activity facility, private membership venue, or airport location; no unrestricted named public bar is established.",
+      "note": "Held outside watch-party scope pending a named publicly accessible bar/restaurant. This does not affect stadium or arena tailgate mapping."
+    }
+  },
+  {
+    "id": "checked-eea92d69c63e9ed9",
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "patch": {
+      "disposition": "hold",
+      "statusSource": "https://fanclubs.patriots.com/search?page=14",
+      "statusEvidence": "Watch-party scope is public bars/restaurants. This source names an activity facility, private membership venue, or airport location; no unrestricted named public bar is established.",
+      "note": "Held outside watch-party scope pending a named publicly accessible bar/restaurant. This does not affect stadium or arena tailgate mapping."
+    }
+  },
+  {
+    "id": "checked-abbe2366e8160cd1",
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "patch": {
+      "disposition": "hold",
+      "statusSource": "https://fanclubs.patriots.com/search?page=17",
+      "statusEvidence": "Watch-party scope is public bars/restaurants. This source names an activity facility, private membership venue, or airport location; no unrestricted named public bar is established.",
+      "note": "Held outside watch-party scope pending a named publicly accessible bar/restaurant. This does not affect stadium or arena tailgate mapping."
+    }
+  },
+  {
+    "id": "checked-e696e9e06966d7c7",
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "patch": {
+      "disposition": "hold",
+      "statusSource": "https://fanclubs.patriots.com/search?page=17",
+      "statusEvidence": "Watch-party scope is public bars/restaurants. This source names an activity facility, private membership venue, or airport location; no unrestricted named public bar is established.",
+      "note": "Held outside watch-party scope pending a named publicly accessible bar/restaurant. This does not affect stadium or arena tailgate mapping."
+    }
+  },
+  {
+    "id": "checked-4b8ca7fefcea225f",
+    "teamKey": "nfl-nfl-new-england-patriots",
+    "patch": {
+      "disposition": "hold",
+      "statusSource": "https://fanclubs.patriots.com/search?page=25",
+      "statusEvidence": "Watch-party scope is public bars/restaurants. This source names an activity facility, private membership venue, or airport location; no unrestricted named public bar is established.",
+      "note": "Held outside watch-party scope pending a named publicly accessible bar/restaurant. This does not affect stadium or arena tailgate mapping."
+    }
+  },
+  {
+    "id": "checked-93fea291eae0cafd",
+    "teamKey": "nfl-nfl-philadelphia-eagles",
+    "patch": {
+      "disposition": "hold",
+      "statusSource": "https://www.philadelphiaeagles.com/landing/map",
+      "statusEvidence": "Watch-party scope is public bars/restaurants. This source names an activity facility, private membership venue, or airport location; no unrestricted named public bar is established.",
+      "note": "Held outside watch-party scope pending a named publicly accessible bar/restaurant. This does not affect stadium or arena tailgate mapping."
+    }
   }
 ]

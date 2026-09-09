@@ -9,7 +9,7 @@ const checkedAt=process.env.FANMAP_RESEARCH_DATE||new Date().toISOString().slice
 vm.runInNewContext(fs.readFileSync(path.join(root,'assets/data/team-catalog.js'),'utf8'),context);
 const metadata=context.window.FANMAP_CATALOG.metadata;
 const norm=s=>String(s||'').normalize('NFKD').toLowerCase().replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
-const city=s=>String(s||'').replace(/,?\s*(USA|US|United States(?: of America)?)\s*$/i,'').trim();
+const city=s=>String(s||'').replace(/(?:,\s*|\s+)(USA|US|United States(?: of America)?)\s*$/i,'').trim();
 const street=s=>norm(String(s||'').toLowerCase().replace(/\b(street|avenue|boulevard|drive|road|parkway|highway|suite|north|south|east|west)\b/g,w=>({street:'st',avenue:'ave',boulevard:'blvd',drive:'dr',road:'rd',parkway:'pkwy',highway:'hwy',suite:'ste',north:'n',south:'s',east:'e',west:'w'}[w])));
 const venue=s=>norm(String(s||'').replace(/^the\s+/i,'').replace(/&/g,'and'));
 const originalId=r=>'checked-'+crypto.createHash('sha256').update([r.teamKey,norm(r.venue),norm(r.addr||r.city)].join('|')).digest('hex').slice(0,16);
@@ -32,6 +32,12 @@ let incomingCount=0,added=0;
 function samePlace(a,b){
  if(a.teamKey!==b.teamKey||norm(a.city.replace(/\barea\b/ig,''))!==norm(b.city.replace(/\barea\b/ig,'')))return false;
  const sameVenue=venue(a.venue)===venue(b.venue),aa=street(a.addr),ba=street(b.addr);
+ // A directory may give the same street address with or without a neighborhood.
+ // Require the same venue and numbered street; retain explicitly different units.
+ const partsA=String(a.addr||'').split(','),partsB=String(b.addr||'').split(',');
+ const firstA=street(partsA[0]),firstB=street(partsB[0]);
+ const hasUnit=parts=>parts.slice(1).some(p=>/^\s*(?:suite\b|ste\b|unit\b|apt\b|#)/i.test(p));
+ if(sameVenue&&firstA===firstB&&firstA.length>=10&&/\d/.test(firstA)&&!hasUnit(partsA)&&!hasUnit(partsB))return true;
  const loose=s=>street(String(s||'').replace(/\b(street|st|avenue|ave|drive|dr|road|rd|boulevard|blvd)\b/ig,''));
  if(aa&&ba&&(aa===ba||(Math.min(aa.length,ba.length)>10&&(aa.startsWith(ba)||ba.startsWith(aa)))))return true;
  if(sameVenue&&aa&&ba&&loose(a.addr)===loose(b.addr))return true;

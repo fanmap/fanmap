@@ -2131,5 +2131,1501 @@
         "reason": "Undated Texas-West Virginia event page; year and current venue status unresolved. Not imported."
       }
     ]
+  },
+  {
+    "teamKey": "nfl-nfl-san-francisco-49ers",
+    "src": "https://www.49ers.com/fans/faithful-fan-chapters",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.49ers.com/fans/faithful-fan-chapters",
+      "https://www.google.com/maps/d/viewer?mid=18L7GAINZSlQ08PjAtFFLU2YCJH2LGqSg"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 843,
+    "acceptedRecords": 341,
+    "unresolved": [
+      {
+        "entry": "49ersFanZone.net",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Faithful Panama",
+        "reason": "No sourced city"
+      },
+      {
+        "entry": "49ers Forever Faithfuls",
+        "reason": "Source country/state conflicts with chapter city"
+      },
+      {
+        "entry": "Faithful to the Bay",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "THEE EMPIRE FAITHFUL LOS ANGELES COUNTY",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Niner Empire Illinois Chapter",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Niner Empire Portland",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Niner Empire Vancouver",
+        "reason": "Source country/state conflicts with chapter city"
+      },
+      {
+        "entry": "East Valley Faithful",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "360 Niner Empire",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "NINER ALLEY",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "San Francisco 49'ers Hawaii Fan Club",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Shore Faithful",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Ohana Niner Empire",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Niner Faithful Of Southern Ohio",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "NinerGangFaithfuls",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "49er Forever Faithfuls",
+        "reason": "Source country/state conflicts with chapter city"
+      },
+      {
+        "entry": "Niner Empire Jalisco 49ers Guadalajara",
+        "reason": "Source country/state conflicts with chapter city"
+      },
+      {
+        "entry": "Chapter 422",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "The Green Turtle Dover",
+        "reason": "No sourced city"
+      },
+      {
+        "entry": "Hawaii Niners Empire",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Rocky Top Niners",
+        "reason": "No sourced city"
+      },
+      {
+        "entry": "Club 49ers Mexico",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Club 49ers Jalisco",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Niner Empire Jalisco",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "49ersFanZone.net",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Niner Empire --Vanouver BC CHAPTER",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Faithful Panama",
+        "reason": "No sourced city"
+      },
+      {
+        "entry": "49ers Forever Faithfuls",
+        "reason": "Source country/state conflicts with chapter city"
+      },
+      {
+        "entry": "Faithful to the Bay",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "THEE EMPIRE FAITHFUL LOS ANGELES COUNTY",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Niner Empire Illinois Chapter",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Niner Squad",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Niner Empire Vancouver",
+        "reason": "Source country/state conflicts with chapter city"
+      },
+      {
+        "entry": "East Valley Faithful",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "360 Niner Empire",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "NINER ALLEY",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Shore Faithful",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Ohana Niner Empire",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Niner Faithful Of Southern Ohio",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "NinerGangFaithfuls",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "49er Forever Faithfuls",
+        "reason": "Source country/state conflicts with chapter city"
+      },
+      {
+        "entry": "Niner Empire Jalisco 49ers Guadalajara",
+        "reason": "Source country/state conflicts with chapter city"
+      },
+      {
+        "entry": "Chico faithfuls",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "The 518 Faithful",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Spare Time Clifton Park",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Niner Pamilya",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Spokane 49er Faithfuls",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "49ers Good Times",
+        "reason": "No sourced city"
+      },
+      {
+        "entry": "DFW Faithfuls",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Gate City Niner Empire",
+        "reason": "No sourced city"
+      },
+      {
+        "entry": "Niner Empire Australia",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Diamond State Niners",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Idaho Panhandle 49ers Faithful",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "PA Faithfuls",
+        "reason": "No sourced city"
+      },
+      {
+        "entry": "49ers Bloodline",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "SoCal Niner Faithful",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "Portland 49er Faithful",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "49'er Fo Life Booster Club",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "ATX49ersFans",
+        "reason": "No sourced city"
+      },
+      {
+        "entry": "Niners Army",
+        "reason": "No named public meetup venue"
+      },
+      {
+        "entry": "49ers of Alabama",
+        "reason": "No sourced city"
+      },
+      {
+        "entry": "The Niner Empire France",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "49ers Fans Bavaria",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Equipe Sports SF",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "San Francisco 49ers Brasil",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "a_49er fan",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "415 chapter",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "HairWorks",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Hawaii Niner Empire",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Niner Knights",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "49ers faithful",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Ladies Of The Empire",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Central Oregon 49ers Faithful",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Westside 9ers",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "305 FAITHFUL EMPIRE",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "49ers So Cal Faithfuls",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "NinerEmpire of Lancaster, PA",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Spartan Niner Empire Denver",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Shasta Niners",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "The Bell Ringers",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Hilmar Empire",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "618 Niner Empire",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Westchester County New York 49ers Fans",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "49ers Empire Galveston County Chapter",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "318 Niner Empire",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Niner Squad",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "707 FAITHFULS",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "NINER CORE",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "49ers Empire Iowa Chapter",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "The Niner Empire - 405 Faithfuls - Oklahoma City",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Mile High 49ers",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "307 FAITHFUL",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Niner 408 Squad",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Niners United",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Mad-town chapter",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "585faithful",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Niner Empire Cen Cal 559",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "49er's Faithful Aurora Co Chapter",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Spartan 9er Empire Connecticut",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "650 Niner Empire peninsula chapter",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Kansas City 49ers Faithful",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "49er Booster Club Carmichael Ca",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Santa Rosa Niner Empire",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Youngstown Faithful",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "South Florida Gold Blooded Empire",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "SacFaithful",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Arcadia Chapter",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "What a Rush (gold)",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "707 EMPIRE VALLEY",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Hampton Roads Niner Empire",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Ultimate 49er Empire",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Equipe Sports SF",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "49ers Brasil",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "San Francisco 49ers Brasil",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "True North Niners",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Niner Empire New Zealand",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "The Bell Ringers",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "707 FAITHFULS",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Niner Empire Houston",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Niner Empire Houston",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "307 FAITHFUL",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Niners United",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "San Francisco 49'ers Hawaii Fan Club",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "650 Niner Empire peninsula chapter",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "Kansas City 49ers Faithful",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "49er Faithful of Central Ohio",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "RWC 49ers",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "650 Fieles",
+        "reason": "Excluded: private/unclear venue, malformed location, or venue-city mismatch."
+      },
+      {
+        "entry": "49ers Italian Fan Club",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "49ers Brasil",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "49er Faithful UK",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "714 Niner Empire",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "9er Elite Niner Empire",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Niners Winers",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Niner Artillery Empire",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "49ers Room The Next Generation Of Faithfuls",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Niner Empire Saltillo",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "20916 Faithful",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Forever Faithful RGV (Rio Grande Valley)",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Connecticut Spartan Niner Empire",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "49ers Faithful Montana State",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "49ers Fan club",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Niner Empire Delano",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "NOCO 49ers",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "580 FAITHFUL",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "49er Faithful of Charlotte",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Niner Empire Portland",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Seattle Niners Faithful",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "9er Elite",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Niner Empire Southern Oregon Chapter",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Niner Empire Salem",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "49ers Italian Fan Club",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "714 Niner Empire",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Niner Empire Saltillo",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "580 FAITHFUL",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Club 49ers Nuevo León",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Las Vegas Gold Miners chapter",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-chicago-bears",
+    "src": "https://www.chicagobears.com/fan-zone/headquarters-bars",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.chicagobears.com/fan-zone/headquarters-bars"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 122,
+    "acceptedRecords": 122,
+    "unresolved": []
+  },
+  {
+    "teamKey": "nfl-nfl-chicago-bears",
+    "src": "https://www.chicagobears.com/fan-zone/bears-bars-rest-of-world",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.chicagobears.com/fan-zone/bears-bars-rest-of-world"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 52,
+    "acceptedRecords": 51,
+    "unresolved": [
+      {
+        "entry": "Chicago Bears watch venue",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-cincinnati-bengals",
+    "src": "https://www.bengals.com/fans/bengals-bars",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.bengals.com/fans/bengals-bars"
+    ],
+    "traversal": "complete-public-map-pass",
+    "observedEntries": 82,
+    "acceptedRecords": 79,
+    "unresolved": [
+      {
+        "entry": "The Coach House Concert Hall",
+        "reason": "Club-only, casino or event-space entry; no named public bar/restaurant"
+      },
+      {
+        "entry": "The Palmetto Room",
+        "reason": "Club-only, casino or event-space entry; no named public bar/restaurant"
+      },
+      {
+        "entry": "Chilis",
+        "reason": "Map pin is at Sea-Tac airport; unrestricted public bar access not established."
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-buffalo-bills",
+    "src": "https://www.buffalobills.com/fans/bills-backers/chapters",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.buffalobills.com/fans/bills-backers/chapters",
+      "https://maps.yinzcam.com/map/NFL_BUF_BARS#level=434"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 543,
+    "acceptedRecords": 525,
+    "unresolved": [
+      {
+        "entry": "Bills Backers of CNY",
+        "reason": "Venue not named separately from address",
+        "sourceId": 61035
+      },
+      {
+        "entry": "Erie County, PA Bills Backers",
+        "reason": "Venue not named separately from address",
+        "sourceId": 61202
+      },
+      {
+        "entry": "Ocho Rios Jamaica Backers",
+        "reason": "Venue not named separately from address",
+        "sourceId": 61251
+      },
+      {
+        "entry": "Bills Mafia Canada",
+        "reason": "Venue not named separately from address",
+        "sourceId": 63372
+      },
+      {
+        "entry": "The Clarkson Pump Mafia",
+        "reason": "Venue not named separately from address",
+        "sourceId": 63490
+      },
+      {
+        "entry": "FLX Bills Backers",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "North Idaho Bills Backers",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Niagara Falls Bills Backers",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Bills Bowling Backers",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Bills Backers of Northern Nevada",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Charlotte Bills Mafia-Impact Golf",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Freedom Run Winery Bills Backers",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Alabama Hotel Bills Backers",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Cooperstown Bills Mafia",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "The Helliwell Herd (Niagara Bills Backers)",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "ADK Bills Backers",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Bills Backers of Australia",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      },
+      {
+        "entry": "Bills Backers of Evansville",
+        "reason": "Outside public bar/restaurant scope, ambiguous venue, or conflicting city."
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-denver-broncos",
+    "src": "https://www.denverbroncos.com/fans/bar-network/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.denverbroncos.com/fans/bar-network/"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 45,
+    "acceptedRecords": 45,
+    "unresolved": []
+  },
+  {
+    "teamKey": "nfl-nfl-arizona-cardinals",
+    "src": "https://www.azcardinals.com/gameday/birds-and-brews",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.azcardinals.com/gameday/birds-and-brews"
+    ],
+    "traversal": "complete-public-map-pass",
+    "observedEntries": 8,
+    "acceptedRecords": 7,
+    "unresolved": [
+      {
+        "entry": "Gila River Resorts and Casino - Santan Mountain",
+        "reason": "Club-only, casino or event-space entry; no named public bar/restaurant"
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-los-angeles-chargers",
+    "src": "https://www.chargers.com/fan-zone/bars",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.chargers.com/fan-zone/bars"
+    ],
+    "traversal": "complete-page-and-map-public-venue-pass",
+    "observedEntries": 20,
+    "acceptedRecords": 4,
+    "unresolved": [
+      {
+        "entry": "Hooky Addison",
+        "reason": "Listed by team; confirm the specific public bar/restaurant within the entertainment facility."
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-kansas-city-chiefs",
+    "src": "https://www.chiefs.com/fans/chiefskingdomworldwide",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.chiefs.com/fans/chiefskingdomworldwide"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 30,
+    "acceptedRecords": 30,
+    "unresolved": []
+  },
+  {
+    "teamKey": "nfl-nfl-indianapolis-colts",
+    "src": "https://www.colts.com/clubs/find",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.colts.com/clubs/find"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 26,
+    "acceptedRecords": 20,
+    "unresolved": [
+      {
+        "entry": "Colts Disciples",
+        "reason": "Stadium/private lodge or no named public bar/restaurant"
+      },
+      {
+        "entry": "Masonic Colts",
+        "reason": "Stadium/private lodge or no named public bar/restaurant"
+      },
+      {
+        "entry": "Austrian Colts Crew",
+        "reason": "Stadium/private lodge or no named public bar/restaurant"
+      },
+      {
+        "entry": "Blue Crew Europe",
+        "reason": "Stadium/private lodge or no named public bar/restaurant"
+      },
+      {
+        "entry": "Germaniapolis Blue Nation",
+        "reason": "Stadium/private lodge or no named public bar/restaurant"
+      },
+      {
+        "entry": "Indianapolis Colts UK Fan Club",
+        "reason": "Stadium/private lodge or no named public bar/restaurant"
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-washington-commanders",
+    "src": "https://www.commanders.com/fans/rally/rallybarnetwork",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.commanders.com/fans/rally/rallybarnetwork"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 25,
+    "acceptedRecords": 25,
+    "unresolved": []
+  },
+  {
+    "teamKey": "nfl-nfl-dallas-cowboys",
+    "src": "https://www.dallascowboys.com/cowboys-central/texas-locations",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.dallascowboys.com/cowboys-central/texas-locations",
+      "https://www.google.com/maps/d/viewer?mid=1v61b54RXQJNVmqVZAe7s1rrX1isRjso"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 130,
+    "acceptedRecords": 130,
+    "unresolved": [],
+    "note": "Two source addresses without a comma were resolved in the supplemental Dallas input."
+  },
+  {
+    "teamKey": "nfl-nfl-miami-dolphins",
+    "src": "https://305sportsbabe.com/outoftownbars",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://305sportsbabe.com/outoftownbars",
+      "https://fanclubs.miamidolphins.com/"
+    ],
+    "traversal": "complete-community-directory-official-directory-unavailable",
+    "observedEntries": 18,
+    "acceptedRecords": 17,
+    "unresolved": [
+      {
+        "entry": "La Taragua",
+        "reason": "City needs follow-up from the source address"
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-jacksonville-jaguars",
+    "src": "https://www.boldcitybrigade.org/chapters",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.boldcitybrigade.org/chapters"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 17,
+    "acceptedRecords": 13,
+    "unresolved": [
+      {
+        "entry": "Jacksonville, FL",
+        "reason": "No public bar/restaurant, tailgate/casino, or older venue needs update."
+      },
+      {
+        "entry": "Orlando, FL",
+        "reason": "No public bar/restaurant, tailgate/casino, or older venue needs update."
+      },
+      {
+        "entry": "UK & Ireland",
+        "reason": "No public bar/restaurant, tailgate/casino, or older venue needs update."
+      },
+      {
+        "entry": "Washington DC",
+        "reason": "No public bar/restaurant, tailgate/casino, or older venue needs update."
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-cleveland-browns",
+    "src": "https://brownsbackersworldwide.com/chapters/dallas-area-browns-backers/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://brownsbackersworldwide.com/chapters/dallas-area-browns-backers/",
+      "https://brownsbackersworldwide.com/chapters/san-diego-browns-backers/",
+      "https://brownsbackersworldwide.com/chapters/mile-high-browns-backers/",
+      "https://brownsbackersworldwide.com/chapters/photo-city-browns-backers/",
+      "https://brownsbackersworldwide.com/chapters/fort-lauderdale-browns-backers/",
+      "https://brownsbackersworldwide.com/chapters/washington-dc-area-browns-backers-club/",
+      "https://brownsbackersworldwide.com/chapters/north-shore-browns-backers/",
+      "https://brownsbackersworldwide.com/chapters/space-city-dawg-pound/",
+      "https://brownsbackersworldwide.com/chapters/north-coast-browns-backers/",
+      "https://brownsbackersworldwide.com/chapters/jacksonville-browns-backers/",
+      "https://peleebrownsbackers.com/join/",
+      "https://www.hotlantabrowns.org/"
+    ],
+    "traversal": "targeted-public-venue-pass-more-clubs-pending",
+    "observedEntries": 16,
+    "acceptedRecords": 16,
+    "unresolved": [
+      {
+        "entry": "Browns Backers all-chapters directory",
+        "reason": "Full directory unavailable. Indexed chapter pages reviewed; remaining chapters need a subsequent pass.",
+        "src": "https://brownsbackersworldwide.com/all-chapters/"
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-dallas-cowboys",
+    "src": "https://www.dallascowboysfanclub.com/chapters/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.dallascowboysfanclub.com/chapters/",
+      "https://www.dallascowboysfanclub.com/chapters/",
+      "https://www.dallascowboys.com/cowboys-central/texas-locations"
+    ],
+    "traversal": "targeted-public-venue-pass-more-clubs-pending",
+    "observedEntries": 4,
+    "acceptedRecords": 4,
+    "unresolved": []
+  },
+  {
+    "teamKey": "nfl-nfl-detroit-lions",
+    "src": "https://sociallatitude.com/detroit-lions-watch-parties-at-social-latitude/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://sociallatitude.com/detroit-lions-watch-parties-at-social-latitude/",
+      "https://www.detroitlions.com/international/raise-the-roar-bar-tour"
+    ],
+    "traversal": "targeted-public-venue-pass-more-clubs-pending",
+    "observedEntries": 4,
+    "acceptedRecords": 4,
+    "unresolved": []
+  },
+  {
+    "teamKey": "nfl-nfl-houston-texans",
+    "src": "https://www.instagram.com/texansfanclubofsa/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.instagram.com/texansfanclubofsa/",
+      "https://www.instagram.com/texansfanclubofsa/",
+      "https://tomswatchbar.com/inglewood/best-houston-texans-bar-in-inglewood/"
+    ],
+    "traversal": "targeted-public-venue-pass-more-clubs-pending",
+    "observedEntries": 3,
+    "acceptedRecords": 3,
+    "unresolved": []
+  },
+  {
+    "teamKey": "nfl-nfl-las-vegas-raiders",
+    "src": "https://www.raiders.com/news/booster-clubs-of-the-raiders-a-special-community-within-raider-nation",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.raiders.com/news/booster-clubs-of-the-raiders-a-special-community-within-raider-nation",
+      "https://www.raiders.com/news/booster-clubs-of-the-raiders-a-special-community-within-raider-nation"
+    ],
+    "traversal": "targeted-public-venue-pass-more-clubs-pending",
+    "observedEntries": 4,
+    "acceptedRecords": 4,
+    "unresolved": [
+      {
+        "entry": "Booster club contact directory",
+        "reason": "Contact addresses are not public watch venues; individual venue announcements need follow-up.",
+        "src": "https://www.raiders.com/fans/find-a-club"
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-los-angeles-rams",
+    "src": "https://tomswatchbar.com/los-angeles/best-los-angeles-rams-bar-los-angeles/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://tomswatchbar.com/los-angeles/best-los-angeles-rams-bar-los-angeles/",
+      "https://www.instagram.com/socalramsboosterclub/"
+    ],
+    "traversal": "targeted-public-venue-pass-more-clubs-pending",
+    "observedEntries": 2,
+    "acceptedRecords": 2,
+    "unresolved": []
+  },
+  {
+    "teamKey": "nfl-nfl-new-orleans-saints",
+    "src": "https://www.shoalcreeksaloon.com/footballschedule",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.shoalcreeksaloon.com/footballschedule",
+      "https://www.facebook.com/sdsaintsfans/photos/d41d8cd9/1409477724520208/",
+      "https://www.thefrontierchicago.com/events/saints-game-day-specials-9f42e638"
+    ],
+    "traversal": "targeted-public-venue-pass-more-clubs-pending",
+    "observedEntries": 3,
+    "acceptedRecords": 3,
+    "unresolved": []
+  },
+  {
+    "teamKey": "nfl-nfl-las-vegas-raiders",
+    "src": "https://www.thedecoyhtx.com/event/raiders-vs-chargers/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.thedecoyhtx.com/event/raiders-vs-chargers/"
+    ],
+    "traversal": "venue-event-page",
+    "observedEntries": 1,
+    "acceptedRecords": 1,
+    "unresolved": []
+  },
+  {
+    "teamKey": "hawks",
+    "src": "https://www.seahawks.com/game-day/bar-alliance/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.seahawks.com/game-day/bar-alliance/"
+    ],
+    "traversal": "complete-visible-directory",
+    "observedEntries": 101,
+    "acceptedRecords": 98,
+    "unresolved": [
+      {
+        "entry": "Spokane Tribe Casino",
+        "reason": "Standalone casino or unresolved conflicting venue address."
+      },
+      {
+        "entry": "South Pacific",
+        "reason": "Standalone casino or unresolved conflicting venue address."
+      },
+      {
+        "entry": "Emerald Queen Casino",
+        "reason": "Standalone casino or unresolved conflicting venue address."
+      }
+    ]
+  },
+  {
+    "teamKey": "nfl-nfl-pittsburgh-steelers",
+    "src": "https://www.steelers.com/fans/snufanclubs/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.steelers.com/fans/snufanclubs/",
+      "https://maps.yinzcam.com/map/NFL_PIT_BARS#level=270",
+      "https://maps.yinzcam.com/map/NFL_PIT_BARS#level=481"
+    ],
+    "traversal": "complete-map-layers-club-venues-pending",
+    "observedEntries": 149,
+    "acceptedRecords": 82,
+    "unresolved": [
+      {
+        "entry": "East Coast Steelers",
+        "reason": "Fan-club name; public bar/restaurant not named"
+      },
+      {
+        "entry": "Steeler Nation Ireland",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.taphouse.ie/"
+      },
+      {
+        "entry": "Italian Steelers Nation",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/880571820848120/"
+      },
+      {
+        "entry": "Steelers Tapatios",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.instagram.com/steelerstapatios/"
+      },
+      {
+        "entry": "Richmond Steel City Connection",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://steelcityconnection.com/"
+      },
+      {
+        "entry": "Steelers.hu",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://steelers.hu/"
+      },
+      {
+        "entry": "First Coast Black and Gold",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.firstcoastblackandgold.com/"
+      },
+      {
+        "entry": "Steeler Fan Club Morelia",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/share/1GJ6HPMD4C/?mibextid=wwXIfr"
+      },
+      {
+        "entry": "915 Steelers Fan Club",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/profile.php?id=100063646896634"
+      },
+      {
+        "entry": "South Bay Steelers",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://southbaysteelersnation.com/"
+      },
+      {
+        "entry": "Steeler Fans of Minnesota",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.sfominn.com/"
+      },
+      {
+        "entry": "The El Paso Steelers Fan Club",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/61565436993549/about/"
+      },
+      {
+        "entry": "Steelers Club of San Diego",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.instagram.com/steelersclubofsandiego?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr"
+      },
+      {
+        "entry": "Čelični Srbija (Steelmen Serbia)",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.instagram.com/celicni.srbija/"
+      },
+      {
+        "entry": "Steelers Nation NYC",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/SteelersNationNYC/"
+      },
+      {
+        "entry": "Steelers Nation Germany e.V.",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.pittsburghsteelers.de/"
+      },
+      {
+        "entry": "Steelers St. Louis Fan Club",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/178569168723/"
+      },
+      {
+        "entry": "The Original Steelers Club of Chicago",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/chicagosteelers"
+      },
+      {
+        "entry": "Yinz in Boston",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.yinzinboston.com/"
+      },
+      {
+        "entry": "Steelers Nation Inland Empire",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/SteelersNationIE/"
+      },
+      {
+        "entry": "Cruachadóirí",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.steelers.com/fans/snufanclubs/"
+      },
+      {
+        "entry": "Yinzer Mob UK",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.instagram.com/yinzer_mob_uk/"
+      },
+      {
+        "entry": "Steelers GDL",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/GDLSTEELERS"
+      },
+      {
+        "entry": "Steelers Nation Cd. Jrz Chih",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/profile.php?id=61558113570324&sk=reels_tab"
+      },
+      {
+        "entry": "805 Steelers Fan Club",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/805Steelers/"
+      },
+      {
+        "entry": "Steel Pride Family LA",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/646512855735491/"
+      },
+      {
+        "entry": "U.K. Pittsburgh Steelers Fans",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.uksteelers.com/"
+      },
+      {
+        "entry": "Natural Born Steelers",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/NBS501"
+      },
+      {
+        "entry": "East Coast Steelers",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/share/174vW652Cc/"
+      },
+      {
+        "entry": "Roc City Steel Club",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.micginnys.com/steelers-fan-club"
+      },
+      {
+        "entry": "Fan of the Logo Atlanta",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://fanofthelogo.com/atlanta"
+      },
+      {
+        "entry": "Fan of the Logo Arizona",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://fanofthelogo.com/arizona"
+      },
+      {
+        "entry": "Fan of the Logo Pittsburgh",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://fanofthelogo.com/pittsburgh"
+      },
+      {
+        "entry": "Cards of Steel Dallas, TX",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://site-5a8p1cysi.godaddysites.com/"
+      },
+      {
+        "entry": "Ciudad de acero",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/share/17Z8BxjcC6/?mibextid=wwXIfr"
+      },
+      {
+        "entry": "Steelers Nation Fan Club at KingsX",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/SNFCKingsX/"
+      },
+      {
+        "entry": "South Texas Pittsburgh Steelers Fans",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://southtexassteelers.com/"
+      },
+      {
+        "entry": "Steeler Nation United Mexico",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/SteelNationUnitedMexico/"
+      },
+      {
+        "entry": "Souls of Steel Fan Club",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/543159583125762/?"
+      },
+      {
+        "entry": "Steelers Nation of Mesquite NV",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/318219400931433"
+      },
+      {
+        "entry": "Steel Aftermath Charlotte Inc.",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/108063036494740"
+      },
+      {
+        "entry": "Steelers Renegade México",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/profile.php/?id=61581218082333"
+      },
+      {
+        "entry": "Steel Curtain Satelite México",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/1393729801123810/?ref=share_group_link&rdid=jOXWvkg7aNMpAzfH#"
+      },
+      {
+        "entry": "Steelers Fan Club Juarez Mx",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/people/STEELERS-FAN-CLUB-JUAREZ-MX/100063717870133/"
+      },
+      {
+        "entry": "Stiller Gang Mx",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/share/1DAWbwRThE/"
+      },
+      {
+        "entry": "Steelers Nation United Angelópolis",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/profile.php?id=61585918217356&rdid=SkfNPxK6DsL4vmdW#"
+      },
+      {
+        "entry": "Jerzey Steeler Gemz",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/313658855676035/"
+      },
+      {
+        "entry": "El Toallero",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/898803930488729"
+      },
+      {
+        "entry": "DC Steelers Nation",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/DCSteelerNation/"
+      },
+      {
+        "entry": "Los Terribles/Steelers Fans JRZ",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/120804665252301/?ref=share_group_link&rdid=FLFYAu7ambVcoR68#"
+      },
+      {
+        "entry": "Steeleros Chihuahua",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/149064858569224/"
+      },
+      {
+        "entry": "Steelers Fans Bajio",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/share/15VqfwbfYyL/?mibextid=wwXIfr"
+      },
+      {
+        "entry": "Steelers Fans Coacalco",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/profile.php?id=61570852056782"
+      },
+      {
+        "entry": "Steelers Dynasty Monterrey",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/Steelersdynastymonterrey/"
+      },
+      {
+        "entry": "Steelers Queretaro",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/steelersqueretaro/"
+      },
+      {
+        "entry": "1st Ohio Steelers Nation Fan Club",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/892810076981955/?ref=share&mibextid=wwXIfr&rdid=2L59N3HbHHUk6EsS#"
+      },
+      {
+        "entry": "Steelers Heidelberg Germany Fan Club",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://steelersheidelberg.carrd.co/"
+      },
+      {
+        "entry": "Steelers Heidelberg Germany Fan Club",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://steelersheidelberg.carrd.co/"
+      },
+      {
+        "entry": "Steelers Family Mexico",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/ArangoRiders"
+      },
+      {
+        "entry": "Steelers Family Mexico",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/SteelersFamilyM"
+      },
+      {
+        "entry": "Cortina de Acero",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://cortinadeacero.es/"
+      },
+      {
+        "entry": "Black and Gold of Jax Beaches",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://sites.google.com/view/bgjaxbeach/home-page?fbclid=IwY2xjawN08gtleHRuA2FlbQIxMABicmlkETB6d2Z0TWswQWtGaVZyeDdVAR4vYoiOrZkEBGd_lU-QMRJseXWYO_5Ixtmnvv5GENl9jZdcQIG26YO8sg6lzg_aem_2NIjw7zCjpuVMA3H43SqlQ"
+      },
+      {
+        "entry": "Steel Aftermath Fan Club",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.steelaftermath2016.com/"
+      },
+      {
+        "entry": "Regios de Acero",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/RegiosdeAcero/"
+      },
+      {
+        "entry": "Acereros Juárez Steelers#1",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.facebook.com/groups/713239428756269/"
+      },
+      {
+        "entry": "Kansas City Steelers Fan Club",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.thekcsfc.com/"
+      },
+      {
+        "entry": "SPF ATL Chapter",
+        "reason": "Club layer reviewed; resolve its named public bar/restaurant from club page before importing.",
+        "src": "https://www.instagram.com/steelprideatlchapter?utm_source=qr&igsh=NDIxaWxkM3pwdHpt"
+      }
+    ],
+    "chapterAddressesMatchedToNamedPublicVenues": 15
+  },
+  {
+    "teamKey": "nfl-nfl-tennessee-titans",
+    "src": "https://www.tennesseetitans.com/fans/gameday-hangouts/",
+    "checkedAt": "2026-09-09",
+    "pagesReviewed": [
+      "https://www.tennesseetitans.com/fans/gameday-hangouts/"
+    ],
+    "traversal": "complete-map-and-detailed-page",
+    "observedEntries": 70,
+    "acceptedRecords": 18,
+    "unresolved": [
+      {
+        "entry": "Titans Spain",
+        "reason": "Club-only, casino or event-space entry; no named public bar/restaurant"
+      },
+      {
+        "entry": "German Titans e. V.",
+        "reason": "Club-only, casino or event-space entry; no named public bar/restaurant"
+      },
+      {
+        "entry": "Titans Brasil",
+        "reason": "Club-only, casino or event-space entry; no named public bar/restaurant"
+      },
+      {
+        "entry": "Titans Family Mexico",
+        "reason": "Club-only, casino or event-space entry; no named public bar/restaurant"
+      },
+      {
+        "entry": "Tennessee Titans UK Fans",
+        "reason": "Club-only, casino or event-space entry; no named public bar/restaurant"
+      }
+    ],
+    "recordsAlreadyCoveredByDetailedPage": 47
   }
 ]

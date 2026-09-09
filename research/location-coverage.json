@@ -2,21 +2,21 @@
   "summary": {
     "checkedAt": "2026-09-09",
     "totalTeams": 620,
-    "directoryLayerListings": 1837,
-    "newSourceCheckedVenues": 100,
-    "listedVenuesAwaitingConfirmation": 1737,
+    "directoryLayerListings": 3480,
+    "newSourceCheckedVenues": 99,
+    "listedVenuesAwaitingConfirmation": 3381,
     "teamsWithSourceCheckedVenues": 40,
-    "totalTeamsWithAnyRecords": 81,
-    "totalDirectoryRecords": 2437,
-    "totalNamedVenueListings": 2188,
-    "totalTeamsWithNamedVenues": 72,
-    "heldRecords": 11,
-    "teamsReviewed": 89,
+    "totalTeamsWithAnyRecords": 95,
+    "totalDirectoryRecords": 4080,
+    "totalNamedVenueListings": 3831,
+    "totalTeamsWithNamedVenues": 89,
+    "heldRecords": 23,
+    "teamsReviewed": 103,
     "statusCounts": {
-      "not-yet-reviewed": 531,
-      "listed-venues": 25,
+      "not-yet-reviewed": 517,
+      "listed-venues": 43,
       "source-checked-venues": 40,
-      "reviewed-needs-follow-up": 24
+      "reviewed-needs-follow-up": 20
     }
   },
   "teams": [
@@ -216,13 +216,26 @@
       "team": "Seattle Seahawks",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 4,
+      "listedVenueCount": 97,
+      "namedVenueCount": 101,
       "existingRecordCount": 36,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.seahawks.com/game-day/bar-alliance/"
+      ],
+      "reviews": [
+        {
+          "teamKey": "hawks",
+          "checkedAt": "2026-09-09",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.seahawks.com/game-day/bar-alliance/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "safc",
@@ -4054,13 +4067,26 @@
       "team": "Arizona Cardinals",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 7,
+      "namedVenueCount": 7,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.azcardinals.com/gameday/birds-and-brews"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-arizona-cardinals",
+          "checkedAt": "2026-09-09",
+          "result": "complete-public-map-pass",
+          "directoryPass": true,
+          "sources": [
+            "https://www.azcardinals.com/gameday/birds-and-brews"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-atlanta-falcons",
@@ -4131,11 +4157,12 @@
       "league": "NFL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 3,
-      "listedVenueCount": 0,
-      "namedVenueCount": 3,
+      "listedVenueCount": 523,
+      "namedVenueCount": 526,
       "existingRecordCount": 1,
       "sources": [
-        "https://dfwbillsbackers.org/about/"
+        "https://dfwbillsbackers.org/about/",
+        "https://www.buffalobills.com/fans/bills-backers/chapters"
       ],
       "reviews": [
         {
@@ -4147,6 +4174,16 @@
             "https://dfwbillsbackers.org/about/"
           ],
           "result": "venues-found"
+        },
+        {
+          "teamKey": "nfl-nfl-buffalo-bills",
+          "checkedAt": "2026-09-09",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.buffalobills.com/fans/bills-backers/chapters"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -4155,12 +4192,15 @@
       "team": "Chicago Bears",
       "category": "NFL",
       "league": "NFL",
-      "status": "reviewed-needs-follow-up",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 172,
+      "namedVenueCount": 172,
       "existingRecordCount": 0,
-      "sources": [],
+      "sources": [
+        "https://www.chicagobears.com/fan-zone/bears-bars-rest-of-world",
+        "https://www.chicagobears.com/fan-zone/headquarters-bars"
+      ],
       "reviews": [
         {
           "teamKey": "nfl-nfl-chicago-bears",
@@ -4171,6 +4211,26 @@
             "https://www.chicagobears.com/fan-zone/bears-bars"
           ],
           "note": "See directory-traversal.json for entry counts and unresolved details."
+        },
+        {
+          "teamKey": "nfl-nfl-chicago-bears",
+          "checkedAt": "2026-09-09",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.chicagobears.com/fan-zone/headquarters-bars"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        },
+        {
+          "teamKey": "nfl-nfl-chicago-bears",
+          "checkedAt": "2026-09-09",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.chicagobears.com/fan-zone/bears-bars-rest-of-world"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -4179,12 +4239,14 @@
       "team": "Cincinnati Bengals",
       "category": "NFL",
       "league": "NFL",
-      "status": "reviewed-needs-follow-up",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 79,
+      "namedVenueCount": 79,
       "existingRecordCount": 0,
-      "sources": [],
+      "sources": [
+        "https://www.bengals.com/fans/bengals-bars"
+      ],
       "reviews": [
         {
           "teamKey": "nfl-nfl-cincinnati-bengals",
@@ -4205,12 +4267,24 @@
       "league": "NFL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 2,
-      "listedVenueCount": 0,
-      "namedVenueCount": 2,
+      "listedVenueCount": 16,
+      "namedVenueCount": 18,
       "existingRecordCount": 10,
       "sources": [
         "https://brownsbackersworldwide.com/chapters/phx-area-browns-backers/",
-        "https://brownsbackersworldwide.com/chapters/1st-state-dawg-pound/"
+        "https://brownsbackersworldwide.com/chapters/1st-state-dawg-pound/",
+        "https://brownsbackersworldwide.com/chapters/dallas-area-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/san-diego-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/mile-high-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/photo-city-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/fort-lauderdale-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/washington-dc-area-browns-backers-club/",
+        "https://brownsbackersworldwide.com/chapters/north-shore-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/space-city-dawg-pound/",
+        "https://brownsbackersworldwide.com/chapters/north-coast-browns-backers/",
+        "https://brownsbackersworldwide.com/chapters/jacksonville-browns-backers/",
+        "https://peleebrownsbackers.com/join/",
+        "https://www.hotlantabrowns.org/"
       ],
       "reviews": [
         {
@@ -4223,6 +4297,16 @@
             "https://brownsbackersworldwide.com/chapters/phx-area-browns-backers/"
           ],
           "result": "venues-found"
+        },
+        {
+          "teamKey": "nfl-nfl-cleveland-browns",
+          "checkedAt": "2026-09-09",
+          "result": "targeted-public-venue-pass-more-clubs-pending",
+          "directoryPass": true,
+          "sources": [
+            "https://brownsbackersworldwide.com/chapters/dallas-area-browns-backers/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -4231,25 +4315,51 @@
       "team": "Dallas Cowboys",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 132,
+      "namedVenueCount": 132,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.dallascowboys.com/cowboys-central/texas-locations",
+        "https://www.dallascowboysfanclub.com/chapters/"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-dallas-cowboys",
+          "checkedAt": "2026-09-09",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.dallascowboys.com/cowboys-central/texas-locations"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        },
+        {
+          "teamKey": "nfl-nfl-dallas-cowboys",
+          "checkedAt": "2026-09-09",
+          "result": "targeted-public-venue-pass-more-clubs-pending",
+          "directoryPass": true,
+          "sources": [
+            "https://www.dallascowboysfanclub.com/chapters/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-denver-broncos",
       "team": "Denver Broncos",
       "category": "NFL",
       "league": "NFL",
-      "status": "reviewed-needs-follow-up",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 45,
+      "namedVenueCount": 45,
       "existingRecordCount": 0,
-      "sources": [],
+      "sources": [
+        "https://www.denverbroncos.com/fans/bar-network/"
+      ],
       "reviews": [
         {
           "teamKey": "nfl-nfl-denver-broncos",
@@ -4262,6 +4372,16 @@
           ],
           "reason": "Official bar directory and linked map opened, but rendered no bar rows. Network eligibility requires every game with sound; do not create a generic network location.",
           "result": "needs-interactive-directory-review"
+        },
+        {
+          "teamKey": "nfl-nfl-denver-broncos",
+          "checkedAt": "2026-09-09",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.denverbroncos.com/fans/bar-network/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -4270,13 +4390,27 @@
       "team": "Detroit Lions",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 4,
+      "namedVenueCount": 4,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://sociallatitude.com/detroit-lions-watch-parties-at-social-latitude/",
+        "https://www.detroitlions.com/international/raise-the-roar-bar-tour"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-detroit-lions",
+          "checkedAt": "2026-09-09",
+          "result": "targeted-public-venue-pass-more-clubs-pending",
+          "directoryPass": true,
+          "sources": [
+            "https://sociallatitude.com/detroit-lions-watch-parties-at-social-latitude/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-green-bay-packers",
@@ -4321,39 +4455,80 @@
       "team": "Houston Texans",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 3,
+      "namedVenueCount": 3,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.instagram.com/texansfanclubofsa/",
+        "https://tomswatchbar.com/inglewood/best-houston-texans-bar-in-inglewood/"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-houston-texans",
+          "checkedAt": "2026-09-09",
+          "result": "targeted-public-venue-pass-more-clubs-pending",
+          "directoryPass": true,
+          "sources": [
+            "https://www.instagram.com/texansfanclubofsa/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-indianapolis-colts",
       "team": "Indianapolis Colts",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 20,
+      "namedVenueCount": 20,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.colts.com/clubs/find"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-indianapolis-colts",
+          "checkedAt": "2026-09-09",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.colts.com/clubs/find"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-jacksonville-jaguars",
       "team": "Jacksonville Jaguars",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 13,
+      "namedVenueCount": 13,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.boldcitybrigade.org/chapters",
+        "https://www.instagram.com/bcbtampabay/"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-jacksonville-jaguars",
+          "checkedAt": "2026-09-09",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.boldcitybrigade.org/chapters"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-kansas-city-chiefs",
@@ -4362,11 +4537,12 @@
       "league": "NFL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 1,
-      "listedVenueCount": 0,
-      "namedVenueCount": 1,
+      "listedVenueCount": 30,
+      "namedVenueCount": 31,
       "existingRecordCount": 0,
       "sources": [
-        "https://chiefsfansofdallas.com/"
+        "https://chiefsfansofdallas.com/",
+        "https://www.chiefs.com/fans/chiefskingdomworldwide"
       ],
       "reviews": [
         {
@@ -4378,6 +4554,16 @@
             "https://chiefsfansofdallas.com/"
           ],
           "result": "venues-found"
+        },
+        {
+          "teamKey": "nfl-nfl-kansas-city-chiefs",
+          "checkedAt": "2026-09-09",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.chiefs.com/fans/chiefskingdomworldwide"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -4386,52 +4572,116 @@
       "team": "Las Vegas Raiders",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 5,
+      "namedVenueCount": 5,
       "existingRecordCount": 1,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.raiders.com/news/booster-clubs-of-the-raiders-a-special-community-within-raider-nation",
+        "https://www.thedecoyhtx.com/event/raiders-vs-chargers/"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-las-vegas-raiders",
+          "checkedAt": "2026-09-09",
+          "result": "targeted-public-venue-pass-more-clubs-pending",
+          "directoryPass": true,
+          "sources": [
+            "https://www.raiders.com/news/booster-clubs-of-the-raiders-a-special-community-within-raider-nation"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        },
+        {
+          "teamKey": "nfl-nfl-las-vegas-raiders",
+          "checkedAt": "2026-09-09",
+          "result": "venue-event-page",
+          "directoryPass": true,
+          "sources": [
+            "https://www.thedecoyhtx.com/event/raiders-vs-chargers/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-los-angeles-chargers",
       "team": "Los Angeles Chargers",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 19,
+      "namedVenueCount": 19,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.chargers.com/fan-zone/bars"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-los-angeles-chargers",
+          "checkedAt": "2026-09-09",
+          "result": "complete-public-map-pass",
+          "directoryPass": true,
+          "sources": [
+            "https://www.chargers.com/fan-zone/bars"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-los-angeles-rams",
       "team": "Los Angeles Rams",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 2,
+      "namedVenueCount": 2,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://tomswatchbar.com/los-angeles/best-los-angeles-rams-bar-los-angeles/",
+        "https://www.instagram.com/socalramsboosterclub/"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-los-angeles-rams",
+          "checkedAt": "2026-09-09",
+          "result": "targeted-public-venue-pass-more-clubs-pending",
+          "directoryPass": true,
+          "sources": [
+            "https://tomswatchbar.com/los-angeles/best-los-angeles-rams-bar-los-angeles/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-miami-dolphins",
       "team": "Miami Dolphins",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 17,
+      "namedVenueCount": 17,
       "existingRecordCount": 1,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://305sportsbabe.com/outoftownbars"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-miami-dolphins",
+          "checkedAt": "2026-09-09",
+          "result": "complete-community-directory-official-directory-unavailable",
+          "directoryPass": true,
+          "sources": [
+            "https://305sportsbabe.com/outoftownbars"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-minnesota-vikings",
@@ -4440,8 +4690,8 @@
       "league": "NFL",
       "status": "source-checked-venues",
       "sourceCheckedVenueCount": 4,
-      "listedVenueCount": 46,
-      "namedVenueCount": 50,
+      "listedVenueCount": 45,
+      "namedVenueCount": 49,
       "existingRecordCount": 0,
       "sources": [
         "https://www.vikings.com/fans/clubs-watch-bars"
@@ -4475,9 +4725,9 @@
       "category": "NFL",
       "league": "NFL",
       "status": "source-checked-venues",
-      "sourceCheckedVenueCount": 5,
-      "listedVenueCount": 261,
-      "namedVenueCount": 266,
+      "sourceCheckedVenueCount": 4,
+      "listedVenueCount": 252,
+      "namedVenueCount": 256,
       "existingRecordCount": 1,
       "sources": [
         "https://nepfca.com/",
@@ -4546,13 +4796,28 @@
       "team": "New Orleans Saints",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 3,
+      "namedVenueCount": 3,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.shoalcreeksaloon.com/footballschedule",
+        "https://www.facebook.com/sdsaintsfans/photos/d41d8cd9/1409477724520208/",
+        "https://www.thefrontierchicago.com/events/saints-game-day-specials-9f42e638"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-new-orleans-saints",
+          "checkedAt": "2026-09-09",
+          "result": "targeted-public-venue-pass-more-clubs-pending",
+          "directoryPass": true,
+          "sources": [
+            "https://www.shoalcreeksaloon.com/footballschedule"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-new-york-giants",
@@ -4613,8 +4878,8 @@
       "league": "NFL",
       "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 149,
-      "namedVenueCount": 149,
+      "listedVenueCount": 148,
+      "namedVenueCount": 148,
       "existingRecordCount": 0,
       "sources": [
         "https://www.philadelphiaeagles.com/landing/map"
@@ -4637,12 +4902,14 @@
       "team": "Pittsburgh Steelers",
       "category": "NFL",
       "league": "NFL",
-      "status": "reviewed-needs-follow-up",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 69,
+      "namedVenueCount": 69,
       "existingRecordCount": 1,
-      "sources": [],
+      "sources": [
+        "https://www.steelers.com/fans/snufanclubs/"
+      ],
       "reviews": [
         {
           "teamKey": "nfl-nfl-pittsburgh-steelers",
@@ -4654,6 +4921,16 @@
           ],
           "reason": "Official directory opened, but named venue rows unavailable in rendered text. Dallas club search lead names Longhorn Icehouse; primary club page/address still needs verification.",
           "result": "needs-interactive-directory-review"
+        },
+        {
+          "teamKey": "nfl-nfl-pittsburgh-steelers",
+          "checkedAt": "2026-09-09",
+          "result": "complete-map-layers-club-venues-pending",
+          "directoryPass": true,
+          "sources": [
+            "https://www.steelers.com/fans/snufanclubs/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -4664,11 +4941,12 @@
       "league": "NFL",
       "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 1,
-      "namedVenueCount": 1,
+      "listedVenueCount": 308,
+      "namedVenueCount": 308,
       "existingRecordCount": 1,
       "sources": [
-        "https://www.nedw.org/"
+        "https://www.nedw.org/",
+        "https://www.49ers.com/fans/faithful-fan-chapters"
       ],
       "reviews": [
         {
@@ -4681,6 +4959,16 @@
           ],
           "reason": "Niner Empire Desert West homepage names G57 in Glendale as home venue but retains older Dave & Buster’s food/menu and dog-friendly copy, and no street address was present. Hold until current address and venue resolved.",
           "result": "conflicting-venue-copy"
+        },
+        {
+          "teamKey": "nfl-nfl-san-francisco-49ers",
+          "checkedAt": "2026-09-09",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.49ers.com/fans/faithful-fan-chapters"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
         }
       ]
     },
@@ -4715,26 +5003,52 @@
       "team": "Tennessee Titans",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 67,
+      "namedVenueCount": 67,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.tennesseetitans.com/fans/gameday-hangouts/"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-tennessee-titans",
+          "checkedAt": "2026-09-09",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.tennesseetitans.com/fans/gameday-hangouts/"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nfl-nfl-washington-commanders",
       "team": "Washington Commanders",
       "category": "NFL",
       "league": "NFL",
-      "status": "not-yet-reviewed",
+      "status": "listed-venues",
       "sourceCheckedVenueCount": 0,
-      "listedVenueCount": 0,
-      "namedVenueCount": 0,
+      "listedVenueCount": 25,
+      "namedVenueCount": 25,
       "existingRecordCount": 0,
-      "sources": [],
-      "reviews": []
+      "sources": [
+        "https://www.commanders.com/fans/rally/rallybarnetwork"
+      ],
+      "reviews": [
+        {
+          "teamKey": "nfl-nfl-washington-commanders",
+          "checkedAt": "2026-09-09",
+          "result": "complete-visible-directory",
+          "directoryPass": true,
+          "sources": [
+            "https://www.commanders.com/fans/rally/rallybarnetwork"
+          ],
+          "note": "See directory-traversal.json for entry counts and unresolved details."
+        }
+      ]
     },
     {
       "teamKey": "nhl-nhl-anaheim-ducks",

@@ -1582,5 +1582,245 @@
       "https://www.texasexes.org/chapters-and-networks/find-chapter-or-network"
     ],
     "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-san-francisco-49ers",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.49ers.com/fans/faithful-fan-chapters"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-chicago-bears",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.chicagobears.com/fan-zone/headquarters-bars"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-chicago-bears",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.chicagobears.com/fan-zone/bears-bars-rest-of-world"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-buffalo-bills",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.buffalobills.com/fans/bills-backers/chapters"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-denver-broncos",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.denverbroncos.com/fans/bar-network/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-arizona-cardinals",
+    "checkedAt": "2026-09-09",
+    "result": "complete-public-map-pass",
+    "directoryPass": true,
+    "sources": [
+      "https://www.azcardinals.com/gameday/birds-and-brews"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-los-angeles-chargers",
+    "checkedAt": "2026-09-09",
+    "result": "complete-public-map-pass",
+    "directoryPass": true,
+    "sources": [
+      "https://www.chargers.com/fan-zone/bars"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-kansas-city-chiefs",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.chiefs.com/fans/chiefskingdomworldwide"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-indianapolis-colts",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.colts.com/clubs/find"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-washington-commanders",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.commanders.com/fans/rally/rallybarnetwork"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-dallas-cowboys",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.dallascowboys.com/cowboys-central/texas-locations"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-miami-dolphins",
+    "checkedAt": "2026-09-09",
+    "result": "complete-community-directory-official-directory-unavailable",
+    "directoryPass": true,
+    "sources": [
+      "https://305sportsbabe.com/outoftownbars"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-jacksonville-jaguars",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.boldcitybrigade.org/chapters"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-cleveland-browns",
+    "checkedAt": "2026-09-09",
+    "result": "targeted-public-venue-pass-more-clubs-pending",
+    "directoryPass": true,
+    "sources": [
+      "https://brownsbackersworldwide.com/chapters/dallas-area-browns-backers/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-dallas-cowboys",
+    "checkedAt": "2026-09-09",
+    "result": "targeted-public-venue-pass-more-clubs-pending",
+    "directoryPass": true,
+    "sources": [
+      "https://www.dallascowboysfanclub.com/chapters/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-detroit-lions",
+    "checkedAt": "2026-09-09",
+    "result": "targeted-public-venue-pass-more-clubs-pending",
+    "directoryPass": true,
+    "sources": [
+      "https://sociallatitude.com/detroit-lions-watch-parties-at-social-latitude/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-houston-texans",
+    "checkedAt": "2026-09-09",
+    "result": "targeted-public-venue-pass-more-clubs-pending",
+    "directoryPass": true,
+    "sources": [
+      "https://www.instagram.com/texansfanclubofsa/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-las-vegas-raiders",
+    "checkedAt": "2026-09-09",
+    "result": "targeted-public-venue-pass-more-clubs-pending",
+    "directoryPass": true,
+    "sources": [
+      "https://www.raiders.com/news/booster-clubs-of-the-raiders-a-special-community-within-raider-nation"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-los-angeles-rams",
+    "checkedAt": "2026-09-09",
+    "result": "targeted-public-venue-pass-more-clubs-pending",
+    "directoryPass": true,
+    "sources": [
+      "https://tomswatchbar.com/los-angeles/best-los-angeles-rams-bar-los-angeles/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-new-orleans-saints",
+    "checkedAt": "2026-09-09",
+    "result": "targeted-public-venue-pass-more-clubs-pending",
+    "directoryPass": true,
+    "sources": [
+      "https://www.shoalcreeksaloon.com/footballschedule"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-las-vegas-raiders",
+    "checkedAt": "2026-09-09",
+    "result": "venue-event-page",
+    "directoryPass": true,
+    "sources": [
+      "https://www.thedecoyhtx.com/event/raiders-vs-chargers/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "hawks",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.seahawks.com/game-day/bar-alliance/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-pittsburgh-steelers",
+    "checkedAt": "2026-09-09",
+    "result": "complete-map-layers-club-venues-pending",
+    "directoryPass": true,
+    "sources": [
+      "https://www.steelers.com/fans/snufanclubs/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
+  },
+  {
+    "teamKey": "nfl-nfl-tennessee-titans",
+    "checkedAt": "2026-09-09",
+    "result": "complete-visible-directory",
+    "directoryPass": true,
+    "sources": [
+      "https://www.tennesseetitans.com/fans/gameday-hangouts/"
+    ],
+    "note": "See directory-traversal.json for entry counts and unresolved details."
   }
 ]

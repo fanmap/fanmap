@@ -1,14 +1,397 @@
 {
   "checkedAt": "2026-09-09",
-  "previousResearchRecords": 1616,
+  "previousResearchRecords": 1848,
   "inputFiles": [
-    "eagles.json",
-    "international-college.json",
-    "leeds.json"
+    "49ers.json",
+    "bears-world.json",
+    "bears.json",
+    "bengals-map.json",
+    "bills.json",
+    "broncos.json",
+    "cardinals-map.json",
+    "chargers-map.json",
+    "chargers-page.json",
+    "chiefs.json",
+    "colts.json",
+    "commanders.json",
+    "cowboys.json",
+    "dolphins.json",
+    "jaguars.json",
+    "manual-cleveland-browns.json",
+    "manual-dallas-cowboys.json",
+    "manual-detroit-lions.json",
+    "manual-houston-texans.json",
+    "manual-las-vegas-raiders.json",
+    "manual-los-angeles-rams.json",
+    "manual-new-orleans-saints.json",
+    "raiders-decoy.json",
+    "seahawks.json",
+    "steelers-resolved.json",
+    "steelers.json",
+    "titans-html.json",
+    "titans-map.json"
   ],
-  "incomingRecords": 232,
-  "addedRecords": 232,
-  "duplicateRecordsMerged": 0,
-  "resultRecords": 1848,
-  "duplicates": []
+  "incomingRecords": 1706,
+  "addedRecords": 1655,
+  "duplicateRecordsMerged": 51,
+  "resultRecords": 3503,
+  "duplicates": [
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Moe's Original BBQ Aurora",
+      "city": "Aurora, CO",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Champions Bar and Grill",
+      "city": "Honolulu, HI",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "The Point, Boston, MA",
+      "city": "Boston, MA",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Hacienda heights Pizza Co",
+      "city": "Industry, CA",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Fatsos",
+      "city": "San Antonio, TX",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "SPOT 805 Bar and Grill",
+      "city": "Brawley, CA",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Off the Wagon",
+      "city": "New York, NY",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "The Beer Guys Saloon",
+      "city": "Star, ID",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Vikingo Bar",
+      "city": "Aguascalientes, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "California Prime Rib Restaurant",
+      "city": "Celaya, GTO, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Alitas Tuxtla",
+      "city": "Tuxtla Gutiérrez, Chiapas, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "El Coliseo Karaoke Sports Bar",
+      "city": "Chihuahua, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "34 Billiards & Drinks",
+      "city": "Chihuahua, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Restaurante Buffalucas Constitución",
+      "city": "Durango, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Beer Garden Satélite",
+      "city": "Naucalpan de Juárez, Estado de México, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Sport Bar Silver Fox",
+      "city": "Juarez, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Taproom Mastache",
+      "city": "Merida, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "La Gambeta Terraza Sports Bar",
+      "city": "Mexicali, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Buffalo Wild Wings Insurgentes",
+      "city": "Monterrey, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Bar John Barrigón",
+      "city": "Puebla, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Cervecería La Huérfana",
+      "city": "Saltillo, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Bar VIC",
+      "city": "San Luis Potosi, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Titan Sports Bar",
+      "city": "Tijuana, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Revel Wings Carranza",
+      "city": "Toluca, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Wings Army del Urban Center",
+      "city": "Xalapa-Enríquez, Veracruz, Mexico",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "The Green",
+      "city": "Manchester, United Kingdom",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Hooters",
+      "city": "Evansville, IN",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "George's Pizza 2920 E. Florida Ave. Hemet, CA",
+      "city": "Hemet, CA",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "BEACHFRONT 301",
+      "city": "Huntington Beach, CA",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Buffalo Wild Wings  Jonesboro, AR",
+      "city": "Jonesboro, AR",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Buffalo Wild Wings",
+      "city": "Honolulu, HI",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Pins and Ales",
+      "city": "Tooele, UT",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Buffalo Wild Wings (Newport)",
+      "city": "Newport, KY",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-san-francisco-49ers",
+      "venue": "Prescott Office Resturant",
+      "city": "Prescott, AZ",
+      "keptId": null,
+      "source": "https://www.49ers.com/fans/faithful-fan-chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-chicago-bears",
+      "venue": "Wrigley’s Chicago Bar",
+      "city": "Golden, CO",
+      "keptId": null,
+      "source": "https://www.chicagobears.com/fan-zone/bears-bars-rest-of-world"
+    },
+    {
+      "teamKey": "nfl-nfl-buffalo-bills",
+      "venue": "Seven Grill Sports Bar",
+      "city": "Port Charlotte, FL",
+      "keptId": null,
+      "source": "https://www.buffalobills.com/fans/bills-backers/chapters"
+    },
+    {
+      "teamKey": "nfl-nfl-buffalo-bills",
+      "venue": "Erie Ale Works",
+      "city": "Erie, PA",
+      "keptId": null,
+      "source": "https://www.buffalobills.com/fans/bills-backers/chapters"
+    },
+    {
+      "teamKey": "hawks",
+      "venue": "Touchdowns",
+      "city": "Shoreline, WA",
+      "keptId": null,
+      "source": "https://www.seahawks.com/game-day/bar-alliance/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "Carolina Ale House",
+      "city": "Greenville, SC",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "Dilworth Neighborhood and Grille",
+      "city": "Charlotte, NC",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "Pit and Tap",
+      "city": "Wilmette, IL",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "The Prytania Bar",
+      "city": "New Orleans, LA",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "Bombshells",
+      "city": "San Antonio, TX",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "The Bon Aire",
+      "city": "Austin, TX",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "Bender's Sports Bar and Grill",
+      "city": "Westminster, CO",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "Giff's Barbecue",
+      "city": "Kanab, UT",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "PT's Place",
+      "city": "Las Vegas, NV",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "Harold's Cave Creek Corral",
+      "city": "Cave Creek, AZ",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "Sugar Bush Sports Bar and Grill",
+      "city": "Jonesboro, GA",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "Frank N Stein's",
+      "city": "Sugar Land, TX",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    },
+    {
+      "teamKey": "nfl-nfl-pittsburgh-steelers",
+      "venue": "Mike's Beer Bar",
+      "city": "Pittsburgh, PA",
+      "keptId": null,
+      "source": "https://www.steelers.com/fans/snufanclubs/"
+    }
+  ]
 }
