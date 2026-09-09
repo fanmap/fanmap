@@ -58,9 +58,9 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           if test -f .github/apply-account-access.py; then git rm .github/apply-account-access.py; fi
-          git add index.html assets/web-app.js
+          git add index.html assets/web-app.js assets/access.js tests/account-browser.py
           if ! git diff --cached --quiet; then
-            git commit -m "Apply tested account-required entry and private-data adapter"
+            git commit -m "Apply tested account-required access changes"
             git push origin HEAD:account-required
           fi
       - uses: actions/upload-artifact@v4
