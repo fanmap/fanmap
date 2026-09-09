@@ -1,0 +1,18 @@
+# Location and stadium corpora must NEVER be published by GitHub Pages/Jekyll.
+exclude:
+  - assets/data
+  - research
+  - scripts
+  - tests
+  - supabase
+  - docs
+  - README.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - test-results
+  - fanmap-source.zip
+  - _private
+  - public-build
+  - Gemfile
+  - Gemfile.lock

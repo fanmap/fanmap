@@ -1,7 +1,7 @@
-name: FanMap web checks
+name: FanMap account access checks
 on:
   push:
-    branches: [website-functional, main]
+    branches: [account-required, main]
   workflow_dispatch:
 permissions:
   contents: read
@@ -9,9 +9,11 @@ defaults:
   run:
     shell: bash
 jobs:
-  web:
+  access:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -20,19 +22,22 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Check generated release sources
+      - name: Prepare account-required application
         run: |
           set -euo pipefail
+          if test -f .github/apply-account-access.py; then python .github/apply-account-access.py; fi
           node scripts/build-web-assets.cjs
+          node scripts/build-member-data.cjs
+          node scripts/build-public.cjs
+          node --check assets/access.js
           node --check assets/web-app.js
-          git diff --exit-code -- assets/data/team-base.js assets/vendor/
           mkdir -p test-results
-      - name: Run every directory and core regression with failure propagation
+      - name: Verify server policy and preserve directory regressions
         run: |
           set -euo pipefail
           npm install --no-save --package-lock=false jsdom@30.0.1
-          node tests/web-app.cjs 2>&1 | tee test-results/core.log
-          for test in tests/location-import.cjs tests/nfl-watch-scope.cjs tests/team-presentation.cjs tests/verified-locations.cjs; do
+          node --test tests/account-api.mjs 2>&1 | tee test-results/access-api.log
+          for test in tests/web-app.cjs tests/location-import.cjs tests/nfl-watch-scope.cjs tests/team-presentation.cjs tests/verified-locations.cjs; do
             node "$test" 2>&1 | tee -a test-results/core.log
           done
       - name: Install browser test engines
@@ -40,20 +45,30 @@ jobs:
           set -euo pipefail
           python -m pip install playwright==1.55.0
           python -m playwright install --with-deps chromium webkit
-      - name: Test desktop and mobile browser flows
+      - name: Test guest denial and simulated member adapter
         run: |
           set -euo pipefail
-          python -m http.server 8765 --bind 127.0.0.1 > test-results/server.log 2>&1 &
-          FANMAP_BROWSER=chromium python tests/web-browser.py 2>&1 | tee test-results/chromium.log
-          FANMAP_BROWSER=webkit python tests/web-browser.py 2>&1 | tee test-results/webkit.log
-      - name: Package checked source
-        if: always()
-        run: git archive --format=zip HEAD -o fanmap-source.zip
+          python -m http.server 8765 --bind 127.0.0.1 --directory public-build > test-results/server.log 2>&1 &
+          FANMAP_BROWSER=chromium python tests/account-browser.py 2>&1 | tee test-results/chromium.log
+          FANMAP_BROWSER=webkit python tests/account-browser.py 2>&1 | tee test-results/webkit.log
+      - name: Commit tested conversion only on the access branch
+        if: github.ref == 'refs/heads/account-required'
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if test -f .github/apply-account-access.py; then git rm .github/apply-account-access.py; fi
+          git add index.html assets/web-app.js
+          if ! git diff --cached --quiet; then
+            git commit -m "Apply tested account-required entry and private-data adapter"
+            git push origin HEAD:account-required
+          fi
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: fanmap-web-checks
+          name: fanmap-access-checks
           path: |
-            test-results/
-            fanmap-source.zip
+            test-results/*guest.png
+            test-results/*.log
           retention-days: 3
+      # Never upload repository archives, private payloads or member screenshots.

@@ -1,0 +1,4 @@
+# Auth is verified against Supabase Auth inside the function before any data read.
+# This supports publishable keys and current signing-key configurations.
+[functions.fanmap-access]
+verify_jwt = false
