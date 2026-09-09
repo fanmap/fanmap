@@ -32,6 +32,19 @@ const contrast = (a, b) => {
 };
 assert.equal(keys.length, 620);
 assert.deepEqual(Object.keys(palettes).sort(), keys, 'Every selectable team has a palette');
+// Source-reviewed regression cases catch feed alternates replacing real team colors.
+const expectedPairs={
+ arkansas:['#9D2235','#FFFFFF'],
+ asu:['#8C1D40','#FFC627'],
+ 'college-acc-clemson':['#F56600','#522D80'],
+ 'college-sec-lsu':['#461D7C','#FDD023'],
+ 'college-big-ten-michigan':['#00274C','#FFCB05'],
+ 'mlb-mlb-toronto-blue-jays':['#134A8E','#1D2D5C'],
+ 'cricket-ipl-rajasthan-royals':['#E50693','#1226AB'],
+ 'cricket-bbl-perth-scorchers':['#F55000','#000000']
+};
+for(const[key,pair]of Object.entries(expectedPairs))assert.deepEqual([palettes[key].primary,palettes[key].secondary],pair,key+': documented primary/secondary pair');
+
 for (const key of keys) {
   const p = palettes[key];
   assert.notEqual(p.primary, p.secondary, key + ': pin and swatch colors are distinct');
@@ -143,6 +156,18 @@ const tick = () => new Promise(resolve => setImmediate(resolve));
     assert.equal(style.getPropertyValue('--team'), p.primary, key + ': actual signed-in primary');
     assert.equal(style.getPropertyValue('--team-secondary'), p.secondary, key + ': actual signed-in secondary');
     assert.equal(style.getPropertyValue('--team-on-primary'), p.onPrimary, key + ': actual signed-in button text');
+    // A stale change event from the now-hidden welcome picker cannot repaint a locked account.
+    const other = key === 'asu' ? 'arkansas' : 'asu';
+    choose(other);
+    assert.equal(style.getPropertyValue('--team'), p.primary, key + ': hidden picker preserves locked primary');
+    assert.equal(style.getPropertyValue('--team-secondary'), p.secondary, key + ': hidden picker preserves locked secondary');
+    assert.equal((await w.api('session')).profile.team, key, key + ': hidden picker preserves account team');
+    assert.equal(w.eval('S.key'), key, key + ': hidden picker preserves active school');
+    w.selectSchool(other);
+    assert.equal(w.eval('S.key'), key, key + ': selectSchool cannot switch a locked account');
+    assert.equal(style.getPropertyValue('--team'), p.primary, key + ': rejected switch preserves appearance');
+    await assert.rejects(w.api('account', {method: 'POST', body: {name: 'Second profile', team: other, confirm: true}}), /locked/);
+    assert.equal((await w.api('session')).profile.team, key, key + ': duplicate signup preserves team');
   }
   function checkCenter(expected, label) {
     const map = w.eval('lmap');
@@ -157,20 +182,27 @@ const tick = () => new Promise(resolve => setImmediate(resolve));
     w.ensureTailgateMap();
   }
 
-  // These cover maroon/gold, purple/gold, and white/gold, where accessible text must differ from the pin.
+  // Browsing at login must preview the selected team before any account exists.
+  assert.equal((await w.api('session')).profile, null);
+  // Traverse every selectable team, including palettes whose accessible text differs from the pin.
   const swatchRule = Array.from(w.document.styleSheets).flatMap(sheet => Array.from(sheet.cssRules))
     .find(rule => rule.selectorText === '.school-swatch');
   assert.ok(swatchRule, 'The picker swatch has a shipped style rule');
   // jsdom does not resolve inherited custom properties into computed colors. Verify their actual
-  // DOM values and CSS binding; browser rendering checks cover the resulting pixels.
+  // DOM values and CSS binding. This test does not claim to verify browser pixels.
   assert.match(swatchRule.style.background, /var\(--sc\)/);
   assert.match(swatchRule.style.color, /var\(--scText/);
-  for (const key of ['asu', 'nba-nba-los-angeles-lakers', 'soccer-la-liga-real-madrid']) {
+  for (const key of keys) {
     choose(key);
     const card = $('schoolList').querySelector('[data-team="' + key + '"]');
     const swatch = card.querySelector('.school-swatch'), pin = swatch.querySelector('svg');
     assert.equal(card.style.getPropertyValue('--sc'), palettes[key].primary);
     assert.equal(card.style.getPropertyValue('--scText'), palettes[key].secondary);
+    const previewStyle=w.document.documentElement.style;
+    assert.equal(previewStyle.getPropertyValue('--team'),palettes[key].primary,key+': login preview primary follows selection');
+    assert.equal(previewStyle.getPropertyValue('--team-secondary'),palettes[key].secondary,key+': login preview secondary follows selection');
+    assert.equal(previewStyle.getPropertyValue('--team-on-primary'),palettes[key].onPrimary,key+': login button follows selection');
+    assert.equal((await w.api('session')).profile,null,'Previewing a color does not create or lock an account');
     assert.equal(pin.namespaceURI, 'http://www.w3.org/2000/svg', 'Team pin is an SVG, not a platform-colored emoji');
     assert.equal(pin.querySelector('path').getAttribute('fill'), 'currentColor');
     assert.equal(swatch.querySelector('img'), null, 'Picker colors do not depend on remote imagery');
@@ -251,7 +283,7 @@ const tick = () => new Promise(resolve => setImmediate(resolve));
   assert.equal(w.eval('lmarker'), null);
   await tick();
   assert.deepEqual(errors, [], 'No runtime errors');
-  process.stdout.write('PASS: 620 palettes and stadium decisions; accessible text; exact picker colors; real signup themes; Leaflet stadium/click/reset; no-home pin guard; GPS save and account teardown.\n');
+  process.stdout.write('PASS: 620 palettes and stadium decisions; accessible text; all 620 login previews; locked signup themes; Leaflet stadium/click/reset; no-home pin guard; GPS save and account teardown.\n');
 })().catch(error => {
   process.stderr.write(error.stack + '\n');
   process.exitCode = 1;

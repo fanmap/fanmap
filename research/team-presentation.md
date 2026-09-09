@@ -1,12 +1,12 @@
 # Team colors and stadium map defaults
 
-Updated September 8, 2026. This data covers all 620 selectable teams. It is separate from the watch-party directory: a stadium map center does not count as a researched watch-party venue.
+Updated September 9, 2026. This data covers all 620 selectable teams. It is separate from the watch-party directory: a stadium map center does not count as a researched watch-party venue.
 
 ## Colors
 
-`team-color-palettes.json` stores each team's primary/secondary interface pair, source, and selection basis. The nine previously approved Fan Map palettes are preserved. Published team colors are used where available; some clubs have several brand colors or no public numeric standard, so the record explains the representative pair chosen for this interface.
+`team-color-palettes.json` stores each team's primary/secondary interface pair, source, and selection basis. The color audit corrected 159 palettes: legacy demo shades, unrelated alternate-kit colors, and reversed primary/secondary order. `team-color-corrections.json` records each before/after pair and its source. Published team colors are used where available; some clubs have several brand colors or no public numeric standard, so the record explains the pair chosen for this interface. Exact source values take precedence over generic feed alternate colors. Palettes follow the identity shown in the team selector; a rebrand must not silently change colors under an older team name.
 
-`scripts/build-team-colors.cjs` generates `assets/data/team-colors.js`. The picker uses the primary color as its background and the secondary color for the pin. The app uses those same colors for buttons, accents, and map pins. Button text has at least 4.5:1 contrast; small colored text receives a lighter tint where needed on the dark surface. These readability tokens do not change the actual primary/secondary swatches.
+`scripts/build-team-colors.cjs` generates `assets/data/team-colors.js`. The picker uses the primary color as its background and the secondary color for the pin. The login screen previews those same colors immediately as fans browse teams, and the app keeps them for buttons, accents, and map pins after signup. Hidden login controls cannot retheme a locked account. Button text has at least 4.5:1 contrast; small colored text receives a lighter tint where needed on the dark surface. These readability tokens do not change the actual primary/secondary swatches.
 
 ## Stadiums
 
@@ -19,7 +19,7 @@ Northwestern uses Martin Stadium until October 2, 2026, then changes to the anno
 ## Validation and maintenance
 
 - Both build scripts require exactly 620 unique catalog keys and reject missing provenance or invalid values.
-- `tests/team-presentation.cjs` checks palettes, text contrast, signup themes, SVG picker pins, real Leaflet map centers/click/reset behavior, location selection, account-deletion races, and the planned stadium transition.
+- `tests/team-presentation.cjs` checks palettes, text contrast, login previews before signup, locked account themes, SVG picker pins, real Leaflet map centers/click/reset behavior, location selection, account-deletion races, and the planned stadium transition.
 - `tests/verified-locations.cjs` continues to check the watch-party directory, locked team selection, driving directions, and SMS invites.
 
 Update the source JSON before rebuilding its browser asset. Confirm home-venue changes against a current club or league announcement; some sports API venue assignments were stale during this pass.

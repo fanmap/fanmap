@@ -1,0 +1,2073 @@
+{
+  "reviewedAt": "2026-09-09",
+  "count": 159,
+  "changes": [
+    {
+      "key": "college-acc-clemson",
+      "before": {
+        "primary": "#F56600",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#F56600",
+        "secondary": "#522D80"
+      },
+      "source": "https://www.clemson.edu/brand/color/",
+      "basis": "Official Clemson Orange and Regalia purple; restores the distinctive purple secondary instead of generic white."
+    },
+    {
+      "key": "college-acc-georgia-tech",
+      "before": {
+        "primary": "#B3A369",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#B39051",
+        "secondary": "#051E39"
+      },
+      "source": "https://ramblinwreck.com/georgia-tech-athletics-brand-guidelines",
+      "basis": "Current athletics web/digital palette publishes Tech Gold and Navy Blue; updates the old gold and restores navy as the distinctive accompanying team color."
+    },
+    {
+      "key": "college-acc-louisville",
+      "before": {
+        "primary": "#C9001F",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#AD0000",
+        "secondary": "#000000"
+      },
+      "source": "https://brand.louisville.edu/visual/color",
+      "basis": "Official Cardinal Red and black primary colors; replaces the ESPN red variation and white secondary."
+    },
+    {
+      "key": "college-acc-miami-fl",
+      "before": {
+        "primary": "#F47423",
+        "secondary": "#035131"
+      },
+      "after": {
+        "primary": "#F47321",
+        "secondary": "#005030"
+      },
+      "source": "https://ucomm.miami.edu/_assets/pdf/tools-and-resources/umiami-visual-identity-guide.pdf",
+      "basis": "Official Miami visual identity manual publishes Miami orange and Miami green screen hex values; corrects both ESPN approximations."
+    },
+    {
+      "key": "college-acc-north-carolina",
+      "before": {
+        "primary": "#7BAFD4",
+        "secondary": "#13294B"
+      },
+      "after": {
+        "primary": "#7BAFD4",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/unc.sidearmsports.com/documents/2015/4/20/CarolinaAthletics_BrandingGuidelines-Final.pdf",
+      "basis": "Carolina athletics guide pp. 12–13 identifies Carolina Blue and white as primary; navy is explicitly a supporting secondary color, so the team pair uses blue and white."
+    },
+    {
+      "key": "college-acc-smu",
+      "before": {
+        "primary": "#A80000",
+        "secondary": "#0033A1"
+      },
+      "after": {
+        "primary": "#D70000",
+        "secondary": "#0033A1"
+      },
+      "source": "https://smumustangs.com/sports/2016/6/8/ot-smu-licensing-html.aspx",
+      "basis": "Official SMU athletics licensing page publishes red #D70000 and blue #0033A1; replaces ESPN's red while preserving blue."
+    },
+    {
+      "key": "college-acc-syracuse",
+      "before": {
+        "primary": "#000E54",
+        "secondary": "#FF431B"
+      },
+      "after": {
+        "primary": "#FF431B",
+        "secondary": "#000E54"
+      },
+      "source": "https://designsystem.syr.edu/documentation/utilities/color/",
+      "basis": "Official Syracuse design system publishes orange and blue hex values; Syracuse athletics also names Orange #FF431B in its team fact sheets. Reorders the pair so orange is primary."
+    },
+    {
+      "key": "college-acc-virginia-tech",
+      "before": {
+        "primary": "#6A2C3E",
+        "secondary": "#CF4520"
+      },
+      "after": {
+        "primary": "#861F41",
+        "secondary": "#E5751F"
+      },
+      "source": "https://brand.vt.edu/identity/color.html",
+      "basis": "Current official color guide loads brand_color_sheet.txt from assets.cms.vt.edu; its primary base colors are Chicago Maroon #861F41 and Burnt Orange #E5751F. Replaces the ESPN variants."
+    },
+    {
+      "key": "college-acc-wake-forest",
+      "before": {
+        "primary": "#CEB888",
+        "secondary": "#2C2A29"
+      },
+      "after": {
+        "primary": "#CEB886",
+        "secondary": "#000000"
+      },
+      "source": "https://godeacs.com/sports/2019/11/24/logos-branding",
+      "basis": "The current athletics color-palette graphic (uploaded 2025-06-24) specifies Gold RGB 206,184,134 and Black RGB 0,0,0. These convert exactly to #CEB886 and #000000; the graphic does not publish hex."
+    },
+    {
+      "key": "college-american-army",
+      "before": {
+        "primary": "#000000",
+        "secondary": "#D3BC8D"
+      },
+      "after": {
+        "primary": "#2C2A29",
+        "secondary": "#D3BC8D"
+      },
+      "source": "https://www.dropbox.com/s/s2ktu0xn2mnad99/ArmyBrand_Guidelines_1819.pdf?dl=1",
+      "basis": "Army West Point 2018-19 official brand guidelines primary color palette explicitly publishes Army Black HTML #2C2A29 and USMA Gold HTML #D3BC8D; selected the traditional black/gold athletics pair."
+    },
+    {
+      "key": "college-american-east-carolina",
+      "before": {
+        "primary": "#582C83",
+        "secondary": "#FFC72C"
+      },
+      "after": {
+        "primary": "#592A8A",
+        "secondary": "#FDC82F"
+      },
+      "source": "https://licensing.ecu.edu/trademarks/",
+      "basis": "Official trademark colors: purple Pantone 268 and coated gold Pantone 123, with published hexadecimal values."
+    },
+    {
+      "key": "college-american-north-texas",
+      "before": {
+        "primary": "#068F33",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#00853E",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/meangreensports.com/documents/2026/8/25/UNT_Athletics_Branding_Guide_2026.pdf",
+      "basis": "Official August 2026 Athletics guide pages 5–6 primary UNT Green and White exact published hex; black, Flying Worm lime and gray are secondary."
+    },
+    {
+      "key": "college-big-12-arizona",
+      "before": {
+        "primary": "#CC0033",
+        "secondary": "#003366"
+      },
+      "after": {
+        "primary": "#AB0520",
+        "secondary": "#0C234B"
+      },
+      "source": "https://marcom.arizona.edu/brand-guidelines/colors",
+      "basis": "Official primary brand colors Arizona Red and Arizona Blue, with published HEX values. Corrects legacy alternate shades while retaining the red/navy identity. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-12-byu",
+      "before": {
+        "primary": "#0047BA",
+        "secondary": "#002E5D"
+      },
+      "after": {
+        "primary": "#0047BA",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://brand.byu.edu/colors",
+      "basis": "Official guide publishes Royal #0047BA and White #FFFFFF and specifically recognizes royal as a primary athletics color. Selects royal/white for the recognizable Cougars pair; navy remains another approved brand color. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-12-cincinnati",
+      "before": {
+        "primary": "#000000",
+        "secondary": "#E00122"
+      },
+      "after": {
+        "primary": "#E00122",
+        "secondary": "#000000"
+      },
+      "source": "https://www.uc.edu/about/marketing-communications/brand-guide/visual-identity/color.html",
+      "basis": "Official UC primary colors are red and black, with published HEX #E00122 and #000000. Uses red as the identifying hue and black as its distinctive partner. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-12-iowa-state",
+      "before": {
+        "primary": "#AE192D",
+        "secondary": "#FFC72A"
+      },
+      "after": {
+        "primary": "#C8102E",
+        "secondary": "#F1BE48"
+      },
+      "source": "https://marcom.iastate.edu/color-palette",
+      "basis": "Official Iowa State signature Cardinal PMS 186C and Gold PMS 142C, using the published HEX values. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-12-kansas-state",
+      "before": {
+        "primary": "#330A57",
+        "secondary": "#E2E3E4"
+      },
+      "after": {
+        "primary": "#512888",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.k-state.edu/communications-marketing/brand-style/visual-language/color/",
+      "basis": "Official K-State primary palette publishes K-State Purple #512888 and White #FFFFFF. The official logo-system page shows the athletics Powercat in purple/white applications. Selects purple/white; gray is an additional supporting neutral, not a replacement for the core pair. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-12-texas-tech",
+      "before": {
+        "primary": "#DA291C",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#C30020",
+        "secondary": "#000000"
+      },
+      "source": "https://texastech.com/sports/2026/5/4/texas-tech-athletics-identity",
+      "basis": "Current Texas Tech Athletics identity page, dated 2026-05-04, publishes Raider Red #C30020 and Rider Black #000000. Uses the current athletics specification rather than the different university scarlet or ESPN shade. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-12-ucf",
+      "before": {
+        "primary": "#000000",
+        "secondary": "#B4A169"
+      },
+      "after": {
+        "primary": "#000000",
+        "secondary": "#FFC904"
+      },
+      "source": "https://www.ucf.edu/brand/brand-assets/colors/",
+      "basis": "Official UCF guide identifies black and bright gold and publishes black #000000 plus bright-gold digital choices #FFC904/#FFCC00. Selects its first published bright-gold HEX. The metallic gold is explicitly designated for print, not digital media. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-ten-indiana",
+      "before": {
+        "primary": "#970310",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#990000",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://brand.iu.edu/iu-brand/visual-identity/color.html",
+      "basis": "Official IU primary colors are Crimson #990000 and Cream #FFFFFF. The guide explicitly explains that cream is represented as white for design reproduction, so the white secondary is intentional. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-ten-iowa",
+      "before": {
+        "primary": "#231F20",
+        "secondary": "#FCD116"
+      },
+      "after": {
+        "primary": "#000000",
+        "secondary": "#FFCD00"
+      },
+      "source": "https://brand.uiowa.edu/color",
+      "basis": "Official Iowa Brand Manual publishes Black #000000 and Gold PMS 116 C #FFCD00. Retains the recognizable black/gold pair and corrects both previous shades. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-ten-maryland",
+      "before": {
+        "primary": "#CE1126",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#CE1126",
+        "secondary": "#FCD116"
+      },
+      "source": "https://umterps.com/sports/2024/10/10/maryland-athletics-brand-guidelines",
+      "basis": "Official Maryland Athletics Brand Guidelines publish four core colors. Selects Red #CE1126 and Gold #FCD116 as the two distinctive colors of the flag-inspired identity; black and white remain approved supporting components. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-ten-michigan-state",
+      "before": {
+        "primary": "#173F35",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#18453B",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://brand.msu.edu/visual/color-palette",
+      "basis": "Official MSU Brand Studio publishes Spartan Green #18453B and White #FFFFFF. Green/white are the core team pair. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-ten-minnesota",
+      "before": {
+        "primary": "#5E0A2F",
+        "secondary": "#FAB41C"
+      },
+      "after": {
+        "primary": "#7A0019",
+        "secondary": "#FFCC33"
+      },
+      "source": "https://umarcomm.umn.edu/resources/colors-and-type",
+      "basis": "Official University of Minnesota primary palette explicitly publishes UMN Maroon #7A0019 and UMN Gold #FFCC33 for digital use. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-ten-nebraska",
+      "before": {
+        "primary": "#E31937",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#D00000",
+        "secondary": "#F5F1E7"
+      },
+      "source": "https://ucomm.unl.edu/brand/templates-assets/colors/",
+      "basis": "Official Nebraska primary colors are Scarlet #D00000 and Cream #F5F1E7. The university explicitly distinguishes cream from white and recommends the scarlet/cream pair. Uses published current university digital values; athletics-specific PDF was unavailable for exact-hex confirmation. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-ten-northwestern",
+      "before": {
+        "primary": "#492F92",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#4E2A84",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.northwestern.edu/brand/visual-identity/color-palettes/",
+      "basis": "Official Northwestern Purple is explicitly #4E2A84. The guide specifies white as the companion/background color; selects the traditional purple/white team pair. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-ten-oregon",
+      "before": {
+        "primary": "#00934B",
+        "secondary": "#FFF41B"
+      },
+      "after": {
+        "primary": "#007030",
+        "secondary": "#FEE11A"
+      },
+      "source": "https://communications.uoregon.edu/uo-brand/visual-identity/colors",
+      "basis": "Official UO primary brand colors are UO Green #007030 and UO Yellow #FEE11A. Uses the explicitly published digital brand pair; individual athletics uniform greens vary. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-ten-purdue",
+      "before": {
+        "primary": "#CEB888",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#CFB991",
+        "secondary": "#000000"
+      },
+      "source": "https://www.purdue.edu/brand-studio/brand/visual-identity/",
+      "basis": "Current official Purdue Brand Studio publishes Boilermaker Gold #CFB991 and Black #000000 as the primary colors. Purdue's unified university/athletics identity uses the Motion P and gold/black. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-ten-rutgers",
+      "before": {
+        "primary": "#CE0E2D",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#CC0033",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://it.rutgers.edu/digital-accessibility/accessible-web-content/rutgers-branding-color-compatibility-tool/",
+      "basis": "Current Rutgers Visual Identity primary palette explicitly publishes Rutgers Red #CC0033, Black #000000 and White #FFFFFF. Choose scarlet/white for the core two-color school representation; the previous gray selection relied on a departmental toolbox and was not established as a core athletics secondary. Official athletics also uses the scarlet/white pairing in its traditional scrimmage identity at https://scarletknights.com/news/2013/8/12/Rutgers_Volleyball_Announces_Scarlet_and_White_Scrimmage . Reviewed 2026-09-09."
+    },
+    {
+      "key": "college-big-ten-usc",
+      "before": {
+        "primary": "#9D2235",
+        "secondary": "#FFC72C"
+      },
+      "after": {
+        "primary": "#990000",
+        "secondary": "#FFCC00"
+      },
+      "source": "https://identity.usc.edu/identity/color/",
+      "basis": "Official USC Brand and Identity Guidelines explicitly publish Cardinal HEX #990000 and Gold HEX #FFCC00 as equally important primary colors. Uses the published current university digital pair; the older athletics logo-slick color values were not independently retrievable. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-ten-washington",
+      "before": {
+        "primary": "#33006F",
+        "secondary": "#E8D3A2"
+      },
+      "after": {
+        "primary": "#32006E",
+        "secondary": "#B7A57A"
+      },
+      "source": "https://www.washington.edu/brand/brand-elements/colors/",
+      "basis": "Current official UW digital palette explicitly publishes dominant Husky Purple HEX #32006E and Husky Gold HEX #B7A57A. Uses the printed HEX fields: the gold RGB field converts to a different hex, so it was not substituted. Earlier athletics guide contains an older purple specification. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-big-ten-wisconsin",
+      "before": {
+        "primary": "#A00000",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#C5050C",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://brand.wisc.edu/visual-identity/colors/",
+      "basis": "Official UW-Madison primary colors are Badger Red #C5050C and White #FFFFFF, explicitly published for digital media. Reviewed 2026-09-08."
+    },
+    {
+      "key": "college-conference-usa-middle-tennessee",
+      "before": {
+        "primary": "#036EB7",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#0066CC",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://goblueraiders.com/documents/download/2025/6/5/mt_athletic_brand_guide_2025.pdf",
+      "basis": "2025 athletics guide page 8 explicitly defines digital/non-apparel primary blue as RGB 0/102/204 and white 255/255/255. Converted the published digital RGB to 0066CC; excluded apparel-specific blue formulas."
+    },
+    {
+      "key": "college-conference-usa-new-mexico-state",
+      "before": {
+        "primary": "#7E141B",
+        "secondary": "#231F20"
+      },
+      "after": {
+        "primary": "#7E141B",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://nmstatesports.com/sports/2015/7/30/GEN_2014010125.aspx ; https://brand.nmsu.edu/logos-marks/athletics.html ; https://s3.amazonaws.com/sidearm.sites/conferenceusa.com/documents/2023/6/22/CUSA_Brand_ID_Guide_2023_6_22.pdf",
+      "basis": "Athletics explicitly identifies the Aggies with crimson and white. Replaced black with white and retained athletics crimson 7E141B, also published as HEX in the conference guide. The official NMSU brand site explicitly distinguishes athletics crimson from academic Aggie crimson."
+    },
+    {
+      "key": "college-independent-notre-dame",
+      "before": {
+        "primary": "#062340",
+        "secondary": "#C99700"
+      },
+      "after": {
+        "primary": "#0C2340",
+        "secondary": "#C99700"
+      },
+      "source": "https://onmessage.nd.edu/athletics-branding/colors/",
+      "basis": "Official athletics ND Blue and Standard Dome Gold exact hexadecimal values; green is an accent, white supporting."
+    },
+    {
+      "key": "college-independent-uconn",
+      "before": {
+        "primary": "#0C2340",
+        "secondary": "#A2AAAD"
+      },
+      "after": {
+        "primary": "#0C2340",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/uconnhuskies.com/images/sng_2022/main_nav_logo.svg",
+      "basis": "Current official athletics logo explicitly uses navy #0C2340; paired with white per official UConn 2013 visual-identity announcement, which designates red, gray and metallic as athletics accents. Avoids substituting the differing academic navy web value."
+    },
+    {
+      "key": "college-mac-central-michigan",
+      "before": {
+        "primary": "#4C0027",
+        "secondary": "#FBAB18"
+      },
+      "after": {
+        "primary": "#6A0032",
+        "secondary": "#FFC82E"
+      },
+      "source": "https://www.cmich.edu/offices-departments/university-communications/brand-guidelines/visual-language/color-palette",
+      "basis": "Official primary maroon and gold palette, exact published hexadecimal values."
+    },
+    {
+      "key": "college-mac-eastern-michigan",
+      "before": {
+        "primary": "#006938",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#046A38",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.emich.edu/brand-experience/brand-standards/index.php",
+      "basis": "Official EMU green Pantone 349 published RGB 4,106,56 converted exactly to hex, paired with official white; neon is an accent."
+    },
+    {
+      "key": "college-mac-kent-state",
+      "before": {
+        "primary": "#002664",
+        "secondary": "#EAAB00"
+      },
+      "after": {
+        "primary": "#003976",
+        "secondary": "#EBAB21"
+      },
+      "source": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/kentstatesports.com/images/sng_2025/logo_main.svg",
+      "basis": "Exact dominant blue and gold fills in the current official athletics logo SVG; secondary brown is shading. The university brand swatches confirm blue/gold and the same blue, with a slightly different academic gold."
+    },
+    {
+      "key": "college-mountain-west-air-force",
+      "before": {
+        "primary": "#003594",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#003594",
+        "secondary": "#B2B4B2"
+      },
+      "source": "https://goairforcefalcons.com/documents/download/2024/3/21/AF_Athletics_Style_Guide.pdf",
+      "basis": "Official Air Force Athletics style guide uploaded March 2024, page 4, publishes Academy Blue #003594 and Academy Silver #B2B4B2. Choose recognizable blue/silver from the athletics palette; white is also a primary palette color."
+    },
+    {
+      "key": "college-mountain-west-colorado-state",
+      "before": {
+        "primary": "#004C23",
+        "secondary": "#C8C372"
+      },
+      "after": {
+        "primary": "#1E4D2B",
+        "secondary": "#C8C372"
+      },
+      "source": "https://brand.colostate.edu/color/",
+      "basis": "Official CSU brand palette publishes Colorado State Green #1E4D2B and Colorado State Gold #C8C372. The official Ram's Head symbol guide at https://brand.colostate.edu/symbol/ specifies the same PMS 357 green and PMS 617 gold."
+    },
+    {
+      "key": "college-mountain-west-fresno-state",
+      "before": {
+        "primary": "#B1102B",
+        "secondary": "#13284C"
+      },
+      "after": {
+        "primary": "#C41230",
+        "secondary": "#13284C"
+      },
+      "source": "https://marcomm.fresnostate.edu/color.html",
+      "basis": "Official current Fresno State palette publishes Cardinal Red #C41230 (PMS 186) and Blue #13284C (PMS 2767). These are the same two Pantones named in the athletics brand refresh at https://gobulldogs.com/news/2019/12/10/general-fresno-state-athletics-refreshes-its-brand ; use the university's published digital equivalents for that corroborated athletics pair."
+    },
+    {
+      "key": "college-mountain-west-hawai-i",
+      "before": {
+        "primary": "#005737",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#024731",
+        "secondary": "#000000"
+      },
+      "source": "https://manoa.hawaii.edu/brand/brand-elements/promotional-items.php",
+      "basis": "Official UH Manoa brand page publishes green #024731/PMS 3435C. Athletics identifies UH green as PMS 3435 at https://hawaiiathletics.com/news/2008/3/5/FB_25014.aspx and confirms green with black/silver in its traditions at https://hawaiiathletics.com/sports/2012/6/18/GEN_0618120234.aspx . Choose the recognizable green/black athletic pair; retain standard black #000000, whose exact hex is not specified on the traditions page."
+    },
+    {
+      "key": "college-mountain-west-nevada",
+      "before": {
+        "primary": "#041E42",
+        "secondary": "#8A8D8F"
+      },
+      "after": {
+        "primary": "#041E42",
+        "secondary": "#A7A9AC"
+      },
+      "source": "https://www.unr.edu/marketing-communications/brand/visual-identity",
+      "basis": "Official university visual identity publishes dark blue RGB 4,30,66 and silver RGB 167,169,172, converted exactly to #041E42/#A7A9AC. Use this official school-color specification as the fallback because a separate athletics numeric guide was not located; the same page identifies its athletic marks but labels the color section as the university signature palette."
+    },
+    {
+      "key": "college-mountain-west-san-diego-state",
+      "before": {
+        "primary": "#A6192E",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#C23038",
+        "secondary": "#231F20"
+      },
+      "source": "https://storage.googleapis.com/sdsu-prod/2024/06/21/ZY4HdfS6LfU03mMAuYjyvr0EvdA34yYclEXSmEnZ.pdf",
+      "basis": "The 2021 SDSU athletics style guide linked by the current goaztecs.com navigation, page 21, publishes recommended screen red RGB 194,48,56 and black RGB 35,31,32. Exact RGB-to-hex conversion gives #C23038/#231F20; prefer this explicit athletics specification over campus brand #A6192E/#000000. The guide supplies RGB and Pantone rather than literal hex."
+    },
+    {
+      "key": "college-mountain-west-unlv",
+      "before": {
+        "primary": "#CF0A2C",
+        "secondary": "#CAC8C8"
+      },
+      "after": {
+        "primary": "#B10202",
+        "secondary": "#666666"
+      },
+      "source": "https://www.unlv.edu/brand/colors",
+      "basis": "Official UNLV brand page explicitly states scarlet/gray applies within athletic programs and publishes screen standards scarlet #B10202 and gray #666666. Use those screen standards; the page separately lists print-color approximations, and the athletics site's linked 2018 art-sheet download was unavailable."
+    },
+    {
+      "key": "college-pac-12-oregon-state",
+      "before": {
+        "primary": "#DC4405",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#DC4405",
+        "secondary": "#231F20"
+      },
+      "source": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/oregonstate.sidearmsports.com/images/sng_2026/logo_main.svg",
+      "basis": "Current 2026 official athletics logo publishes exactly two color fills, orange #DC4405 and black #231F20. Prioritizes current athletics asset over differing academic Beaver Orange digital value."
+    },
+    {
+      "key": "college-sec-auburn",
+      "before": {
+        "primary": "#002B5C",
+        "secondary": "#F26522"
+      },
+      "after": {
+        "primary": "#0C2340",
+        "secondary": "#F26522"
+      },
+      "source": "https://auburntigers.com/traditions-about-auburn",
+      "basis": "Official athletics page explicitly labels 'Auburn Athletics Hex' as Blue #0C2340 and Orange #F26522; uses that statement over an inconsistent adjacent legacy swatch."
+    },
+    {
+      "key": "college-sec-georgia",
+      "before": {
+        "primary": "#BA0C2F",
+        "secondary": "#2C2A29"
+      },
+      "after": {
+        "primary": "#BA0C2F",
+        "secondary": "#000000"
+      },
+      "source": "https://brand.uga.edu/visual-identity/visual-style/",
+      "basis": "Official Bulldog Red and Arch Black; replaces ESPN near-black with the specified black hex."
+    },
+    {
+      "key": "college-sec-lsu",
+      "before": {
+        "primary": "#461D76",
+        "secondary": "#FDD023"
+      },
+      "after": {
+        "primary": "#461D7C",
+        "secondary": "#FDD023"
+      },
+      "source": "https://www.lsu.edu/communications/files/brand-guide.pdf",
+      "basis": "Official LSU Purple and LSU Gold; corrects purple's final byte from 76 to 7C and preserves gold."
+    },
+    {
+      "key": "college-sec-mississippi-state",
+      "before": {
+        "primary": "#5D1725",
+        "secondary": "#C1C6C8"
+      },
+      "after": {
+        "primary": "#5D1725",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.brand.msstate.edu/identity/index.php",
+      "basis": "Official Mississippi State identity standards publish MSU Maroon #5D1725; traditional Maroon and White is the athletics pair, with white represented by #FFFFFF. Replaces ESPN silver."
+    },
+    {
+      "key": "college-sec-missouri",
+      "before": {
+        "primary": "#F1B82D",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#FDB719",
+        "secondary": "#000000"
+      },
+      "source": "https://brand.missouri.edu/athletics-branding-toolkit/",
+      "basis": "Current official athletics toolkit explicitly unifies campus and athletics gold as #FDB719; paired with Nike Black #000000."
+    },
+    {
+      "key": "college-sec-oklahoma",
+      "before": {
+        "primary": "#990000",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#841617",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.ou.edu/brand/creative-platform/design-system/colors",
+      "basis": "Official Oklahoma Crimson with white for digital use; the current guide reserves Oklahoma Cream for print and directs digital uses to white or black."
+    },
+    {
+      "key": "college-sec-ole-miss",
+      "before": {
+        "primary": "#13294B",
+        "secondary": "#CF142B"
+      },
+      "after": {
+        "primary": "#14213D",
+        "secondary": "#CE1126"
+      },
+      "source": "https://nacma.nacda.com/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=e7216c0b-d753-a0e8-aa31-c40e57e23c6a",
+      "basis": "Ole Miss Athletics Style Guide, p. 4, publishes navy blue #14213D and red #CE1126; uses the stated HEX values rather than the different RGB numbers in the same table."
+    },
+    {
+      "key": "college-sun-belt-appalachian-state",
+      "before": {
+        "primary": "#000000",
+        "secondary": "#FFCD00"
+      },
+      "after": {
+        "primary": "#000000",
+        "secondary": "#FFCC00"
+      },
+      "source": "https://uc.appstate.edu/brand-identity-guide/identity-guide/colors ; https://appstatesports.com/news/2008/7/29/1524743.aspx",
+      "basis": "Preserved the Mountaineers black/gold pair. Athletics specifies the same App State gold PMS 116 as university branding; corrected gold to the university’s explicitly published web HEX FFCC00. Black is the published RGB 0/0/0."
+    },
+    {
+      "key": "college-sun-belt-georgia-southern",
+      "before": {
+        "primary": "#041E42",
+        "secondary": "#A3AAAE"
+      },
+      "after": {
+        "primary": "#041E42",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://gseagles.com/documents/download/2025/7/23/25ATH_Branding_Guide.pdf",
+      "basis": "2025 athletics branding guide identifies Navy 041E42 and White FFFFFF as primary; gray A3AAAE is secondary support. Replaced gray with the main white identity."
+    },
+    {
+      "key": "college-sun-belt-james-madison",
+      "before": {
+        "primary": "#450084",
+        "secondary": "#CBB677"
+      },
+      "after": {
+        "primary": "#450084",
+        "secondary": "#B3A369"
+      },
+      "source": "https://jmusports.com/documents/download/2017/3/22/JMU_AthIdentity_Guide.pdf",
+      "basis": "Official athletics identity guide page 4 publishes Purple 450084 and Gold B3A369. Corrected gold to the explicit athletics HTML value; white is an additional primary and the Duke Dog gray/red are supporting colors."
+    },
+    {
+      "key": "college-sun-belt-louisiana",
+      "before": {
+        "primary": "#CE181E",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#CE181E",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://ocm.louisiana.edu/sites/communicationsandmarketing/files/Brand_Culture_Guide_Revised%20Cover%200223.pdf",
+      "basis": "Official brand/culture guide explicitly names vermilion red CE181E and white FFFFFF as official school colors, with black and gray secondary. Replaced black with white."
+    },
+    {
+      "key": "college-sun-belt-marshall",
+      "before": {
+        "primary": "#00B140",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#00B140",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://herdzone.com/sports/2018/6/11/mars-trads-html ; https://www.marshall.edu/brandservices/files/2024/06/Marshall_University_Brand_Guidelines.pdf",
+      "basis": "Athletics traditions explicitly identify the official school colors as green and white. Preserved Marshall Green 00B140 from the brand guide and replaced black logo trim with white FFFFFF for the main fan identity."
+    },
+    {
+      "key": "college-sun-belt-old-dominion",
+      "before": {
+        "primary": "#003768",
+        "secondary": "#A1D2F1"
+      },
+      "after": {
+        "primary": "#043657",
+        "secondary": "#98C5EA"
+      },
+      "source": "https://storage.googleapis.com/odu-prod/2025/06/04/IZ6FVaPDld45Hx21w4Vz5k3Kq8Y1IYbhMW6g8ouI.pdf",
+      "basis": "Current 2025 ODU Athletics Brand Guide page 3 explicitly identifies Monarch Blue 043657 and Hudson Blue 98C5EA as the primary colors. Updated both exact shades. Gray/metallic, black and white are explicitly secondary in this current guide, superseding older guidance."
+    },
+    {
+      "key": "college-sun-belt-texas-state",
+      "before": {
+        "primary": "#501214",
+        "secondary": "#6A5638"
+      },
+      "after": {
+        "primary": "#501214",
+        "secondary": "#AC9155"
+      },
+      "source": "https://brand.txst.edu/visual-identity/colors.html ; https://txst.com/sports/2010/8/4/LIC_0804100158.aspx",
+      "basis": "Athletics licensing specifies maroon PMS 504 and metallic gold PMS 872. Preserved maroon 501214 and updated old alternate web gold 6A5638 to the current official PMS 872 Dark Gold digital value AC9155."
+    },
+    {
+      "key": "cricket-bbl-adelaide-strikers",
+      "before": {
+        "primary": "#0084D6",
+        "secondary": "#C8C8C8"
+      },
+      "after": {
+        "primary": "#0085CA",
+        "secondary": "#C8C8C8"
+      },
+      "source": "https://www.perthscorchers.com.au/resources/v1.31.16/styles/screen.css",
+      "basis": "Exact primary color from Cricket Australia club site’s team-specific .w-embeddable-player-trade__team--adelaide-strikers selector. Retains established companion color; no alternate kit color import."
+    },
+    {
+      "key": "cricket-bbl-brisbane-heat",
+      "before": {
+        "primary": "#27A6B0",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#00B3C4",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.perthscorchers.com.au/resources/v1.31.16/styles/screen.css",
+      "basis": "Exact primary color from Cricket Australia club site’s team-specific .w-embeddable-player-trade__team--brisbane-heat selector. Retains established companion color; no alternate kit color import."
+    },
+    {
+      "key": "cricket-bbl-hobart-hurricanes",
+      "before": {
+        "primary": "#674398",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#5F259F",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.perthscorchers.com.au/resources/v1.31.16/styles/screen.css",
+      "basis": "Exact primary color from Cricket Australia club site’s team-specific .w-embeddable-player-trade__team--hobart-hurricanes selector. Retains established companion color; no alternate kit color import."
+    },
+    {
+      "key": "cricket-bbl-melbourne-renegades",
+      "before": {
+        "primary": "#EE343F",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#E4002B",
+        "secondary": "#000000"
+      },
+      "source": "https://www.perthscorchers.com.au/resources/v1.31.16/styles/screen.css",
+      "basis": "Exact primary color from Cricket Australia club site’s team-specific .w-embeddable-player-trade__team--melbourne-renegades selector. Retains established companion color; no alternate kit color import."
+    },
+    {
+      "key": "cricket-bbl-melbourne-stars",
+      "before": {
+        "primary": "#8DC64C",
+        "secondary": "#287246"
+      },
+      "after": {
+        "primary": "#00B140",
+        "secondary": "#287246"
+      },
+      "source": "https://www.perthscorchers.com.au/resources/v1.31.16/styles/screen.css",
+      "basis": "Exact primary color from Cricket Australia club site’s team-specific .w-embeddable-player-trade__team--melbourne-stars selector. Retains established companion color; no alternate kit color import."
+    },
+    {
+      "key": "cricket-bbl-perth-scorchers",
+      "before": {
+        "primary": "#CC5A1E",
+        "secondary": "#403529"
+      },
+      "after": {
+        "primary": "#F55000",
+        "secondary": "#000000"
+      },
+      "source": "https://www.perthscorchers.com.au/resources/v1.31.16/styles/screen.css",
+      "basis": "Exact primary color from Cricket Australia club site’s team-specific .w-embeddable-player-trade__team--perth-scorchers selector. Retains established companion color; no alternate kit color import. Club explicitly identifies orange and black: https://www.perthscorchers.com.au/news/4183836/bryce-bryce-baby-promising-quick-joins-perth"
+    },
+    {
+      "key": "cricket-bbl-sydney-sixers",
+      "before": {
+        "primary": "#EC2A90",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#D40F7D",
+        "secondary": "#000000"
+      },
+      "source": "https://www.perthscorchers.com.au/resources/v1.31.16/styles/screen.css",
+      "basis": "Exact primary color from Cricket Australia club site’s team-specific .w-embeddable-player-trade__team--sydney-sixers selector. Retains established companion color; no alternate kit color import."
+    },
+    {
+      "key": "cricket-bbl-sydney-thunder",
+      "before": {
+        "primary": "#97D700",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#AFEC35",
+        "secondary": "#000000"
+      },
+      "source": "https://www.perthscorchers.com.au/resources/v1.31.16/styles/screen.css",
+      "basis": "Exact primary color from Cricket Australia club site’s team-specific .w-embeddable-player-trade__team--sydney-thunder selector. Retains established companion color; no alternate kit color import."
+    },
+    {
+      "key": "cricket-cpl-barbados-royals",
+      "before": {
+        "primary": "#00267F",
+        "secondary": "#FFC726"
+      },
+      "after": {
+        "primary": "#E50693",
+        "secondary": "#1226AB"
+      },
+      "source": "https://barbados-tridents.com/news/press-2023-barbados-royals-turn-pink-launch-official-playing-kit-for-cpl-2023",
+      "basis": "Matches the visible Barbados Royals identity: official 2023 announcement establishes the pink Royals identity. Pink/blue values use the Royals group website primary/secondary CSS tokens (https://www.rajasthanroyals.com/), representative of the group identity, not a certified Barbados-specific numeric standard. The later Tridents blue/yellow rebrand must not silently replace colors while this catalog still says Royals."
+    },
+    {
+      "key": "cricket-ipl-rajasthan-royals",
+      "before": {
+        "primary": "#E60693",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#E50693",
+        "secondary": "#1226AB"
+      },
+      "source": "https://www.rajasthanroyals.com/",
+      "basis": "Official website :root --color-primary hsl(322 95% 46%) and --color-secondary hsl(232 81% 37%), converted to sRGB hex. Pink/blue replaces unrelated white secondary."
+    },
+    {
+      "key": "mlb-mlb-los-angeles-angels",
+      "before": {
+        "primary": "#BA0021",
+        "secondary": "#C4CED4"
+      },
+      "after": {
+        "primary": "#BA0021",
+        "secondary": "#003263"
+      },
+      "source": "https://www.mlbstatic.com/team-logos/team-primary-on-light/108.svg",
+      "basis": "Angels red and navy are both exact colors of the MLB-hosted primary mark. Replaced gray/silver with the recognizable red/navy pair."
+    },
+    {
+      "key": "mlb-mlb-toronto-blue-jays",
+      "before": {
+        "primary": "#134A8E",
+        "secondary": "#6CACE5"
+      },
+      "after": {
+        "primary": "#134A8E",
+        "secondary": "#1D2D5C"
+      },
+      "source": "https://www.mlb.com/bluejays",
+      "basis": "Current official Blue Jays website embedded CF_Palette explicitly sets organismContentHeadingPrimaryBorderColor to #134a8e and organismContentHeadingSecondaryBorderColor to #1d2d5c; navigation uses royal blue and masthead/footer use navy. Maple-leaf red is an accent/hover color, not the secondary selection."
+    },
+    {
+      "key": "nba-nba-charlotte-hornets",
+      "before": {
+        "primary": "#008CA8",
+        "secondary": "#1D1060"
+      },
+      "after": {
+        "primary": "#00788C",
+        "secondary": "#1D1160"
+      },
+      "source": "https://cdn.nba.com/logos/nba/1610612766/global/L/logo.svg",
+      "basis": "Exact teal and purple from the official NBA-hosted global team mark; corrects both prior approximate shades while retaining the established pair."
+    },
+    {
+      "key": "nba-nba-golden-state-warriors",
+      "before": {
+        "primary": "#FDB927",
+        "secondary": "#1D428A"
+      },
+      "after": {
+        "primary": "#1D428A",
+        "secondary": "#FDB927"
+      },
+      "source": "https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg",
+      "basis": "Warriors blue and gold exact fills from the NBA-hosted team mark; presents blue as the primary and gold as the secondary instead of reversing them."
+    },
+    {
+      "key": "nba-nba-minnesota-timberwolves",
+      "before": {
+        "primary": "#266092",
+        "secondary": "#79BC43"
+      },
+      "after": {
+        "primary": "#1D428A",
+        "secondary": "#009A44"
+      },
+      "source": "https://cdn.nba.com/logos/nba/1610612750/global/L/logo.svg",
+      "basis": "Exact blue and green from the current NBA-hosted 2026-27 identity. Official reveal confirms the refreshed blue/green palette: https://www.nba.com/news/timberwolves-unveil-all-new-logo-uniforms-and-courts ."
+    },
+    {
+      "key": "nba-wnba-golden-state-valkyries",
+      "before": {
+        "primary": "#B38FCF",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#B896D4",
+        "secondary": "#000000"
+      },
+      "source": "https://cdn.wnba.com/logos/wnba/1611661331/primary/L/logo.svg",
+      "basis": "Exact violet fill from the official WNBA team mark, paired with the established black from official league team settings at https://www.wnba.com/teams . Corrected the approximate violet."
+    },
+    {
+      "key": "nba-wnba-las-vegas-aces",
+      "before": {
+        "primary": "#A7A8AA",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#000000",
+        "secondary": "#A7A8AA"
+      },
+      "source": "https://cdn.wnba.com/logos/wnba/1611661319/primary/L/logo.svg",
+      "basis": "Aces black/silver current identity, with exact silver fill in the official WNBA logo. Black is primary and silver secondary; official club history confirms silver/black/white replaced gold/red/black: https://aces.wnba.com/las-vegas-aces-photo-gallery ."
+    },
+    {
+      "key": "nba-wnba-portland-fire",
+      "before": {
+        "primary": "#CEE5EB",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#C8102E",
+        "secondary": "#000000"
+      },
+      "source": "https://fire.wnba.com/portland-fire-jersey",
+      "basis": "Current official 2026 debut uniform is fire red with black collar, lettering, and side panels; the team website supplies exact #C8102E red and #000000 black. The Explorer uniform and present team site support red/black for this two-color presentation. The larger brand also includes light blue and pink; the July 2025 launch brown was not carried into these debut uniforms."
+    },
+    {
+      "key": "nba-wnba-toronto-tempo",
+      "before": {
+        "primary": "#33476D",
+        "secondary": "#7B1B38"
+      },
+      "after": {
+        "primary": "#441E36",
+        "secondary": "#B3C7E7"
+      },
+      "source": "https://www.wnba.com/teams",
+      "basis": "Exact primarycolor 441E36 and secondarycolor B3C7E7 from the official WNBA page embedded team settings for Toronto. Tempo Bordeaux and Borealis Blue are the club signature colors: https://tempo.wnba.com/news/toronto-tempo-unveils-team-jerseys-ahead-of-inaugural-season . Replaces incorrect navy/maroon pairing."
+    },
+    {
+      "key": "nfl-nfl-arizona-cardinals",
+      "before": {
+        "primary": "#A40227",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#97233F",
+        "secondary": "#000000"
+      },
+      "source": "https://static.www.nfl.com/league/api/clubs/logos/ARI.svg",
+      "basis": "Cardinal red and black from the current NFL-hosted club SVG. White was an outline/background color; use the recognizable red/black club pair."
+    },
+    {
+      "key": "nfl-nfl-chicago-bears",
+      "before": {
+        "primary": "#0B1C3A",
+        "secondary": "#E64100"
+      },
+      "after": {
+        "primary": "#0B162A",
+        "secondary": "#E64100"
+      },
+      "source": "https://static.clubs.nfl.com/image/upload/v1723751161/bears/klb6g0rcaceaoswmuytq.pdf",
+      "basis": "Official Chicago Bears Brand Guidelines page 3 supplies exact navy 0B162A and orange E64100 hex values. Corrected the previous navy value; orange retained."
+    },
+    {
+      "key": "nfl-nfl-cleveland-browns",
+      "before": {
+        "primary": "#472A08",
+        "secondary": "#FF3C00"
+      },
+      "after": {
+        "primary": "#311D00",
+        "secondary": "#FF3C00"
+      },
+      "source": "https://static.www.nfl.com/league/api/clubs/logos/CLE.svg",
+      "basis": "Brown and orange exact fill values in the current NFL-hosted Browns mark; maintains the same recognizable club pair while correcting brown."
+    },
+    {
+      "key": "nfl-nfl-green-bay-packers",
+      "before": {
+        "primary": "#204E32",
+        "secondary": "#FFB612"
+      },
+      "after": {
+        "primary": "#203731",
+        "secondary": "#FFB612"
+      },
+      "source": "https://static.www.nfl.com/league/api/clubs/logos/GB.svg",
+      "basis": "Packers green and gold exact fill values in the current NFL-hosted mark; gold retained and green corrected."
+    },
+    {
+      "key": "nfl-nfl-tennessee-titans",
+      "before": {
+        "primary": "#4495D2",
+        "secondary": "#001532"
+      },
+      "after": {
+        "primary": "#4495D2",
+        "secondary": "#D50A0A"
+      },
+      "source": "https://static.www.nfl.com/league/api/clubs/logos/TEN.svg",
+      "basis": "Titans blue and red exact fills from the new 2026 shield. The March 12, 2026 official reveal identifies the blue/white/red direction: https://www.tennesseetitans.com/news/titans-unveil-new-uniforms-logo-to-represent-the-next-chapter-of-franchise-history ; uses red as the second signature color instead of the former navy pair."
+    },
+    {
+      "key": "nhl-nhl-calgary-flames",
+      "before": {
+        "primary": "#DD1A32",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#C8102E",
+        "secondary": "#F1BE48"
+      },
+      "source": "https://www.nhl.com/flames/",
+      "basis": "Current official Flames website sets header/primary theme to #C8102E and navigation accent to #F1BE48, matching its current red/gold primary mark. Replaces the old red/black pairing."
+    },
+    {
+      "key": "nhl-nhl-seattle-kraken",
+      "before": {
+        "primary": "#000D33",
+        "secondary": "#A3DCE4"
+      },
+      "after": {
+        "primary": "#041C2C",
+        "secondary": "#9CDBD9"
+      },
+      "source": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+      "basis": "Exact deep-sea blue and ice blue fills from the current official NHL-hosted Kraken mark. Corrects the prior navy/ice approximations without substituting its tertiary red accent."
+    },
+    {
+      "key": "nhl-nhl-winnipeg-jets",
+      "before": {
+        "primary": "#002D62",
+        "secondary": "#C41230"
+      },
+      "after": {
+        "primary": "#041E42",
+        "secondary": "#A2AAAD"
+      },
+      "source": "https://www.nhl.com/jets/",
+      "basis": "Current official Jets website uses #041E42 for header and primary theme color and #A2AAAD as its navigation accent; the NHL-hosted primary mark uses the same navy and silver. This preserves the club's navy/silver identity pair; red remains the maple-leaf accent. Exact fills also verified at https://assets.nhle.com/logos/nhl/svg/WPG_light.svg."
+    },
+    {
+      "key": "osu",
+      "before": {
+        "primary": "#BB0000",
+        "secondary": "#B0B7BC"
+      },
+      "after": {
+        "primary": "#BA0C2F",
+        "secondary": "#A7B1B7"
+      },
+      "source": "https://bux.osu.edu/color/primary-colors/",
+      "basis": "Current official Ohio State Buckeye UX primary-color table explicitly publishes Scarlet PMS 200 #BA0C2F and Gray PMS 429 #A7B1B7. Uses the official scarlet/gray pair. The athletics logo-guidelines PDF confirms the pair but does not publish hex values; older logo-derived #B0B7BC was not treated as a current published brand standard. Reviewed 2026-09-08."
+    },
+    {
+      "key": "psu",
+      "before": {
+        "primary": "#1E407C",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#001E44",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://brand.psu.edu/design-toolkit/design-essentials",
+      "basis": "Penn State Brand Book publishes Nittany Navy #001E44 and White Out #FFFFFF. Selects the traditional navy/white athletics pair, rather than the lighter Beaver Blue academic identity color. Uses published HEX, which differs from the RGB conversion printed on the same page. Reviewed 2026-09-08."
+    },
+    {
+      "key": "rugby-gallagher-premiership-exeter-chiefs",
+      "before": {
+        "primary": "#000000",
+        "secondary": "#FFD302"
+      },
+      "after": {
+        "primary": "#000000",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.exeterchiefs.co.uk/news/holiday-wardrobe-sorted-hawaiian-26-has-arrived",
+      "basis": "Official club describes black and white as its classic monochrome Chiefs colours. Replaces crest gold with the enduring black/white club pair; exact achromatic hex codes."
+    },
+    {
+      "key": "rugby-japan-rugby-league-one-kobelco-kobe-steelers",
+      "before": {
+        "primary": "#CC262D",
+        "secondary": "#F8F6FD"
+      },
+      "after": {
+        "primary": "#D91617",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.kobesteelers.com/team/",
+      "basis": "Official identity centers on inherited furnace red. Uses current official League One crest flat red RGB 217,22,23 (#D91617) from https://league-one.s3.ap-northeast-1.amazonaws.com/image/team_info/11185_200x200_670e71b093142.png with white as the neutral club wordmark/jersey contrast. Removes the provisional 2024 alternate-kit off-white #F8F6FD; white is not presented as a certified secondary brand ink."
+    },
+    {
+      "key": "rugby-japan-rugby-league-one-kubota-spears-funabashi-tokyo-bay",
+      "before": {
+        "primary": "#EB5E1E",
+        "secondary": "#00A8A9"
+      },
+      "after": {
+        "primary": "#EB5E1E",
+        "secondary": "#070F3D"
+      },
+      "source": "https://www.kubota-spears.com/news/2025/09/05/120000.html",
+      "basis": "Official club calls orange its team colour; preserves its published website orange #EB5E1E. Secondary is the navy of the official Spears wordmark, not corporate turquoise: the dominant opaque flat fill in https://www.kubota-spears.com/lib/cmn_img/logo_head_spears.png is RGB 7,15,61 (#070F3D). This is an asset colour, not a claimed print specification."
+    },
+    {
+      "key": "rugby-super-rugby-pacific-nsw-waratahs",
+      "before": {
+        "primary": "#0E1D3D",
+        "secondary": "#D41042"
+      },
+      "after": {
+        "primary": "#86D1FD",
+        "secondary": "#0E1D3D"
+      },
+      "source": "https://waratahs.rugby/news/nsw-waratahs-signs-major-partnership-with-1cover-20251112",
+      "basis": "Official club confirms iconic sky blue. Sky blue/navy is the enduring NSW playing identity; sky-blue exact #86D1FD is the published home body/arm field in the current New South Wales Waratahs Wikipedia source, fetched through MediaWiki revisions API. Navy #0E1D3D is the already sourced club-logo navy. Replaces navy/red logo-only selection."
+    },
+    {
+      "key": "rugby-super-rugby-pacific-queensland-reds",
+      "before": {
+        "primary": "#D31145",
+        "secondary": "#98022C"
+      },
+      "after": {
+        "primary": "#98022C",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://shop.redsrugby.com.au/collections/2024-queensland-reds-replica-home-jersey/products/2026-queensland-reds-mens-replica-home-jersey",
+      "basis": "The Reds main identity is maroon with white, shown in the official 2026 home strip and historic Q identity. Promotes the previously published maroon #98022C and replaces the redundant red/maroon pairing with white; blue remains an additional club colour. Exact maroon hex retained from TeamColorCodes."
+    },
+    {
+      "key": "rugby-top-14-bordeaux-begles",
+      "before": {
+        "primary": "#69233F",
+        "secondary": "#F9A340"
+      },
+      "after": {
+        "primary": "#69233F",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.ubbrugby.com/actualites/7023-les-maillots-2019-2020-devoiles.html",
+      "basis": "Official club explicitly identifies burgundy and white as its fundamental colours. Retains published TeamColorCodes burgundy; replaces the orange crest accent with white. The official 2018 logo guide also includes a burgundy/white two-colour version."
+    },
+    {
+      "key": "rugby-top-14-stade-francais",
+      "before": {
+        "primary": "#EB5195",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#F95093",
+        "secondary": "#0C2340"
+      },
+      "source": "https://www.stade.fr/wp-content/themes/latelier/assets/css/main.css?ver=6.6.2",
+      "basis": "Official current club stylesheet consistently implements pink #F95093 and navy #0C2340 throughout branded sections. Pink/navy identity is corroborated by official Stade Francais merchandise and Kappa apparel; replaces logo-background white."
+    },
+    {
+      "key": "rugby-united-rugby-championship-benetton",
+      "before": {
+        "primary": "#008F5A",
+        "secondary": "#0061AE"
+      },
+      "after": {
+        "primary": "#008F5A",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://benettonrugby.it/maglia-home-2026-27-dei-leoni-il-biancoverde-diventa-arte/",
+      "basis": "Official 2026/27 identity announcement explicitly calls white and green the enduring club colours. Retains the previously sourced green hex; replaces incidental blue with white."
+    },
+    {
+      "key": "rugby-united-rugby-championship-bulls",
+      "before": {
+        "primary": "#4880BB",
+        "secondary": "#83C8E9"
+      },
+      "after": {
+        "primary": "#75C2EE",
+        "secondary": "#0A3A79"
+      },
+      "source": "https://bullsrugby.co.za/vodacom-bulls-introduce-versatile-iconic-and-bold-puma-jersey-for-2023-24-season/",
+      "basis": "Official club calls its traditional home colour light blue. Uses the sky-blue/navy home identity rather than two similar logo blues. Exact sky blue #75C2EE and navy #0A3A79 are published in current Bulls Wikipedia home body and shorts fields, retrieved via MediaWiki revisions API; no away-kit colours used."
+    },
+    {
+      "key": "rugby-united-rugby-championship-stormers",
+      "before": {
+        "primary": "#13214E",
+        "secondary": "#FE0000"
+      },
+      "after": {
+        "primary": "#13214E",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://stormers.co.za/dhl-stormers-2024-25-home-and-away-jerseys-revealed/",
+      "basis": "Official club identifies the enduring blue and white hoops as its iconic design. Retains the published navy hex and uses white, replacing a red logo/sponsor accent. Current official 2025/26 shop description also specifies blue and white hoops."
+    },
+    {
+      "key": "soccer-argentine-primera-division-belgrano",
+      "before": {
+        "primary": "#0060F0",
+        "secondary": "#1A1A1A"
+      },
+      "after": {
+        "primary": "#6CAEDC",
+        "secondary": "#1A1A1A"
+      },
+      "source": "https://belgrano.com.ar/2025/08/20/umbrocab2025/",
+      "basis": "Belgrano's established celeste and black identity; correct the royal-blue primary to sky blue. Club describes its traditional black/sky-blue combination. The hex is a digital representation, not a published specification."
+    },
+    {
+      "key": "soccer-argentine-primera-division-deportivo-riestra",
+      "before": {
+        "primary": "#212121",
+        "secondary": "#C60000"
+      },
+      "after": {
+        "primary": "#212121",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.copaargentina.org/es/equipos/115_deportivo-riestra.html",
+      "basis": "Official competition profile explicitly explains that El Blanquinegro is named for the club's identifying black-and-white colors. Remove unsupported red secondary."
+    },
+    {
+      "key": "soccer-argentine-primera-division-estudiantes-rio-cuarto",
+      "before": {
+        "primary": "#008BD0",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#008BD0",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.copaargentina.org/es/equipos/238_Estudiantes-de-Rio-Cuarto.html",
+      "basis": "Official competition profile identifies El Celeste. Select the club's sky-blue/white identity; remove black secondary; retain existing blue digital shade."
+    },
+    {
+      "key": "soccer-argentine-primera-division-gimnasia-y-esgrima-mendoza",
+      "before": {
+        "primary": "#000000",
+        "secondary": "#C60000"
+      },
+      "after": {
+        "primary": "#000000",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.copaargentina.org/es/news/10901_Cuatro-provincias-estaran-representadas-durante-la-proxima-semana-de-la-Copa-Argentina.html",
+      "basis": "Official competition account identifies Gimnasia Mendoza's black and white identity. Remove unrelated red secondary."
+    },
+    {
+      "key": "soccer-argentine-primera-division-instituto",
+      "before": {
+        "primary": "#C60000",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#C60000",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://institutoacc.com.ar/index.php/100-anos-de-gloria/",
+      "basis": "Club centenary history explicitly identifies its red and white colors; replace black secondary."
+    },
+    {
+      "key": "soccer-brazilian-serie-a-chapecoense",
+      "before": {
+        "primary": "#417505",
+        "secondary": "#FAFAFC"
+      },
+      "after": {
+        "primary": "#008D43",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://chapecoense.com/2021/12/02/natal-verde-e-branco-chape-promovera-serie-de-acoes-solidarias/",
+      "basis": "Club's green-and-white identity; replace generic ESPN olive with a representative club green. Digital shade, not a published brand specification."
+    },
+    {
+      "key": "soccer-brazilian-serie-a-coritiba",
+      "before": {
+        "primary": "#417505",
+        "secondary": "#FAFAFC"
+      },
+      "after": {
+        "primary": "#00544D",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.coritiba.com.br/noticias/1481316",
+      "basis": "Club confirms green and white; replace generic ESPN olive. Digital green #00544D also appears in the cached SportsDB club color reference."
+    },
+    {
+      "key": "soccer-brazilian-serie-a-cruzeiro",
+      "before": {
+        "primary": "#0093EC",
+        "secondary": "#FAFAFC"
+      },
+      "after": {
+        "primary": "#2F529E",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.almg.gov.br/comunicacao/noticias/arquivos/Visita-ao-Mineirao-busca-viabilizar-Museu-do-Cruzeiro-no-local/",
+      "basis": "Official state-legislature history describes the club adopting blue and white in 1942. Replace cyan with the royal-blue digital shade recorded in the cached SportsDB club reference."
+    },
+    {
+      "key": "soccer-brazilian-serie-a-fluminense",
+      "before": {
+        "primary": "#7E0202",
+        "secondary": "#417505"
+      },
+      "after": {
+        "primary": "#870A28",
+        "secondary": "#00613C"
+      },
+      "source": "https://www.fluminense.com.br/sobre/a-historia",
+      "basis": "Club history identifies its enduring grená, green and white identity since 1904. Select claret and green, replacing generic red/olive shades with representative digital club tones."
+    },
+    {
+      "key": "soccer-brazilian-serie-a-internacional",
+      "before": {
+        "primary": "#C60000",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#C60000",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://internacional.com.br/noticias/feminino/inter-anuncia-a-renovacao-da-capita-bruna-benites",
+      "basis": "Club describes its red and white identity; remove black secondary."
+    },
+    {
+      "key": "soccer-brazilian-serie-a-mirassol",
+      "before": {
+        "primary": "#FEDC00",
+        "secondary": "#417505"
+      },
+      "after": {
+        "primary": "#FEDC00",
+        "secondary": "#008C45"
+      },
+      "source": "https://mirassolfc.com.br/pages/historia",
+      "basis": "Official club history names the traditional yellow and green colors. Retain yellow; replace generic ESPN olive with representative green. Digital shade is not a published brand specification."
+    },
+    {
+      "key": "soccer-brazilian-serie-a-palmeiras",
+      "before": {
+        "primary": "#417505",
+        "secondary": "#FAFAFC"
+      },
+      "after": {
+        "primary": "#006437",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.palmeiras.com.br/noticias/veja-quais-foram-as-outras-cores-ja-utilizadas-pelo-verdao-em-jogos-oficiais/",
+      "basis": "Official historical survey distinguishes the usual green and white from exceptional alternate colors. Replace generic ESPN olive with representative Palmeiras green."
+    },
+    {
+      "key": "soccer-brazilian-serie-a-remo",
+      "before": {
+        "primary": "#265891",
+        "secondary": "#FAFAFA"
+      },
+      "after": {
+        "primary": "#0E214B",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.clubedoremo.com.br/ler-noticia.php?id=1698",
+      "basis": "Club identifies traditional navy blue; replace medium blue with representative navy and retain white. Archived official article indexed in search; the current URL redirects to the club's newer site."
+    },
+    {
+      "key": "soccer-bundesliga-augsburg",
+      "before": {
+        "primary": "#FFFFFF",
+        "secondary": "#03915C"
+      },
+      "after": {
+        "primary": "#BA3733",
+        "secondary": "#03915C"
+      },
+      "source": "https://www.fcaugsburg.de/en/article/red-green-and-white-dominate-the-new-kits-in-2020-21-11779",
+      "basis": "Official club explanation identifies traditional red, green and white. Select recognizable red/green pair; green retained from existing palette, red is a representative digital club tone."
+    },
+    {
+      "key": "soccer-bundesliga-bayer-leverkusen",
+      "before": {
+        "primary": "#DA0308",
+        "secondary": "#F9FBFC"
+      },
+      "after": {
+        "primary": "#DA0308",
+        "secondary": "#000000"
+      },
+      "source": "https://www.bayer04.de/en-us/page/history/founding-years-to-the-new-millennium/1920s",
+      "basis": "Club history explicitly says its colors remained red and black. Replace white secondary."
+    },
+    {
+      "key": "soccer-bundesliga-eintracht-frankfurt",
+      "before": {
+        "primary": "#FFFFFF",
+        "secondary": "#272726"
+      },
+      "after": {
+        "primary": "#E1000F",
+        "secondary": "#272726"
+      },
+      "source": "https://club.eintracht.de/",
+      "basis": "Official club profile identifies red, black and white. Select the recognizable red/black pair; black retained, red is the usual digital crest tone."
+    },
+    {
+      "key": "soccer-bundesliga-hamburger-sv",
+      "before": {
+        "primary": "#1A26AF",
+        "secondary": "#1A1A1A"
+      },
+      "after": {
+        "primary": "#0A3F86",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.hsv.de/news/blau-weiss-schwarz-hsv-pur",
+      "basis": "Official club identity includes blue, white and black. Select the blue/white pair documented in the cached SportsDB color reference instead of violet-blue/black."
+    },
+    {
+      "key": "soccer-bundesliga-hoffenheim",
+      "before": {
+        "primary": "#003399",
+        "secondary": "#000055"
+      },
+      "after": {
+        "primary": "#003399",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.tsg-hoffenheim.de/en/tsg/the-club/facts-and-figures",
+      "basis": "Official facts list club colors as blue and white; retain blue and remove unrelated navy secondary."
+    },
+    {
+      "key": "soccer-bundesliga-mainz-05",
+      "before": {
+        "primary": "#DA0308",
+        "secondary": "#000055"
+      },
+      "after": {
+        "primary": "#DA0308",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.mainz05.de/en/news-en/classic-red-and-white-away-from-home",
+      "basis": "Club explicitly describes red and white as its traditional colors; replace navy secondary."
+    },
+    {
+      "key": "soccer-bundesliga-rb-leipzig",
+      "before": {
+        "primary": "#FFFFFF",
+        "secondary": "#740C14"
+      },
+      "after": {
+        "primary": "#FFFFFF",
+        "secondary": "#DD0741"
+      },
+      "source": "https://rbleipzig.com/en/news/rb-leipzig-puma-home-shirt-2026-27-season",
+      "basis": "Official club describes red and white as the classic RBL colors. Retain white primary and replace burgundy with representative club red."
+    },
+    {
+      "key": "soccer-bundesliga-sc-paderborn",
+      "before": {
+        "primary": "#0000DD",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#0000DD",
+        "secondary": "#000000"
+      },
+      "source": "https://www.scp07.de/Newsarchiv/Blau-schwarzer-Tag.html",
+      "basis": "Official event instructs fans to display the club colors blue and black. Replace white secondary."
+    },
+    {
+      "key": "soccer-bundesliga-union-berlin",
+      "before": {
+        "primary": "#DA0308",
+        "secondary": "#D4D4D4"
+      },
+      "after": {
+        "primary": "#DA0308",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://x.com/fcunion_en/status/1951609281062608926",
+      "basis": "Official club account identifies red and white; replace gray secondary."
+    },
+    {
+      "key": "soccer-english-premier-league-everton",
+      "before": {
+        "primary": "#0606FA",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#003399",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.evertonfc.com/",
+      "basis": "Correct electric blue to Everton's familiar royal blue, with white. Digital pair also recorded in cached SportsDB reference."
+    },
+    {
+      "key": "soccer-english-premier-league-leeds-united",
+      "before": {
+        "primary": "#FFFFFF",
+        "secondary": "#FFCD00"
+      },
+      "after": {
+        "primary": "#FFFFFF",
+        "secondary": "#1D428A"
+      },
+      "source": "https://www.leedsunited.com/en/news/leeds-united-and-adidas-unveil-25-26-home-kit",
+      "basis": "Official club explanation identifies its enduring white, blue and yellow identity. Select white/blue as the two-color interface pair; yellow remains an authentic third color."
+    },
+    {
+      "key": "soccer-english-premier-league-manchester-city",
+      "before": {
+        "primary": "#6CABDD",
+        "secondary": "#1C2C5B"
+      },
+      "after": {
+        "primary": "#6CABDD",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.mancity.com/news/club-news/club-news/2017/november/black-friday-man-city-launch",
+      "basis": "Official club describes its usual colors as sky blue and white. Select the familiar pair, retaining existing sky blue."
+    },
+    {
+      "key": "soccer-english-premier-league-manchester-united",
+      "before": {
+        "primary": "#DA291C",
+        "secondary": "#FBE122"
+      },
+      "after": {
+        "primary": "#DA291C",
+        "secondary": "#000000"
+      },
+      "source": "https://www.manutd.com/en/news/kit-details-for-tottenham-v-man-utd-on-8-nov-2025",
+      "basis": "Club identifies traditional red, white and black. Select the requested familiar red/black pair; yellow is a crest accent, not the selected pair."
+    },
+    {
+      "key": "soccer-la-liga-elche",
+      "before": {
+        "primary": "#288A00",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#05642C",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.elchecf.es/",
+      "basis": "Correct bright olive green to familiar club green and retain white. Pair also recorded in cached SportsDB reference; the club identity remains franjiverde."
+    },
+    {
+      "key": "soccer-la-liga-getafe",
+      "before": {
+        "primary": "#0068A7",
+        "secondary": "#E31B24"
+      },
+      "after": {
+        "primary": "#0068A7",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://tienda.getafecf.com/index.php/merchandising.html?dir=desc&limit=25&mode=list&order=price",
+      "basis": "Official club merchandise consistently presents azulón blue with white; select that recognizable pair instead of crest-accent red."
+    },
+    {
+      "key": "soccer-liga-mx-atlas",
+      "before": {
+        "primary": "#EF0107",
+        "secondary": "#E1E1E1"
+      },
+      "after": {
+        "primary": "#EF0107",
+        "secondary": "#000000"
+      },
+      "source": "https://www.atlasfc.com.mx/",
+      "basis": "Club's official Rojinegros identity is red and black; replace gray secondary."
+    },
+    {
+      "key": "soccer-liga-mx-atletico-san-luis",
+      "before": {
+        "primary": "#EF0107",
+        "secondary": "#DFA829"
+      },
+      "after": {
+        "primary": "#EF0107",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://storage.atleticodesanluis.mx/files/718_Guia_de_Medios_AP25__compressed.pdf",
+      "basis": "Official media guide describes institutional rojiblanco red and white colors; replace crest gold secondary."
+    },
+    {
+      "key": "soccer-liga-mx-guadalajara-chivas",
+      "before": {
+        "primary": "#EF0107",
+        "secondary": "#104E8A"
+      },
+      "after": {
+        "primary": "#EF0107",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.chivasdecorazon.com.mx/club/historia",
+      "basis": "Official history describes its red and white identity. Select recognizable rojiblanco pair; navy is a third color."
+    },
+    {
+      "key": "soccer-liga-mx-juarez",
+      "before": {
+        "primary": "#89F442",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#89F442",
+        "secondary": "#000000"
+      },
+      "source": "https://fcjuarez.com/",
+      "basis": "Official club home-kit description identifies its characteristic green with black details. Retain green and replace white secondary."
+    },
+    {
+      "key": "soccer-liga-mx-leon",
+      "before": {
+        "primary": "#008000",
+        "secondary": "#FFF61B"
+      },
+      "after": {
+        "primary": "#008000",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.charly.com/jersey-leon-local-para-ninos-24-25-5020030300-mx",
+      "basis": "Official kit manufacturer's club-history explanation confirms green and white, consistent with the traditional identity. Replace yellow crest accent."
+    },
+    {
+      "key": "soccer-liga-mx-necaxa",
+      "before": {
+        "primary": "#EF0107",
+        "secondary": "#000000"
+      },
+      "after": {
+        "primary": "#EF0107",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.clubnecaxa.mx/noticias/tag/Primer-equipo/page/216",
+      "basis": "Official club archive describes the historic rojiblanco identity. Replace black secondary with white."
+    },
+    {
+      "key": "soccer-liga-mx-pachuca",
+      "before": {
+        "primary": "#001C58",
+        "secondary": "#02B0D0"
+      },
+      "after": {
+        "primary": "#001C58",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://tuzos.com.mx/a-29-anos-del-segundo-ascenso-de-pachuca-a-1a-division/",
+      "basis": "Official club historical account describes blue and white; retain navy and replace cyan secondary."
+    },
+    {
+      "key": "soccer-liga-mx-pumas-unam",
+      "before": {
+        "primary": "#FFFFFF",
+        "secondary": "#060040"
+      },
+      "after": {
+        "primary": "#002B5C",
+        "secondary": "#C7A252"
+      },
+      "source": "https://www.gaceta.unam.mx/pumas-65-anos-de-orgullo-azul-y-oro/",
+      "basis": "University's official club anniversary identifies azul y oro, blue and gold. Select the familiar navy/gold pair; digital shades represent the identity rather than a seasonal white kit."
+    },
+    {
+      "key": "soccer-liga-mx-queretaro",
+      "before": {
+        "primary": "#212121",
+        "secondary": "#02B0D0"
+      },
+      "after": {
+        "primary": "#005CAB",
+        "secondary": "#212121"
+      },
+      "source": "https://clubqueretaro.com/gallos-blancos/primera-div/queretaro-perdio-frente-a-leon/",
+      "basis": "Official club match account identifies azul y negro. Select royal blue and black; replace cyan secondary and put blue first."
+    },
+    {
+      "key": "soccer-liga-mx-santos-laguna",
+      "before": {
+        "primary": "#15926D",
+        "secondary": "#00331B"
+      },
+      "after": {
+        "primary": "#15926D",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.clubsantos.mx/videos/presentacion-de-refuerzos-ap26-club-santos-eafxdnbrwq0",
+      "basis": "Official club calls its identity verde y blanco. Retain green and replace dark-green secondary with white."
+    },
+    {
+      "key": "soccer-liga-mx-tijuana",
+      "before": {
+        "primary": "#EF0107",
+        "secondary": "#E1E1E1"
+      },
+      "after": {
+        "primary": "#EF0107",
+        "secondary": "#000000"
+      },
+      "source": "https://xoloshop.com/collections/equipamiento",
+      "basis": "Official club store presents its established red and black identity. Replace gray secondary."
+    },
+    {
+      "key": "soccer-liga-portugal-academico-de-viseu",
+      "before": {
+        "primary": "#000000",
+        "secondary": "#C60000"
+      },
+      "after": {
+        "primary": "#000000",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://academicodeviseu.pt/noticia.php?n=1316",
+      "basis": "Official club account explicitly identifies preto e branco. Replace unrelated red secondary."
+    },
+    {
+      "key": "soccer-liga-portugal-casa-pia",
+      "before": {
+        "primary": "#000000",
+        "secondary": "#C60000"
+      },
+      "after": {
+        "primary": "#000000",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.casapiaac.pt/loja/",
+      "basis": "Official club store presents the established black-and-white identity. Red is the small crest cross; select black and white."
+    },
+    {
+      "key": "soccer-ligue-1-auxerre",
+      "before": {
+        "primary": "#FFFFFF",
+        "secondary": "#1A1A1A"
+      },
+      "after": {
+        "primary": "#FFFFFF",
+        "secondary": "#0055A4"
+      },
+      "source": "https://www.aja.fr/histoire/",
+      "basis": "Official history identifies Les Bleu et Blanc. Retain white primary and replace black secondary with blue."
+    },
+    {
+      "key": "soccer-ligue-1-paris-fc",
+      "before": {
+        "primary": "#0C183F",
+        "secondary": "#0680BE"
+      },
+      "after": {
+        "primary": "#0C183F",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://boutique.parisfc.fr/en/products/maillot-paris-fc-domicile-25-26",
+      "basis": "Official club store identifies historical home colors; select recognizable navy and white. Remove bright-blue secondary."
+    },
+    {
+      "key": "soccer-mls-atlanta-united",
+      "before": {
+        "primary": "#9D2235",
+        "secondary": "#AA9767"
+      },
+      "after": {
+        "primary": "#A6192E",
+        "secondary": "#000000"
+      },
+      "source": "https://www.atlutd.com/club/about-atlutd",
+      "basis": "Official crest explanation and five-stripe identity establish red and black, with gold as an additional color. Select familiar red/black; digital red is a representative club tone."
+    },
+    {
+      "key": "soccer-mls-cf-montreal",
+      "before": {
+        "primary": "#003DA6",
+        "secondary": "#C1C5C8"
+      },
+      "after": {
+        "primary": "#003DA6",
+        "secondary": "#000000"
+      },
+      "source": "https://www.mlssoccer.com/news/cf-montreal-unveil-2025-montreal-original-jersey",
+      "basis": "Official league explanation identifies blue and black stripes as defining the club since 1993; replace gray secondary."
+    },
+    {
+      "key": "soccer-mls-chicago-fire",
+      "before": {
+        "primary": "#7CCDEF",
+        "secondary": "#FF0000"
+      },
+      "after": {
+        "primary": "#FF0000",
+        "secondary": "#7CCDEF"
+      },
+      "source": "https://www.mlssoccer.com/news/chicago-fire-fc-unveils-new-crest-inspired-by-supporters",
+      "basis": "Official 2021 identity restores Fire red and Chicago flag blue. Retain the two current colors and order the familiar red first."
+    },
+    {
+      "key": "soccer-mls-columbus-crew",
+      "before": {
+        "primary": "#000000",
+        "secondary": "#FEDD00"
+      },
+      "after": {
+        "primary": "#FEDD00",
+        "secondary": "#000000"
+      },
+      "source": "https://www.columbuscrew.com/news/columbus-crew-celebrate-black-gold-week-ahead-of-2026-home-opener-vs-chicago-fire-fc-on-saturday-march-7",
+      "basis": "Official club confirms its enduring Black & Gold identity. Retain both colors and order familiar gold/yellow first."
+    },
+    {
+      "key": "soccer-mls-inter-miami",
+      "before": {
+        "primary": "#231F20",
+        "secondary": "#F7B5CD"
+      },
+      "after": {
+        "primary": "#F7B5CD",
+        "secondary": "#231F20"
+      },
+      "source": "https://www.intermiamicf.com/news/rodrigo-el-motorcito-de-paul-s-links-to-the-pink-and-black-prior-to-joining-inter-miami-cf",
+      "basis": "Official club identifies itself as the Pink and Black. Retain exact existing colors and put pink first."
+    },
+    {
+      "key": "soccer-mls-new-york-red-bulls",
+      "before": {
+        "primary": "#BA0C2F",
+        "secondary": "#FFC72C"
+      },
+      "after": {
+        "primary": "#BA0C2F",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.newyorkredbulls.com/news/one-day-south-ward",
+      "basis": "Club account describes red and white supporter flags; select familiar red/white instead of the corporate crest's yellow disc."
+    },
+    {
+      "key": "soccer-mls-san-jose-earthquakes",
+      "before": {
+        "primary": "#003DA6",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#003DA6",
+        "secondary": "#000000"
+      },
+      "source": "https://www.sjearthquakes.com/news/earthquakes-rock-the-headliner-kit-club-s-new-2025-and-2026-black-and-blue-primary-jersey",
+      "basis": "Official club explicitly identifies its traditional black and blue hues. Retain blue and replace white secondary with black."
+    },
+    {
+      "key": "soccer-nwsl-denver-summit-fc",
+      "before": {
+        "primary": "#1D6960",
+        "secondary": "#5F8DDA"
+      },
+      "after": {
+        "primary": "#1D6960",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.denversummitfc.com/about/",
+      "basis": "Official crest explanation explicitly says the club's color palette is green and white, inspired by Colorado license plates. Retain green; blue is an additional palette accent."
+    },
+    {
+      "key": "soccer-scottish-premiership-falkirk",
+      "before": {
+        "primary": "#000099",
+        "secondary": "#C60000"
+      },
+      "after": {
+        "primary": "#002D56",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://falkirkfc.co.uk/introducing-our-2025-26-home-kit-2/",
+      "basis": "Official club describes classic navy-white-red colors. Select navy/white with representative navy, replacing electric blue and red secondary."
+    },
+    {
+      "key": "soccer-scottish-premiership-heart-of-midlothian",
+      "before": {
+        "primary": "#8E003B",
+        "secondary": "#EAD6B7"
+      },
+      "after": {
+        "primary": "#8E003B",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.heartsfc.co.uk/pages/whats-in-a-name",
+      "basis": "Official history explicitly identifies maroon and white; replace beige secondary."
+    },
+    {
+      "key": "soccer-scottish-premiership-kilmarnock",
+      "before": {
+        "primary": "#0046FF",
+        "secondary": "#BABBBF"
+      },
+      "after": {
+        "primary": "#0046FF",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://kilmarnockfc.co.uk/news/introducing-our-2026-27-home-away-kits/",
+      "basis": "Official club describes its enduring blue-and-white striped identity dating to the 1970s and earlier; replace gray secondary."
+    },
+    {
+      "key": "soccer-scottish-premiership-st-johnstone",
+      "before": {
+        "primary": "#0046FF",
+        "secondary": "#9E0000"
+      },
+      "after": {
+        "primary": "#0046FF",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.perthstjohnstonefc.co.uk/news/article/perth-to-light-up-blue-and-white/",
+      "basis": "Official club describes blue and white as its colors for city landmark lighting; replace red secondary."
+    },
+    {
+      "key": "soccer-serie-a-frosinone",
+      "before": {
+        "primary": "#FACF08",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#FACF08",
+        "secondary": "#004393"
+      },
+      "source": "https://store.frosinonecalcio.com/colori/giallo-blu/",
+      "basis": "Official club store identifies giallo/blu; retain yellow and replace white secondary with representative royal blue."
+    },
+    {
+      "key": "soccer-serie-a-parma",
+      "before": {
+        "primary": "#19161D",
+        "secondary": "#FFDD30"
+      },
+      "after": {
+        "primary": "#FFDD30",
+        "secondary": "#003A70"
+      },
+      "source": "https://www.parmacalcio1913.com/en/main-news/parma-calcio-identity/",
+      "basis": "Club identifies its community as Gialloblu. Select familiar yellow and blue; the white home shirt's black cross is distinct from the representative club-color pair."
+    },
+    {
+      "key": "soccer-serie-a-torino",
+      "before": {
+        "primary": "#9F0000",
+        "secondary": "#FFFFFF"
+      },
+      "after": {
+        "primary": "#8A1B2D",
+        "secondary": "#FFFFFF"
+      },
+      "source": "https://www.torinofc.it/en",
+      "basis": "Official club identity is granata (garnet). Correct plain dark red to representative garnet and retain white; digital tone is not a published brand specification."
+    },
+    {
+      "key": "soccer-serie-a-venezia",
+      "before": {
+        "primary": "#436817",
+        "secondary": "#EF7D00"
+      },
+      "after": {
+        "primary": "#006B54",
+        "secondary": "#EF7D00"
+      },
+      "source": "https://www.veneziafc.it/news/il-venezia-fc-presenta-la-nuova-brand-identity-e-la-maglia-pre-match-22-23",
+      "basis": "Official identity explanation names orange and green, alongside the club's black. Retain orange and replace generic olive with representative forest green."
+    }
+  ]
+}
