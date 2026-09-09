@@ -5,12 +5,13 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+defaults:
+  run:
+    shell: bash
 jobs:
   web:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -19,36 +20,32 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Prepare release sources
+      - name: Check generated release sources
         run: |
-          if test -f .github/promote-web.py; then python .github/promote-web.py; fi
+          set -euo pipefail
           node scripts/build-web-assets.cjs
           node --check assets/web-app.js
+          git diff --exit-code -- assets/data/team-base.js assets/vendor/
           mkdir -p test-results
-      - name: Run directory and core regressions
+      - name: Run every directory and core regression with failure propagation
         run: |
-          npm install --no-save --package-lock=false jsdom@26.1.0
-          for test in tests/*.cjs; do node "$test"; done | tee test-results/core.log
+          set -euo pipefail
+          npm install --no-save --package-lock=false jsdom@30.0.1
+          node tests/web-app.cjs 2>&1 | tee test-results/core.log
+          for test in tests/location-import.cjs tests/nfl-watch-scope.cjs tests/team-presentation.cjs tests/verified-locations.cjs; do
+            node "$test" 2>&1 | tee -a test-results/core.log
+          done
       - name: Install browser test engines
         run: |
+          set -euo pipefail
           python -m pip install playwright==1.55.0
           python -m playwright install --with-deps chromium webkit
       - name: Test desktop and mobile browser flows
         run: |
+          set -euo pipefail
           python -m http.server 8765 --bind 127.0.0.1 > test-results/server.log 2>&1 &
-          FANMAP_BROWSER=chromium python tests/web-browser.py | tee test-results/chromium.log
-          FANMAP_BROWSER=webkit python tests/web-browser.py | tee test-results/webkit.log
-      - name: Commit tested generated release on release branch
-        if: github.ref == 'refs/heads/website-functional'
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          if test -f .github/promote-web.py; then git rm .github/promote-web.py; fi
-          git add -A -- index.html app.html app assets scripts tests README.md
-          if ! git diff --cached --quiet; then
-            git commit -m "Finalize tested FanMap web launch and generated assets"
-            git push origin HEAD:website-functional
-          fi
+          FANMAP_BROWSER=chromium python tests/web-browser.py 2>&1 | tee test-results/chromium.log
+          FANMAP_BROWSER=webkit python tests/web-browser.py 2>&1 | tee test-results/webkit.log
       - name: Package checked source
         if: always()
         run: git archive --format=zip HEAD -o fanmap-source.zip
