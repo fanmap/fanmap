@@ -8,7 +8,13 @@
   let initialState = {}, writeQueue = Promise.resolve();
   const authStorageKey = 'fanmap.auth.v1';
   // Earlier guest releases stored coordinates in browser storage. They are not accounts.
-  try { localStorage.removeItem('fanmap.web.v1'); } catch { /* Storage may be unavailable. */ }
+  try {
+    const previous=localStorage.getItem('fanmap.web.v1');
+    const backup='fanmap.legacy.backup.v1';
+    // Preserve existing user-created bookmarks/pins, but never treat them as a login.
+    if(previous && !localStorage.getItem(backup))localStorage.setItem(backup,previous);
+    if(!previous || localStorage.getItem(backup)===previous)localStorage.removeItem('fanmap.web.v1');
+  } catch { /* If backup storage fails, keep the original; it cannot authorize access. */ }
   const initialURL = new URL(location.href);
   if (initialURL.hash.startsWith('#pin=')) {
     initialURL.hash = '';

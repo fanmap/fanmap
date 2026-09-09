@@ -19,6 +19,7 @@ def guest(browser,name):
     assert page.locator('#publicHome').is_visible() and not page.locator('#main').is_visible()
     assert page.locator('#venueList').inner_text()=='' and page.locator('#tailgateMap').inner_text()==''
     assert page.evaluate("localStorage.getItem('fanmap.web.v1')")==None
+    assert page.evaluate("JSON.parse(localStorage.getItem('fanmap.legacy.backup.v1')).pins[0].lat")==36
     assert not any('/assets/data/' in u or 'arcgisonline' in u or 'maps.google' in u or '/assets/web-app.js' in u for u in requests)
     page.locator('.guest-actions [data-auth-mode="signup"]').click()
     assert page.locator('#authDialog').is_visible() and not page.locator('#authForm').is_visible()
