@@ -1,30 +1,62 @@
 name: FanMap web checks
 on:
   push:
-    branches: [website-functional]
+    branches: [website-functional, main]
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
   web:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Check JavaScript syntax
-        run: node --check assets/web-app.js
-      - name: Check directory and palette preservation
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare release sources
         run: |
-          node tests/location-import.cjs
-          node tests/nfl-watch-scope.cjs
-      - name: Package source for release inspection
+          if test -f .github/promote-web.py; then python .github/promote-web.py; fi
+          node scripts/build-web-assets.cjs
+          node --check assets/web-app.js
+          mkdir -p test-results
+      - name: Run directory and core regressions
+        run: |
+          npm install --no-save --package-lock=false jsdom@26.1.0
+          for test in tests/*.cjs; do node "$test"; done | tee test-results/core.log
+      - name: Install browser test engines
+        run: |
+          python -m pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium webkit
+      - name: Test desktop and mobile browser flows
+        run: |
+          python -m http.server 8765 --bind 127.0.0.1 > test-results/server.log 2>&1 &
+          FANMAP_BROWSER=chromium python tests/web-browser.py | tee test-results/chromium.log
+          FANMAP_BROWSER=webkit python tests/web-browser.py | tee test-results/webkit.log
+      - name: Commit tested generated release on release branch
+        if: github.ref == 'refs/heads/website-functional'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if test -f .github/promote-web.py; then git rm .github/promote-web.py; fi
+          git add -A -- index.html app.html app assets scripts tests README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Finalize tested FanMap web launch and generated assets"
+            git push origin HEAD:website-functional
+          fi
+      - name: Package checked source
         if: always()
         run: git archive --format=zip HEAD -o fanmap-source.zip
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: fanmap-release-inspection
-          path: fanmap-source.zip
+          name: fanmap-web-checks
+          path: |
+            test-results/
+            fanmap-source.zip
           retention-days: 3
