@@ -6,3 +6,6 @@ _private/
 public-build/
 .env
 .env.*
+
+account-build/
+supabase/.temp/

@@ -1,0 +1,45 @@
+name: FanMap account preparation checks
+on:
+  push:
+    branches: [codex/safe-account-activation]
+  pull_request:
+    paths: ['accounts/**', 'assets/access*', 'scripts/*account*', 'tests/account*', 'supabase/**', '.github/workflows/account-checks.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  accounts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check account policy and preserve public mode
+        run: |
+          set -euo pipefail
+          node scripts/build-public.cjs
+          node tests/open-access.cjs
+          node --test tests/account-api.mjs tests/account-build.mjs tests/account-session.mjs
+          node scripts/build-member-data.cjs
+          node scripts/build-accounts.cjs
+      - name: Install browsers
+        run: |
+          python -m pip install playwright==1.55.0
+          python -m playwright install --with-deps chromium webkit
+      - name: Check guest exclusion and mocked member flows
+        run: |
+          set -euo pipefail
+          python -m http.server 8765 --bind 127.0.0.1 --directory account-build >/tmp/account-server.log 2>&1 &
+          for browser in chromium webkit; do
+            FANMAP_BROWSER="$browser" python tests/account-browser.py
+          done
+      - name: Verify deployed backend denies anonymous access
+        env:
+          FANMAP_SUPABASE_URL: https://gmabefzpffdydqnpgwqe.supabase.co
+          FANMAP_SUPABASE_PUBLISHABLE_KEY: sb_publishable_t8zr2OU-5Q93tIrby4iMXQ_0C5TpiGF
+        run: node tests/account-live-anonymous.mjs

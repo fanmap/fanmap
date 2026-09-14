@@ -1,6 +1,8 @@
 # Temporary public mode: runtime directory and map data are intentionally public.
 # Keep research, unused account code, server code and private imports off Pages.
 exclude:
+  - accounts
+  - account-build
   - research
   - scripts
   - tests

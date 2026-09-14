@@ -23,3 +23,7 @@ Before re-enabling accounts, deploy and test the real backend, update the entry 
 Run `node scripts/build-public.cjs`, `node tests/open-access.cjs`, the directory regression tests, and the existing public Playwright suite. The additional open-access browser test checks clean guests, old app routes, legacy browser-save recovery, and absence of account API calls. The inactive server authorization unit tests continue to run separately; they do not prove a live backend has been configured.
 
 The public-release workflow checks that the actual domain serves the exact committed app/data assets and opens the directory and tailgate pin tools in a fresh browser with no account. It does not send texts, make purchases, or contact a backend account service.
+
+## Account activation progress
+
+Build a separate account artifact with `node scripts/build-accounts.cjs`. Production remains in temporary open-access mode. The connected Supabase project has the member schema and a deployed session-checked API, but the directory import, real email/account journeys, and public source exposure remain launch blockers. See [the activation status and checklist](docs/account-required-setup.md). Do not enable signup by changing a frontend flag alone.
