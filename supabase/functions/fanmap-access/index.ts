@@ -1,5 +1,6 @@
 import { createClient } from 'npm:@supabase/supabase-js@2.115.0';
 import { createHandler } from './handler.mjs';
+import { sessionId } from './session.mjs';
 // Service key is read only in the deployed Edge Function, never in the browser.
 const url = Deno.env.get('SUPABASE_URL');
 const key = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY');
@@ -15,6 +16,10 @@ Deno.serve(createHandler({
     // alone, getSession(), user metadata, a browser flag, or the publishable key.
     const {data,error} = await admin.auth.getUser(token);
     if(error || !data.user)throw new Error('Invalid session.');
+    const sid=sessionId(token,data.user.id);
+    if(!sid)throw new Error('Missing session.');
+    const {data:current,error:sessionError}=await admin.rpc('fanmap_session_active',{member_id:data.user.id,session_id:sid});
+    if(sessionError || current!==true)throw new Error('Session revoked or account disabled.');
     const {data:profile,error:profileError} = await admin.from('fanmap_profiles').select('id').eq('id',data.user.id).maybeSingle();
     if(profileError)throw profileError;
     return {...data.user,profile:!!profile};
